@@ -410,7 +410,7 @@ const products = [
             { id: 'color2', name: ['yellow'], code: '#c99657', image: '/images/bag-top5.2.webp' },
             { id: 'color3', name: ['black'], code: '#000', image: '/images/bag-top5.3.webp' },
         ],
-    },
+    }
   ];
   
   export default products;
