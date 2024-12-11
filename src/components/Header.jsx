@@ -1,6 +1,8 @@
 import { Link, Route, Routes } from 'react-router-dom';
 
 import '../assets/css/Header.css'
+import Home from '../pages/Home';
+
 function Header() {
     let isNavbarFixed = false; 
 window.addEventListener('scroll', () => {
@@ -28,9 +30,10 @@ window.addEventListener('scroll', () => {
             <div className='line'>MIỄN PHÍ VẬN CHUYỂN CHO ĐƠN HÀNG TỪ 1.500.000Đ</div>
             <nav className="nav">
                 <div className="nav__logo">
-                    <Link to='/Home'><img src="/icon/logo.png" alt="" /></Link>
+                    <Link to='/'><img src="/icon/logo.png" alt="" /></Link>
                 </div>
                 <ul className="nav__Product">
+
                     <li><Link to='/Branch'>BRANCH
                         
                     </Link></li>
@@ -55,11 +58,17 @@ window.addEventListener('scroll', () => {
                             <li>3</li>
                         </ul>
                     </Link></li>
+
+                    <li><Link to='/Brand'>BRAND</Link></li>
+                    <li><Link to='/Vali'>VALI</Link></li>
+                    <li><Link to='/Balo'>BALO</Link></li>
+                    <li><Link to='/Handbag'>HANDBAG</Link></li>
+
                 </ul>
                 <ul className="nav__Link">
                     <li><Link to='/Contact'>CONTACT</Link></li>
                     <li><Link to='About'>ABOUT US</Link></li>
-                    <li><Link to='Loggin'>LOGIN</Link></li>
+                    <li><Link to='Login'>LOGIN</Link></li>
                     <li><Link to='Signup'>SING UP</Link></li>
                 </ul>
                 <ul>
@@ -68,10 +77,14 @@ window.addEventListener('scroll', () => {
                     <li><Link to='/Cart'><img src="/icon/cart.png" alt="" /></Link></li>
                 </ul>
             </nav>
+
             <div className="discount">Nhập mã <span className='discount-code'>HOL10</span> giảm 10% tất cả sản phẩm</div>
        
+
+            <div className="discount">Nhập mã <span > HOL10 </span> giảm 10% tất cả sản phẩm</div>
+
             <Routes>
-             
+                <Route path='/' element={<Home/>}/>
             </Routes>
         </div>
      );

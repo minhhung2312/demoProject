@@ -1,3 +1,4 @@
+
 @import url('/src/components/components.css');
 * {
     box-sizing: border-box;
@@ -7,13 +8,16 @@
     color: black;
     
 }
+
 .line {
     background-color: #FFCC00;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.3rem;
     height: 36px;
     align-items: center;
     display: flex;
     justify-content: center;
-    font-weight:500;
 }
 .nav {
     display: grid;
@@ -42,12 +46,15 @@
     justify-content: center;
    
 }
+
 .nav ul li {
     
     list-style-type: none;
 }
 .nav > ul > li{
     position: relative;
+
+.nav ul li{
     margin-right: 40px;
 }
 .nav li .sub_Product {
@@ -59,10 +66,16 @@
     display: list-item;
     position: absolute;
 }
+.nav ul li a {
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+}
 .nav__Product li:hover a, .nav__Link li:hover a {
     color: var(--hover-corlor);
 }
 .discount {
+    font-size: 1.4rem;
+    line-height: 2.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
