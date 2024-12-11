@@ -30,7 +30,7 @@ function Banner() {
         }, 5000);
 
         return () => clearInterval(interval);
-    }, [isPaused])
+    })
     return ( 
         <div 
             className="banner"
