@@ -1,6 +1,8 @@
 .footer {
-    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
     background-color: #f8f8f8;
+    background: url(/public/images/footer-bg.webp);
     padding: 40px 20px;
     font-family: Arial, sans-serif;
     color: #333;
@@ -8,6 +10,8 @@
 }
 
 .footer-container {
+    width: 1300px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -19,14 +23,14 @@
 }
 
 .footer-column h4 {
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-bottom: 10px;
     color: #000;
 }
 
 .footer-column p {
-    font-size: 14px;
-    line-height: 28px;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
 }
 
 .footer-logo {
@@ -46,16 +50,17 @@
 }
 
 .footer-social i {
-    font-size: 30px;
+    font-size: 3rem;
     color: #ffcc00;
 }
 
 .footer-bottom {
+    width: 1300px;
+    margin: 20px auto 0;
     text-align: center;
-    margin-top: 20px;
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
-    font-size: 12px;
+    border-top: 1px dashed #ddd;
+    padding-top: 24px;
+    font-size: 1.4rem;
 }
 
 .hotline_item {
@@ -82,7 +87,7 @@
 .footer-column ul {
     list-style: none;
     padding: 0;
-    /* line-height: 28px; */
+    /* line-height: 2.8rem; */
 }
 
 .formatted-list-item {
@@ -101,6 +106,6 @@
 }
 
 .formatted-list-item {
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 1.6;
 }
