@@ -418,7 +418,7 @@ const products = [
       category: 'vali',
       newPrice: '2,450,000₫',
       oldPrice: '4,900,000₫',
-      isBestSeller: true,
+      isBestSeller: false,
       colors: [
           { id: 'color1', name: ['purple'], code: '#9e8db2', image: '/images/vali_item001_01.webp' },
           { id: 'color2', name: ['gray'], code: '#bebdc0', image: '/images/vali_item001_02.webp' },
