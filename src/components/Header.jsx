@@ -2,7 +2,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 
 import '../assets/css/Header.css'
 import Home from '../pages/Home';
-
+import Vali from '../pages/Vali';
 function Header() {
     let isNavbarFixed = false; 
 window.addEventListener('scroll', () => {
@@ -85,6 +85,7 @@ window.addEventListener('scroll', () => {
 
             <Routes>
                 <Route path='/' element={<Home/>}/>
+                <Route path='/Vali'element={<Vali/>}/>
             </Routes>
         </div>
      );
