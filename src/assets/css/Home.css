@@ -257,13 +257,13 @@
         transition: all 0.4s ease;
     }
     
-    .item {
+    .item-product {
         display: flex;
         flex-direction: column;
         align-items: center;
         cursor: pointer;
     }
-    .item:hover img {
+    .item-product:hover img {
         filter: grayscale(100%) brightness(0%);
     }
 

@@ -103,6 +103,11 @@
                 display: flex;
                 flex-wrap: wrap;
                 gap: 15px;
+
+                .not-product {
+                    font-size: 1.6rem;
+                    line-height: 1.6;
+                }
             }
         }
     }

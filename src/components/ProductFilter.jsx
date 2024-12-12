@@ -204,7 +204,7 @@ const ProductFilter = () => {
                                 />
                             ))
                         ) : (
-                            <p>Không có sản phẩm</p>
+                            <p className="not-product">Không có sản phẩm</p>
                         )}
                     </div>
                 </div>
