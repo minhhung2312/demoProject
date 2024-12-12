@@ -1,0 +1,41 @@
+import "../assets/css/Brand.css";
+import { Link, Route, Routes } from "react-router-dom";
+import { brands } from "../api/brand-list";
+
+
+function Brand() {
+  return (
+    <div>
+      <div className="Present">
+        <div className="Comback">
+          <Link>Home</Link>
+        </div>
+        <div className="Persent__page">Branch</div>
+      </div>
+      <div className="gallery">
+        {brands.map((brand) => (
+          <div key={brand.id} className="gallery-item">
+            <img
+              src={brand.background}
+              alt={`Background of ${brand.name}`}
+              className="gallery-image"
+            />
+            <img
+              src={brand.name}
+              alt={`Logo of ${brand.name}`}
+              className="brand-name"
+            />
+            <div className="overlay">
+              <Link to={brand.about}>
+                <button className="cta-button">SEE MORE</button>
+              </Link>
+            </div>
+          </div>
+        ))}
+      </div>
+
+    </div>
+  );
+}
+
+export default Brand;

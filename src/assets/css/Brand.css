@@ -1,0 +1,126 @@
+
+
+* {
+    font-size: 14px;
+    
+}
+.Present {
+    display: flex;
+    width: 67.7%;
+    height: 60px;
+    background-color: #FAFAFA;
+    margin: auto;
+    align-items: center;
+}
+.Comback {
+    margin-left: 30px;
+}
+.Comback a:hover{
+    color: var(--hover-corlor);
+   
+}
+.Persent__page {
+    color: #777;
+    margin-left: 4px; ;
+}
+.Persent__page::before {
+    margin-right: 4px;
+    content: "/";
+    color: #ccc;
+} 
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  width: 67.7%; 
+  margin: auto; 
+  padding: 20px 0;
+}
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fff; 
+}
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
+.brand-name {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 120px; 
+  height: 60px; 
+  object-fit: contain; 
+  z-index: 2;
+  transition: transform 0.3s ease; 
+}
+.gallery-item:hover .brand-name {
+  transform: translate(-50%, calc(-50% - 4px));
+}
+
+.cta-button {
+  position: absolute;
+  top: calc(50% + 50px); 
+  left: 50%; 
+  transform: translate(-50%, 0);
+  padding: 8px 16px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white; 
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  opacity: 0; 
+  transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.gallery-item:hover .cta-button {
+  opacity: 1; 
+}
+.cta-button:hover {
+  background-color: rgba(255, 255, 255, 0.2); 
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%; 
+    padding: 10px; 
+  }
+
+  .brand-name {
+    width: 100px; 
+    height: 50px; 
+  }
+
+  .cta-button {
+    font-size: 14px; 
+    padding: 10px 20px; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .gallery {
+    grid-template-columns: 1fr; 
+    gap: 10px; 
+    margin: 0;
+    padding: 10px; 
+  }
+
+  .brand-name {
+    width: 90px; 
+    height: 45px; 
+  }
+
+  .cta-button {
+    font-size: 12px; 
+    padding: 8px 16px; 
+  }
+}
