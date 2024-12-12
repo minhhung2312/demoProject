@@ -1,10 +1,12 @@
-// function Balo() {
-//     return ( 
-//         <div className="balo">
+import ProductFilter from "../components/ProductFilter";
+import '../assets/css/Balo.css';
 
-//         </div>
-//     );
-// }
+function Balo() {
+    return ( 
+        <div className="balo">
+            <ProductFilter/>
+        </div>
+    );
+}
 
-// export default Balo;
-
+export default Balo;
