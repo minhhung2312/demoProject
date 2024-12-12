@@ -45,7 +45,11 @@
     top: 0;
 
     transform: translateY(-100%); 
+
 }
+
+  
+
 .nav.fixed.visible {
     transform: translateY(0); 
 }
