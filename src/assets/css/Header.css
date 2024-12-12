@@ -1,4 +1,4 @@
-/* @import url('/src/components/components.css'); */
+@import url('/src/components/components.css');
 
 * {
     box-sizing: border-box;
@@ -45,7 +45,11 @@
     top: 0;
 
     transform: translateY(-100%); 
-  }
+
+}
+
+  
+
 .nav.fixed.visible {
     transform: translateY(0); 
 }
