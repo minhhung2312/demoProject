@@ -1,13 +1,13 @@
 import React from "react";
 import "../assets/css/Footer.css";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
                 {/* Cột 1 */}
-                <div className="footer-column">
+                <div className="footer-column column1">
                     <img
                         src="./icon/logo.png"
                         alt="House of Luggage"
@@ -30,44 +30,47 @@ const Footer = () => {
                 </div>
 
                 {/* Cột 2 */}
-                <div className="footer-column">
+                <div className="footer-column column2">
                     <h4>THÔNG TIN LIÊN HỆ</h4>
                     <p>
-                        <span style={{ fontWeight: "700" }}>CÔNG TY TNHH TÚI XÁCH & HÀNH LÝ TOÀN CẦU</span> <br />
-                        <ul class="formatted-list color_footer">
-                            <li class="formatted-list-item">Địa chỉ: L17-11, tầng 17, tòa nhà Vincom Center, 72 Lê Thánh Tôn, Q.1, TP.HCM</li>
-                            <li class="formatted-list-item">Điện thoại: 028.3934.5036 - 1800.6063</li>
-                            <li class="formatted-list-item">Giấy CNĐKKD: 0314741857</li>
-                            <li class="formatted-list-item">Cơ quan cấp: Phòng Đăng Ký Kinh Doanh - Sở Kế Hoạch Và Đầu Tư TP.HCM</li>
-                        </ul>
+                        <span style={{ fontWeight: "700" }}>CÔNG TY TNHH TÚI XÁCH & HÀNH LÝ TOÀN CẦU</span>
                     </p>
+                    <ul className="formatted-list color_footer">
+                        <li className="formatted-list-item">Địa chỉ: L17-11, tầng 17, tòa nhà Vincom Center, 72 Lê Thánh Tôn, Q.1, TP.HCM</li>
+                        <li className="formatted-list-item">Điện thoại: 028.3934.5036 - 1800.6063</li>
+                        <li className="formatted-list-item">Giấy CNĐKKD: 0314741857</li>
+                        <li className="formatted-list-item">Cơ quan cấp: Phòng Đăng Ký Kinh Doanh - Sở Kế Hoạch Và Đầu Tư TP.HCM</li>
+                    </ul>
                 </div>
 
                 {/* Cột 3 */}
-                <div className="footer-column">
+                <div className="footer-column column3">
                     <h4 className="caption_footer">FOLLOW US</h4>
                     <div className="footer-social">
                         <a className="link_facebook" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                            <i className=" icon_facebook fab fa-facebook"></i>
+                            <i className="icon_facebook fab fa-facebook"></i>
                         </a>
                         <a className="link_youtube" href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-                            <i className=" icon_youtube fa-brands fa-youtube"></i>
+                            <i className="icon_youtube fa-brands fa-youtube"></i>
                         </a>
                     </div>
                     <h4 className="caption_footer">HOTLINE</h4>
-                    <p className="hotline_wrap color_footer">
-                        <p className="hotline_item margin-top-20 margin-bottom-20"><i class="fa-solid fa-phone"></i> 1800 6063</p>
-                        <strong className="caption_footer">BẢO HÀNH</strong> <br></br>
-                        <p className="margin-top-20 margin-bottom-20 hotline_item"> <i class="fa-solid fa-phone"></i> 1800 6063 (bấm số 3)</p>
-                        <strong className="caption_footer">B2B (BÁN SỈ):</strong> <br></br>
+                    <div className="hotline_wrap color_footer">
+                        <p className="hotline_item margin-top-20 margin-bottom-20">
+                            <i className="fa-solid fa-phone"></i> 1800 6063
+                        </p>
+                        <strong className="caption_footer">BẢO HÀNH</strong>
+                        <p className="margin-top-20 margin-bottom-20 hotline_item">
+                            <i className="fa-solid fa-phone"></i> 1800 6063 (bấm số 3)
+                        </p>
+                        <strong className="caption_footer">B2B (BÁN SỈ):</strong>
                         <div className="margin-top-20 margin-bottom-20">
-                            <p className="hotline_item"><i class="fa-solid fa-envelope"></i> b2b@global-luggage.com.vn</p>
-                            <p className="hotline_item"><i class="fa-solid fa-phone"></i> Miền Bắc: 0909 559 719</p>
-                            <p className="hotline_item"><i class="fa-solid fa-phone"></i> Miền Trung: 0909 880 710</p>
-                            <p className="hotline_item"><i class="fa-solid fa-phone"></i> Miền Nam: 0938 917 108</p>
+                            <p className="hotline_item"><i className="fa-solid fa-envelope"></i> b2b@global-luggage.com.vn</p>
+                            <p className="hotline_item"><i className="fa-solid fa-phone"></i> Miền Bắc: 0909 559 719</p>
+                            <p className="hotline_item"><i className="fa-solid fa-phone"></i> Miền Trung: 0909 880 710</p>
+                            <p className="hotline_item"><i className="fa-solid fa-phone"></i> Miền Nam: 0938 917 108</p>
                         </div>
-
-                    </p>
+                    </div>
                 </div>
             </div>
             <div className="footer-bottom">

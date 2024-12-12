@@ -1,6 +1,7 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import '../assets/css/Header.css';
 import Home from '../pages/Home';
+import Vali from '../pages/Vali';
 function Header() {
     return ( 
         <div>
@@ -30,6 +31,7 @@ function Header() {
             <div className="discount">Nhập mã <span style={{color:'red', textDecoration: 'underline'}}> HOL10 </span> giảm 10% tất cả sản phẩm</div>
             <Routes>
                 <Route path='/' element={<Home/>}/>
+                <Route path='/Vali'element={<Vali/>}/>
             </Routes>
         </div>
      );
