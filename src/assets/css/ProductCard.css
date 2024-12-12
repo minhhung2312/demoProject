@@ -8,16 +8,19 @@
 }
 
 .product-card:hover .sell {
-    animation: slideUp 0.5s forwards;
+    transform: translateY(-100%);
+    opacity: 1;
 }
 
 .sell.hidden {
-    animation: slideDown 0.5s forwards;
+    transform: translateY(30%);
+    opacity: 0;
 }
 
 .product-card__img {
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .product-card__img:hover img{
@@ -35,34 +38,12 @@
 .sell {
     position: absolute;
     display: flex;
-    gap: 10px;
+    gap: 6px;
     left: 0;
     right: 0;
     bottom: -10%;
-    animation-fill-mode: forwards;
-    transition: bottom 0.5s ease, opacity 0.5s ease;
-}
-
-@keyframes slideUp {
-    0% {
-        bottom: -10%;
-        opacity: 0;
-    }
-    100% {
-        bottom: 0;
-        opacity: 1;
-    }
-}
-
-@keyframes slideDown {
-    from {
-        bottom: 0;
-        opacity: 1;
-    }
-    to {
-        bottom: -10%;
-        opacity: 0;
-    }
+    z-index: 2;
+    transition: all 0.4s ease-in;
 }
 
 .sell button {

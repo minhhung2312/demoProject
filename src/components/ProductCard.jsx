@@ -1,24 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../assets/css/ProductCard.css';
 
-
-function ProductCard({ product }) {
+function ProductCard({ product, selectedFilter }) {
     const navigate = useNavigate();
 
-    // Khởi tạo giá trị của sự kiện hover
     const [isHovered, setIsHovered] = useState(false);
+    const [selectedColor, setSelectedColor] = useState(null);
+
+    useEffect(() => {
+        const color = product.colors.find(
+            (color) => color.code === selectedFilter || color.thumbnail === selectedFilter
+        );
+        setSelectedColor(color || product.colors[0]);
+    }, [selectedFilter, product.colors]);
 
     const handleMouseEnter = () => setIsHovered(true);
     const handleMouseLeave = () => setIsHovered(false);
 
-    // Khởi tạo selectedColor chỉ được khởi tạo nếu có màu
-    const [selectedColor, setSelectedColor] = useState(
-        Array.isArray(product.colors) && product.colors.length > 0 ? product.colors[0] : null
-    );
-
-    // Nếu không tìm thấy selectedColor thì render ra màn hình thông báo lỗi
-    if(!selectedColor) {
+    if (!selectedColor) {
         return (
             <div className="not-selectedColor">
                 <h2 className="header">{product.name}</h2>
