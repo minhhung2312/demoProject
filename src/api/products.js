@@ -21,7 +21,7 @@ const products = [
       oldPrice: '7,000,000₫',
       isBestSeller: true,
       colors: [
-        { id: 'color1', name: ['dark-blue'], code: '#2E545C', image: '/images/item-product-trend2.1.webp' },
+        { id: 'color1', name: ['darkblue'], code: '#2E545C', image: '/images/item-product-trend2.1.webp' },
         { id: 'color2', name: ['blue'], code: '#3121f1', image: '/images/item-product-trend2.2.webp' },
         { id: 'color3', name: ['black'], code: '#000', image: '/images/item-product-trend2.3.webp' },
       ],
@@ -50,7 +50,7 @@ const products = [
       isBestSeller: true,
       colors: [
         { id: 'color1', name: ['pink'], code: '#f9aa8c', image: '/images/item-product-trend4.1.webp' },
-        { id: 'color2', name: ['dark-gray'], code: '#777777', image: '/images/item-product-trend4.2.webp' },
+        { id: 'color2', name: ['darkgray'], code: '#777777', image: '/images/item-product-trend4.2.webp' },
         { id: 'color3', name: ['black'], code: '#000', image: '/images/item-product-trend4.3.webp' },
       ],
     },
@@ -65,7 +65,7 @@ const products = [
       colors: [
         { id: 'color1', name: ['gray'], code: '#d9d9d9', image: '/images/item-product-trend5.1.webp' },
         { id: 'color2', name: ['black'], code: '#000', image: '/images/item-product-trend5.2.webp' },
-        { id: 'color3', name: ['dark-green'], code: '#1d2e2b', image: '/images/item-product-trend5.3.webp' },
+        { id: 'color3', name: ['darkgreen'], code: '#1d2e2b', image: '/images/item-product-trend5.3.webp' },
       ],
     },
 
@@ -92,8 +92,8 @@ const products = [
       oldPrice: '9,400,000₫',
       isTopFavoriteVali: true,
       colors: [
-        { id: 'color1', name: ['currant'], thumbnail: '/images/color-item-love2.1.webp', image: '/images/item-love2.1.webp' },
-        { id: 'color2', name: ['dark-gray'], thumbnail: '/images/color-item-love2.2.jpg', image: '/images/item-love2.2.webp' },
+        { id: 'color1', name: ['#6A2E2C'], thumbnail: '/images/color-item-love2.1.webp', image: '/images/item-love2.1.webp' },
+        { id: 'color2', name: ['darkgray'], thumbnail: '/images/color-item-love2.2.jpg', image: '/images/item-love2.2.webp' },
         { id: 'color3', name: ['black'], thumbnail: '/images/color-item-love2.3.webp', image: '/images/item-love2.3.webp' },
       ],
     },
@@ -133,7 +133,7 @@ const products = [
       isTopFavoriteVali: true,
       colors: [
         { id: 'color1', name: ['purple'], code: '#886296', image: '/images/item-love5.1.webp' },
-        { id: 'color2', name: ['dark-blue'], code: '#375675', image: '/images/item-love5.2.webp' },
+        { id: 'color2', name: ['blue'], code: '#375675', image: '/images/item-love5.2.webp' },
         { id: 'color3', name: ['black'], code: '#000', image: '/images/item-love5.3.webp' },
       ],
     },
@@ -246,7 +246,7 @@ const products = [
         colors: [
             { id: 'color1', name: ['black'], thumbnail: '/images/color-vali-top3.1.webp', image: '/images/vali-top3.1.webp' },
             { id: 'color2', name: ['yellow'], thumbnail: '/images/color-vali-top3.2.webp', image: '/images/vali-top3.2.webp' },
-            { id: 'color3', name: ['dark-blue'], thumbnail: '/images/color-vali-top3.3.webp', image: '/images/vali-top3.3.webp' },
+            { id: 'color3', name: ['darkblue'], thumbnail: '/images/color-vali-top3.3.webp', image: '/images/vali-top3.3.webp' },
         ],
     },
     {
@@ -392,7 +392,7 @@ const products = [
         oldPrice: '1,300,000₫',
         isTopBag: true,
         colors: [
-            { id: 'color1', name: ['dark-blue'], code: '#22477a', image: '/images/bag-top4.1.webp' },
+            { id: 'color1', name: ['darkblue'], code: '#22477a', image: '/images/bag-top4.1.webp' },
             { id: 'color2', name: ['black'], code: '#000', image: '/images/bag-top4.2.webp' },
             { id: 'color3', name: ['gray'], code: '#807775', image: '/images/bag-top4.3.webp' },
         ],
@@ -410,7 +410,48 @@ const products = [
             { id: 'color2', name: ['yellow'], code: '#c99657', image: '/images/bag-top5.2.webp' },
             { id: 'color3', name: ['black'], code: '#000', image: '/images/bag-top5.3.webp' },
         ],
-    }
+    },
+    {
+      id: 31,
+      brand: 'American Tourister - Mỹ',
+      name: 'Vali kéo Maxivo OS',
+      category: 'vali',
+      newPrice: '2,450,000₫',
+      oldPrice: '4,900,000₫',
+      isBestSeller: true,
+      colors: [
+          { id: 'color1', name: ['purple'], code: '#9e8db2', image: '/images/vali_item001_01.webp' },
+          { id: 'color2', name: ['gray'], code: '#bebdc0', image: '/images/vali_item001_02.webp' },
+          { id: 'color3', name: ['gray'], code: '#4e5e62', image: '/images/vali_item001_03.webp' },
+      ],
+  },
+  {
+    id: 32,
+    brand: 'American Tourister - Mỹ',
+    name: 'Vali kéo LOCKation',
+    category: 'vali',
+    newPrice: '3,350,000₫',
+    oldPrice: '6,700,000₫',
+    isBestSeller: false,
+    colors: [
+        { id: 'color1', name: ['blue'], code: '#818fac', image: '/images/vali_item002_01.webp' },
+        { id: 'color2', name: ['gray'], code: '#333333', image: '/images/vali_item002_02.webp' },
+        { id: 'color3', name: ['gray'], code: '#6b6869', image: '/images/vali_item002_03.webp' },
+    ],
+  },
+  {
+    id: 33,
+    brand: 'Samsonite - Mỹ',
+    name: 'Vali kéo Base Boost',
+    category: 'vali',
+    newPrice: '4,340,000₫',
+    oldPrice: '6,200,000₫',
+    isBestSeller: false,
+    colors: [
+        { id: 'color1', name: ['blue'], code: '#0033ff', image: '/images/vali_item003_01.webp' },
+        { id: 'color2', name: ['black'], code: '#000000', image: '/images/vali_item003_02.webp' },
+    ],
+  },
   ];
   
   export default products;

@@ -1,17 +1,14 @@
 .footer {
-    display: flex;
-    flex-direction: column;
+    padding: 40px 0;
     background-color: #f8f8f8;
-    background: url(/public/images/footer-bg.webp);
-    padding: 40px 20px;
     font-family: Arial, sans-serif;
     color: #333;
     border-top: 1px solid #ddd;
 }
 
 .footer-container {
-    width: 1300px;
     margin: 0 auto;
+    width: 1300px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -19,7 +16,6 @@
 
 .footer-column {
     flex: 1;
-    margin: 0 20px;
 }
 
 .footer-column h4 {
@@ -82,7 +78,12 @@
 .color_footer {
     color: #272727;
 }
-
+.column2{
+    margin: 0 20px;
+}
+.column3{
+    margin-left: 20px;
+}
 /* Thêm dấu "-" vào cột thứ hai */
 .footer-column ul {
     list-style: none;
