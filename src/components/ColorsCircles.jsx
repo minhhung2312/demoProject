@@ -22,11 +22,10 @@ const styles = {
         display: "flex",
         flexWrap: "wrap",
         gap: "10px", 
-        padding: "20px",
     },
     circle: {
-        width: "30px",
-        height: "30px",
+        width: "25px",
+        height: "25px",
         borderRadius: "50%", 
         border: "1px solid #ccc", 
         cursor: "pointer", 

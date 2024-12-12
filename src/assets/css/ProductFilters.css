@@ -1,0 +1,32 @@
+.product-filters {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    border: 1px solid #fffafa;
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+.filter-sections {
+    margin-bottom: 2rem;
+}
+.filter-options label{
+    width: 100%;
+}
+
+.filter-titles {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.filter-options {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.filter-options input {
+    margin-right: 1rem;
+    cursor: pointer;
+}
