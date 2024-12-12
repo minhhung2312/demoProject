@@ -1,12 +1,12 @@
-
 /* @import url('/src/components/components.css'); */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-decoration: none;
     color: black;
-    
+
 }
 
 .line {
@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
 }
+
 .nav {
     display: grid;
     grid-template-columns: 20% 30% 30% 20%;
@@ -31,28 +32,32 @@
     position: relative;
     z-index: 100;
 }
+
 .nav.fixed {
-    position: fixed; 
-    transition: transform 0.5s ease, position 0.1s ease-in-out; 
+    position: fixed;
+    transition: transform 0.5s ease, position 0.1s ease-in-out;
     top: 0;
-    transform: translateY(-100%); 
-  }
-  
-  .nav.fixed.visible {
-    transform: translateY(0); 
-  }
+    transform: translateY(-100%);
+}
+
+.nav.fixed.visible {
+    transform: translateY(0);
+}
+
 .nav ul {
     display: flex;
     justify-content: center;
-   
+
 }
 
 .nav ul li {
-    
+
     list-style-type: none;
 }
-.nav > ul > li{
+
+.nav>ul>li {
     position: relative;
+
 }
 .nav ul li{
     margin-right: 40px;

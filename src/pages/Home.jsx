@@ -7,6 +7,7 @@ import TopFavorite from '../components/TopFavorite';
 import ProductOfWeb from '../components/ProductOfWeb';
 import Outstanding from '../components/Outstanding';
 import News from '../components/News';
+// import FilterColor from '../components/FilterColor';
 
 function Home() {
 
@@ -19,6 +20,7 @@ function Home() {
             <ProductOfWeb/>
             <Outstanding/>
             <News/>
+            {/* <FilterColor/> */}
         </div>
     );
 }
