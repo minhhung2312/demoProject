@@ -45,18 +45,10 @@
     top: 0;
 
     transform: translateY(-100%); 
-<<<<<<< HEAD
-
-=======
->>>>>>> eac91d3 (abc)
 }
 
 .nav.fixed.visible {
-<<<<<<< HEAD
     transform: translateY(0); 
-=======
-    transform: translateY(0);
->>>>>>> eac91d3 (abc)
 }
 .nav ul {
     display: flex;
