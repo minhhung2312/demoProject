@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ProductCard from "./ProductCard";
 import products from "../api/products";
-// import test from "../assets/css/test.css"
 
 const ProductFilter = ({name}) => {
     const item = products.filter((product) => product.category === name);
@@ -12,14 +11,8 @@ const ProductFilter = ({name}) => {
         color: [],
     });
 
-    const [selectedColor, setSelectedColor] = useState("");
-
-    const similarColors = {
-        blue: ["blue", "darkblue"],
-        gray: ["gray", "darkgray"],
-        darkblue: ["blue", "darkblue"],
-        darkgray: ["gray", "darkgray"],
-    };
+    const [selectedColors, setSelectedColors] = useState([]);
+    const [displayedProducts, setDisplayedProducts] = useState(item);
 
     const handleFilterChange = (key, value) => {
         setFilters((prevFilters) => {
@@ -33,7 +26,6 @@ const ProductFilter = ({name}) => {
         });
     };
 
-    // Chuyển giá thành kiểu Number và loại bỏ các kí tự không phải là chữ số
     const parsePrice = (priceString) => {
         return parseInt(priceString.replace(/[^\d]/g, ""), 10);
     };
@@ -69,11 +61,13 @@ const ProductFilter = ({name}) => {
                       if (priceRange === "low") return productPrice < 1000000;
                       if (priceRange === "medium")
                           return (
-                              productPrice >= 1000000 && productPrice <= 2000000
+                              productPrice >= 1000000 &&
+                              productPrice <= 2000000
                           );
                       if (priceRange === "medium-high")
                           return (
-                              productPrice >= 2000000 && productPrice <= 5000000
+                              productPrice >= 2000000 &&
+                              productPrice <= 5000000
                           );
                       if (priceRange === "high") return productPrice > 5000000;
                       return true;
@@ -84,11 +78,7 @@ const ProductFilter = ({name}) => {
             filters.color.length > 0
                 ? filters.color.some((selectedColor) =>
                       product.colors.some((color) =>
-                          similarColors[selectedColor]
-                              ? similarColors[selectedColor].includes(
-                                    color.name[0]
-                                )
-                              : color.name.includes(selectedColor)
+                          color.name.includes(selectedColor)
                       )
                   )
                 : true;
@@ -115,11 +105,7 @@ const ProductFilter = ({name}) => {
 
     const uniqueBrands = [...new Set(item.map((p) => p.brand))];
     const uniqueColors = Array.from(
-        new Set(
-            item.flatMap((p) =>
-                p.colors.map((color) => color.name[0] || color.code)
-            )
-        )
+        new Set(item.flatMap((p) => p.colors.flatMap((color) => color.name)))
     );
 
     return (
@@ -204,8 +190,10 @@ const ProductFilter = ({name}) => {
                             {uniqueColors.map((color, index) => (
                                 <div
                                     key={index}
-                                    className={`color-items ${
-                                        selectedColor === color ? "active" : ""
+                                    className={`color-item ${
+                                        selectedColors.includes(color)
+                                            ? "active"
+                                            : ""
                                     }`}
                                     onClick={() => handleColorSelect(color)}
                                     style={{
@@ -230,10 +218,8 @@ const ProductFilter = ({name}) => {
                     </div>
                 </div>
             </div>
-
         </div>
     );
 };
 
-export default ProductFilter;
-
+export default ProductFilter; 
