@@ -452,6 +452,30 @@ const products = [
         { id: 'color2', name: ['black'], code: '#000000', image: '/images/vali_item003_02.webp' },
     ],
   },
+  {
+    id: 34,
+    brand: 'High Sierra - Mỹ',
+    name: 'Balo Colts 30',
+    category: 'balo',
+    newPrice: '1,450,000₫',
+    oldPrice: '2,900,000₫',
+    colors: [
+        { id: 'color1', name: ['blue'], code: '#0242fd', image: '/images/balo_047_01.jpg' },
+        { id: 'color2', name: ['black'], code: '#000000', image: '/images/balo_047_02.jpg' },
+    ],
+  },
+  {
+    id: 35,
+    brand: 'Samsonite - Mỹ',
+    name: 'Balo laptop 17.3in PRO-DLX 6 3vol Exp',
+    category: 'balo',
+    newPrice: '7,600,000₫',
+    oldPrice: '10,900,000₫',
+    colors: [
+        { id: 'color1', name: ['blue'], code: '#0242fd', image: '/images/balo_048_01.jpg' },
+        { id: 'color2', name: ['black'], code: '#000000', image: '/images/balo_048_02.jpg' },
+    ],
+  },
   ];
   
   export default products;
