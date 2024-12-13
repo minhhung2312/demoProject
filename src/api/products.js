@@ -460,8 +460,8 @@ const products = [
     newPrice: '1,450,000₫',
     oldPrice: '2,900,000₫',
     colors: [
-        { id: 'color1', name: ['blue'], code: '#0242fd', image: '/images/balo_item047_01.webp' },
-        { id: 'color2', name: ['black'], code: '#000000', image: '/images/balo_item047_02.webp' },
+        { id: 'color1', name: ['blue'], code: '#0242fd', image: '/images/balo_047_01.jpg' },
+        { id: 'color2', name: ['black'], code: '#000000', image: '/images/balo_047_02.jpg' },
     ],
   },
   {
@@ -472,8 +472,8 @@ const products = [
     newPrice: '7,600,000₫',
     oldPrice: '10,900,000₫',
     colors: [
-        { id: 'color1', name: ['blue'], code: '#0242fd', image: '/images/balo_item047_01.webp' },
-        { id: 'color2', name: ['black'], code: '#000000', image: '/images/balo_item047_02.webp' },
+        { id: 'color1', name: ['blue'], code: '#0242fd', image: '/images/balo_048_01.jpg' },
+        { id: 'color2', name: ['black'], code: '#000000', image: '/images/balo_048_02.jpg' },
     ],
   },
   ];
