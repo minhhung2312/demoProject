@@ -18,7 +18,7 @@ function Outstanding() {
                 </div>
                 <div className="container">
                     {vali.map((product) => (
-                        <ProductCard product={product}/>
+                        <ProductCard key={product.id} product={product}/>
                     ))}
                 </div>
             </div>
@@ -29,7 +29,7 @@ function Outstanding() {
                 </div>
                 <div className="container">
                     {balo.map((product) => (
-                        <ProductCard product={product}/>
+                        <ProductCard key={product.id} product={product}/>
                     ))}
                 </div>
             </div>
@@ -40,7 +40,7 @@ function Outstanding() {
                 </div>
                 <div className="container">
                     {bag.map((product) => (
-                        <ProductCard product={product}/>
+                        <ProductCard key={product.id} product={product}/>
                     ))}
                 </div>
             </div>

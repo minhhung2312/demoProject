@@ -1,11 +1,11 @@
 import React from 'react';
-import FilterColors from '../components/FilterColors';
 import SuitcaseInfor from '../components/SuitcaseInfo'
+import ProductFilter from '../components/ProductFilter';
 
 function Vali() {
     return (
         <div className='vali_container'>
-            <FilterColors category="vali" />;
+            <ProductFilter name="vali"/>
             <SuitcaseInfor/>
         </div>
     )

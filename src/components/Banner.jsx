@@ -56,15 +56,15 @@ function Banner() {
             onMouseLeave={() => setIsPaused(false)} // tiếp tục chuyển ảnh
         >
             <div className="guest">
-                <i class="fa-solid fa-eye"></i>
+                <i className="fa-solid fa-eye"></i>
                 <p className="number">{guestCount}</p>
             </div>   
             <div className="buttons">
                 <button className="left-btn" onClick={prevImg}>
-                    <i class="fa-solid fa-chevron-left"></i>
+                    <i className="fa-solid fa-chevron-left"></i>
                 </button>
                 <button className="right-btn" onClick={nextImg}>
-                    <i class="fa-solid fa-chevron-right"></i>
+                    <i className="fa-solid fa-chevron-right"></i>
                 </button>
             </div>
             <div className={`slider ${slideDirection}`}>
