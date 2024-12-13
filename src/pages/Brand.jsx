@@ -1,16 +1,19 @@
 import "../assets/css/Brand.css";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { brands } from "../api/brand-list";
 
 
 function Brand() {
   return (
     <div>
-      <div className="Present">
-        <div className="Comback">
-          <Link>Home</Link>
+      <div className="wrap_present">
+        <div className="Present">
+          <div className="Comback">
+            <Link>Home</Link>
+          </div>
+          <div className="Persent__page">Brands</div>
         </div>
-        <div className="Persent__page">Branch</div>
+
       </div>
       <div className="gallery">
         {brands.map((brand) => (

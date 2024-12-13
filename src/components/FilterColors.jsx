@@ -39,7 +39,7 @@ function FilterColors({ category }) {
         );
         setDisplayedProduct(updatedList);
     };
-
+ 
     return (
         <div className="wrap_category_page">
             <div className="category_container">
