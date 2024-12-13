@@ -4,7 +4,7 @@ import '../assets/css/Balo.css';
 function Bag() {
     return ( 
         <div className="bag">
-            <ProductFilter name="bag"/>
+            <ProductFilter name="handbag"/>
             <div style={{marginBottom: "60px"}}></div>
         </div>
     );

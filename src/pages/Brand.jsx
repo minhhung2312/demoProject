@@ -9,7 +9,7 @@ function Brand() {
       <div className="wrap_present">
         <div className="Present">
           <div className="Comback">
-            <Link>Home</Link>
+            <Link to='/'>Home</Link>
           </div>
           <div className="Persent__page">Brands</div>
         </div>
