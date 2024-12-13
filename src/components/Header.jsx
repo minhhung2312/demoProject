@@ -1,16 +1,12 @@
 import { Link, Route, Routes } from "react-router-dom";
-
-
 import "../assets/css/Header.css";
-
 import Brand from "../pages/Brand";
-
-
 import '../assets/css/Header.css'
 import Home from '../pages/Home';
 import Balo from '../pages/Balo';
 import Vali from '../pages/Vali';
 import Bag from "../pages/Bag";
+import Product from "./Product";
 
 function Header() {
   let isNavbarFixed = false;
@@ -99,6 +95,7 @@ function Header() {
                 <Route path='/Balo' element={<Balo/>}/>
                 <Route path='/Vali'element={<Vali/>}/>
                 <Route path='/Handbag'element={<Bag/>}/>
+                <Route path="/product/:id" element={<Product />}/>
             </Routes>
         </div>
      );

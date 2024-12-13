@@ -10,7 +10,7 @@ const Footer = () => {
                 {/* Cột 1 */}
                 <div className="footer-column column1">
                     <img
-                        src="./icon/logo.png"
+                        src="/icon/logo.png"
                         alt="House of Luggage"
                         className="footer-logo"
                     />
@@ -24,7 +24,7 @@ const Footer = () => {
                         </a>.
                     </p>
                     <img
-                        src="./icon/boCongThuong.jpg"
+                        src="/icon/boCongThuong.jpg"
                         alt="Đã thông báo Bộ Công Thương"
                         className="footer-verified"
                     />

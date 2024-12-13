@@ -11,6 +11,25 @@ const products = [
         { id: 'color1', name: ['gray'], code: '#D9D9D9', image: '/images/item-product-trend1.1.webp' },
         { id: 'color2', name: ['black'], code: '#000', image: '/images/item-product-trend1.2.webp' },
       ],
+      details:
+        {
+            features: [
+                "Vỏ vali được chế tạo từ 100% nhựa polycarbonate Makrolon® nguyên chất, đảm bảo khả năng chống va đập tối đa, bảo vệ hành lý của bạn một cách toàn diện",
+                "Hệ thống bánh xe đôi Hinomoto Nhật Bản cho phép xoay 360°, linh hoạt trên mọi địa hình, tăng cường độ bám và ổn định.",
+                "Tay kéo ba tầng được làm từ nhôm cao cấp kết hợp với đế ABS cao cấp, mang đến độ bền và khả năng chống va đập vượt trội. Sau 500 lần thử rút và kéo liên tục vẫn hoạt động bình thường, không bị hư hại.",
+                "Chất liệu AZTPU® được sử dụng cho tay cầm, có khả năng chống mài mòn, va đập và độ bền vượt trội. Sau 3000 lần kéo thử nghiệm liên tục, tay cầm vẫn đảm bảo chất lượng như ban đầu.",
+                "Khóa kéo đôi YKK® chống rạch trộm và chống cháy nổ, hoạt động trơn tru, bền bỉ."
+            ],
+            desc: [""],
+            paramters: [
+                {size: "Trung"},
+                {capacity: "90L"},
+                {volume: "5.1kg"},
+                {dimension: "42 x 35 x 67 cm"},
+                {capacity: "20-25kg"},
+                {material: "100% Pure Polycarbonate"}
+            ]
+        }
     },
     {
       id: 2,
@@ -25,6 +44,25 @@ const products = [
         { id: 'color2', name: ['blue'], code: '#3121f1', image: '/images/item-product-trend2.2.webp' },
         { id: 'color3', name: ['black'], code: '#000', image: '/images/item-product-trend2.3.webp' },
       ],
+      details:
+        {
+            features: [
+                "Vỏ vali được chế tạo từ 100% nhựa polycarbonate Makrolon® nguyên chất, đảm bảo khả năng chống va đập tối đa, bảo vệ hành lý của bạn một cách toàn diện",
+                "Hệ thống bánh xe đôi Hinomoto Nhật Bản cho phép xoay 360°, linh hoạt trên mọi địa hình, tăng cường độ bám và ổn định.",
+                "Tay kéo ba tầng được làm từ nhôm cao cấp kết hợp với đế ABS cao cấp, mang đến độ bền và khả năng chống va đập vượt trội. Sau 500 lần thử rút và kéo liên tục vẫn hoạt động bình thường, không bị hư hại.",
+                "Chất liệu AZTPU® được sử dụng cho tay cầm, có khả năng chống mài mòn, va đập và độ bền vượt trội. Sau 3000 lần kéo thử nghiệm liên tục, tay cầm vẫn đảm bảo chất lượng như ban đầu.",
+                "Khóa kéo đôi YKK® chống rạch trộm và chống cháy nổ, hoạt động trơn tru, bền bỉ."
+            ],
+            desc: [""],
+            paramters: [
+                {size2: "Trung"},
+                {capacity2: "90L"},
+                {volume: "5.1kg"},
+                {dimension: "42 x 35 x 67 cm"},
+                {capacity: "20-25kg"},
+                {material: "100% Pure Polycarbonate"}
+            ]
+        }
     },
     {
       id: 3,
