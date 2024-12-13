@@ -21,7 +21,7 @@ const products = [
       oldPrice: '7,000,000₫',
       isBestSeller: true,
       colors: [
-        { id: 'color1', name: ['darkblue'], code: '#2E545C', image: '/images/item-product-trend2.1.webp' },
+        { id: 'color1', name: ['blue'], code: '#2E545C', image: '/images/item-product-trend2.1.webp' },
         { id: 'color2', name: ['blue'], code: '#3121f1', image: '/images/item-product-trend2.2.webp' },
         { id: 'color3', name: ['black'], code: '#000', image: '/images/item-product-trend2.3.webp' },
       ],
@@ -50,7 +50,7 @@ const products = [
       isBestSeller: true,
       colors: [
         { id: 'color1', name: ['pink'], code: '#f9aa8c', image: '/images/item-product-trend4.1.webp' },
-        { id: 'color2', name: ['darkgray'], code: '#777777', image: '/images/item-product-trend4.2.webp' },
+        { id: 'color2', name: ['gray'], code: '#777777', image: '/images/item-product-trend4.2.webp' },
         { id: 'color3', name: ['black'], code: '#000', image: '/images/item-product-trend4.3.webp' },
       ],
     },
@@ -65,7 +65,7 @@ const products = [
       colors: [
         { id: 'color1', name: ['gray'], code: '#d9d9d9', image: '/images/item-product-trend5.1.webp' },
         { id: 'color2', name: ['black'], code: '#000', image: '/images/item-product-trend5.2.webp' },
-        { id: 'color3', name: ['darkgreen'], code: '#1d2e2b', image: '/images/item-product-trend5.3.webp' },
+        { id: 'color3', name: ['green'], code: '#1d2e2b', image: '/images/item-product-trend5.3.webp' },
       ],
     },
 
@@ -92,8 +92,8 @@ const products = [
       oldPrice: '9,400,000₫',
       isTopFavoriteVali: true,
       colors: [
-        { id: 'color1', name: ['#6A2E2C'], thumbnail: '/images/color-item-love2.1.webp', image: '/images/item-love2.1.webp' },
-        { id: 'color2', name: ['darkgray'], thumbnail: '/images/color-item-love2.2.jpg', image: '/images/item-love2.2.webp' },
+        { id: 'color1', name: ['red'], thumbnail: '/images/color-item-love2.1.webp', image: '/images/item-love2.1.webp' },
+        { id: 'color2', name: ['gray'], thumbnail: '/images/color-item-love2.2.jpg', image: '/images/item-love2.2.webp' },
         { id: 'color3', name: ['black'], thumbnail: '/images/color-item-love2.3.webp', image: '/images/item-love2.3.webp' },
       ],
     },
@@ -246,7 +246,7 @@ const products = [
         colors: [
             { id: 'color1', name: ['black'], thumbnail: '/images/color-vali-top3.1.webp', image: '/images/vali-top3.1.webp' },
             { id: 'color2', name: ['yellow'], thumbnail: '/images/color-vali-top3.2.webp', image: '/images/vali-top3.2.webp' },
-            { id: 'color3', name: ['darkblue'], thumbnail: '/images/color-vali-top3.3.webp', image: '/images/vali-top3.3.webp' },
+            { id: 'color3', name: ['blue'], thumbnail: '/images/color-vali-top3.3.webp', image: '/images/vali-top3.3.webp' },
         ],
     },
     {
@@ -392,7 +392,7 @@ const products = [
         oldPrice: '1,300,000₫',
         isTopBag: true,
         colors: [
-            { id: 'color1', name: ['darkblue'], code: '#22477a', image: '/images/bag-top4.1.webp' },
+            { id: 'color1', name: ['blue'], code: '#22477a', image: '/images/bag-top4.1.webp' },
             { id: 'color2', name: ['black'], code: '#000', image: '/images/bag-top4.2.webp' },
             { id: 'color3', name: ['gray'], code: '#807775', image: '/images/bag-top4.3.webp' },
         ],

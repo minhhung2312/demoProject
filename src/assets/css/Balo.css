@@ -1,4 +1,5 @@
-.balo {
+.balo,
+.bag {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -67,7 +68,7 @@
             .colors {
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: center;
+                /* justify-content: center; */
                 gap: 10px;
 
                 .color-item {
@@ -80,9 +81,19 @@
                 }
 
                 .color-item.active {
+                    position: relative;
                     outline: 1px solid var(--primary-color);
                     border: none;
                     outline-offset: 1px;
+                }
+
+                .color-item.active::before {
+                    position: absolute;
+                    content: "✓";
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color: #fff;
                 }
             } 
         }
@@ -112,19 +123,20 @@
         }
     }
 
-    .paragraph {
-        width: 1300px;
-        margin: 60px auto;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        font-size: 1.5rem;
-        line-height: 2.1rem;
+}
 
-        h3 {
-            font-size: 2.4rem;
-            line-height: 3.36rem;
-            font-weight: 700;
-        }
+.paragraph {
+    width: 1300px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+
+    h3 {
+        font-size: 2.4rem;
+        line-height: 3.36rem;
+        font-weight: 700;
     }
 }
