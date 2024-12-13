@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ProductCard from "./ProductCard";
 import products from "../api/products";
+import { Link } from "react-router-dom";
 
 const ProductFilter = ({ name }) => {
     const item = products.filter((product) => product.category === name);
@@ -91,7 +92,7 @@ const ProductFilter = ({ name }) => {
         <div className="product-filter">
             <nav className="navbar">
                 <div className="content">
-                    Trang chủ / Danh mục / <span className="category">{name}</span>
+                    <Link to='/'>Home</Link> / Category / <span className="category">{name}</span>
                 </div>
             </nav>
             <div className="container">
