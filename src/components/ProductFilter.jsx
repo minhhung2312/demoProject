@@ -27,6 +27,7 @@ const ProductFilter = () => {
         });
     };
 
+    // Chuyển giá thành kiểu Number và loại bỏ các kí tự không phải là chữ số
     const parsePrice = (priceString) => {
         return parseInt(priceString.replace(/[^\d]/g, ""), 10);
     };

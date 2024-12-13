@@ -11,7 +11,6 @@ function FilterColor() {
         if(selectedFilter) {
             const filtered = products.filter((product) => product.colors.some((color) => color.code === selectedFilter || color.thumbnail === selectedFilter));
             setFilterProduct(filtered);
-            console.log(filtered);
         }
     }, [selectedFilter]);
 
