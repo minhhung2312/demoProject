@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ProductCard from "./ProductCard";
 import products from "../api/products";
 
-const ProductFilter = ({name}) => {
+const ProductFilter = ({ name }) => {
     const item = products.filter((product) => product.category === name);
 
     const [filters, setFilters] = useState({
@@ -30,78 +30,57 @@ const ProductFilter = ({name}) => {
         return parseInt(priceString.replace(/[^\d]/g, ""), 10);
     };
 
-    useEffect(() => {
-        if (selectedColors.length > 0) {
-            setFilters((prevFilters) => ({
-                ...prevFilters,
-                color: selectedColors,
-            }));
-        }
-    }, [selectedColors]);
-
     const handleColorSelect = (color) => {
         setSelectedColors((prevColors) => {
-            return prevColors.includes(color)
+            const updatedColors = prevColors.includes(color)
                 ? prevColors.filter((c) => c !== color)
                 : [...prevColors, color];
+
+            setFilters((prevFilters) => ({
+                ...prevFilters,
+                color: updatedColors,
+            }));
+
+            return updatedColors;
         });
     };
 
-    const filteredProducts = item.filter((product) => {
-        const productPrice = parsePrice(product.newPrice);
-
-        const matchesBrand =
-            filters.brand.length > 0
-                ? filters.brand.includes(product.brand)
-                : true;
-
-        const matchesPrice =
-            filters.price.length > 0
-                ? filters.price.some((priceRange) => {
-                      if (priceRange === "low") return productPrice < 1000000;
-                      if (priceRange === "medium")
-                          return (
-                              productPrice >= 1000000 &&
-                              productPrice <= 2000000
-                          );
-                      if (priceRange === "medium-high")
-                          return (
-                              productPrice >= 2000000 &&
-                              productPrice <= 5000000
-                          );
-                      if (priceRange === "high") return productPrice > 5000000;
-                      return true;
-                  })
-                : true;
-
-        const matchesColor =
-            filters.color.length > 0
-                ? filters.color.some((selectedColor) =>
-                      product.colors.some((color) =>
-                          color.name.includes(selectedColor)
-                      )
-                  )
-                : true;
-
-        return matchesBrand && matchesPrice && matchesColor;
-    });
-
     useEffect(() => {
-        // Kiểm tra nếu không có bộ lọc nào được áp dụng
-        const isFilterEmpty =
-            filters.brand.length === 0 &&
-            filters.price.length === 0 &&
-            filters.color.length === 0;
-    
-        // Nếu không có bộ lọc, hiển thị toàn bộ sản phẩm
-        if (isFilterEmpty) {
-            setDisplayedProducts(item);
-        } else {
-            // Nếu có bộ lọc, hiển thị sản phẩm đã lọc
-            setDisplayedProducts(filteredProducts);
-        }
-    }, [filters, filteredProducts, item]);
-    
+        const filtered = item.filter((product) => {
+            const productPrice = parsePrice(product.newPrice);
+
+            const matchesBrand =
+                filters.brand.length > 0
+                    ? filters.brand.includes(product.brand)
+                    : true;
+
+            const matchesPrice =
+                filters.price.length > 0
+                    ? filters.price.some((priceRange) => {
+                          if (priceRange === "low") return productPrice < 1000000;
+                          if (priceRange === "medium")
+                              return productPrice >= 1000000 && productPrice <= 2000000;
+                          if (priceRange === "medium-high")
+                              return productPrice >= 2000000 && productPrice <= 5000000;
+                          if (priceRange === "high") return productPrice > 5000000;
+                          return true;
+                      })
+                    : true;
+
+            const matchesColor =
+                filters.color.length > 0
+                    ? filters.color.some((selectedColor) =>
+                          product.colors.some((color) =>
+                              color.name.includes(selectedColor)
+                          )
+                      )
+                    : true;
+
+            return matchesBrand && matchesPrice && matchesColor;
+        });
+
+        setDisplayedProducts(filtered);
+    }, [filters]);
 
     const uniqueBrands = [...new Set(item.map((p) => p.brand))];
     const uniqueColors = Array.from(
@@ -197,10 +176,9 @@ const ProductFilter = ({name}) => {
                                     }`}
                                     onClick={() => handleColorSelect(color)}
                                     style={{
-                                        background: color
+                                        background: color,
                                     }}
-                                >
-                                </div>
+                                ></div>
                             ))}
                         </div>
                     </div>
@@ -222,4 +200,4 @@ const ProductFilter = ({name}) => {
     );
 };
 
-export default ProductFilter; 
+export default ProductFilter;
