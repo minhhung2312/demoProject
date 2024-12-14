@@ -7,6 +7,8 @@ import Balo from '../pages/Balo';
 import Vali from '../pages/Vali';
 import Bag from "../pages/Bag";
 import Product from "./Product";
+import Login from "../pages/Login";
+import SignUp from "../pages/SignUp";
 
 function Header() {
   let isNavbarFixed = false;
@@ -38,7 +40,7 @@ function Header() {
           </Link>
         </div>
         <ul className="nav__Product">
-          
+
           <li>
             <Link to="/Brand">BRAND</Link>
           </li>
@@ -63,7 +65,7 @@ function Header() {
             <Link to="/Login">LOGIN</Link>
           </li>
           <li>
-            <Link to="/Signup">SING UP</Link>
+            <Link to="/SignUp">SIGN UP</Link>
           </li>
         </ul>
         <ul>
@@ -89,16 +91,18 @@ function Header() {
         Nhập mã <span className="discount-code">HOL10</span> giảm 10% tất cả sản
         phẩm
       </div>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/Brand" element={<Brand></Brand>}/>
-                <Route path='/Balo' element={<Balo/>}/>
-                <Route path='/Vali'element={<Vali/>}/>
-                <Route path='/Handbag'element={<Bag/>}/>
-                <Route path="/product/:id" element={<Product />}/>
-            </Routes>
-        </div>
-     );
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Brand" element={<Brand></Brand>} />
+        <Route path='/Balo' element={<Balo />} />
+        <Route path='/Vali' element={<Vali />} />
+        <Route path='/Handbag' element={<Bag />} />
+        <Route path="/product/:id" element={<Product />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/SignUp" element={<SignUp />} />
+      </Routes>
+    </div>
+  );
 
 }
 
