@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import products from "../api/products";
 import "../assets/css/Product.css";
 
-function Product() {
+function Product({ cart, setCart }) {
     const { id } = useParams();
     const product = products.find((pro) => pro.id === parseInt(id));
 
@@ -20,6 +20,41 @@ function Product() {
             </div>
         )
     }
+
+    const handleAddToCart = () => {
+        const newItem = {
+            id: product.id,
+            image: selectedColor.image,
+            name: product.name,
+            quantity: counter,
+            price: product.newPrice,
+        };
+    
+        setCart((prevCart) => {
+            // Lấy dữ liệu giỏ hàng từ localStorage nếu có
+            const savedCart = JSON.parse(localStorage.getItem("cart")) || [];
+            const existingItemIndex = savedCart.findIndex(
+                (item) => item.id === product.id && item.name === product.name
+            );
+    
+            let updatedCart;
+            if (existingItemIndex >= 0) {
+                // Nếu sản phẩm đã tồn tại trong giỏ, cập nhật số lượng
+                updatedCart = [...savedCart];
+                updatedCart[existingItemIndex].quantity += counter;
+            } else {
+                // Nếu sản phẩm chưa có trong giỏ, thêm mới
+                updatedCart = [...savedCart, newItem];
+            }
+    
+            // Lưu lại vào localStorage
+            localStorage.setItem("cart", JSON.stringify(updatedCart));
+            
+            alert('Add Product Successfully!');
+            return updatedCart;
+        });
+    };
+    
 
     return (
         <div className="container-product1">
@@ -82,7 +117,7 @@ function Product() {
                             </div>
                         </div>
                         <div className="add-cart">
-                            <button>THÊM VÀO GIỎ HÀNG</button>
+                            <button onClick={handleAddToCart}>THÊM VÀO GIỎ HÀNG</button>
                         </div>
                         <div className="info-store">
                             <div className="item">

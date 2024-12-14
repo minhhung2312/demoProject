@@ -29,7 +29,7 @@ function ProductCard({ product }) {
                 <img
                     src={selectedColor.image}
                     alt={`${product.name} - ${selectedColor.name}`}
-                    onClick={() => navigate(`/product/${product.id}`)}
+                    onClick={() => navigate(`/Product/${product.id}`)}
                 />
                 <div className={`sell ${isHovered ? '' : 'hidden'}`}>
                     <button className="buy__btn">MUA NGAY</button>
