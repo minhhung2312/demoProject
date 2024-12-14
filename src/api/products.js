@@ -20,13 +20,11 @@ const products = [
                 "Chất liệu AZTPU® được sử dụng cho tay cầm, có khả năng chống mài mòn, va đập và độ bền vượt trội. Sau 3000 lần kéo thử nghiệm liên tục, tay cầm vẫn đảm bảo chất lượng như ban đầu.",
                 "Khóa kéo đôi YKK® chống rạch trộm và chống cháy nổ, hoạt động trơn tru, bền bỉ."
             ],
-            desc: [""],
             paramters: [
-                {size: "Trung"},
                 {capacity: "90L"},
                 {volume: "5.1kg"},
                 {dimension: "42 x 35 x 67 cm"},
-                {capacity: "20-25kg"},
+                {tankage: "20-25kg"},
                 {material: "100% Pure Polycarbonate"}
             ]
         }
@@ -47,20 +45,20 @@ const products = [
       details:
         {
             features: [
-                "Vỏ vali được chế tạo từ 100% nhựa polycarbonate Makrolon® nguyên chất, đảm bảo khả năng chống va đập tối đa, bảo vệ hành lý của bạn một cách toàn diện",
-                "Hệ thống bánh xe đôi Hinomoto Nhật Bản cho phép xoay 360°, linh hoạt trên mọi địa hình, tăng cường độ bám và ổn định.",
-                "Tay kéo ba tầng được làm từ nhôm cao cấp kết hợp với đế ABS cao cấp, mang đến độ bền và khả năng chống va đập vượt trội. Sau 500 lần thử rút và kéo liên tục vẫn hoạt động bình thường, không bị hư hại.",
-                "Chất liệu AZTPU® được sử dụng cho tay cầm, có khả năng chống mài mòn, va đập và độ bền vượt trội. Sau 3000 lần kéo thử nghiệm liên tục, tay cầm vẫn đảm bảo chất lượng như ban đầu.",
-                "Khóa kéo đôi YKK® chống rạch trộm và chống cháy nổ, hoạt động trơn tru, bền bỉ."
+                "Vali kéo Eclipse SE thiết kế nắp mở phía trước độc đáo",
+                "Ngăn chứa bảo vệ laptop lên tới 17.3' (chỉ có trên size cabin 55cm)",
+                "Vỏ vali làm từ chất liệu ABS+PC bền chắc, hoàn thiện nhám mờ giúp hạn chế trầy xước ",
+                "Khả năng mở rộng tăng sức chứa giúp linh hoạt trong việc sắp xếp hành lý",
+                "Cần đẩy ống đôi làm bằng hợp kim chắc chắn, dễ dàng thay đổi độ cao để phù hợp với người sử dụng.",
+                "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
+                "Hệ thống 4 bánh xe đôi xoay 360 vận hành êm nhẹ, ổn định"
             ],
-            desc: [""],
             paramters: [
-                {size2: "Trung"},
-                {capacity2: "90L"},
-                {volume: "5.1kg"},
-                {dimension: "42 x 35 x 67 cm"},
+                {capacity: "77/84L"},
+                {volume: "4.43kg"},
+                {dimension: "44.5 x 27.5/ 30 x 65 cm"},
                 {capacity: "20-25kg"},
-                {material: "100% Pure Polycarbonate"}
+                {warranty: "3 năm"}
             ]
         }
     },
@@ -77,6 +75,26 @@ const products = [
         { id: 'color2', name: ['black'], code: '#000', image: '/images/item-product-trend3.2.webp' },
         { id: 'color3', name: ['red'], code: '#fe0100', image: '/images/item-product-trend3.3.webp' },
       ],
+      details:
+        {
+            features: [
+                "Combo 2 vali kéo Kamiliant Rock-Lite size cabin",
+                "Vali kéo nhựa siêu nhẹ, chỉ từ 2 kg (size cabin)",
+                "Được làm từ nhựa PP đa năng cho độ bền cao và chống va đập",
+                "Họa tiết zigzag được lấy cảm hứng từ thiết kế hình học thương mại",
+                "Tấm logo kim loại sang trọng, tinh tế",
+                "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
+                "Cần đẩy chắc chắn, có thể thay đổi độ cao"
+            ],
+            desc: ["Kamiliant Rock-Lite là bộ sưu tập vali kéo với lớp vỏ làm bằng nhựa PP giá trị cao. Rock-Lite được coi là thế hệ thứ 2 của Zakk về cảm hứng thiết kế, được đặc trưng bởi các họa tiết zigzag hình học mang tính biểu tượng, kết hợp với các tính năng du lịch thiết thực: siêu nhẹ (chỉ từ 2 kg), độ bền cao, khả năng chống trầy xước trên thiết kế kết cấu kép."],
+            paramters: [
+                {volume: "2kg"},
+                {dimension: "37 x 25 x 55 cm"},
+                {capacity: "7-10kg"},
+                {material: "100% Pure Polycarbonate"},
+                {warranty: "1 năm"}
+            ]
+        }
     },
     {
       id: 4,
