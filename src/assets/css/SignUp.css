@@ -1,0 +1,87 @@
+/* Tổng thể */
+.signup-container {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 88vh;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+/* Bên trái */
+.signup-left {
+    overflow: hidden;
+    border-right: 1px solid #ededed;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-title {
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.signup-divider {
+    width: 5rem;
+    border: 1px solid #000;
+}
+
+/* Bên phải */
+.signup-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+.signup-gender {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.signup-gender label,.signup-gender input {
+    cursor: pointer;
+}
+.signup-gender label span{
+    margin-left: 0.5rem;
+}
+
+.signup-button {
+    width: 100%;
+    height: 4.5rem;
+    padding: 0 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius:0.4rem;
+    cursor: pointer;
+}
+
+.signup-back {
+    display: block;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: #000;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.signup-back:hover {
+    cursor: pointer;
+    color: var(--hover-corlor);
+}
