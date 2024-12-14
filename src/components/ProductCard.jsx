@@ -1,19 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import '../assets/css/ProductCard.css';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "../assets/css/ProductCard.css";
 
-function ProductCard({ product, selectedFilter }) {
+function ProductCard({ product }) {
     const navigate = useNavigate();
-
     const [isHovered, setIsHovered] = useState(false);
-    const [selectedColor, setSelectedColor] = useState(null);
-
-    useEffect(() => {
-        const color = product.colors.find(
-            (color) => color.code === selectedFilter || color.thumbnail === selectedFilter
-        );
-        setSelectedColor(color || product.colors[0]);
-    }, [selectedFilter, product.colors]);
+    const [selectedColor, setSelectedColor] = useState(product.colors[0]);
 
     const handleMouseEnter = () => setIsHovered(true);
     const handleMouseLeave = () => setIsHovered(false);
