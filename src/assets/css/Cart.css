@@ -78,6 +78,21 @@
                 margin-left: auto;
             }
         }
+        .pay {
+            width: 50%;
+            margin: 14px 0 0 auto;
+            background: #000;
+            color: #fff;
+            padding: 10px 15px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .pay:hover {
+            opacity: 0.7;
+        }
     }
     
 }

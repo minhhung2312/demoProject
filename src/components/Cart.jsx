@@ -27,6 +27,13 @@ function Cart({ cart }) {
         0
     );
 
+    const handleCheckout = () => {
+        // Xóa toàn bộ giỏ hàng
+        setCurrentCart([]);
+        localStorage.removeItem("cart"); // Xóa dữ liệu giỏ hàng khỏi localStorage
+        alert("Cảm ơn bạn đã mua hàng!");
+    };
+
     return (
         <div className='cart-container'>
             <div className="body">
@@ -56,6 +63,7 @@ function Cart({ cart }) {
                             </div>
                         ))}
                         <h3 className='result'>Tổng tiền: {totalAmount.toLocaleString()}₫</h3>
+                        <button className="pay" onClick={handleCheckout}>THANH TOÁN</button>
                     </div>
                 )}
             </div>

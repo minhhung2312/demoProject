@@ -32,8 +32,12 @@ function ProductCard({ product }) {
                     onClick={() => navigate(`/Product/${product.id}`)}
                 />
                 <div className={`sell ${isHovered ? '' : 'hidden'}`}>
-                    <button className="buy__btn">MUA NGAY</button>
-                    <button className="add-card__btn">THÊM VÀO GIỎ</button>
+                    <button 
+                        onClick={() => navigate(`/Product/${product.id}`)}
+                        className="buy__btn">MUA NGAY</button>
+                    <button 
+                        onClick={() => navigate(`/Product/${product.id}`)}
+                        className="add-card__btn">THÊM VÀO GIỎ</button>
                 </div>
             </div>
             <div className="product-card__info">
