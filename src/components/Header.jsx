@@ -48,7 +48,6 @@ function Header() {
                     </Link>
                 </div>
                 <ul className="nav__Product">
-
                     <li>
                         <Link to="/Brand">BRAND</Link>
                     </li>

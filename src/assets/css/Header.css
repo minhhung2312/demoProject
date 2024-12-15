@@ -1,4 +1,7 @@
-@import url('/src/App.css');
+:root {
+    --hover-corlor: #f15a29;
+}
+/* @import url('/src/App.css'); */
 
 * {
     box-sizing: border-box;

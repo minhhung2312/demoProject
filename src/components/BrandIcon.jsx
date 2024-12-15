@@ -17,9 +17,15 @@ function BrandIcon() {
                 <img src="/images/brand10.webp" alt="brand10" />
             </div>
             <div className="img-monopoly">
-                <img src="/images/brand.png" alt="brand" />
-                <img src="/images/monopoly.png" alt="monopoly" />
-                <img src="/images/guarantee.png" alt="guarantee" />
+                <div className="img-momopoly__item">
+                    <img src="/images/brand.png" alt="brand" />
+                </div>
+                <div className="img-momopoly__item">
+                    <img src="/images/monopoly.png" alt="monopoly" />
+                </div>
+                <div className="img-momopoly__item">
+                    <img src="/images/guarantee.png" alt="guarantee" />
+                </div>
             </div>
         </div>
     );
