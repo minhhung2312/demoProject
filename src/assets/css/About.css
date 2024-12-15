@@ -1,7 +1,7 @@
-/* General Styling */
+
 @import url('/src/App.css');
 
-.container {
+.about-container {
   max-width: 1300px;
   margin: 0 auto;
   padding: 20px;
@@ -9,130 +9,131 @@
   line-height: 1.6;
   box-sizing: border-box;
   overflow: hidden;
-}
-.highline {
-  display: contents;
-  color: #e67e22;
-  font-weight: 600;
-}
-.info {
-  font-size: 28px;
-  color: #333;
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: bold;
-  border-bottom: 2px solid #aa9d9d;
-  padding-bottom: 10px;
-}
-
-.title {
-  font-size: 24px;
-  color: #e67e22;
-  font-weight: bold;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.paragraph {
-  font-size: 16px;
-  color: #555;
-  margin-bottom: 15px;
-  text-align: justify;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  white-space: normal;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-.list-item {
-  list-style-type: disc;
-  padding-left: 40px;
-  margin-bottom: 20px;
-  font-size: 16px;
-}
-
-.list-item li {
-  margin-bottom: 10px;
-}
-
-.list-item li a {
-  text-decoration: none;
-}
-
-.list-item li a:hover {
-  color: var(--hover-corlor);
-}
-.content {
-  background-color: #f9f9f9;
-  padding: 20px 30px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-/* Responsive Styling */
-@media (max-width: 768px) {
-  .container {
-    padding: 10px;
+  .highline {
+    display: contents;
+    color: #e67e22;
+    font-weight: 600;
   }
-
   .info {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #aa9d9d;
+    padding-bottom: 10px;
+  }
+  
+  .title {
     font-size: 24px;
+    color: #e67e22;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
   }
-
-  .title {
-    font-size: 20px;
-  }
-
+  
   .paragraph {
-    font-size: 14px;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: justify;
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
     max-width: 100%;
     box-sizing: border-box;
   }
-
+  
   .list-item {
-    padding-left: 20px;
+    list-style-type: disc;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
   }
-
+  
   .list-item li {
-    font-size: 14px;
+    margin-bottom: 10px;
   }
-
+  
+  .list-item li a {
+    text-decoration: none;
+  }
+  
+  .list-item li a:hover {
+    color: var(--hover-corlor);
+  }
   .content {
-    padding: 15px 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .info {
-    font-size: 20px;
-  }
-
-  .title {
-    font-size: 18px;
-  }
-
-  .paragraph {
-    font-size: 12px;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    white-space: normal;
-    max-width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
+    overflow: hidden;
   }
-
-  .list-item {
-    font-size: 12px;
-    padding-left: 15px;
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .info {
+      font-size: 24px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  
+    .paragraph {
+      font-size: 14px;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      white-space: normal;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .list-item {
+      padding-left: 20px;
+    }
+  
+    .list-item li {
+      font-size: 14px;
+    }
+  
+    .content {
+      padding: 15px 20px;
+    }
   }
-
-  .content {
-    padding: 10px;
-    box-shadow: none;
+  
+  @media (max-width: 480px) {
+    .info {
+      font-size: 20px;
+    }
+  
+    .title {
+      font-size: 18px;
+    }
+  
+    .paragraph {
+      font-size: 12px;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      white-space: normal;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .list-item {
+      font-size: 12px;
+      padding-left: 15px;
+    }
+  
+    .content {
+      padding: 10px;
+      box-shadow: none;
+    }
   }
+  
 }
