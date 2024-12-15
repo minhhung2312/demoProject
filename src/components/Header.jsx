@@ -77,16 +77,6 @@ function Header() {
                 </ul>
                 <ul>
                     <li>
-                        <Link to="/Account">
-                            <img src="/icon/user.png" alt="" />
-                        </Link>
-                    </li>
-                    <li>
-                        <Link>
-                            <img src="/icon/search.png" alt="" />
-                        </Link>
-                    </li>
-                    <li>
                         <Link to="/Cart">
                             <img src="/icon/cart.png" alt="" />
                         </Link>
