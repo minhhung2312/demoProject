@@ -451,6 +451,9 @@
         .container {
             .product-card {
                 height: 342px;
+                .sell button {
+                    font-size: 0.9rem;
+                }
             }
         }
     }
