@@ -14,7 +14,7 @@ function Outstanding() {
             <div id="vali">
                 <div className="header">
                     <h2 className="title">VALI NỔI BẬT</h2>
-                    <Link to=''>Xem thêm</Link>
+                    <Link to="/Vali">Xem thêm</Link>
                 </div>
                 <div className="container">
                     {vali.map((product) => (
@@ -25,7 +25,7 @@ function Outstanding() {
             <div id="balo">
                 <div className="header">
                     <h2 className="title">BALO NỔI BẬT</h2>
-                    <Link to=''>Xem thêm</Link>
+                    <Link to="/Balo">Xem thêm</Link>
                 </div>
                 <div className="container">
                     {balo.map((product) => (
@@ -36,7 +36,7 @@ function Outstanding() {
             <div id="bag">
                 <div className="header">
                     <h2 className="title">TÚI XÁCH NỔI BẬT</h2>
-                    <Link to=''>Xem thêm</Link>
+                    <Link to="/Handbag">Xem thêm</Link>
                 </div>
                 <div className="container">
                     {bag.map((product) => (

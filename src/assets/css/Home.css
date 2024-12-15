@@ -564,6 +564,7 @@
             width: 97.5%;
             .product-card {
                 width: 100%;
+                height: 100%;
             }
 
             .product-card:nth-child(3),
@@ -575,6 +576,11 @@
 }
 
 @media (max-width: 560px) {
+    .brand-icon {
+        .header {
+            font-size: 2rem;
+        }
+    }
     .best-seller {
         width: 94%;
     }
