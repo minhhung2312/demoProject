@@ -116,25 +116,8 @@
     }
 
 }
-@media (max-width: 1140px) {
-
-}
-
 @media (max-width: 990px) {
     .footer-column{
         flex: 0 1 auto; /* Giá trị mặc định */
     }
-}
-
-@media (max-width: 770px) {
-}
-
-@media (max-width: 560px) {
-
-}
-
-@media (max-width: 456px) {
-}
-
-@media (max-width: 428px) {
 }
