@@ -11,6 +11,7 @@ import Product from "./Product";
 import Login from "../pages/Login";
 import SignUp from "../pages/SignUp";
 import Cart from "../components/Cart";
+import About from '../pages/About';
 
 function Header() {
     const [cart, setCart] = useState(() => {
@@ -103,6 +104,7 @@ function Header() {
                 <Route path='/Balo' element={<Balo />} />
                 <Route path='/Vali' element={<Vali />} />
                 <Route path='/Handbag' element={<Bag />} />
+                <Route path='/About' element={<About/>}/>
                 <Route path="/Product/:id" element={<Product cart={cart} setCart={setCart}/>} />
                 <Route path="/Login" element={<Login />} />
                 <Route path="/SignUp" element={<SignUp />} />
