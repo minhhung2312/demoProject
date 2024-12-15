@@ -1,5 +1,5 @@
 .product-card {
-    width: 235px;
+    width: 20%;
     height: 400px;
     padding: 5px;
     text-align: center;
@@ -103,6 +103,7 @@
 .product-card__price {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 8px;
 }
 

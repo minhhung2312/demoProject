@@ -117,25 +117,28 @@
     }
 
     .logo-brand img {
-        width: 109px;
+        width: 9%;
         cursor: pointer;
     }
 
     .img-monopoly {
+        width: 1300px;
         display: flex;
         gap: 12px;
         justify-content: center;
+        margin: 0 auto;
+        padding: 0 15px;
     }
 
     .img-monopoly img {
-        width: 415px;
+        width: 100%;
     }
 }
 
 /* Best-seller */
 .best-seller {
     width: 1270px;
-    height: 570px;
+    min-height: 570px;
     margin: 40px auto 0;
     background: #ee4f25;
     border-radius: 12px;
@@ -151,15 +154,19 @@
     }
 
     .container {
+        width: 100%;
         display: flex;
         justify-content: space-evenly;
+        gap: 15px;
+        padding: 0 15px;
     }
 }
 
 
 /* Top-favorite */
 .top-favorite {
-    width: 1270px;
+    max-width: 1270px;
+    /* width: 84.2145%; */
     margin: 0 auto;
     
     .container {
@@ -206,6 +213,7 @@
     .vali,
     .product {
         display: flex;
+        gap: 15px;
         justify-content: space-evenly;
         transition: all 0.3s ease;
     }
@@ -225,7 +233,7 @@
         position: relative;
         padding: 35px 0 20px;
         margin-bottom: 25px;
-        font-size: 2.4rem;
+        font-size: 2.8rem;
         line-height: 3.83rem;
         text-transform: uppercase;
         font-weight: 500;
@@ -245,7 +253,7 @@
     }
 
     .container {
-        width: 1270px;
+        max-width: 1270px;
         margin: 0 auto;
         display: flex;
         justify-content: space-evenly;
@@ -277,7 +285,7 @@
 
 /* Outstanding */
 .outstanding {
-    width: 1270px;
+    max-width: 1270px;
     margin: 0 auto;
     text-align: center;
 
@@ -318,13 +326,14 @@
 
     .container {
         display: flex;
+        gap: 15px;
         justify-content: space-evenly;
     }
 }
 
 /* News */
 .news {
-    width: 1300px;
+    max-width: 1300px;
     padding: 40px 0;
     margin: 0 auto;
     text-align: center;
@@ -360,6 +369,261 @@
             width: 200px;
             border: 1px solid #ccc;
             padding: 10px;
+        }
+    }
+}
+
+/* Reponsive */
+@media (max-width: 1356px) {
+    .brand-icon {
+        .img-monopoly {
+            width: 1200px;
+        }
+    }
+
+    .best-seller {
+        width: 1170px;
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 15px;
+
+            .product-card {
+                width: 100%;
+            }
+        }
+    }
+
+    .top-favorite {
+        .vali,
+        .product {
+            width: 1170px;
+        }
+    }
+}
+
+@media (max-width: 1236px) {
+    .brand-icon {
+        .img-monopoly {
+            width: 100%;
+        }
+    }
+
+    .best-seller {
+        width: 97%;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .top-favorite {
+        .vali,
+        .product {
+            width: 97.5%;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .brand-icon {
+        .logo-brand {
+            justify-content: center;
+        }
+    }
+
+
+    .outstanding {
+        .header {
+            font-size: 2.4rem;
+        }
+
+        .container {
+            padding: 0 15px;
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    .best-seller {
+        width: 96.5%;
+        min-height: 500px;
+        .container {
+            .product-card {
+                height: 342px;
+            }
+        }
+    }
+
+    .top-favorite {
+        .vali .product-card:last-child,
+        .product .product-card:last-child {
+            display: none;
+        }
+    }
+
+    .product-of-web {
+        .header {
+            font-size: 2.4rem;
+        }
+    }
+
+    .outstanding {
+        .header .title{
+            font-size: 2.4rem;
+        }
+
+        .container {
+            .product-card:last-child {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .banner {
+        .buttons button {
+            width: 40px;
+            height: 40px;
+        }
+
+        .buttons button i{
+            font-size: 2rem;
+        }
+    }
+
+    .brand-icon {
+        .header {
+            text-align: center;
+        }
+
+        .logo-brand img {
+            width: 20%;
+        }
+    }
+
+    .best-seller {
+        width: 95%;
+        padding-bottom: 20px;
+        .title img{
+            width: 100%;
+            padding: 0 15px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 15px;
+            .product-card {
+                width: 47%;
+                height: 100%;
+                .product-card__price {
+                    flex-wrap: wrap;
+                }
+            }
+
+            .product-card:last-child {
+                display: none;
+            }
+        }
+    }
+
+    .top-favorite {
+        margin: 0 15px;
+
+        .product-card {
+            width: 50%;
+            height: 100%;
+        }
+
+        .vali .product-card:nth-child(4),
+        .vali .product-card:nth-child(3),
+        .product .product-card:nth-child(3),
+        .product .product-card:nth-child(4) {
+            display: none;
+        }
+    }
+
+    .product-of-web {
+        .container img {
+            width: 90%;
+        }
+    }
+
+
+    .news {
+        .header {
+            font-size: 2.4rem;
+            line-height: 4.08rem;    
+        }
+    }
+
+    .outstanding {
+        margin: 0 15px;
+        .container {
+            width: 97.5%;
+            .product-card {
+                width: 100%;
+            }
+
+            .product-card:nth-child(3),
+            .product-card:nth-child(4) {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 560px) {
+    .best-seller {
+        width: 94%;
+    }
+
+    .top-favorite {
+        .container li {
+            font-size: 1.4rem;
+            line-height: 2.6rem;    
+        }
+    }
+
+    .product-of-web {
+        height: 380px;
+    }
+}
+
+@media (max-width: 456px) {
+    .best-seller {
+        .container {
+            .product-card {
+                height: 350px;
+            }
+        }
+    }
+
+    .top-favorite {
+        .container li {
+            font-size: 1.23rem;
+            padding: 0 15px 10px;
+        }
+    }
+}
+
+@media (max-width: 428px) {
+    .product-of-web,
+    .news {
+        .header {
+            font-size: 2.1rem;
+        }
+    }
+
+    .news {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .container {
+            .img {
+                width: 45%;
+            }
         }
     }
 }

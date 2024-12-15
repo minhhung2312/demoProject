@@ -1,4 +1,6 @@
-@import url('/src/components/components.css');
+:root {
+    --hover-corlor: #f15a29;
+}
 
 * {
     box-sizing: border-box;
