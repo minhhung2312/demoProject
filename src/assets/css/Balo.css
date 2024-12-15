@@ -121,6 +121,7 @@
                 min-height: 815px;
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: space-evenly;
                 gap: 15px;
 
                 .not-product {
@@ -146,5 +147,89 @@
         font-size: 2.4rem;
         line-height: 3.36rem;
         font-weight: 700;
+    }
+}
+
+@media (max-width: 1355px) {
+    .product-filter {
+        .navbar {
+            .content {
+                width: 1100px;
+            }
+        }
+        .container {
+            width: 1100px;
+        }
+    }
+    .paragraph {
+        width: 1100px;
+    }
+}
+
+@media (max-width: 1115px) {
+    .product-filter {
+        .navbar {
+            .content {
+                width: 900px;
+            }
+        }
+        .container {
+            width: 900px;
+
+            .option {
+                .brands label,
+                .price label {
+                    height: 100%;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    
+    .paragraph {
+        width: 900px;
+    }
+}
+
+@media (max-width: 991px) {
+    .product-filter {
+        .navbar {
+            .content {
+                width: 100%;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+        }
+        .container {
+            width: 100%;
+            flex-direction: column;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .paragraph {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .displayed {
+        .container-product {
+            .product-card {
+                width: 30%;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .displayed {
+        .container-product {
+            .product-card {
+                width: 45%;
+            }
+        }
     }
 }

@@ -96,3 +96,40 @@
     }
     
 }
+
+@media (max-width: 660px) {
+    .cart-container {
+        width: 450px;
+
+        .body {
+            .cart-list {
+                .cart-item {
+                    .cart-info .cart-item__name {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .cart-container {
+        .body {
+            .cart-list {
+                .cart-item {
+                    flex-direction: column;
+                    .cart-info {
+                        width: 100%;
+                    }
+                    .button-remove {
+                        float: left;
+                        width: 15%;
+                        margin-right: auto;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
