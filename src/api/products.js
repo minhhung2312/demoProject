@@ -597,6 +597,25 @@ const products = [
       { id: 'color2', name: ['black'], thumbnail: '/images/color-vali-top4.2.webp', image: '/images/vali-top4.2.webp' },
       { id: 'color3', name: ['purple'], thumbnail: '/images/color-vali-top4.3.webp', image: '/images/vali-top4.3.webp' },
     ],
+    details: {
+        features: [
+            "Logo hoàn thiện tinh tế, sang trong",
+            "Tổ chức nội thất thông minh, tiện dụng",
+            "Kết cấu vỏ vali hạn chế trầy xước",
+            "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
+            "Tay cầm chắc chắn, có thể thay đổi độ cao để phù hợp với người dùng",
+            "Hệ thống bánh xe đôi 360° vận hành êm nhẹ"
+        ],
+        desc: ["Bộ sưu tập vali kéo nhựa Kiza được đặc trưng bởi hình dạng biểu tượng của logo Kamiliant và được thể hiện một cách vui nhộn và độc đáo. Vali Kiza có thiết kế dạng hình hộp với sức chứa được gia tăng tối đa. Với các tính năng thiết thực như siêu nhẹ, dung tích lớn, độ bền cao, bề mặt vali hạn chế trầy xước,... giúp bạn thỏa sức tận hưởng chuyến hành trình một cách thoải mái."],
+        paramters: [
+            { capacity: "71L" },
+            { volume: "3.2kg" },
+            { dimension: "47 x 28 x 68 cm" },
+            { tankage: "20-25kg" },
+            { warranty: "1 năm" },
+            { material: "Polypropylene" },
+        ]
+    }
   },
   {
     id: 20,
@@ -611,6 +630,28 @@ const products = [
       { id: 'color2', name: ['yellow'], code: '#e8d2a1', image: '/images/vali-top5.2.webp' },
       { id: 'color3', name: ['black'], code: '#000', image: '/images/vali-top5.3.webp' },
     ],
+    details: {
+        features: [
+           "Hệ thống 4 bánh xe đôi giảm xóc Optimov™",
+           "Khóa kéo đôi bảo mật Duosaf™",
+           "Tính năng tối đa hóa sức chứa PlentiVol™",
+           "Nắp mở phía trước độc đáo",
+           "Hệ thống móc treo đồ ở bên hông vali tiện dụng",
+           "Tích hợp túi đựng đồ đã sử dụng",
+           "Khả năng mở rộng tăng sức chứa",
+           "Cổng sạc USB tích hợp trên size cabin",
+           "Ngăn chứa laptop 14' ở size cabin"
+        ],
+        desc: ["Bộ sưu tập này là sự kết hợp hoàn hảo giữa vẻ đẹp và trí tuệ, với ngoại thất tuyệt vời được bổ sung các tính năng thông minh và nội thất tinh tế. Khả năng phân chia không gian PlentiVol™ cho phép sắp xếp hành lý linh hoạt và tối đa hóa sức chứa thêm 15%. Khả năng mở phía trước cho phép truy cập mà không cần mở hoàn toàn vali. Hệ thống bánh xe hấp thụ sốc Optimov™ tăng cường khả năng di chuyển êm ái trên mọi bề mặt. Nội thất tổ chức phong phú với túi đựng đồ đi kèm để dễ dàng đóng gói và sắp xếp. Khóa kéo đôi Duosaf™ giúp bảo vệ hành lý của bạn luôn được an toàn. Mặt trước mở theo chiều dọc với vali size cabin có ngăn chứa laptop và cổng sạc USB cực kỳ hữu ích."],
+        paramters: [
+            { capacity: "77L" },
+            { volume: "4.2kg" },
+            { dimension: "46 x 31/35 x 68 cm" },
+            { tankage: "20-25kg" },
+            { warranty: "3 năm" },
+            { material: "Polycarbonate" },
+        ]
+    }
   },
   {
     id: 21,
@@ -621,8 +662,33 @@ const products = [
     oldPrice: '4,500,000₫',
     isTopBalo: true,
     colors: [
-      { id: 'color1', name: ['black'], code: '#000', image: '/images/balo-trend1.1.webp' },
+      { id: 'color1', name: ['black'], code: '#000', image: '/images/balo-trend1.1.jpg' },
     ],
+    details: {
+        features: [
+            "Balo laptop 17' XE Extent sử dụng chất liệu vải chính bên ngoài làm từ chai PET tái chế",
+            "Ngăn laptop Triple Protect cho laptop lên đến 17'",
+            "Ngăn máy tính bảng 10' chuyên dụng",
+            "Ngăn chính có thể mở rộng tăng thêm sức chứa",
+            "Hệ thống tổ chức thông minh, dễ dàng sắp xếp đồ dạc",
+            "Ngăn chứa bàn phím chuyên dụng",
+            "Ngăn đựng chuột máy tính",
+            "Ngăn bảo mật ẩn ở mặt sau balo cho các vật có giá trị",
+            "Túi bên hông đựng bình nước hoặc ô dù",
+            "Đai gài cần đẩy vali giúp rảnh tay khi di chuyển",
+            "Đệm lưng thông thoáng tạo sự thoải mái tối đa",
+            "Dây đeo vai giảm xóc và có đệm êm ái, có thể điều chỉnh để phù hợp với hình dáng cơ thể",
+            "Tay cầm có đệm mềm mại và bền chắc, dễ cầm nắm"
+        ],
+        desc: ["Balo laptop 17' XE Extent là một trong những lựa chọn tối ưu dành cho những người dùng yêu cầu cao về độ bền, tính năng tiện dụng và thiết kế thời trang. Với kích thước phù hợp cho các dòng laptop lên tới 17 inch, chiếc balo này không chỉ là một sản phẩm bảo vệ thiết bị mà còn là phụ kiện lý tưởng giúp bạn di chuyển thuận tiện hơn trong công việc và cuộc sống hàng ngày."],
+        paramters: [
+            { capacity: "37L" },
+            { volume: "1.08kg" },
+            { dimension: "35 x 24 x 50 cm" },
+            { warranty: "5 năm" },
+            { material: "75% recycled Polyester + 19% Polyester + 6% PVC" },
+        ]
+    }
   },
   {
     id: 22,
@@ -635,6 +701,21 @@ const products = [
     colors: [
       { id: 'color1', name: ['blue'], code: '#09a9c1', image: '/images/balo-trend2.1.webp' },
     ],
+    details: {
+        features: [
+            "Ngăn ẩn ở mặt sau balo dành cho các vật có giá trị",
+            "Lớp vải lót bên trong được làm từ vật liệu tái chế, bền vững với môi trường",
+            "Vải lót được xử lý kháng khuẩn hiện đại",
+        ],
+        desc: ["Balo Rudy 02 ASR là sự kết hợp hoàn hảo giữa thiết kế thông minh, chất liệu bền bỉ và tính năng tiện dụng. Đây chắc chắn là lựa chọn lý tưởng cho những ai đang tìm kiếm một chiếc balo đa năng, phục vụ tốt cho công việc, học tập và các hoạt động ngoài trời. Với Rudy 02 ASR, bạn không chỉ sỡ hữu một chiếc balo tiện lợi mà còn thể hiện phong cách và sự tinh tế trong từng chi tiết."],
+        paramters: [
+            { capacity: "21L" },
+            { volume: "0.4kg" },
+            { dimension: "30 x 14 x 42 cm" },
+            { warranty: "1 năm" },
+            { material: "100% Polyester" },
+        ]
+    }
   },
   {
     id: 23,
@@ -647,6 +728,30 @@ const products = [
     colors: [
       { id: 'color1', name: ['black'], code: '#000', image: '/images/balo-trend3.1.webp' },
     ],
+    details: {
+        features: [
+            "Chi tiết phản quang được bố trí trên balo",
+            "Móc treo có thể tháo rời, dễ dàng gắn các vật dụng nhỏ",
+            "Ngăn riêng cho cổng USB và sạc dự phòng",
+            "Hai ngăn có khóa kéo ở phía trước",
+            "Ngăn chính rộng rãi có thể chứa quần áo",
+            "Ngăn riêng cho laptop",
+            "Tương thích với laptop 17.3' và tablet 10.5'",
+            "2 túi bên hông có khóa kéo",
+            "Mặt lưng thiết kế công thái học với hệ thống lưu thông không khí, mang lại cảm giác thoải mái tối đa",
+            "Dây đeo ngực có thể tháo rời, tăng cường sự ổn định khi di chuyển",
+            "Dây đeo vai giảm xóc giúp giảm áp lực lên vai",
+            "Tích hợp đai gài cần đẩy vali"
+        ],
+        desc: ["Balo laptop 17.3in Biz2Go EXP Overnight với thiết kế nổi bật, tính năng vượt trội, không chỉ là một phụ kiện thời trang mà còn là người bạn đồng hành lý tưởng cho những chuyến đi hằng ngày. Với thiết kế đẹp mắt, chất liệu bền bỉ, có ngăn riêng để chứa laptop, thiết kế không gian chứa đồ thông minh và sự thoải mái tối đa balo laptop sẽ là lựa chọn tuyệt vời cho những ai đang tìm kiếm một chiếc balo vừa tiện dụng lại vừa phong cách."],
+        paramters: [
+            { capacity: "30/35L" },
+            { volume: "1.3kg" },
+            { dimension: "35 x 22/26 x 47 cm" },
+            { warranty: "2 năm" },
+            { material: "100% Polyester" },
+        ]
+    }
   },
   {
     id: 24,
@@ -659,6 +764,30 @@ const products = [
     colors: [
       { id: 'color1', name: ['black'], code: '#000', image: '/images/balo-trend4.1.webp' },
     ],
+    details: {
+        features: [
+            "Chi tiết phản quang được bố trí trên balo",
+            "Móc treo có thể tháo rời, dễ dàng gắn các vật dụng nhỏ",
+            "Ngăn riêng cho cổng USB và sạc dự phòng",
+            "Hai ngăn có khóa kéo ở phía trước",
+            "Ngăn chính rộng rãi có thể chứa quần áo",
+            "Ngăn riêng cho laptop",
+            "Tương thích với laptop 14.1' và tablet 10.5'",
+            "2 túi bên hông có khóa kéo",
+            "Mặt lưng thiết kế công thái học với hệ thống lưu thông không khí, mang lại cảm giác thoải mái tối đa",
+            "Dây đeo ngực có thể tháo rời, tăng cường sự ổn định khi di chuyển",
+            "Dây đeo vai giảm xóc giúp giảm áp lực lên vai",
+            "Tích hợp đai gài cần đẩy vali"
+        ],
+        desc: ["Balo Laptop 14.1' Biz2Go là một lựa chọn lý tưởng cho những người cần sự kết hợp giữa tính năng bảo vệ laptop, sự tiện dụng và phong cách hiện đại. Với chất liệu bền bỉ, ngăn đựng laptop chống sốc, thiết kế gọn gàng và khả năng bảo vệ đồ đạc tốt, chiếc balo này là người bạn đồng hành hoàn hảo cho những chuyến công tác, học tập hay đi làm hàng ngày."],
+        paramters: [
+            { capacity: "20.5L" },
+            { volume: "1kg" },
+            { dimension: "32 x 18 x 42.5 cm" },
+            { warranty: "2 năm" },
+            { material: "100% Polyester" },
+        ]
+    }
   },
   {
     id: 25,
@@ -673,6 +802,16 @@ const products = [
       { id: 'color2', name: ['blue'], code: '#0285e6', image: '/images/balo-trend5.2.webp' },
       { id: 'color3', name: ['black'], code: '#000', image: '/images/balo-trend5.3.webp' },
     ],
+    details: {
+        desc: ["Balo little Carter có kích thước nhỏ gọn, dây đeo được thiết kế riêng phù hợp với lưng của trẻ em, thiết kế đơn giản nhưng đầy đủ tính năng. Kiểu dáng hiện đại, chất liệu bền bỉ little Carter là sự lựa chọn lý tưởng cho trẻ mang đi học, đi chơi, đi du lịch. Balo Little Carter là sự lựa chọn tuyệt vời cho những ai tìm kiếm một chiếc balo trẻ em nhỏ gọn, tiện dụng và phong cách đáng yêu dành cho trẻ. Với thiết kế đơn giản nhưng hiện đại, chất liệu bền bỉ và tính năng tối ưu, chiếc balo này sẽ là người bạn đồng hành lý tưởng trong cuộc sống hằng ngày, từ đi học, đi chơi, du lịch."],
+        paramters: [
+            { capacity: "7L" },
+            { volume: "0.2kg" },
+            { dimension: "20 x 12 x 28 cm" },
+            { warranty: "1 năm" },
+            { material: "100% Polyester" },
+        ]
+    }
   },
 
 
@@ -687,6 +826,22 @@ const products = [
     colors: [
       { id: 'color1', name: ['black'], code: '#000', image: '/images/bag-top1.1.webp' },
     ],
+    details: {
+        features: [
+            "Túi đeo vai Segno 2.0 ASR với nội thất tổ chức phong phú, tinh tế",
+            "Lớp lót nội thất được xử lý kháng khuẩn hiện đại",
+            "Ngăn có khóa kéo ở mặt trước tiện dụng",
+            "Ngăn ẩn ở mặt sau túi dành cho các vật có giá trị"
+        ],
+        desc: ["Túi đeo vai Segno 2.0 ASR không chỉ là một chiếc túi thông thường. Được thiết kế để đáp ứng nhu cầu của những người luôn di chuyển và có phong cách sống năng động. Sự kết hợp giữa tính năng bảo mật và linh hoạt đã giúp chiếc túi trở thành sự lựa chọn tuyệt vời cho những người yêu thích du lịch, công tác hoặc đơn giản là di chuyển trong môi trường đô thị. Với tất cả những tính năng nổi bật như tính năng bảo mật cao, thiết kế hiện đại và chất liệu bền bỉ, túi đeo vai Segno 2.0 ASR chắc chắn sẽ là sự lựa chọn lý tưởng cho những ai cần một chiếc túi đeo vai vừa tiện lợi, an toàn vừa hiện đại. Đừng bỏ lỡ cơ hội sở hữu sản phẩm này và trải nghiệm sự khác biệt mà sản phẩm mang lại."],
+        paramters: [
+            { capacity: "5L" },
+            { volume: "0.28kg" },
+            { dimension: "21 x 8 x 26.5 cm" },
+            { warranty: "1 năm" },
+            { material: "100% Polyester" },
+        ]
+    }
   },
   {
     id: 27,
@@ -701,6 +856,22 @@ const products = [
       { id: 'color2', name: ['blue'], code: '#4d859b', image: '/images/bag-top2.2.webp' },
       { id: 'color3', name: ['black'], code: '#000', image: '/images/bag-top2.3.webp' },
     ],
+    details: {
+        features: [
+            "Bộ sưu tập American Tourister Orbit là sự kết hợp hoàn hảo giữa phong cách và tính năng, mang đến sự tiện lợi và thoải mái cho những người luôn bận rộn. Đây là dòng túi đeo sát cơ thể lý tưởng cho những ai không ngừng di chuyển. Bộ sưu tập bao gồm 3 mẫu: Rigel, Eris và Vega.",
+            "Lớp lót RPET được xử lý kháng khuẩn bằng công nghệ Microban™, giúp tiêu diệt đến 99% vi khuẩn và nấm mốc, mang đến sự yên tâm trong suốt hành trình.",
+            "Dây đeo vai có thể tháo rời",
+            "Ngăn ẩn ở bên trong",
+            "Túi phụ có thể tháo rời"
+        ],
+        paramters: [
+            { capacity: "4L" },
+            { volume: "0.2kg" },
+            { dimension: "17 x 6 x 23 cm" },
+            { warranty: "1 năm" },
+            { material: "100% Polyester" },
+        ]
+    }
   },
   {
     id: 28,
@@ -715,6 +886,22 @@ const products = [
       { id: 'color2', name: ['blue'], code: '#4c6ea5', image: '/images/bag-top3.2.webp' },
       { id: 'color3', name: ['black'], code: '#000', image: '/images/bag-top3.3.webp' },
     ],
+    details: {
+        features: [
+            "Bộ sưu tập American Tourister Orbit là sự kết hợp hoàn hảo giữa phong cách và tính năng, mang đến sự tiện lợi và thoải mái cho những người luôn bận rộn. Đây là dòng túi đeo sát cơ thể lý tưởng cho những ai không ngừng di chuyển. Bộ sưu tập bao gồm 3 mẫu: Rigel, Eris và Vega.",
+            "Lớp lót RPET được xử lý kháng khuẩn bằng công nghệ Microban™, giúp tiêu diệt đến 99% vi khuẩn và nấm mốc, mang đến sự yên tâm trong suốt hành trình.",
+            "Cách đeo linh hoạt: có thể đeo chéo hoặc đeo hông",
+            "Ngăn khóa kéo ở phía sau giữ an toàn cho các vật có giá trị",
+            "Lớp lót làm từ vật liệu tái chế và được xử lý kháng khuẩn"
+        ],
+        paramters: [
+            { capacity: "4L" },
+            { volume: "0.23kg" },
+            { dimension: "38 x 7 x 16 cm" },
+            { warranty: "1 năm" },
+            { material: "100% Nylon" },
+        ]
+    }
   },
   {
     id: 29,
@@ -729,6 +916,22 @@ const products = [
       { id: 'color2', name: ['black'], code: '#000', image: '/images/bag-top4.2.webp' },
       { id: 'color3', name: ['gray'], code: '#807775', image: '/images/bag-top4.3.webp' },
     ],
+    details: {
+        features: [
+            "Bộ sưu tập American Tourister Orbit là sự kết hợp hoàn hảo giữa phong cách và tính năng, mang đến sự tiện lợi và thoải mái cho những người luôn bận rộn. Đây là dòng túi đeo sát cơ thể lý tưởng cho những ai không ngừng di chuyển. Bộ sưu tập bao gồm 3 mẫu: Rigel, Eris và Vega.",
+            "Lớp lót RPET được xử lý kháng khuẩn bằng công nghệ Microban™, giúp tiêu diệt đến 99% vi khuẩn và nấm mốc, mang đến sự yên tâm trong suốt hành trình.",
+            "Cách đeo linh hoạt: có thể đeo chéo hoặc đeo hông",
+            "Ngăn khóa kéo ở phía sau giữ an toàn cho các vật có giá trị",
+            "Lớp lót làm từ vật liệu tái chế và được xử lý kháng khuẩn"
+        ],
+        paramters: [
+            { capacity: "2L" },
+            { volume: "0.26kg" },
+            { dimension: "16 x 3 x 22 cm" },
+            { warranty: "1 năm" },
+            { material: "100% Nylon" },
+        ]
+    }
   },
   {
     id: 30,
@@ -743,6 +946,22 @@ const products = [
       { id: 'color2', name: ['yellow'], code: '#c99657', image: '/images/bag-top5.2.webp' },
       { id: 'color3', name: ['black'], code: '#000', image: '/images/bag-top5.3.webp' },
     ],
+    details: {
+        features: [
+            "Bộ sưu tập American Tourister Orbit là sự kết hợp hoàn hảo giữa phong cách và tính năng, mang đến sự tiện lợi và thoải mái cho những người luôn bận rộn. Đây là dòng túi đeo sát cơ thể lý tưởng cho những ai không ngừng di chuyển. Bộ sưu tập bao gồm 3 mẫu: Rigel, Eris và Vega.",
+            "Lớp lót RPET được xử lý kháng khuẩn bằng công nghệ Microban™, giúp tiêu diệt đến 99% vi khuẩn và nấm mốc, mang đến sự yên tâm trong suốt hành trình.",
+            "Cách đeo linh hoạt: có thể đeo chéo hoặc đeo hông",
+            "Ngăn khóa kéo ở phía sau giữ an toàn cho các vật có giá trị",
+            "Lớp lót làm từ vật liệu tái chế và được xử lý kháng khuẩn"
+        ],
+        paramters: [
+            { capacity: "3L" },
+            { volume: "0.25kg" },
+            { dimension: "26 x 6 x 16 cm" },
+            { warranty: "1 năm" },
+            { material: "100% Nylon" },
+        ]
+    }
   },
   {
     id: 31,
