@@ -76,10 +76,14 @@
     position: relative;
     .cart-count {
         position: absolute;
-        right: -6px;
-        bottom: -6px;
+        right: -8px;
+        top: -10px;
         font-size: 1.4rem;
     }
+}
+.header-cart i:hover,
+.header-search i:hover{
+    color: var(--hover-corlor);
 }
 .discount {
     font-size: 1.4rem;

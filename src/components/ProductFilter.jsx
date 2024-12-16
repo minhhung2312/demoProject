@@ -2,8 +2,12 @@ import React, { useState, useEffect } from "react";
 import ProductCard from "./ProductCard";
 import products from "../api/products";
 import { Link } from "react-router-dom";
+import "../assets/css/ProductFilters.css";
 
 const ProductFilter = ({ name }) => {
+    const itemsPerPage = 16; // Số sản phẩm trên mỗi trang
+    const [currentPage, setCurrentPage] = useState(1);
+
     const item = products.filter((product) => product.category === name);
 
     const [filters, setFilters] = useState({
@@ -81,12 +85,25 @@ const ProductFilter = ({ name }) => {
         });
 
         setDisplayedProducts(filtered);
+        setCurrentPage(1); // Reset về trang đầu tiên khi bộ lọc thay đổi
     }, [filters]);
 
     const uniqueBrands = [...new Set(item.map((p) => p.brand))];
     const uniqueColors = Array.from(
         new Set(item.flatMap((p) => p.colors.flatMap((color) => color.name)))
     );
+
+    // Tính toán danh sách sản phẩm hiển thị trên trang hiện tại
+    const paginatedProducts = displayedProducts.slice(
+        (currentPage - 1) * itemsPerPage,
+        currentPage * itemsPerPage
+    );
+
+    const totalPages = Math.ceil(displayedProducts.length / itemsPerPage);
+
+    const handlePageChange = (page) => {
+        setCurrentPage(page);
+    };
 
     return (
         <div className="product-filter">
@@ -97,6 +114,7 @@ const ProductFilter = ({ name }) => {
             </nav>
             <div className="container">
                 <div className="option">
+                    {/* Bộ lọc thương hiệu */}
                     <div>
                         <h3>Thương hiệu -</h3>
                         <div className="brands">
@@ -115,6 +133,7 @@ const ProductFilter = ({ name }) => {
                             ))}
                         </div>
                     </div>
+                    {/* Bộ lọc giá */}
                     <div>
                         <h3>Giá -</h3>
                         <div className="price">
@@ -164,6 +183,7 @@ const ProductFilter = ({ name }) => {
                             </label>
                         </div>
                     </div>
+                    {/* Bộ lọc màu sắc */}
                     <div>
                         <h3>Màu sắc -</h3>
                         <div className="colors" style={{ display: "flex" }}>
@@ -187,14 +207,30 @@ const ProductFilter = ({ name }) => {
                 <div className="displayed">
                     <h2 className="title">{name}</h2>
                     <div className="container-product">
-                        {displayedProducts.length > 0 ? (
-                            displayedProducts.map((product) => (
+                        {paginatedProducts.length > 0 ? (
+                            paginatedProducts.map((product) => (
                                 <ProductCard key={product.id} product={product} />
                             ))
                         ) : (
                             <p className="not-product">Không có sản phẩm</p>
                         )}
                     </div>
+                {/* Điều hướng phân trang */}
+                {totalPages > 1 && (
+                    <div className="pagination">
+                        {Array.from({ length: totalPages }, (_, i) => (
+                            <button
+                                key={i + 1}
+                                className={`page-btn ${
+                                    currentPage === i + 1 ? "active" : ""
+                                }`}
+                                onClick={() => handlePageChange(i + 1)}
+                            >
+                                {i + 1}
+                            </button>
+                        ))}
+                    </div>
+                )}
                 </div>
             </div>
         </div>
