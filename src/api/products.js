@@ -533,6 +533,7 @@ const products = [
     ],
   },
   {
+
     id: 36,
     brand: 'American Tourister - Mỹ',
     name:'Túi đeo chéo Paisley Joy size S',
@@ -580,7 +581,82 @@ const products = [
       {id: 'color1', name: ['black'], code: '#000000', image: '/images/tuixach_082_01.webp',},
       {id: 'color2', name: ['gray'], code: '#3e444e', image: '/images/tuixach_082_02.webp'},
     ],
-  }
+  },
+
+    id: 50,
+    brand: 'High Sierra - Mỹ',
+    name: 'Balo laptop 17in Swoop SG',
+    category: 'balo',
+    newPrice: '800,000₫',
+    oldPrice: '1,600,000₫',
+    colors: [
+      { id: 'color1', name: ['black'], code: '#2a2829', image: '/images/balo_050_01.jpg' },
+      { id: 'color2', name: ['gray'], code: '#676248', image: '/images/balo_050_02.jpg' },
+      { id: 'color3', name: ['gray'], thumbnail: '/images/color-balo_050_03.jpg', image: '/images/balo_050_03.jpg' },
+      { id: 'color4', name: ['gray'], thumbnail: '/images/color-balo_050_04.jpg', image: '/images/balo_050_04.jpg' },
+    ],
+  },
+  {
+    id: 51,
+    brand: 'American Tourister - Mỹ',
+    name: 'Balo Mate 2 02',
+    category: 'balo',
+    newPrice: '800,000₫',
+    oldPrice: '1,600,000₫',
+    colors: [
+      { id: 'color1', name: ['blue'], code: '#57a2af', image: '/images/balo_051_01.jpg' },
+      { id: 'color2', name: ['orange'], code: '#ff9900', image: '/images/balo_051_02.jpg' },
+
+    ],
+  },
+  {
+    id: 52,
+    brand: 'American Tourister - Mỹ',
+    name: 'Balo trẻ em Diddle 2.0 R',
+    category: 'balo',
+    newPrice: '700,000₫',
+    oldPrice: '1,400,000₫',
+    colors: [
+      { id: 'color1', name: ['orange'], thumbnail: '/images/color-balo_052_01.jpg', image: '/images/balo_052_01.jpg' },
+      { id: 'color2', name: ['pink'], thumbnail: '/images/color-balo_052_02.jpg', image: '/images/balo_052_02.jpg' },
+
+    ],
+  },
+  {
+    id: 53,
+    brand: 'Samsonite - Mỹ',
+    name: 'Balo trẻ em Sammies Dreams - Giraffe',
+    category: 'balo',
+    newPrice: '800,000₫',
+    oldPrice: '1,600,000₫',
+    colors: [
+      { id: 'color1', name: ['yellow'], code: '#fce151', image: '/images/balo_053_01.jpg' },
+    ],
+  },
+  {
+    id: 54,
+    brand: 'American Tourister - Mỹ',
+    name: 'Balo Colton',
+    category: 'balo',
+    newPrice: '900,000₫',
+    oldPrice: '1,800,000₫',
+    colors: [
+      { id: 'color1', name: ['blue'], thumbnail: '/images/color-balo_054_01.jpg', image: '/images/balo_054_01.jpg' },
+      { id: 'color2', name: ['brown'], code: '#996633', image: '/images/balo_054_02.jpg' },
+      { id: 'color3', name: ['black'], code: '#000000', image: '/images/balo_054_03.jpg' },
+    ],
+  },
+  {
+    id: 55,
+    brand: 'Samsonite - Mỹ',
+    name: 'Balo trẻ em Sammies Dreams - Ducky',
+    category: 'balo',
+    newPrice: '800,000₫',
+    oldPrice: '1,600,000₫',
+    colors: [
+      { id: 'color1', name: ['yellow'], thumbnail: '/images/color-balo_055_01.jpg', image: '/images/balo_055_01.jpg' },
+    ],
+  },
 ];
 
 export default products;
