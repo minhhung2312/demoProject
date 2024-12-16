@@ -532,6 +532,55 @@ const products = [
       { id: 'color2', name: ['black'], code: '#000000', image: '/images/balo_048_02.jpg' },
     ],
   },
+  {
+    id: 36,
+    brand: 'American Tourister - Mỹ',
+    name:'Túi đeo chéo Paisley Joy size S',
+    category: 'handbag',
+    newPrice: '750,000đ',
+    oldPrice: '1,500,000đ',
+    colors: [
+      {id: 'color1', name: ['black'], code: '#000000', image: '/images/tuideocheoPaisleyJoy_01.webp' },
+      {id: 'color2', name: ['gray'],code: '#c8c1ba',image: '/images/tuideocheoPaisleyJoy_02.webp'},
+    ]
+  },
+  {
+    id: 37,
+    brand: 'American Tourister - Mỹ',
+    name: 'Túi duffle Corey 01 ASR',
+    category: 'handbag',
+    newPrice: '950,000đ',
+    oldPrice: '1,900,000đ',
+    colors: [
+      {id: 'color1', name: ['red'], code: '#FF0000', image: '/images/tuixach_080_01.webp',},
+      {id: 'color2', name: ['gray'], code: '#67665b', image: '/images/tuixach_080_02.webp'},
+    ],
+  },
+  {
+    id: 38,
+    brand: 'Samsonite Red - Mỹ',
+    name: 'Túi đeo chéo Ferley',
+    category: 'handbag',
+    newPrice: '4,200,000đ',
+    oldPrice: '6,000,000đ',
+    colors: [
+      {id: 'color1', name: ['gray'], code: '#f2eee6', image: '/images/tuixach_081_01.webp',},
+      {id: 'color2', name: ['pink'], code: '#ffe2de', image: '/images/tuixach_081_02.webp'},
+      {id: 'coler3', name: ['black'], code: '#000000', image: '/images/tuixach_081_03.webp'},
+    ],
+  },
+  {
+    id: 39,
+    brand: 'Victorinox - Thụy Sĩ',
+    name: 'Túi tote 2-way Architecture Urban2',
+    category: 'handbag',
+    newPrice: '7,210,000đ',
+    oldPrice: '10,300,000đ',
+    colors: [
+      {id: 'color1', name: ['black'], code: '#000000', image: '/images/tuixach_082_01.webp',},
+      {id: 'color2', name: ['gray'], code: '#3e444e', image: '/images/tuixach_082_02.webp'},
+    ],
+  }
 ];
 
 export default products;
