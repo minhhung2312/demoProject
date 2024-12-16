@@ -13,6 +13,7 @@ import SignUp from "../pages/SignUp";
 import Cart from "../components/Cart";
 import About from '../pages/About';
 import Contact from '../pages/Contact';
+import Search from './Search';
 
 function Header() {
     const [cart, setCart] = useState(() => {
@@ -84,8 +85,13 @@ function Header() {
                 </ul>
                 <ul>
                     <li>
+                        <Link to="/Search" className='header-search'>
+                            <i className="fa-solid fa-magnifying-glass"></i>
+                        </Link>
+                    </li>
+                    <li>
                         <Link to="/Cart" className='header-cart'>
-                            <img src="/icon/cart.png" alt="" />
+                            <i className="fa-solid fa-cart-shopping"></i>
                             {cartCount > 0 && <span className='cart-count'>{cartCount}</span>}
                         </Link>
                     </li>
@@ -107,6 +113,7 @@ function Header() {
                 <Route path="/Product/:id" element={<Product cart={cart} setCart={setCart}/>} />
                 <Route path="/Login" element={<Login />} />
                 <Route path="/SignUp" element={<SignUp />} />
+                <Route path='/Search' element={<Search />} />
                 <Route path='/Cart' element={<Cart cart={cart} setCart={setCart} />} />
             </Routes>
         </div>
