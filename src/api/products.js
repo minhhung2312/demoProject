@@ -484,8 +484,6 @@ const products = [
         ]
     }
   },
-
-
   {
     id: 16,
     brand: 'KAMILIANT BY MERICAN',
@@ -614,8 +612,6 @@ const products = [
       { id: 'color3', name: ['black'], code: '#000', image: '/images/vali-top5.3.webp' },
     ],
   },
-
-
   {
     id: 21,
     brand: 'WEBGER - THUỴ SĨ',
@@ -863,8 +859,7 @@ const products = [
       {id: 'color2', name: ['gray'], code: '#3e444e', image: '/images/tuixach_082_02.webp'},
     ],
   },
-
-    id: 50,
+  {  id: 50,
     brand: 'High Sierra - Mỹ',
     name: 'Balo laptop 17in Swoop SG',
     category: 'balo',
