@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import "../assets/css/Cart.css";
 
-function Cart({ cart }) {
+function Cart({ cart, setCart }) {
     const [currentCart, setCurrentCart] = useState(cart);
 
     useEffect(() => {
-        const savedCart = JSON.parse(localStorage.getItem("cart")) || [];
-        setCurrentCart(savedCart);
+        setCurrentCart(cart); // Đồng bộ hóa state nội bộ với prop
     }, [cart]);
 
     const parsePrice = (priceString) => {
@@ -19,6 +18,7 @@ function Cart({ cart }) {
 
         // Cập nhật state và lưu vào localStorage
         setCurrentCart(updatedCart);
+        setCart(updatedCart); // Cập nhật giỏ hàng trong Header
         localStorage.setItem("cart", JSON.stringify(updatedCart));
     };
 
@@ -28,10 +28,22 @@ function Cart({ cart }) {
     );
 
     const handleCheckout = () => {
-        // Xóa toàn bộ giỏ hàng
         setCurrentCart([]);
-        localStorage.removeItem("cart"); // Xóa dữ liệu giỏ hàng khỏi localStorage
+        setCart([]); // Cập nhật giỏ hàng trong Header
+        localStorage.removeItem("cart");
         alert("Cảm ơn bạn đã mua hàng!");
+    };
+
+    const handleUpdateQuantity = (itemId, newQuantity) => {
+        if (newQuantity < 1) return;
+
+        const updatedCart = currentCart.map((item) =>
+            item.id === itemId ? { ...item, quantity: newQuantity } : item
+        );
+
+        setCurrentCart(updatedCart);
+        setCart(updatedCart); // Cập nhật giỏ hàng trong Header
+        localStorage.setItem("cart", JSON.stringify(updatedCart));
     };
 
     return (
@@ -51,7 +63,34 @@ function Cart({ cart }) {
                                 />
                                 <div className='cart-info'>
                                     <p className='cart-item__name'>{item.name}</p>
-                                    <p>Số lượng: {item.quantity}</p>
+                                    <div className="controls">
+                                        <label>Số lượng: </label>
+                                        <button
+                                            className="decrease"
+                                            onClick={() =>
+                                                handleUpdateQuantity(item.id, item.quantity - 1)
+                                            }
+                                        >
+                                            -
+                                        </button>
+                                        <input
+                                            className="var-count"
+                                            type="text"
+                                            readOnly
+                                            value={item.quantity}
+                                            onChange={(e) =>
+                                                handleUpdateQuantity(item.id, parseInt(e.target.value, 10))
+                                            }
+                                        />
+                                        <button
+                                            className="increase"
+                                            onClick={() =>
+                                                handleUpdateQuantity(item.id, item.quantity + 1)
+                                            }
+                                        >
+                                            +
+                                        </button>
+                                    </div>
                                     <p>Giá: <span className='highlight'>{item.price}</span></p>
                                 </div>
                                 <button 

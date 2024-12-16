@@ -47,6 +47,42 @@
                         padding: 5px 0;
                     }
 
+                    .controls {
+                        display: flex;
+                        align-items: center;
+                        margin: 6px 0;
+                        label {
+                            margin-right: 6px;
+                            font-size: 1.5rem;
+                            line-height: 2.1rem;
+                        }
+                        button {
+                            border: none;
+                            height: 27px;
+                            width: 27px;
+                            padding: 10px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-weight: bold;
+                            font-size: 1.6rem;
+                            transition: all 0.3s ease;
+                            cursor: pointer;
+                        }
+                        button:hover {
+                            opacity: 0.6;
+                            background: #a8a6a6;
+                        }
+                        input {
+                            border: none;
+                            width: 60px;
+                            height: 27px;
+                            text-align: center;
+                            font-size: 1.5rem;
+                            background: #fafafa;
+                        }
+                    }
+
                     .highlight {
                         color: #777;
                         font-weight: 600;

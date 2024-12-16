@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, Route, Routes } from "react-router-dom";
 import "../assets/css/Header.css";
 import Brand from "../pages/Brand";
@@ -20,6 +20,8 @@ function Header() {
         return savedCart ? JSON.parse(savedCart) : [];
     });
 
+    const [cartCount, setCartCount] = useState(0);
+
     let isNavbarFixed = false;
     window.addEventListener("scroll", () => {
         const navbar = document.querySelector(".nav");
@@ -38,6 +40,10 @@ function Header() {
             }
         }
     });
+
+    useEffect(() => {
+        setCartCount(cart.length);
+    }, [cart]);
 
     return (
         <div>
@@ -78,8 +84,9 @@ function Header() {
                 </ul>
                 <ul>
                     <li>
-                        <Link to="/Cart">
+                        <Link to="/Cart" className='header-cart'>
                             <img src="/icon/cart.png" alt="" />
+                            {cartCount > 0 && <span className='cart-count'>{cartCount}</span>}
                         </Link>
                     </li>
                 </ul>
@@ -100,7 +107,7 @@ function Header() {
                 <Route path="/Product/:id" element={<Product cart={cart} setCart={setCart}/>} />
                 <Route path="/Login" element={<Login />} />
                 <Route path="/SignUp" element={<SignUp />} />
-                <Route path='/Cart' element={<Cart cart={cart}/>} />
+                <Route path='/Cart' element={<Cart cart={cart} setCart={setCart} />} />
             </Routes>
         </div>
     );
