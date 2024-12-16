@@ -1099,7 +1099,7 @@ const products = [
     newPrice: '800,000₫',
     oldPrice: '1,600,000₫',
     colors: [
-      { id: 'color1', name: ['blue'], code: '#57a2af', image: '/images/balo_051_01.jpg' },
+      { id: 'color1', name: ['blue'], code: '#57a2af', image: '/images/balo_051_01.webp' },
       { id: 'color2', name: ['orange'], code: '#ff9900', image: '/images/balo_051_02.jpg' },
 
     ],
@@ -1112,7 +1112,7 @@ const products = [
     newPrice: '700,000₫',
     oldPrice: '1,400,000₫',
     colors: [
-      { id: 'color1', name: ['orange'], thumbnail: '/images/color-balo_052_01.jpg', image: '/images/balo_052_01.jpg' },
+      { id: 'color1', name: ['orange'], thumbnail: '/images/color-balo_052_01.jpg', image: '/images/balo_052_01.webp' },
       { id: 'color2', name: ['pink'], thumbnail: '/images/color-balo_052_02.jpg', image: '/images/balo_052_02.jpg' },
 
     ],
@@ -1125,7 +1125,7 @@ const products = [
     newPrice: '800,000₫',
     oldPrice: '1,600,000₫',
     colors: [
-      { id: 'color1', name: ['yellow'], code: '#fce151', image: '/images/balo_053_01.jpg' },
+      { id: 'color1', name: ['yellow'], code: '#fce151', image: '/images/balo_053_01.webp' },
     ],
   },
   {
@@ -1139,17 +1139,6 @@ const products = [
       { id: 'color1', name: ['blue'], thumbnail: '/images/color-balo_054_01.jpg', image: '/images/balo_054_01.jpg' },
       { id: 'color2', name: ['brown'], code: '#996633', image: '/images/balo_054_02.jpg' },
       { id: 'color3', name: ['black'], code: '#000000', image: '/images/balo_054_03.jpg' },
-    ],
-  },
-  {
-    id: 55,
-    brand: 'Samsonite - Mỹ',
-    name: 'Balo trẻ em Sammies Dreams - Ducky',
-    category: 'balo',
-    newPrice: '800,000₫',
-    oldPrice: '1,600,000₫',
-    colors: [
-      { id: 'color1', name: ['yellow'], thumbnail: '/images/color-balo_055_01.jpg', image: '/images/balo_055_01.jpg' },
     ],
   },
 ];
