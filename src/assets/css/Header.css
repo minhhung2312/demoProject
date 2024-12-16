@@ -72,6 +72,15 @@
     color: var(--hover-corlor);
     cursor: pointer;
 }
+.header-cart {
+    position: relative;
+    .cart-count {
+        position: absolute;
+        right: -6px;
+        bottom: -6px;
+        font-size: 1.4rem;
+    }
+}
 .discount {
     font-size: 1.4rem;
     line-height: 2.3rem;
