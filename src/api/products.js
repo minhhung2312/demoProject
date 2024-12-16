@@ -57,7 +57,7 @@ const products = [
         { capacity: "77/84L" },
         { volume: "4.43kg" },
         { dimension: "44.5 x 27.5/ 30 x 65 cm" },
-        { capacity: "20-25kg" },
+        { tankage: "20-25kg" },
         { warranty: "3 năm" }
       ]
     }
@@ -90,7 +90,7 @@ const products = [
       paramters: [
         { volume: "2kg" },
         { dimension: "37 x 25 x 55 cm" },
-        { capacity: "7-10kg" },
+        { tankage: "7-10kg" },
         { material: "100% Pure Polycarbonate" },
         { warranty: "1 năm" }
       ]
@@ -109,6 +109,24 @@ const products = [
       { id: 'color2', name: ['gray'], code: '#777777', image: '/images/item-product-trend4.2.webp' },
       { id: 'color3', name: ['black'], code: '#000', image: '/images/item-product-trend4.3.webp' },
     ],
+    details:
+    {
+      features: [
+        "Bánh xe đôi 360° vận hành êm nhẹ",
+        "Khoang hành lý rộng rãi, nhiều túi",
+        "Khóa số lõm tích hợp TSA",
+        "Chất liệu nhựa PP siêu nhẹ và bền bỉ",
+        "Khả năng mở rộng (size trung và đại)",
+      ],
+      desc: ["Vali kéo Litevlo nằm trong bộ sưu tập Litevlo là dòng vali làm từ nhựa Polypropylene (PP) nhẹ nhất từ trước đến nay của thương hiệu American Tourister – Mỹ."],
+      paramters: [
+        { volume: "3.1kg" },
+        { dimension: "47 x 30/31 x 69 cm" },
+        { tankage: "20-25kg" },
+        { material: "100% Polycarbonate" },
+        { warranty: "3 năm" }
+      ]
+    }
   },
   {
     id: 5,
@@ -123,6 +141,24 @@ const products = [
       { id: 'color2', name: ['black'], code: '#000', image: '/images/item-product-trend5.2.webp' },
       { id: 'color3', name: ['green'], code: '#1d2e2b', image: '/images/item-product-trend5.3.webp' },
     ],
+    details:
+    {
+      features: [
+        "Khóa kéo đôi chống trộm",
+        "Nội thất phong phú, tinh tế",
+        "Hệ thống bánh xe đôi 360° vận hành êm nhẹ",
+        "Khóa số tích hợp khóa TSA",
+        "Khả năng mở rộng tăng sức chứa",
+      ],
+      desc: ["Lấy cảm hừng từ việc gấp gọn và đóng gói 'wrapping', đặc điểm nổi bật của Enwrap là thiết kế nội thất phong phú tạo khả năng phân chia hành lý tuyệt vời cho dù bạn không phải là người có năng khiếu đóng gói hành lý siêu việt. Những ngăn, túi hỗ trợ sắp xếp kết hợp cùng tăng đơ khóa kéo nới rộng là giải pháp hành lý hoàn hảo cho các tín đồ shopping cho các chuyến du lịch. Dây kéo khóa dày dặn đảm bảo độ bảo mật hơn so với các loại dây kéo khóa thông thường. Enwrap có nhiều phiên bản màu sắc để bạn lựa chọn trên lớp vỏ polycarbonate siêu bền chắc. Còn hơn cả một chiếc vali kéo, Enwrap là người bạn đồng hành đáng tin cậy cho hành trình du lịch của cá nhân lẫn gia đình."],
+      paramters: [
+        { volume: "3.1kg" },
+        { dimension: "47 x 30/31 x 69 cm" },
+        { tankage: "20-25kg" },
+        { material: "100% Polycarbonate" },
+        { warranty: "3 năm" }
+      ]
+    }
   },
 
 
@@ -138,6 +174,27 @@ const products = [
       { id: 'color1', name: ['green'], thumbnail: '/images/color-item-love1.1.webp', image: '/images/item-love1.1.webp' },
       { id: 'color2', name: ['pink'], thumbnail: '/images/color-item-love1.2.webp', image: '/images/item-love1.2.webp' },
     ],
+    details:
+    {
+      features: [
+        "Combo 2 vali kéo Squasem size cabin 55cm + trung 66cm",
+        "Có khả năng mở rộng tăng sức chứa",
+        "Hệ thống 4 bánh đôi OPTIMOV™ êm nhẹ, chắc chắn",
+        "Khóa kéo đôi an toàn DUOSAF™",
+        "Khả năng mở rộng tăng sức chứa",
+        "Tích hợp cổng sạc USB (size cabin)",
+        "Tổ chức nội thất phong phú, tinh tế",
+      ],
+      desc: ["Vali kéo Squasem mang trong mình một thiết kế nội thất sáng tạo với các túi phụ để sắp xếp hành lý tốt hơn. Bên cạnh đó lớp lót được làm từ vật liệu tái chế rPET và được xử lý kháng khuẩn bằng công nghệ được cung cấp bởi Microban®."],
+      paramters: [
+        { capacity: "69/78L" },
+        { volume: "3.8kg" },
+        { dimension: "46 x 28/31 x 66 cm" },
+        { tankage: "20-25kg" },
+        { material: "100% Polycarbonate" },
+        { warranty: "3 năm" }
+      ]
+    }
   },
   {
     id: 7,
@@ -152,6 +209,29 @@ const products = [
       { id: 'color2', name: ['gray'], thumbnail: '/images/color-item-love2.2.jpg', image: '/images/item-love2.2.webp' },
       { id: 'color3', name: ['black'], thumbnail: '/images/color-item-love2.3.webp', image: '/images/item-love2.3.webp' },
     ],
+    details:
+    {
+      features: [
+        "Combo 3 size vali kéo: cabin 55cm + trung 66cm + đại 76cm",
+        "Vali thương hiệu Thụy Sĩ có lịch sử lâu đời",
+        "Thiết kế họa tiết sóng tinh tế, thanh lịch",
+        "Nhựa ABS bền bỉ, bề mặt kết cấu chống trầy xước",
+        "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
+        "Bánh xe 360 độ vận hành êm nhẹ, trơn tru",
+        "Cần đẩy bằng nhôm bền chắc, dễ dàng thay đổi độ cao",
+        "Nội thất tổ chức phong phú, thông minh",
+        "Khả năng mở rộng tăng sức chứa (chỉ có trên size trung và đại)"
+      ],
+      desc: ["Chất lượng và tính năng vượt trội, Combo Vali Kéo In-Flight 3 Size được bán với mức giá cạnh tranh, giúp người tiêu dùng dễ dàng sở hữu một bộ vali hoàn hảo cho các chuyến du lịch. Combo Vali Kéo In-Flight 3 Size là lựa chọn lý tưởng cho những ai yêu thích du lịch và cần một bộ vali đa năng, bền bỉ. Hãy nhanh tay sở hữu ngay bộ sản phẩm này để chuẩn bị cho những chuyến đi sắp tới!"],
+      paramters: [
+        { capacity: "64L" },
+        { volume: "3.8kg" },
+        { dimension: "45 x 28/33 x 66.5 cm" },
+        { tankage: "20-25kg" },
+        { material: "ABS" },
+        { warranty: "5 năm" }
+      ]
+    }
   },
   {
     id: 8,
@@ -164,6 +244,28 @@ const products = [
     colors: [
       { id: 'color1', name: ['black'], code: '#000', image: '/images/item-love3.1.webp' },
     ],
+    details:
+    {
+      features: [
+        "Combo 2 size vali kéo Wenger Protector: cabin 55cm + trung 67cm",
+        "Vali kéo Thụy Sĩ với thiết kế sang trọng, tinh tế",
+        "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
+        "Khóa kéo đôi chống rạch trộm gia tăng khả năng bảo mật",
+        "Tính năng mở rộng tăng sức chứa, giúp sắp xếp hành lý linh hoạt",
+        "Dây đai chữ X ổn định hành lý gọn gàng",
+        "Nội thất phong phú với vách ngăn và ngăn có khóa kéo",
+        "Hệ thống 4 bánh xe đôi 360° vận hành êm nhẹ, ổn định"
+      ],
+      desc: ["Chất lượng và tính năng vượt trội, Combo Vali Kéo In-Flight 3 Size được bán với mức giá cạnh tranh, giúp người tiêu dùng dễ dàng sở hữu một bộ vali hoàn hảo cho các chuyến du lịch. Combo Vali Kéo In-Flight 3 Size là lựa chọn lý tưởng cho những ai yêu thích du lịch và cần một bộ vali đa năng, bền bỉ. Hãy nhanh tay sở hữu ngay bộ sản phẩm này để chuẩn bị cho những chuyến đi sắp tới!"],
+      paramters: [
+        { capacity: "64L" },
+        { volume: "3.8kg" },
+        { dimension: "45 x 28/33 x 66.5 cm" },
+        { tankage: "20-25kg" },
+        { material: "ABS" },
+        { warranty: "5 năm" }
+      ]
+    }
   },
   {
     id: 9,
@@ -178,6 +280,27 @@ const products = [
       { id: 'color2', name: ['gray'], code: '#777777', image: '/images/item-love4.2.webp' },
       { id: 'color3', name: ['black'], code: '#000', image: '/images/item-love4.3.webp' },
     ],
+    details:
+    {
+      features: [
+        "Combo 2 size: Cabin 56cm + Trung 66cm",
+        "Vỏ nhựa ABS cứng bền chắc, chống va đập giúp bảo vệ tối đa",
+        "Cần đẩy chắc chắn, có thể thay đổi độ cao phù hợp với người sử dụng",
+        "Tay cầm ở cả phía trên và bên hông, thuận tiện khi di chuyển",
+        "Hệ thống bánh xe đôi 360° vận hành êm nhẹ, ổn định",
+        "Khả năng mở rộng tăng sức chứa thêm 5cm ở tất cả các size",
+        "Nội thất thiết kế tổ chức phong phú, đa năng",
+        "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
+        "Tích hợp cổng sạc USB iTRAVEL™ và ngăn chứa sạc dự phòng (chỉ có ở size cabin), giữ cho các thiết bị điện tử của bạn luôn sẵn sàng khi đang di chuyển"
+      ],
+      paramters: [
+        { volume: "3.9kg" },
+        { dimension: "43 x 28/33 x 66 cm" },
+        { tankage: "20-25kg" },
+        { material: "ABS" },
+        { warranty: "2 năm" }
+      ]
+    }
   },
   {
     id: 10,
@@ -192,6 +315,26 @@ const products = [
       { id: 'color2', name: ['blue'], code: '#375675', image: '/images/item-love5.2.webp' },
       { id: 'color3', name: ['black'], code: '#000', image: '/images/item-love5.3.webp' },
     ],
+    details:
+    {
+      features: [
+        "Combo 2 vali Falcon size cabin Combo 2 vali kéo Kamiliant Falcon size cabin",
+        "Logo hoàn thiện tinh tế, sang trong",
+        "Tổ chức nội thất thông minh, tiện dụng",
+        "Kết cấu vỏ vali hạn chế trầy xước",
+        "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
+        "Tay cầm chắc chắn, có thể thay đổi độ cao để phù hợp với người dùng",
+        "Hệ thống bánh xe đôi 360° vận hành êm nhẹ"
+      ],
+      paramters: [
+        { capacity: "35L" },
+        { volume: "2.3kg" },
+        { dimension: "36 x 24 x 55 cm" },
+        { tankage: "7-10kg" },
+        { material: "Polyproppylene" },
+        { warranty: "1 năm" }
+      ]
+    }
   },
 
 
@@ -207,6 +350,27 @@ const products = [
       { id: 'color1', name: ['blue'], thumbnail: '/images/color-product-love-trend1.1.webp', image: '/images/product-love-trend1.1.webp' },
       { id: 'color2', name: ['black'], thumbnail: '/images/color-product-love-trend1.2.webp', image: '/images/product-love-trend1.2.webp' },
     ],
+    details:
+    {
+      features: [
+        "Thiết kế hình khối hiện đại, thời trang với các chi tiết tích hợp",
+        "Hoàn thiện kết cấu hạn chế trầy xước, kết hợp với các đường rãnh bóng để làm nổi bật sự cao cấp",
+        "Tích hợp ngăn trước tiện dụng",
+        "Ngăn chứa laptop 14.1'",
+        "Công nghệ kháng khuẩn Microban® bảo vệ sản phẩm 24/7 chống lại sự phát triển của vi khuẩn",
+        "Hệ thống bánh xe 360 tích hợp công nghệ Aero-Trac™ giảm xóc",
+        "Khóa kéo đôi chống trộm kết hợp khóa số TSA an toàn",
+        "Công nghệ vải Recyclex™, vật liệu vải lót PET tái chế",
+        "Nội thất phong phú với vách ngăn cả 2 bên và có thể tháo rời, các phụ kiện đi kèm như túi giặt và bao trùm vali"
+      ],
+      paramters: [
+        { capacity: "33L" },
+        { volume: "3.9kg" },
+        { dimension: "37 x 23 x 55 cm" },
+        { material: "Polyproppylene" },
+        { warranty: "10 năm" }
+      ]
+    }
   },
   {
     id: 12,
@@ -221,6 +385,26 @@ const products = [
       { id: 'color2', name: ['blue'], thumbnail: '/images/color-product-love-trend2.2.webp', image: '/images/product-love-trend2.2.webp' },
       { id: 'color3', name: ['black'], thumbnail: '/images/color-product-love-trend2.3.webp', image: '/images/product-love-trend2.3.webp' },
     ],
+    details: {
+        features: [
+            "Bánh xe đôi với công nghệ Aero-Trac",
+            "Có khả năng mở rộng (size trung và đại)",
+            "Khóa kéo chống trộm",
+            "Khóa số lõm tích hợp TSA",
+            "Hệ thống treo đa năng với nút ẩn",
+            "Lớp lót làm từ vải RECYCLEX™ - chất liệu làm từ 100% chai nhựa PET tái chế",
+            "Móc treo tiện dụng"
+        ],
+        desc: ["Vali kéo Samsonite Minter là bộ sưu tập mang thiết kế tinh tế và sang trọng, tích hợp nhiều tính năng đáp ứng mọi nhu cầu cần thiết"],
+        paramters: [
+            { capacity: "75/92L" },
+            { volume: "4.6kg" },
+            { dimension: "49 x 29/33 x 69 cm" },
+            { tankage: "20-25kg" },
+            { material: "Polyproppylene" },
+            { warranty: "10 năm" }
+        ]
+    }
   },
   {
     id: 13,
@@ -231,8 +415,23 @@ const products = [
     oldPrice: '2,400,000₫',
     isTopFavoriteProduct: true,
     colors: [
-      { id: 'color1', name: ['black'], code: '#000', image: '/images/product-love-trend3.1.webp' },
+      { id: 'color1', name: ['black'], code: '#000', image: '/images/product-love-trend3.1.jpg' },
     ],
+    details: {
+        features: [
+            "Ngăn chứa bảo vệ laptop 15.6'",
+            "Nội thất tổ chức phong phú, tinh tế, tiện dụng",
+            "Đệm lưng AirFlow êm ái, thoáng khí, tạo sự thoải mái tối đa khi sử dụng",
+            "Túi lưới bên hông để vừa chai nước hoặc ô dù",
+            "Balo có dây đai nén giúp giữ balo được gọn gàng"
+        ],
+        paramters: [
+            { capacity: "30L" },
+            { volume: "0.77kg" },
+            { dimension: "35 x 19 x 47 cm" },
+            { warranty: "5 năm" }
+        ]
+    }
   },
   {
     id: 14,
@@ -246,6 +445,14 @@ const products = [
       { id: 'color1', name: ['blue'], code: '#b9cbcb', image: '/images/product-love-trend4.1.webp' },
       { id: 'color2', name: ['pink'], code: '#d79aa5', image: '/images/product-love-trend4.2.webp' },
     ],
+    details: {
+        paramters: [
+            { capacity: "8L" },
+            { volume: "0.3kg" },
+            { dimension: "22 x 13 x 28 cm" },
+            { warranty: "1 năm" }
+        ]
+    }
   },
   {
     id: 15,
@@ -260,6 +467,22 @@ const products = [
       { id: 'color2', name: ['blue'], thumbnail: '/images/color-product-love-trend5.2.webp', image: '/images/product-love-trend5.2.jpg' },
       { id: 'color3', name: ['blue', 'green'], thumbnail: '/images/color-product-love-trend5.3.webp', image: '/images/product-love-trend5.3.jpg' },
     ],
+    details: {
+        features: [
+            "Ngăn trước truy cập nhanh",
+            "Ngăn chính rộng rãi, có ngăn chứa laptop 14'",
+            "Dây đeo vai có thể điều chỉnh",
+            "Túi ẩn ở mặt sau balo",
+            "Ngăn bên hông tiện dụng"
+        ],
+        paramters: [
+            { capacity: "20L" },
+            { volume: "0.5kg" },
+            { dimension: "29 x 18 x 42 cm" },
+            { warranty: "1 năm" },
+            { material: "100% Polyester" },
+        ]
+    }
   },
 
 
@@ -276,6 +499,25 @@ const products = [
       { id: 'color2', name: ['black'], thumbnail: '/images/color-vali-top1.2.webp', image: '/images/vali-top1.2.jpg' },
       { id: 'color3', name: ['green'], thumbnail: '/images/color-vali-top1.3.webp', image: '/images/vali-top1.3.webp' },
     ],
+    details: {
+        features: [
+            "Logo hoàn thiện tinh tế, độc đáo",
+            "Tổ chức nội thất thông minh, tiện dụng",
+            "Kết cấu vỏ vali hạn chế trầy xước",
+            "Khóa số TSA an toàn, tiêu chuẩn Hoa Kỳ",
+            "Tay cầm chắc chắn, có thể thay đổi độ cao để phù hợp với người dùng",
+            "Hệ thống bánh xe 360° vận hành êm nhẹ"
+        ],
+        desc: ["Bộ sưu tập vali kéo nhựa Kiza được đặc trưng bởi hình dạng biểu tượng của logo Kamiliant và được thể hiện một cách vui nhộn và độc đáo. Vali Kiza có thiết kế dạng hình hộp với sức chứa được gia tăng tối đa. Với các tính năng thiết thực như siêu nhẹ, dung tích lớn, độ bền cao, bề mặt vali hạn chế trầy xước,... giúp bạn thỏa sức tận hưởng chuyến hành trình một cách thoải mái."],
+        paramters: [
+            { capacity: "71L" },
+            { volume: "3.2kg" },
+            { dimension: "47 x 28 x 68 cm" },
+            { tankage: "20-25kg" },
+            { warranty: "1 năm" },
+            { material: "Polypropylen (PP)" },
+        ]
+    }
   },
   {
     id: 17,
@@ -290,6 +532,25 @@ const products = [
       { id: 'color2', name: ['green'], thumbnail: '/images/color-vali-top2.2.webp', image: '/images/vali-top2.2.webp' },
       { id: 'color3', name: ['black'], thumbnail: '/images/color-vali-top2.3.webp', image: '/images/vali-top2.3.webp' },
     ],
+    details: {
+        features: [
+            "Có khả năng mở rộng tăng sức chứa",
+            "Hệ thống 4 bánh đôi OPTIMOV™ êm nhẹ, chắc chắn",
+            "Khóa kéo đôi an toàn DUOSAF™",
+            "Khóa số TSA bảo mật tiêu chuẩn Hoa Kỳ",
+            "Tích hợp cổng sạc USB (size cabin)",
+            "Tổ chức nội thất phong phú, tinh tế"    
+        ],
+        desc: ["Bộ sưu tập vali kéo nhựa Squasem với thiết kế vỏ 3 chiều đặc trưng, được tạo thành bởi các hoa văn hình thoi, kết hợp với các tính năng du lịch thiết yếu được trang bị đầy đủ. Được làm bằng vật liệu PP đa năng và chắc chắn, mang lại cho Squasem một cấu trúc mạnh mẽ, bền bỉ. Khả năng mở rộng trên tất cả các size giúp tăng khả năng lưu trữ hàng lý. Được trang bị bánh xe giảm sốc OPTIMOV™ giảm tiếng ồn, vận hành trơn tru trên mọi bề mặt gồ ghề, chắc chắn sẽ mang đến cho mọi du khách trải nghiệm di chuyển tuyệt vời. Khóa kéo đôi bảo mật DUOSAF™ cũng cung cấp thêm sự an toàn cho hành lý của bạn."],
+        paramters: [
+            { capacity: "69/78L" },
+            { volume: "3.8kg" },
+            { dimension: "46 x 28/31 x 66 cm" },
+            { tankage: "20-25kg" },
+            { warranty: "3 năm" },
+            { material: "Polypropylene" },
+        ]
+    }
   },
   {
     id: 18,
@@ -304,6 +565,26 @@ const products = [
       { id: 'color2', name: ['yellow'], thumbnail: '/images/color-vali-top3.2.webp', image: '/images/vali-top3.2.webp' },
       { id: 'color3', name: ['blue'], thumbnail: '/images/color-vali-top3.3.webp', image: '/images/vali-top3.3.webp' },
     ],
+    details: {
+        features: [
+            "Lớp lót vali được xử lý kháng khuẩn",
+            "Đi kèm túi đựng giày kháng khuẩn và túi tiện ích",
+            "Tay nắm và tay cầm cần đẩy được xử lý kháng khuẩn",
+            "Hệ thống đóng gói PlentiVol™ tỉ lệ 20:80",
+            "Bánh xe xoay 360° tích hợp công nghệ StePause™ giúp vali đứng yên",
+            "Khóa kéo đôi bảo mật Duosaf™",
+            
+        ],
+        desc: ["Bộ sưu tập vali kéo nhựa Squasem với thiết kế vỏ 3 chiều đặc trưng, được tạo thành bởi các hoa văn hình thoi, kết hợp với các tính năng du lịch thiết yếu được trang bị đầy đủ. Được làm bằng vật liệu PP đa năng và chắc chắn, mang lại cho Squasem một cấu trúc mạnh mẽ, bền bỉ. Khả năng mở rộng trên tất cả các size giúp tăng khả năng lưu trữ hàng lý. Được trang bị bánh xe giảm sốc OPTIMOV™ giảm tiếng ồn, vận hành trơn tru trên mọi bề mặt gồ ghề, chắc chắn sẽ mang đến cho mọi du khách trải nghiệm di chuyển tuyệt vời. Khóa kéo đôi bảo mật DUOSAF™ cũng cung cấp thêm sự an toàn cho hành lý của bạn."],
+        paramters: [
+            { capacity: "69/78L" },
+            { volume: "3.8kg" },
+            { dimension: "46 x 28/31 x 66 cm" },
+            { tankage: "20-25kg" },
+            { warranty: "3 năm" },
+            { material: "Polypropylene" },
+        ]
+    }
   },
   {
     id: 19,
