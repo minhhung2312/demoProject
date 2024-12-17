@@ -1265,8 +1265,8 @@ const products = [
     brand: 'Victorinox - Thụy Sĩ',
     name: 'Balo VX Sport EVO Daypack',
     category: 'balo',
-    newPrice: '4,690,000₫',
-    oldPrice: '6,700,000₫',
+    newPrice: '3,640,000₫',
+    oldPrice: '5,200,000₫',
     colors: [
       { id: 'color1', name: ['red'], code: '#912222', image: '/images/balo_071_01.jpg' },
       { id: 'color2', name: ['blue'], code: '#52546c', image: '/images/balo_071_02.jpg' },

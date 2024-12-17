@@ -119,7 +119,7 @@ const ProductFilter = ({ name }) => {
                         <h3>Thương hiệu -</h3>
                         <div className="brands">
                             {uniqueBrands.map((brand) => (
-                                <label key={brand}>
+                                <label className="label-brand" key={brand}>
                                     <input
                                         type="checkbox"
                                         name="brand"
