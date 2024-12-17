@@ -95,6 +95,7 @@
 .product-card__brand {
     color: #777;
     margin-bottom: 5px;
+    text-transform: uppercase;
 }
 
 .product-card__name {
