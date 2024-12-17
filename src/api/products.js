@@ -1141,6 +1141,517 @@ const products = [
       { id: 'color3', name: ['black'], code: '#000000', image: '/images/balo_054_03.jpg' },
     ],
   },
+  {
+    id: 70,
+    brand: 'Kanana Project - Nhật Bản',
+    name: 'Balo Kanana Monogram 2ND Small',
+    category: 'balo',
+    newPrice: '3,220,000₫',
+    oldPrice: '4,600,000₫',
+    colors: [
+      { id: 'color1', name: ['green'], thumbnail: '/images/color_balo_078_01.jpg', image: '/images/balo_078_01.jpg' },
+      { id: 'color2', name: ['gray'], thumbnail: '/images/color_balo_078_02.webp', image: '/images/balo_078_02.jpg' },
+    ],
+    details: {
+        features: [
+            "Chất liệu chính là vải dệt Jacquard Monogram độc đáo",
+            "Ngăn trước có khóa kéo làm từ vải đã được xử lý kháng khuẩn và virut bởi công nghệ VIRTECT®",
+            "Ngăn đựng thẻ tiện lợi ở mặt trước giúp truy cập nhanh",
+            "Khóa kéo chính có chốt an toàn để tránh mở nhầm",
+            "Ngăn khóa kéo ở mặt sau có độ bảo mật cao, thích hợp để đựng ví và các vật dụng có giá trị",
+            "Bên trong ngăn chính có ngăn đựng đồ nhỏ được tổ chức thông minh",
+            "Tích hợp đai gài cần đẩy vali, thuận tiện khi di chuyển",
+            "Có thể đeo như balo hoặc cầm tay như một chiếc túi xách"
+        ],
+        paramters: [
+            { capacity: "10L" },
+            { volume: "0.46kg" },
+            { dimension: "39 x 12 x 31 cm" },
+            { warranty: "5 năm" },
+            { material: "Polyester 100dn Jacquard / PU" },
+        ]
+    }
+  },
+  {
+    id: 71,
+    brand: 'American Tourister - Mỹ',
+    name: 'Balo Barton',
+    category: 'balo',
+    newPrice: '1,000,000₫',
+    oldPrice: '1,000,000₫',
+    colors: [
+      { id: 'color1', name: ['green'], thumbnail: '/images/color_balo_076_01.webp', image: '/images/balo_076_01.jpg' },
+      { id: 'color2', name: ['yellow'], thumbnail: '/images/color_balo_076_02.jpg', image: '/images/balo_076_02.jpg' },
+      { id: 'color3', name: ['black'], thumbnail: '/images/color_balo_076_03.jpg', image: '/images/balo_076_03.jpg' },
+      { id: 'color4', name: ['red'], thumbnail: '/images/color_balo_076_04.jpg', image: '/images/balo_076_04.jpg' },
+    ],
+    details: {
+        features: [
+            "2 ngăn trước truy cập nhanh",
+            "Túi lót PVC chống nước",
+            "Khóa kéo chống thấm nước",
+            "Miệng túi mở rộng",
+            "Ngăn bảo vệ laptop 15.6'",
+            "Đệm lưng êm ái, thoáng mát"
+        ],
+        desc: ["Một cái balo không chỉ là một cái túi. Đó là một nơi lưu trữ di động. Và đó còn là phản ánh của sự quan tâm tới những vật dụng bạn đã lựa chọn để cất giữ trong balo. Bộ sưu tập balo Barton sử dụng hàng ngày với thiết kế hiện đại, sử dụng chất liệu thân thiện môi trường nhưng vẫn bảo đảm chống thấm nước. Tất cả các thiết bị điện tử thông minh của bạn sẽ không sợ bị ướt trong những ngày mưa. Balo Barton lấy cảm hứng ngoài trời với nhiều màu sắc đẹp mắt, thể hiện cá tính của bạn."],
+        paramters: [
+            { capacity: "25L" },
+            { volume: "0.7kg" },
+            { dimension: "31 x 20 x 50 cm" },
+            { warranty: "1 năm" },
+        ]
+    }
+  },
+  {
+    id: 72,
+    brand: 'LEVEL8 - Mỹ',
+    name: 'Balo laptop 15.6in LEVEL8 Mr. Outstanding',
+    category: 'balo',
+    newPrice: '1,850,000₫',
+    oldPrice: '3,700,000₫',
+    colors: [
+      { id: 'color1', name: ['black'], code: '#000', image: '/images/balo_075_01.jpg' },
+    ],
+    details: {
+        features: [
+           "Balo với chất liệu vải cao cấp bền chắc, có khả năng chống thấm nước bảo vệ hành lý bên trong",
+           "Ngăn chính có sức chứa lớn, có ngăn chứa bảo vệ laptop 15.6'",
+           "Thiết kế khóa nam châm sáng tạo, an toàn nhưng vẫn dễ dàng truy cập",
+           "Ngăn phía trên chứa mắt kinh có lớp lót bằng da lộn mềm mại",
+           "Có ngăn phía trước và ngăn bên hông tiện dụng",
+           "Nội thất làm từ chất liệu rPET bền vững với môi trường",
+        ],
+        paramters: [
+            { capacity: "18L" },
+            { volume: "1.01kg" },
+            { dimension: "30 x 13 x 47 cm" },
+            { warranty: "1 năm" },
+            { material: "Polyester + PU" },
+        ]
+    }
+  },
+  {
+    id: 73,
+    brand: 'Samsonite Red - Mỹ',
+    name: 'Balo flap Cambie',
+    category: 'balo',
+    newPrice: '4,690,000₫',
+    oldPrice: '6,700,000₫',
+    colors: [
+      { id: 'color1', name: ['gray'], code: '#e6e2e2', image: '/images/balo_072_01.jpg' },
+      { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_072_03.jpg' },
+    ],
+    details: {
+        features: [
+           "Thiết kế nắp gập có thể tháo rời, linh hoạt thay đổi phong cách.",
+           "Ngăn khóa kéo rộng rãi với chi tiết xếp li tinh tế, dễ dàng sắp xếp đồ đạc.",
+           "Đầu khóa kéo và đường chỉ may phối màu sắc tinh tế.",
+           "Logo chính và nhãn sử dụng chất liệu trong suốt, tạo sự hiện đại.",
+           "Dây đeo vai và đai ngực có thể điều chỉnh, thoải mái tối đa khi sử dụng."
+        ],
+        desc: ["Bộ sưu tập Samsonite Red Cambie được làm từ chất liệu nhẹ nhàng, thoáng mát, phù hợp với mùa hè, mang hơi thở của hoạt động ngoài trời và đáp ứng nhiều nhu cầu sử dụng khác nhau. Từ balo thông dụng, balo nắp gập thời trang đến túi tote nhẹ nhàng và túi đeo chéo, bộ sưu tập Cambie mang đến cho bạn những lựa chọn phong cách đa dạng, không chỉ phù hợp cho sử dụng hàng ngày mà còn cả cho những chuyến du lịch."],
+        paramters: [
+            { capacity: "22L" },
+            { volume: "0.62kg" },
+            { dimension: "31 x 16.5 x 47.5 cm" },
+            { warranty: "2 năm" },
+            { material: "75% Nylon + 25% Polyester" },
+        ]
+    }
+  },
+  {
+    id: 74,
+    brand: 'Victorinox - Thụy Sĩ',
+    name: 'Balo VX Sport EVO Daypack',
+    category: 'balo',
+    newPrice: '4,690,000₫',
+    oldPrice: '6,700,000₫',
+    colors: [
+      { id: 'color1', name: ['red'], code: '#912222', image: '/images/balo_071_01.jpg' },
+      { id: 'color2', name: ['blue'], code: '#52546c', image: '/images/balo_071_02.jpg' },
+    ],
+    details: {
+        features: [
+            "Cung cấp tính năng tuyệt vời và khả năng tổ chức đa năng với các ngăn chuyên biệt cho thiết bị công nghệ.",
+            "Điểm nhấn với logo hình chữ thập và khiên của Victorinox, biểu tượng cho chất lượng.",
+            "Dây đeo vai có đệm, có thể điều chỉnh và đệm lưng có các rãnh khí giúp đảm bảo sự thoải mái tối ưu khi sử dụng.",
+            "Tích hợp đai gài cần đẩy vali tiện dụng."
+        ],
+        desc: ["Balo VX Sport EVO Daypack chính hãng Victorinox Thụy Sĩ giúp bạn bảo vệ các thiết bị công nghệ cá nhân một cách an toàn, đồng thời đảm bảo sự thoải mái tối đa. Được chế tác từ chất liệu polyester bền bỉ, tích hợp hệ thống luồng khí giúp bạn luôn cảm thấy thoải, mát mẻ. Mặt lưng và dây đeo vai lót đệm êm ái, mang đến trải nghiệm thoải mái khi đeo balo di chuyển đường dài. VX Sport EVO Daypack Với chiếc balo này, bạn có thể dễ dàng di chuyển, mang theo đồ đạc cần thiết cho các chuyến đi ngắn hoặc các hoạt động thể thao mà không lo lắng về sự bất tiện hay thiếu không gian lưu trữ. Bạn có thể dễ dàng sắp xếp đồ đạc khoa học, tiện dụng nhờ các ngăn chuyên dụng. Sự kết hợp hoàn hảo giữa thiết kế tinh tế và tính năng vượt trội, mang lại sự tiện lợi, thoải mái và bảo vệ cho người dùng trong mọi hoạt động."],
+        paramters: [
+            { capacity: "32L" },
+            { volume: "1kg" },
+            { dimension: "36 x 27 x 49 cm" },
+            { warranty: "10 năm" },
+            { material: "Polyester" },
+        ]
+    }
+  },
+  {
+    id: 75,
+    brand: 'ACE. - Nhật Bản',
+    name: 'Balo Corty',
+    category: 'balo',
+    newPrice: '1,680,000₫',
+    oldPrice: '2,400,000₫',
+    colors: [
+      { id: 'color1', name: ['blue'], code: '#0133ff', image: '/images/balo_070_01.jpg' },
+      { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_070_02.jpg' },
+      { id: 'color3', name: ['brown'], code: '#d4b895', image: '/images/balo_070_03.jpg' },
+    ],
+    details: {
+        features: [
+            "Kích thước nhỏ gọn lý tưởng để cất giữ đồ đạc cá nhân",
+            "Ngăn chính rộng rãi, có ngăn riêng để tài liệu",
+            "Ngăn phía trước tiện dụng",
+            "Hai ngăn lưới bên hông để chai nước hoặc dù xếp",
+            "Mặt lưng sử dụng chất liệu lưới thoáng khí"
+        ],
+        desc: ["Một chiếc balo kết hợp giữa kiểu dáng đơn giản với các chi tiết thể thao năng động, phù hợp để sử dụng hàng ngày hoặc đi du lịch."],
+        paramters: [
+            { capacity: "32L" },
+            { volume: "1kg" },
+            { dimension: "29 x 15 x 42 cm" },
+            { warranty: "5 năm" },
+            { material: "Polyester" },
+        ]
+    }
+  },
+  {
+    id: 76,
+    brand: 'Victorinox - Thụy Sĩ',
+    name: 'Balo laptop 17" Altmont Original Deluxe',
+    category: 'balo',
+    newPrice: '4,200,000₫',
+    oldPrice: '6,000,000₫',
+    colors: [
+      { id: 'color1', name: ['red'], code: '#c12c32', image: '/images/balo_069_01.jpg' },
+      { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_069_02.jpg' },
+      { id: 'color3', name: ['blue'], code: '#52546c', image: '/images/balo_069_03.jpg' },
+    ],
+    details: {
+        features: [
+            "Ngăn đựng dao đa năng Victorinox bằng neoprene trên dây đeo vai, giúp bạn dễ dàng lấy ra khi cần",
+            "Ngăn lưới có khóa kéo, móc chìa khóa, vòng giữ bút, bảng tên, hai ngăn phụ và dây đai giữ USB",
+            "Dây đeo vai và đệm lưng được cải tiến cho sự thoải mái tối đa, với hệ thống lưu thông khí thông minh, đai gài cần đẩy vali và ngăn ẩn phía sau"
+        ],
+        desc: ["Thiết kế thông minh và chất liệu tiên tiến đưa chiếc balo Thụy Sĩ Victorinox Altmont Original Deluxe lên một tầm cao mới. Được chế tác để bảo vệ laptop và các vật dụng cần thiết khác của bạn khi đi tàu, đạp xe quanh thành phố hoặc đi bộ đường dài, balo này kết hợp hoàn hảo giữa chức năng và sự thoải mái. Ngăn đôi tiện lợi cho phép bạn sắp xếp các thiết bị điện tử trong ba ngăn riêng biệt, lý tưởng cho những ngày bận rộn."],
+        paramters: [
+            { capacity: "28L" },
+            { volume: "1kg" },
+            { dimension: "34 x 24 x 48 cm" },
+            { warranty: "5 năm" },
+            { material: "Polyester" },
+        ]
+    }
+  },
+  {
+    id: 77,
+    brand: 'Victorinox - Thụy Sĩ',
+    name: 'Balo laptop 17" Altmont Original Vertical-Zip',
+    category: 'balo',
+    newPrice: '4,550,000₫',
+    oldPrice: '6,500,000₫',
+    colors: [
+      { id: 'color1', name: ['black'], code: '#000', image: '/images/balo_068_01.jpg' },
+      { id: 'color2', name: ['red'], code: '#c12c32', image: '/images/balo_068_02.jpg' },
+      { id: 'color3', name: ['blue'], code: '#52546c', image: '/images/balo_068_03.jpg' },
+    ],
+    details: {
+        features: [
+            "Ngăn đựng dao đa năng Victorinox bằng neoprene trên dây đeo vai, giúp bạn dễ dàng lấy ra khi cần",
+            "Ngăn lưới có khóa kéo, móc chìa khóa, vòng giữ bút, bảng tên, hai ngăn phụ và dây đai giữ USB",
+            "Dây đeo vai và đệm lưng được cải tiến cho sự thoải mái tối đa, với hệ thống lưu thông khí thông minh, đai gài cần đẩy vali và ngăn ẩn phía sau"
+        ],
+        desc: ["Thiết kế thông minh và chất liệu tiên tiến đưa chiếc balo Thụy Sĩ Victorinox Altmont Original Vertical-Zip lên một tầm cao mới. Được thiết kế để bảo vệ laptop và các vật dụng cần thiết khác của bạn khi đi tàu, đạp xe quanh thành phố hoặc đi bộ đường dài, balo này kết hợp hoàn hảo giữa chức năng và sự thoải mái. Ngăn chính rộng rãi chứa một ngăn đựng laptop có đệm và các ngăn tổ chức giúp bạn tách riêng các thiết bị, bút viết và chìa khóa."],
+        paramters: [
+            { capacity: "24L" },
+            { volume: "1kg" },
+            { dimension: "33 x 23 x 47 cm" },
+            { warranty: "5 năm" },
+            { material: "Polyester" },
+        ]
+    }
+  },
+  {
+    id: 78,
+    brand: 'Victorinox - Thụy Sĩ',
+    name: 'Balo Altmont Active Rolltop',
+    category: 'balo',
+    newPrice: '2,050,000₫',
+    oldPrice: '2,900,000₫',
+    colors: [
+        { id: 'color1', name: ['red'], code: '#c12c32', image: '/images/balo_067_01.jpg' },
+        { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_067_02.jpg' },
+    ],
+    details: {
+        features: [
+            "Balo laptop thương hiệu Thụy Sĩ",
+            "Tích hợp nhiều tính năng tiện ích",
+            "Dây đeo vai và mặt lưng có đệm thoáng mát",
+            "Dụng cụ mở nắp chai trên dây đeo vai"
+        ],
+        desc: ["Phong cách và chất lượng kết hợp trong dòng balo Victorinox Altmont Active, được thiết kế thông minh để mang lại các chức năng cần thiết cho những cuộc phiêu lưu hàng ngày của cuộc sống. Balo laptop Altmont Active Rolltop được tích hợp phong cách trailwalker như các vòng treo đồ (gear loops) và chuỗi vòng (daisy chains), dụng cụ mở nắp chai, cùng với mặt sau có đệm thoáng mát giúp thoải mái khi sử dụng. Ngăn chứa laptop an toàn có khóa kéo ẩn ở phía sau của balo, có thể truy cập nhanh khi đang di chuyển."],
+        paramters: [
+            { capacity: "18L" },
+            { volume: "0.7kg" },
+            { dimension: "29 x 17 x 28 cm" },
+            { warranty: "1 năm" },
+            { material: "Polyester" },
+        ]
+    }
+  },
+  {
+    id: 79,
+    brand: 'American Tourister - Mỹ',
+    name: 'Balo Work:Out 03',
+    category: 'balo',
+    newPrice: '1,110,000₫',
+    oldPrice: '2,200,000₫',
+    colors: [
+        { id: 'color1', name: ['black'], code: '#000', image: '/images/balo_065_01.jpg' },
+        { id: 'color2', name: ['gray'], thumbnail: '/images/color_balo_065_02.webp', image: '/images/balo_065_02.jpg' },
+    ],
+    details: {
+        features: [
+            "Ngăn bí mật an toàn ở mặt sau balo",
+            "Quai đeo vai Tractum tạo sự thoải mái",
+            "Tổ chức nội thất phong phú",
+            "Ngăn bảo vệ laptop và tablet",
+            "2 túi ở bên hông",
+            "đai gài cần đẩy vali"
+        ],
+        desc: ["Bộ sưu tập balo Work:Out từ thương hiệu American Tourister là một chiếc balo đa năng, giải pháp hoàn hảo cho những người có lối sống năng động. Dòng balo Work:Out với 3 thiết kế khác nhau, được tích hợp quai đeo vai Tractum chắc chắn, ngăn chứa laptop có thể khóa và các tính năng đặc biệt đáp ứng cho mọi nhu cầu tích cực của người sử dụng."],
+        paramters: [
+            { capacity: "30L" },
+            { volume: "0.9kg" },
+            { dimension: "31 x 21 x 48 cm" },
+            { warranty: "1 năm" },
+            { material: "Polyester" },
+        ]
+    }
+  },
+  {
+    id: 80,
+    brand: 'Delsey - Pháp',
+    name: 'Balo laptop 15" Securflap',
+    category: 'balo',
+    newPrice: '2,050,000₫',
+    oldPrice: '4,100,000₫',
+    colors: [
+        { id: 'color1', name: ['red'], code: '#990001', image: '/images/balo_064_01.jpg' },
+        { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_064_02.jpg' },
+        { id: 'color3', name: ['gray'], code: '#cbcbcb', image: '/images/balo_064_03.jpg' },
+        { id: 'color4', name: ['orange'], code: '#ff9900', image: '/images/balo_064_04.jpg' },
+        { id: 'color5', name: ['darkgray'], code: '#888888', image: '/images/balo_064_05.jpg' },
+        { id: 'color6', name: ['blue'], code: '#0133ff', image: '/images/balo_064_06.jpg' },
+        { id: 'color7', name: ['green'], code: '#00cc00', image: '/images/balo_064_07.jpg' },
+        { id: 'color8', name: ['yellow'], code: '#ffff00', image: '/images/balo_064_08.jpg' },
+    ],
+    details: {
+        features: [
+            "Giải thưởng Red Dot Design Award Winner - Best of the best",
+            "Hệ thống đóng mở miệng túi sáng tạo và cực kỳ an toàn",
+            "Thiết kế hiện đại, thanh lịch",
+            "Tối ưu sức chứa, có ngăn chứa laptop 15'",
+            "Nội thất tổ chức phong phú, thông minh",
+            "Mặt lưng và dây đeo vai có đệm êm ái, thoáng mát",
+            "Ngăn bảo mật chống quét trộm RFID",
+            "Tích hợp đai gài cần đẩy vali"
+        ],
+        desc: ["Securflap từ thương hiệu Delsey là chiếc balo cho những hành trình hàng ngày và những chuyến phiêu lưu của bạn. Ngoài hệ thống chống trộm độc đáo, balo Securflap còn có nhiều túi và ngăn an toàn được thiết kế để mang lại sự an tâm khi di chuyển. Balo Securflap được cung cấp cho bạn tất cả sự thoải mái và tính năng cần thiết, cho phép bạn dễ dàng mang theo các hành lý thiết yếu của mình mọi lúc mọi nơi!"],
+        paramters: [
+            { capacity: "20.78L" },
+            { volume: "1kg" },
+            { dimension: "31.5 x 14.5 x 45.5 cm" },
+            { warranty: "2 năm" },
+            { material: "Polyester" },
+        ]
+    }
+  },
+  {
+    id: 81,
+    brand: 'Victorinox - Thụy Sĩ',
+    name: 'Balo VX Sport EVO Compact',
+    category: 'balo',
+    newPrice: '2,660,000₫',
+    oldPrice: '3,800,000₫',
+    colors: [
+        { id: 'color1', name: ['blue'], code: '#2a374b', image: '/images/balo_063_01.jpg' },
+        { id: 'color2', name: ['red'], code: '#761a25', image: '/images/balo_063_02.jpg' },
+        { id: 'color3', name: ['black'], code: '#000', image: '/images/balo_063_03.jpg' },
+    ],
+    details: {
+        features: [
+            "Cung cấp tính năng tuyệt vời và khả năng tổ chức đa năng với các ngăn chuyên biệt cho thiết bị công nghệ.",
+            "Điểm nhấn với logo hình chữ thập và khiên của Victorinox, biểu tượng cho chất lượng.",
+            "Dây đeo vai có đệm, có thể điều chỉnh và đệm lưng có các rãnh khí giúp đảm bảo sự thoải mái tối ưu khi sử dụng.",
+            "Tích hợp đai gài cần đẩy vali tiện dụng."
+        ],
+        desc: ["Balo Victorinox VX Sport EVO Compact giúp bạn bảo vệ các thiết bị công nghệ cá nhân một cách an toàn, đồng thời đảm bảo sự thoải mái tối đa. Chiếc balo này được chế tác từ chất liệu polyester bền bỉ, tích hợp hệ thống luồng khí giúp bạn luôn mát mẻ. Mặt lưng và dây đeo vai được đệm êm ái, mang đến trải nghiệm đeo thoải mái dù di chuyển đường dài. VX Sport EVO Compact sở hữu hệ thống ngăn chứa đa năng, đáp ứng mọi nhu cầu sử dụng. Bạn có thể dễ dàng sắp xếp đồ đạc khoa học, tiện lợi nhờ các ngăn chuyên dụng. Chiếc balo này là sự kết hợp hoàn hảo giữa tính năng và thiết kế, là người bạn đồng hành đáng tin cậy trên mọi hành trình của bạn."],
+        paramters: [
+            { capacity: "20L" },
+            { volume: "0.7kg" },
+            { dimension: "31 x 18 x 45 cm" },
+            { warranty: "10 năm" },
+            { material: "Polyester" },
+        ]
+    }
+  },
+  {
+    id: 82,
+    brand: 'American Tourister - Mỹ',
+    name: 'Balo Trent',
+    category: 'balo',
+    newPrice: '950,000₫',
+    oldPrice: '1,900,000₫',
+    colors: [
+        { id: 'color1', name: ['red'], thumbnail: '/images/color_balo_062_01.jpg', image: '/images/balo_062_01.jpg' },
+        { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_062_02.jpg' },
+        { id: 'color3', name: ['green'], thumbnail: '/images/color_balo_062_03.jpg', image: '/images/balo_062_03.jpg' },
+    ],
+    details: {
+        features: [
+            "Tổ chức nội thất tinh tế",
+            "Có khả năng chống nước",
+            "Hai ngăn bên hông tiện dụng",
+            "Ngăn trước truy cập nhanh",
+            "Chứa vừa laptop 15.6'",
+            "Miệng túi mở rộng"
+        ],
+        desc: ["Balo không chỉ là một cái túi. Đó là một nơi lưu trữ di động. Và đó còn là phản ánh của sự quan tâm tới những vật dụng bạn đã lựa chọn để cất giữ trong balo. Bộ sưu tập balo Trent sử dụng hàng ngày với thiết kế hiện đại, sử dụng chất liệu thân thiện môi trường nhưng vẫn bảo đảm chống thấm nước. Tất cả các thiết bị điện tử thông minh của bạn sẽ không sợ bị ướt trong những ngày mưa. Balo Trent lấy cảm hứng ngoài trời với nhiều màu sắc đẹp mắt, thể hiện cá tính của bạn."],
+        paramters: [
+            { capacity: "25L" },
+            { volume: "0.7kg" },
+            { dimension: "30 x 18 x 49 cm" },
+            { warranty: "1 năm" },
+            { material: "Polyester" },
+        ]
+    }
+  },
+  {
+    id: 83,
+    brand: 'Victorinox - Thụy Sĩ',
+    name: 'Balo laptop 15.6" Altmont Original',
+    category: 'balo',
+    newPrice: '2,970,000₫',
+    oldPrice: '4,100,000₫',
+    colors: [
+        { id: 'color1', name: ['red'], code: '#761a25', image: '/images/balo_061_01.jpg' },
+        { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_061_02.jpg' },
+    ],
+    details: {
+        features: [
+            "Nội thất đa năng được tối ưu hóa để giữ cho tất cả vật dụng của bạn được sắp xếp hoàn hảo và dễ dàng truy cập",
+            "Dây đeo vai chắc chắn và cực kỳ thoải mái",
+            "Đệm lưng êm ái và thoáng khí, tạo sự thoải mái khi sử dụng",
+            "Ngăn chứa laptop 15.6'"
+        ],
+        desc: ["Một chiếc balo gọn nhẹ có khả năng chứa được tất cả thiết bị của bạn, cho dù bạn đang trên đường đến cuộc họp hay đang trong một chuyến phiêu lưu. Balo laptop 15.6' Altmont Original có một ngăn phía trước dễ dàng truy cập, trong khi một ngăn có đệm bảo vệ laptop của bạn an toàn. Bền bỉ, gọn nhẹ và là một chiếc balo đáp ứng mọi nhu cầu hàng ngày."],
+        paramters: [
+            { capacity: "22L" },
+            { volume: "0.8kg" },
+            { dimension: "32 x 21 x 48 cm" },
+            { warranty: "10 năm" },
+            { material: "Polyester" },
+        ]
+    }
+  },
+  {
+    id: 84,
+    brand: 'LEVEL8 - Mỹ',
+    name: 'Balo laptop 15.6in LEVEL8 Moment',
+    category: 'balo',
+    newPrice: '2,200,000₫',
+    oldPrice: '4,400,000₫',
+    colors: [
+        { id: 'color1', name: ['gray'], code: '#888', image: '/images/balo_060_01.jpg' },
+        { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_060_02.jpg' },
+    ],
+    details: {
+        features: [
+            "Balo với chất liệu vải cao cấp bền chắc, có khả năng chống thấm nước bảo vệ hành lý bên trong",
+            "Ngăn chính có sức chứa lớn, miệng túi mở rộng dễ dàng truy cập",
+            "Có ngăn chứa bảo vệ laptop 15.6'",
+            "Thiết kế khóa nam châm sáng tạo, an toàn nhưng vẫn dễ dàng truy cập",
+            "Có ngăn phía trước và ngăn bên hông tiện dụng",
+            "Đệm lưng êm ái, thoáng mát, tích hợp đai gài cần đẩy vali",
+            "Nội thất làm từ chất liệu rPET bền vững với môi trường"
+        ],
+        paramters: [
+            { capacity: "20L" },
+            { volume: "1.32kg" },
+            { dimension: "30 x 14 x 46.5 cm" },
+            { warranty: "1 năm" },
+            { material: "Polyester + PU" },
+        ]
+    }
+  },
+  {
+    id: 85,
+    brand: 'Samsonite Red - Mỹ',
+    name: 'Balo 3ways Vickson',
+    category: 'balo',
+    newPrice: '4,410,000₫',
+    oldPrice: '6,300,000₫',
+    colors: [
+        { id: 'color1', name: ['gray'], code: '#9fa190', image: '/images/balo_059_01.jpg' },
+        { id: 'color2', name: ['blue'], thumbnail: '/images/color_balo_059_02.webp', image: '/images/balo_059_02.jpg' },
+        { id: 'color3', name: ['black'], code: '#000', image: '/images/balo_059_03.jpg' },
+    ],
+    details: {
+        features: [
+            "Sử dụng như balo, túi tote hoặc túi đeo chéo",
+            "Tối ưu hóa cho việc lưu trữ với không gian có thể mở rộng và nhiều ngăn phụ đa năng bên ngoài",
+            "Ngăn bên trong có thể tháo rời, tối ưu cho việc di chuyển",
+            "Ngăn đựng laptop 17' có đệm và đai cài thông minh",
+            "Tích hợp đai gài cần đẩy vali tiện lợi",
+            "Dây đeo vai bằng đệm lưới êm ái và đai ngực có thể điều chỉnh độ dài",
+            "Bao gồm dây đeo vai có thể tháo rời",
+            "Ngăn phụ bên hông để đựng chai nước hoặc ô dù",
+            "Sử dụng vải CORDURA® siêu bền (trừ màu hoa văn xanh da trời)"
+        ],
+        desc: ["Dành cho những chuyến công tác, du lịch ngắn ngày hay đơn giản là sử dụng hàng ngày, Samsonite Red Vickson được làm từ chất liệu CORDURA® bền bỉ mang đến cho bạn nhiều lựa chọn phong cách với các kiểu dáng đa dạng từ balo 3way đến túi đeo chéo. Bảng màu đa dạng với đen, kaki thanh lích, xanh da trời tươi mới, màu hoa văn xanh da trời và be nhạt giúp bạn dễ dàng phối hợp với mọi trang phục."],
+        paramters: [
+            { capacity: "29L" },
+            { volume: "1.23kg" },
+            { dimension: "32 x 17 x 50 cm" },
+            { warranty: "2 năm" },
+            { material: "Polyester" },
+        ]
+    }
+  },
+  {
+    id: 86,
+    brand: 'American Tourister - Mỹ',
+    name: 'BaBalo Vibe NXT 2A',
+    category: 'balo',
+    newPrice: '800,000₫',
+    oldPrice: '1,600,000₫',
+    colors: [
+        { id: 'color1', name: ['blue'], code: '#2a59c0', image: '/images/balo_056_01.jpg' },
+        { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_056_02.jpg' },
+    ],
+    details: {
+        features: [
+            "Ngăn trước dễ dàng truy cập",
+            "Nội thất nhiều ngăn tiện ích",
+            "Ngăn bảo vệ laptop",
+            "Tích hợp bao trùm che mưa",
+            "Dây đeo vai có thể điều chỉnh",
+            "Đệm lưng êm ái, thoáng mát"
+        ],
+        desc: ["Bộ sưu tập balo Vibe Nxt từ thương hiệu American Tourister cung cấp thêm sự thoải mái và thuận tiện cho người sử dụng với những tính năng hữu ích: dây đeo vai chắc chắn và có thể điều chỉnh, ngăn trước dễ dàng truy cập, ngăn bảo vệ laptop, bao trùm che mưa, đệm lưng êm ái và thoáng mát..."],
+        paramters: [
+            { capacity: "28L" },
+            { volume: "0.7kg" },
+            { dimension: "32 x 19 x 46 cm" },
+            { warranty: "1 năm" },
+            { material: "Polyester" },
+        ]
+    }
+  },
 ];
 
 export default products;
