@@ -109,7 +109,8 @@ function Header() {
                     </li>
                 </ul>
                 </div>
-                <ul className='nav-icon'>
+                <div className="nav-icon">
+                <ul>
                     <li>
                         <Link to="/Search" className='header-search'>
                             <i className="fa-solid fa-magnifying-glass"></i>
@@ -125,6 +126,7 @@ function Header() {
                     ☰
                 </button></li>
                 </ul>
+                </div>
             </nav>
 
             <div className="discount">
