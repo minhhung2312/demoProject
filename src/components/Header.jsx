@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Link, Route, Routes } from "react-router-dom";
 import "../assets/css/Header.css";
 import Brand from "../pages/Brand";
@@ -22,7 +22,7 @@ function Header() {
     });
 
     const [cartCount, setCartCount] = useState(0);
-
+    const menuRef = useRef(null);
     let isNavbarFixed = false;
     window.addEventListener("scroll", () => {
         const navbar = document.querySelector(".nav");
@@ -41,7 +41,30 @@ function Header() {
             }
         }
     });
+    const [menuOpen, setMenuOpen] = useState(false); 
 
+    const toggleMenu = (e) => {
+        e.stopPropagation(); 
+        setMenuOpen(!menuOpen);
+      };
+    const closeMenuOnOutsideClick = (e) => {
+        if (menuRef.current && !menuRef.current.contains(e.target)) {
+          setMenuOpen(false);
+        }
+      };
+    
+      useEffect(() => {
+        if (menuOpen) {
+          document.addEventListener("click", closeMenuOnOutsideClick);
+        } else {
+          document.removeEventListener("click", closeMenuOnOutsideClick);
+        }
+    
+        return () => {
+          document.removeEventListener("click", closeMenuOnOutsideClick);
+        };
+      }, [menuOpen]);
+   
     useEffect(() => {
         setCartCount(cart.length);
     }, [cart]);
@@ -49,12 +72,14 @@ function Header() {
     return (
         <div>
             <div className="line">MIỄN PHÍ VẬN CHUYỂN CHO ĐƠN HÀNG TỪ 1.500.000Đ</div>
+           
             <nav className="nav">
                 <div className="nav__logo">
                     <Link to="/">
                         <img src="/icon/logo.png" alt="" />
                     </Link>
                 </div>
+                <div className={`nav-menu ${menuOpen ? "active" : ""}`} ref={menuRef}>
                 <ul className="nav__Product">
                     <li>
                         <Link to="/Brand">BRAND</Link>
@@ -83,7 +108,8 @@ function Header() {
                         <Link to="/SignUp">SIGN UP</Link>
                     </li>
                 </ul>
-                <ul>
+                </div>
+                <ul className='nav-icon'>
                     <li>
                         <Link to="/Search" className='header-search'>
                             <i className="fa-solid fa-magnifying-glass"></i>
@@ -95,6 +121,9 @@ function Header() {
                             {cartCount > 0 && <span className='cart-count'>{cartCount}</span>}
                         </Link>
                     </li>
+                    <li><button className="nav-toggle" onClick={toggleMenu}>
+                    ☰
+                </button></li>
                 </ul>
             </nav>
 
