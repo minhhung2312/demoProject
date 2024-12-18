@@ -39,7 +39,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;    
-    gap: 20px;
+    gap: 16px;
     
 }
 .nav-icon {
@@ -199,9 +199,10 @@
     .nav-menu {
         position: fixed;
         top: 0;
+        gap: 0;
         right: -250px;
         width: 250px; 
-        height: 1080px;
+        max-height: 100%;
         background-color: white;
         display: flex;
         justify-content: start;
