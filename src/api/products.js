@@ -1501,6 +1501,25 @@ const products = [
       { id: 'color3', name: ['gray'], thumbnail: '/images/color-balo_050_03.jpg', image: '/images/balo_050_03.jpg' },
       { id: 'color4', name: ['gray'], thumbnail: '/images/color-balo_050_04.jpg', image: '/images/balo_050_04.jpg' },
     ],
+    details: {
+        features: [
+            "Chi tiết phản quang nổi bật",
+            "Ngăn chứa bảo vệ laptop lên tới 17'",
+            "Ngăn chính lớn, tổ chức phong phú",
+            "Công nghệ chống rớt laptop Hammock™",
+            "Ngăn trước tiện dụng, phù hợp cho các vật dụng nhỏ",
+            "Túi lót lông cừu dành riêng cho điện thoại hoặc mắt kinh",
+            "Túi đàn hồi bên hông để vừa chai nước",
+            "Dây đeo vai và mặt lưng có đệm thoáng khí, tạo sự thoải mái tối đa khi sử dụng"
+        ],
+        paramters: [
+            { capacity: "19.5L" },
+            { volume: "0,7 kg" },
+            { dimension: " 28 x 15 x 48 cm" },
+            { warranty: "2 năm" },
+            { material: "Polyester"},
+        ]
+      },
   },
   {
     id: 51,
@@ -1512,8 +1531,24 @@ const products = [
     colors: [
       { id: 'color1', name: ['blue'], code: '#57a2af', image: '/images/balo_051_01.webp' },
       { id: 'color2', name: ['orange'], code: '#ff9900', image: '/images/balo_051_02.jpg' },
-
     ],
+    details: {
+        features: [
+            "Tích hợp bao trùm chống thấm nước",
+            "Hai ngăn chứa rộng rãi, tổ chức thông minh, tinh tế",
+            "Ngăn trước tiện dụng, dễ truy cập",
+            "Hai ngăn bên hông co giãn",
+            "Lớp vải lót được làm từ chất liệu PET tái chế bền vững với môi trường",
+            "Dây đeo vai và mặt lưng có đệm êm ái và thoáng khí, tạo sự thoải mái tối đa khi sử dụng"
+        ],
+        paramters: [
+            { capacity: "32L" },
+            { volume: "0,55 kg" },
+            { dimension: " 30 x 21 x 48 cm" },
+            { warranty: "2 năm" },
+            { material: "Polyester"},
+        ]
+      },
   },
   {
     id: 52,
@@ -1525,8 +1560,22 @@ const products = [
     colors: [
       { id: 'color1', name: ['orange'], thumbnail: '/images/color-balo_052_01.jpg', image: '/images/balo_052_01.webp' },
       { id: 'color2', name: ['pink'], thumbnail: '/images/color-balo_052_02.jpg', image: '/images/balo_052_02.jpg' },
-
     ],
+    details: {
+        features: [
+            "Dây đeo vai công thái học êm ái",
+            "Ngăn trước tiện dụng, dễ truy cập",
+            "Hai ngăn chính rộng rãi",
+            "Trọng lượng nhẹ, thoải mái khi sử dụng"
+        ],
+        paramters: [
+            { capacity: "21L" },
+            { volume: "0,3 kg" },
+            { dimension: " 28 x 18 x 39 cm" },
+            { warranty: "1 năm" },
+            { material: "Polyester"},
+        ]
+      },
   },
   {
     id: 53,
@@ -1538,6 +1587,22 @@ const products = [
     colors: [
       { id: 'color1', name: ['yellow'], code: '#fce151', image: '/images/balo_053_01.webp' },
     ],
+    details: {
+        features: [
+           "Thẻ bảng tên",
+           "Trọng lượng nhẹ",
+           "Nội thất tổ chức nhiều ngăn tiện dụng",
+           "Sử dụng công nghệ vật liệu tái chế Recyclex™ và được xử lý kháng khuẩn hiện đại"
+        ],
+        desc: ["Bộ sưu tập Samsonite Sammies Dreams đã thành công trên thị trường với việc biến những con vật đáng yêu và dễ thương thành những chiếc túi và vali tiện dụng. Toàn bộ ý tưởng về một đứa trẻ có thể ôm chặt chiếc túi của mình là rất đáng yêu, và những nhân vật động vật sẽ đóng vai trò là bạn đồng hành thân thiết trong tất cả các chuyến đi của trẻ."],
+        paramters: [
+            { capacity: "8L" },
+            { volume: "0,25 kg" },
+            { dimension: " 25 x 16.5 x 36.5 cm" },
+            { warranty: "2 năm" },
+            { material: "Polyester"},
+        ]
+      },
   },
   {
     id: 54,
@@ -1551,6 +1616,22 @@ const products = [
       { id: 'color2', name: ['brown'], code: '#996633', image: '/images/balo_054_02.jpg' },
       { id: 'color3', name: ['black'], code: '#000000', image: '/images/balo_054_03.jpg' },
     ],
+    details: {
+        features: [
+           "Ngăn đựng laptop",
+           "Ngăn bảo mật ở mặt sau balo",
+           "Túi trước 2 trong 1 có thể tháo rời",
+           "Dây đeo vai bền chắc, êm ái"
+        ],
+        desc: ["Bộ sưu tập Colton là chiếc balo hiện đại sử dụng hàng ngày có thể dùng cho mọi dịp. Chiếc balo này có thiết kế 2 trong 1: túi trước có thể được tháo rời khi bạn chỉ cần mang theo những vật dụng nhỏ. Bên ngoài balo được xử lý chống nước với công nghệ thân thiện với môi trường và không chứa flo. Sắp xếp tất cả thiết bị điện tử của bạn vào balo và không sợ bị ướt trong những ngày mưa. BST Colton có nhiều màu sắc thời trang tuyệt vời."],
+        paramters: [
+            { capacity: "23L" },
+            { volume: "0,6 kg" },
+            { dimension: " 29 x 18 x 45 cm" },
+            { warranty: "1 năm" },
+            { material: "Polyester"},
+        ]
+      },
   },
   {
     id: 70,
