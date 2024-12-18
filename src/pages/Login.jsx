@@ -7,32 +7,47 @@ const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
-
+    const lis = document.querySelectorAll(".li");
+    const user_info = document.querySelector(".user_logged-in_info");
+    const getLoggedIn = document.querySelector(".logged-in")
     const handleRegister = () => {
         navigate("/Signup");
     };
 
     const handleLogin = (e) => {
-        e.preventDefault(); // Prevent page reload on form submission
+    e.preventDefault(); // Ngăn trang reload khi submit form
 
-        // Check for empty fields
-        if (!email) {
-            setError("Please enter your email!");
-            return;
-        }
-        if (!password) {
-            setError("Please enter your password!");
-            return;
-        }
+    // Kiểm tra các trường trống
+    if (!email) {
+        setError("Please enter your email!");
+        return;
+    }
+    if (!password) {
+        setError("Please enter your password!");
+        return;
+    }
 
-        // Validate login information
-        if (email === "fptaptech@gmail.com" && password === "123") {
-            alert("Login successful!");
-            navigate("/"); // Redirect to homepage if credentials are correct
-        } else {
-            setError("Invalid email or password!");
-        }
-    };
+    // Lấy danh sách người dùng từ Local Storage
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+
+    // Tìm kiếm người dùng với email và password
+    const user = users.find((user) => user.email === email && user.password === password);
+
+    if (user) {
+        alert(`Welcome back, ${user.firstName} ${user.lastName}!`);
+        lis.forEach((li)=>{
+            li.classList.add('hide')
+            li.classList.remove('visibly')
+        })
+        getLoggedIn.classList.remove('hide')
+        getLoggedIn.classList.add('visibly')
+        // console.log(user)
+        user_info.innerHTML = `<span>${user.firstName} ${user.lastName} </span> <i class="fa-solid fa-user"></i>`
+        navigate("/"); // Chuyển hướng đến trang chủ nếu đăng nhập thành công
+    } else {
+        setError("Invalid email or password!"); // Hiển thị lỗi nếu thông tin không đúng
+    }
+};
 
     return (
         <div className="login_wrapper">
