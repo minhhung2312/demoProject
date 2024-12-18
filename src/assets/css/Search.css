@@ -65,6 +65,10 @@
         justify-content: space-evenly;
         gap: 10px;
         flex-wrap: wrap;
+
+        .product-card {
+            height: 100%;
+        }
     }
 
 }
