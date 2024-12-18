@@ -386,24 +386,24 @@ const products = [
       { id: 'color3', name: ['black'], thumbnail: '/images/color-product-love-trend2.3.webp', image: '/images/product-love-trend2.3.webp' },
     ],
     details: {
-        features: [
-            "Bánh xe đôi với công nghệ Aero-Trac",
-            "Có khả năng mở rộng (size trung và đại)",
-            "Khóa kéo chống trộm",
-            "Khóa số lõm tích hợp TSA",
-            "Hệ thống treo đa năng với nút ẩn",
-            "Lớp lót làm từ vải RECYCLEX™ - chất liệu làm từ 100% chai nhựa PET tái chế",
-            "Móc treo tiện dụng"
-        ],
-        desc: ["Vali kéo Samsonite Minter là bộ sưu tập mang thiết kế tinh tế và sang trọng, tích hợp nhiều tính năng đáp ứng mọi nhu cầu cần thiết"],
-        paramters: [
-            { capacity: "75/92L" },
-            { volume: "4.6kg" },
-            { dimension: "49 x 29/33 x 69 cm" },
-            { tankage: "20-25kg" },
-            { material: "Polyproppylene" },
-            { warranty: "10 năm" }
-        ]
+      features: [
+        "Bánh xe đôi với công nghệ Aero-Trac",
+        "Có khả năng mở rộng (size trung và đại)",
+        "Khóa kéo chống trộm",
+        "Khóa số lõm tích hợp TSA",
+        "Hệ thống treo đa năng với nút ẩn",
+        "Lớp lót làm từ vải RECYCLEX™ - chất liệu làm từ 100% chai nhựa PET tái chế",
+        "Móc treo tiện dụng"
+      ],
+      desc: ["Vali kéo Samsonite Minter là bộ sưu tập mang thiết kế tinh tế và sang trọng, tích hợp nhiều tính năng đáp ứng mọi nhu cầu cần thiết"],
+      paramters: [
+        { capacity: "75/92L" },
+        { volume: "4.6kg" },
+        { dimension: "49 x 29/33 x 69 cm" },
+        { tankage: "20-25kg" },
+        { material: "Polyproppylene" },
+        { warranty: "10 năm" }
+      ]
     }
   },
   {
@@ -418,19 +418,19 @@ const products = [
       { id: 'color1', name: ['black'], code: '#000', image: '/images/product-love-trend3.1.jpg' },
     ],
     details: {
-        features: [
-            "Ngăn chứa bảo vệ laptop 15.6'",
-            "Nội thất tổ chức phong phú, tinh tế, tiện dụng",
-            "Đệm lưng AirFlow êm ái, thoáng khí, tạo sự thoải mái tối đa khi sử dụng",
-            "Túi lưới bên hông để vừa chai nước hoặc ô dù",
-            "Balo có dây đai nén giúp giữ balo được gọn gàng"
-        ],
-        paramters: [
-            { capacity: "30L" },
-            { volume: "0.77kg" },
-            { dimension: "35 x 19 x 47 cm" },
-            { warranty: "5 năm" }
-        ]
+      features: [
+        "Ngăn chứa bảo vệ laptop 15.6'",
+        "Nội thất tổ chức phong phú, tinh tế, tiện dụng",
+        "Đệm lưng AirFlow êm ái, thoáng khí, tạo sự thoải mái tối đa khi sử dụng",
+        "Túi lưới bên hông để vừa chai nước hoặc ô dù",
+        "Balo có dây đai nén giúp giữ balo được gọn gàng"
+      ],
+      paramters: [
+        { capacity: "30L" },
+        { volume: "0.77kg" },
+        { dimension: "35 x 19 x 47 cm" },
+        { warranty: "5 năm" }
+      ]
     }
   },
   {
@@ -446,12 +446,12 @@ const products = [
       { id: 'color2', name: ['pink'], code: '#d79aa5', image: '/images/product-love-trend4.2.webp' },
     ],
     details: {
-        paramters: [
-            { capacity: "8L" },
-            { volume: "0.3kg" },
-            { dimension: "22 x 13 x 28 cm" },
-            { warranty: "1 năm" }
-        ]
+      paramters: [
+        { capacity: "8L" },
+        { volume: "0.3kg" },
+        { dimension: "22 x 13 x 28 cm" },
+        { warranty: "1 năm" }
+      ]
     }
   },
   {
@@ -468,20 +468,20 @@ const products = [
       { id: 'color3', name: ['blue', 'green'], thumbnail: '/images/color-product-love-trend5.3.webp', image: '/images/product-love-trend5.3.jpg' },
     ],
     details: {
-        features: [
-            "Ngăn trước truy cập nhanh",
-            "Ngăn chính rộng rãi, có ngăn chứa laptop 14'",
-            "Dây đeo vai có thể điều chỉnh",
-            "Túi ẩn ở mặt sau balo",
-            "Ngăn bên hông tiện dụng"
-        ],
-        paramters: [
-            { capacity: "20L" },
-            { volume: "0.5kg" },
-            { dimension: "29 x 18 x 42 cm" },
-            { warranty: "1 năm" },
-            { material: "100% Polyester" },
-        ]
+      features: [
+        "Ngăn trước truy cập nhanh",
+        "Ngăn chính rộng rãi, có ngăn chứa laptop 14'",
+        "Dây đeo vai có thể điều chỉnh",
+        "Túi ẩn ở mặt sau balo",
+        "Ngăn bên hông tiện dụng"
+      ],
+      paramters: [
+        { capacity: "20L" },
+        { volume: "0.5kg" },
+        { dimension: "29 x 18 x 42 cm" },
+        { warranty: "1 năm" },
+        { material: "100% Polyester" },
+      ]
     }
   },
   {
@@ -498,23 +498,23 @@ const products = [
       { id: 'color3', name: ['green'], thumbnail: '/images/color-vali-top1.3.webp', image: '/images/vali-top1.3.webp' },
     ],
     details: {
-        features: [
-            "Logo hoàn thiện tinh tế, độc đáo",
-            "Tổ chức nội thất thông minh, tiện dụng",
-            "Kết cấu vỏ vali hạn chế trầy xước",
-            "Khóa số TSA an toàn, tiêu chuẩn Hoa Kỳ",
-            "Tay cầm chắc chắn, có thể thay đổi độ cao để phù hợp với người dùng",
-            "Hệ thống bánh xe 360° vận hành êm nhẹ"
-        ],
-        desc: ["Bộ sưu tập vali kéo nhựa Kiza được đặc trưng bởi hình dạng biểu tượng của logo Kamiliant và được thể hiện một cách vui nhộn và độc đáo. Vali Kiza có thiết kế dạng hình hộp với sức chứa được gia tăng tối đa. Với các tính năng thiết thực như siêu nhẹ, dung tích lớn, độ bền cao, bề mặt vali hạn chế trầy xước,... giúp bạn thỏa sức tận hưởng chuyến hành trình một cách thoải mái."],
-        paramters: [
-            { capacity: "71L" },
-            { volume: "3.2kg" },
-            { dimension: "47 x 28 x 68 cm" },
-            { tankage: "20-25kg" },
-            { warranty: "1 năm" },
-            { material: "Polypropylen (PP)" },
-        ]
+      features: [
+        "Logo hoàn thiện tinh tế, độc đáo",
+        "Tổ chức nội thất thông minh, tiện dụng",
+        "Kết cấu vỏ vali hạn chế trầy xước",
+        "Khóa số TSA an toàn, tiêu chuẩn Hoa Kỳ",
+        "Tay cầm chắc chắn, có thể thay đổi độ cao để phù hợp với người dùng",
+        "Hệ thống bánh xe 360° vận hành êm nhẹ"
+      ],
+      desc: ["Bộ sưu tập vali kéo nhựa Kiza được đặc trưng bởi hình dạng biểu tượng của logo Kamiliant và được thể hiện một cách vui nhộn và độc đáo. Vali Kiza có thiết kế dạng hình hộp với sức chứa được gia tăng tối đa. Với các tính năng thiết thực như siêu nhẹ, dung tích lớn, độ bền cao, bề mặt vali hạn chế trầy xước,... giúp bạn thỏa sức tận hưởng chuyến hành trình một cách thoải mái."],
+      paramters: [
+        { capacity: "71L" },
+        { volume: "3.2kg" },
+        { dimension: "47 x 28 x 68 cm" },
+        { tankage: "20-25kg" },
+        { warranty: "1 năm" },
+        { material: "Polypropylen (PP)" },
+      ]
     }
   },
   {
@@ -531,23 +531,23 @@ const products = [
       { id: 'color3', name: ['black'], thumbnail: '/images/color-vali-top2.3.webp', image: '/images/vali-top2.3.webp' },
     ],
     details: {
-        features: [
-            "Có khả năng mở rộng tăng sức chứa",
-            "Hệ thống 4 bánh đôi OPTIMOV™ êm nhẹ, chắc chắn",
-            "Khóa kéo đôi an toàn DUOSAF™",
-            "Khóa số TSA bảo mật tiêu chuẩn Hoa Kỳ",
-            "Tích hợp cổng sạc USB (size cabin)",
-            "Tổ chức nội thất phong phú, tinh tế"    
-        ],
-        desc: ["Bộ sưu tập vali kéo nhựa Squasem với thiết kế vỏ 3 chiều đặc trưng, được tạo thành bởi các hoa văn hình thoi, kết hợp với các tính năng du lịch thiết yếu được trang bị đầy đủ. Được làm bằng vật liệu PP đa năng và chắc chắn, mang lại cho Squasem một cấu trúc mạnh mẽ, bền bỉ. Khả năng mở rộng trên tất cả các size giúp tăng khả năng lưu trữ hàng lý. Được trang bị bánh xe giảm sốc OPTIMOV™ giảm tiếng ồn, vận hành trơn tru trên mọi bề mặt gồ ghề, chắc chắn sẽ mang đến cho mọi du khách trải nghiệm di chuyển tuyệt vời. Khóa kéo đôi bảo mật DUOSAF™ cũng cung cấp thêm sự an toàn cho hành lý của bạn."],
-        paramters: [
-            { capacity: "69/78L" },
-            { volume: "3.8kg" },
-            { dimension: "46 x 28/31 x 66 cm" },
-            { tankage: "20-25kg" },
-            { warranty: "3 năm" },
-            { material: "Polypropylene" },
-        ]
+      features: [
+        "Có khả năng mở rộng tăng sức chứa",
+        "Hệ thống 4 bánh đôi OPTIMOV™ êm nhẹ, chắc chắn",
+        "Khóa kéo đôi an toàn DUOSAF™",
+        "Khóa số TSA bảo mật tiêu chuẩn Hoa Kỳ",
+        "Tích hợp cổng sạc USB (size cabin)",
+        "Tổ chức nội thất phong phú, tinh tế"
+      ],
+      desc: ["Bộ sưu tập vali kéo nhựa Squasem với thiết kế vỏ 3 chiều đặc trưng, được tạo thành bởi các hoa văn hình thoi, kết hợp với các tính năng du lịch thiết yếu được trang bị đầy đủ. Được làm bằng vật liệu PP đa năng và chắc chắn, mang lại cho Squasem một cấu trúc mạnh mẽ, bền bỉ. Khả năng mở rộng trên tất cả các size giúp tăng khả năng lưu trữ hàng lý. Được trang bị bánh xe giảm sốc OPTIMOV™ giảm tiếng ồn, vận hành trơn tru trên mọi bề mặt gồ ghề, chắc chắn sẽ mang đến cho mọi du khách trải nghiệm di chuyển tuyệt vời. Khóa kéo đôi bảo mật DUOSAF™ cũng cung cấp thêm sự an toàn cho hành lý của bạn."],
+      paramters: [
+        { capacity: "69/78L" },
+        { volume: "3.8kg" },
+        { dimension: "46 x 28/31 x 66 cm" },
+        { tankage: "20-25kg" },
+        { warranty: "3 năm" },
+        { material: "Polypropylene" },
+      ]
     }
   },
   {
@@ -564,24 +564,24 @@ const products = [
       { id: 'color3', name: ['blue'], thumbnail: '/images/color-vali-top3.3.webp', image: '/images/vali-top3.3.webp' },
     ],
     details: {
-        features: [
-            "Lớp lót vali được xử lý kháng khuẩn",
-            "Đi kèm túi đựng giày kháng khuẩn và túi tiện ích",
-            "Tay nắm và tay cầm cần đẩy được xử lý kháng khuẩn",
-            "Hệ thống đóng gói PlentiVol™ tỉ lệ 20:80",
-            "Bánh xe xoay 360° tích hợp công nghệ StePause™ giúp vali đứng yên",
-            "Khóa kéo đôi bảo mật Duosaf™",
-            
-        ],
-        desc: ["Bộ sưu tập vali kéo nhựa Squasem với thiết kế vỏ 3 chiều đặc trưng, được tạo thành bởi các hoa văn hình thoi, kết hợp với các tính năng du lịch thiết yếu được trang bị đầy đủ. Được làm bằng vật liệu PP đa năng và chắc chắn, mang lại cho Squasem một cấu trúc mạnh mẽ, bền bỉ. Khả năng mở rộng trên tất cả các size giúp tăng khả năng lưu trữ hàng lý. Được trang bị bánh xe giảm sốc OPTIMOV™ giảm tiếng ồn, vận hành trơn tru trên mọi bề mặt gồ ghề, chắc chắn sẽ mang đến cho mọi du khách trải nghiệm di chuyển tuyệt vời. Khóa kéo đôi bảo mật DUOSAF™ cũng cung cấp thêm sự an toàn cho hành lý của bạn."],
-        paramters: [
-            { capacity: "69/78L" },
-            { volume: "3.8kg" },
-            { dimension: "46 x 28/31 x 66 cm" },
-            { tankage: "20-25kg" },
-            { warranty: "3 năm" },
-            { material: "Polypropylene" },
-        ]
+      features: [
+        "Lớp lót vali được xử lý kháng khuẩn",
+        "Đi kèm túi đựng giày kháng khuẩn và túi tiện ích",
+        "Tay nắm và tay cầm cần đẩy được xử lý kháng khuẩn",
+        "Hệ thống đóng gói PlentiVol™ tỉ lệ 20:80",
+        "Bánh xe xoay 360° tích hợp công nghệ StePause™ giúp vali đứng yên",
+        "Khóa kéo đôi bảo mật Duosaf™",
+
+      ],
+      desc: ["Bộ sưu tập vali kéo nhựa Squasem với thiết kế vỏ 3 chiều đặc trưng, được tạo thành bởi các hoa văn hình thoi, kết hợp với các tính năng du lịch thiết yếu được trang bị đầy đủ. Được làm bằng vật liệu PP đa năng và chắc chắn, mang lại cho Squasem một cấu trúc mạnh mẽ, bền bỉ. Khả năng mở rộng trên tất cả các size giúp tăng khả năng lưu trữ hàng lý. Được trang bị bánh xe giảm sốc OPTIMOV™ giảm tiếng ồn, vận hành trơn tru trên mọi bề mặt gồ ghề, chắc chắn sẽ mang đến cho mọi du khách trải nghiệm di chuyển tuyệt vời. Khóa kéo đôi bảo mật DUOSAF™ cũng cung cấp thêm sự an toàn cho hành lý của bạn."],
+      paramters: [
+        { capacity: "69/78L" },
+        { volume: "3.8kg" },
+        { dimension: "46 x 28/31 x 66 cm" },
+        { tankage: "20-25kg" },
+        { warranty: "3 năm" },
+        { material: "Polypropylene" },
+      ]
     }
   },
   {
@@ -813,13 +813,13 @@ const products = [
 
     id: 36,
     brand: 'American Tourister - Mỹ',
-    name:'Túi đeo chéo Paisley Joy size S',
+    name: 'Túi đeo chéo Paisley Joy size S',
     category: 'handbag',
     newPrice: '750,000đ',
     oldPrice: '1,500,000đ',
     colors: [
-      {id: 'color1', name: ['black'], code: '#000000', image: '/images/tuideocheoPaisleyJoy_01.webp' },
-      {id: 'color2', name: ['gray'],code: '#c8c1ba',image: '/images/tuideocheoPaisleyJoy_02.webp'},
+      { id: 'color1', name: ['black'], code: '#000000', image: '/images/tuideocheoPaisleyJoy_01.webp' },
+      { id: 'color2', name: ['gray'], code: '#c8c1ba', image: '/images/tuideocheoPaisleyJoy_02.webp' },
     ]
   },
   {
@@ -830,8 +830,8 @@ const products = [
     newPrice: '950,000đ',
     oldPrice: '1,900,000đ',
     colors: [
-      {id: 'color1', name: ['red'], code: '#FF0000', image: '/images/tuixach_080_01.webp',},
-      {id: 'color2', name: ['gray'], code: '#67665b', image: '/images/tuixach_080_02.webp'},
+      { id: 'color1', name: ['red'], code: '#FF0000', image: '/images/tuixach_080_01.webp', },
+      { id: 'color2', name: ['gray'], code: '#67665b', image: '/images/tuixach_080_02.webp' },
     ],
   },
   {
@@ -842,9 +842,9 @@ const products = [
     newPrice: '4,200,000đ',
     oldPrice: '6,000,000đ',
     colors: [
-      {id: 'color1', name: ['gray'], code: '#f2eee6', image: '/images/tuixach_081_01.webp',},
-      {id: 'color2', name: ['pink'], code: '#ffe2de', image: '/images/tuixach_081_02.webp'},
-      {id: 'coler3', name: ['black'], code: '#000000', image: '/images/tuixach_081_03.webp'},
+      { id: 'color1', name: ['gray'], code: '#f2eee6', image: '/images/tuixach_081_01.webp', },
+      { id: 'color2', name: ['pink'], code: '#ffe2de', image: '/images/tuixach_081_02.webp' },
+      { id: 'coler3', name: ['black'], code: '#000000', image: '/images/tuixach_081_03.webp' },
     ],
   },
   {
@@ -855,11 +855,12 @@ const products = [
     newPrice: '7,210,000đ',
     oldPrice: '10,300,000đ',
     colors: [
-      {id: 'color1', name: ['black'], code: '#000000', image: '/images/tuixach_082_01.webp',},
-      {id: 'color2', name: ['gray'], code: '#3e444e', image: '/images/tuixach_082_02.webp'},
+      { id: 'color1', name: ['black'], code: '#000000', image: '/images/tuixach_082_01.webp', },
+      { id: 'color2', name: ['gray'], code: '#3e444e', image: '/images/tuixach_082_02.webp' },
     ],
   },
-  {  id: 50,
+  {
+    id: 50,
     brand: 'High Sierra - Mỹ',
     name: 'Balo laptop 17in Swoop SG',
     category: 'balo',
@@ -931,6 +932,41 @@ const products = [
     oldPrice: '1,600,000₫',
     colors: [
       { id: 'color1', name: ['yellow'], thumbnail: '/images/color-balo_055_01.jpg', image: '/images/balo_055_01.jpg' },
+    ],
+  },
+  {
+    id: 56,
+    brand: 'American Tourister - Mỹ',
+    name: 'Balo Herd 2.0',
+    category: 'balo',
+    newPrice: '900,000₫',
+    oldPrice: '1,800,000₫',
+    colors: [
+      { id: 'color1', name: ['green'], thumbnail: '/images/color-balo_056_01.jpg', image: '/images/balo_056_01.jpg' },
+      { id: 'color2', name: ['blue'], thumbnail: '/images/color-balo_056_02.jpg', image: '/images/balo_056_02.jpg' },
+    ],
+  },
+  {
+    id: 57,
+    brand: 'American Tourister - Mỹ',
+    name: 'Balo trẻ em Yoodle 2.0 - Ava Green',
+    category: 'balo',
+    newPrice: '550,000₫',
+    oldPrice: '1,100,000₫',
+    colors: [
+      { id: 'color1', name: ['green'], thumbnail: '/images/color-balo_057_01.jpg', image: '/images/balo_057_01.jpg' },
+    ],
+  },
+  {
+    id: 58,
+    brand: 'American Tourister - Mỹ',
+    name: 'Balo trẻ em Zoodle 2.0 R',
+    category: 'balo',
+    newPrice: '550,000₫',
+    oldPrice: '1,100,000₫',
+    colors: [
+      { id: 'color1', name: ['pink'], thumbnail: '/images/color-balo_058_01.jpg', image: '/images/balo_058_01.jpg' },
+      { id: 'color2', name: ['blue'], thumbnail: '/images/color-balo_058_02.jpg', image: '/images/balo_058_02.jpg' },
     ],
   },
 ];
