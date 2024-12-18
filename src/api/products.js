@@ -976,6 +976,23 @@ const products = [
       { id: 'color2', name: ['gray'], code: '#bebdc0', image: '/images/vali_item001_02.webp' },
       { id: 'color3', name: ['gray'], code: '#4e5e62', image: '/images/vali_item001_03.webp' },
     ],
+    details: {
+      features: [
+          "Thiết kế ngăn chứa thông minh Plentivol™ theo tỉ lệ 2/8, dễ dàng sắp xếp những món đồ lớn",
+          "Khả năng mở rộng tăng sức chứa (chỉ có trên size trung và đại)",
+          "Khóa kéo đôi Duosaf™ tăng cường bảo mật",
+          "Trang bị móc treo đa năng ở bên hông vali giúp treo thêm túi xách hoặc các vật dụng khác",
+          "Lớp lót được kháng khuẩn bằng công nghệ hiện đại, kèm với các túi phụ kiện tiện dụng"
+      ],
+      paramters: [
+          { capacity: "65/75L" },
+          { volume: "4kg" },
+          { dimension: "44 x 30/33 x 67 cm" },
+          { tankage: "20-25kg" },
+          { warranty: "3 năm" },
+          { material: "100% Polycarbonate"},
+      ]
+  }
   },
   {
     id: 32,
@@ -990,6 +1007,23 @@ const products = [
       { id: 'color2', name: ['gray'], code: '#333333', image: '/images/vali_item002_02.webp' },
       { id: 'color3', name: ['gray'], code: '#6b6869', image: '/images/vali_item002_03.webp' },
     ],
+    details: {
+      features: [
+          "Kích thước size cabin chuẩn (115cm)",
+          "Bánh xe giảm xóc OPTIMOV™",
+          "Hệ thống khóa khung đa điểm một chạm XTRASECU™",
+          "Nội thất tổ chức phong phú, đa năng",
+          "Lớp lót làm từ vật liệu tái chế rPET và được xử lý kháng khuẩn"
+      ],
+      paramters: [
+          { capacity: "56L" },
+          { volume: "4,1kg" },
+          { dimension: "45 x 27 x 65" },
+          { tankage: "20-25kg" },
+          { warranty: "3 năm" },
+          { material: "Polycarbonate"},
+      ]
+  }
   },
   {
     id: 33,
@@ -1003,6 +1037,23 @@ const products = [
       { id: 'color1', name: ['blue'], code: '#0033ff', image: '/images/vali_item003_01.webp' },
       { id: 'color2', name: ['black'], code: '#000000', image: '/images/vali_item003_02.webp' },
     ],
+    details: {
+      features: [
+          "Tích hợp khóa 3 số TSA kết hợp với dây cáp gia tăng tính bảo mật",
+          "Ngăn phía trước tiện dụng, tối ưu sức chứa",
+          "Sử dụng chất liệu polyester nhẹ nhưng vẫn bền chắc",
+          "Hệ thống 4 bánh xe 360° vận hành êm nhẹ và trơn tru",
+          "Khả năng mở rộng tăng không gian đóng gói ở tất cả các size"
+      ],
+      paramters: [
+          { capacity: "70L" },
+          { volume: "2.7kg" },
+          { dimension: "42 x 27/30 x 71cm" },
+          { tankage: "20-25kg" },
+          { warranty: "3 năm" },
+          { material: "100% Polyester"},
+      ]
+  }
   },
   {
     id: 34,
@@ -1015,6 +1066,22 @@ const products = [
       { id: 'color1', name: ['blue'], code: '#0242fd', image: '/images/balo_047_01.jpg' },
       { id: 'color2', name: ['black'], code: '#000000', image: '/images/balo_047_02.jpg' },
     ],
+    details: {
+      features: [
+          "Ngăn chính dung tích lớn rộng rãi 30l",
+          "Tích hợp bao trùm không thấm nước",
+          "Thiết kế ngăn nắp túi phụ kiện và khả năng nới rộng sức chứa",
+          "Ngăn túi chứa nước bên hông kèm ống hút",
+          "Lớp lóp đệm lưng giữ lưng luôn khô và thoáng mát",
+          "Dây đai balo cấu tạo nâng tải trọng tối ưu",
+      ],
+      paramters: [
+          { capacity: "30L" },
+          { volume: "1.3kg" },
+          { dimension: "35 x 35 x 65cm" },
+          { warranty: "1 năm" },
+      ]
+  }
   },
   {
     id: 35,
@@ -1027,6 +1094,19 @@ const products = [
       { id: 'color1', name: ['blue'], code: '#0242fd', image: '/images/balo_048_01.jpg' },
       { id: 'color2', name: ['black'], code: '#000000', image: '/images/balo_048_02.jpg' },
     ],
+    details: {
+      features: [
+          "PRO-DLX 6 là bước nhảy vọt tiếp theo cho bộ sưu tập cao cấp dành cho doanh nhân của Samsonite. Bộ sưu tập này có kiểu dáng mới mẻ và cực kỳ hiện đại, được làm bằng vật liệu mềm và nhẹ hơn. Bên trong, PRO-DLX 6 cung cấp một loạt các tùy chọn tổ chức được thiết kế để đơn giản hóa việc sắp xếp. Kết hợp tất cả những điều này lại với nhau và bạn có một bộ sưu tập hoàn hảo cho nhu cầu của những doanh nhân thường xuyên phải đi công tác. Khi bạn cần di chuyển nhanh chóng và làm việc hiệu quả, không có lựa chọn nào tốt hơn PRO-DLX 6",
+          "Balo laptop 17.3 PRO-DLX 6 có ngăn chính rộng rãi, trong đó có ngăn chứa bảo vệ laptop 17.3 chuyên dụng cùng với ngăn đựng tài liệu và khe cắm sạc dự phòng. Các ngăn phía trước có khóa kéo với nhiều khe cắm cho nhiều thiết bị khác nhau, trong khi 2 túi bên hông có khóa kéo cung cấp thêm chức năng và khả năng lưu trữ thiết bị. Cổng sạc USB ở bên hông giúp dễ dàng sạc pin khi di đang di chuyển và bộ mở rộng cho phép bạn sắp xếp được nhiều hơn khi cần thiết.",
+      ],
+      paramters: [
+          { capacity: "24.5 L" },
+          { volume: "1.5kg" },
+          { dimension: "32 x 18/24 x 46 cm" },
+          { warranty: "2 năm" },
+          { material: " 97% Nylon + 2% PU + 1% da"},
+      ]
+  }
   },
   {
 
@@ -1039,7 +1119,22 @@ const products = [
     colors: [
       {id: 'color1', name: ['black'], code: '#000000', image: '/images/tuideocheoPaisleyJoy_01.webp' },
       {id: 'color2', name: ['gray'],code: '#c8c1ba',image: '/images/tuideocheoPaisleyJoy_02.webp'},
-    ]
+    ],
+    details: {
+      features: [
+          "Nội thất rộng rãi, có ngăn khóa kéo bên trong",
+          "Ngăn có khóa kéo ở cả mặt trước và sau",
+          "Dây đeo vai bền chắc, có thể điều chỉnh độ dài",
+          "Lớp lót được xử lý kháng khuẩn hiện đại",
+      ],
+      paramters: [
+          { capacity: "3 L" },
+          { volume: "0,22kg" },
+          { dimension: " 22,5 x 7 x 15 cm" },
+          { warranty: "1   năm" },
+          { material: "95% Polyester + 5% Microfiber"},
+      ]
+  },
   },
   {
     id: 37,
@@ -1052,6 +1147,21 @@ const products = [
       {id: 'color1', name: ['red'], code: '#FF0000', image: '/images/tuixach_080_01.webp',},
       {id: 'color2', name: ['gray'], code: '#67665b', image: '/images/tuixach_080_02.webp'},
     ],
+    details: {
+      features: [
+          "Túi duffle Corey chính là chiếc túi lý tưởng cho những ai yêu thích thể thao và các hoạt động ngoài trời. Với ngăn chính rộng rãi, bạn có thể thoải mái đựng đồ thể thao, quần áo, đồ vệ sinh cá nhân và các vật dụng khác.",
+          "Túi đựng giày giúp bạn dễ dàng mang theo giày thể thao hoặc giày đi bộ.",
+          "Hai ngăn lưới bên hông để đựng các vật dụng nhỏ như khăn, bình nước.",
+          "Dây đeo vai có thể tháo rời, giúp bạn dễ dàng xách tay hoặc đeo trên vai.",
+      ],
+      paramters: [
+          { capacity: "33,5L" },
+          { volume: "0,48 kg" },
+          { dimension: "47 x 25 x 24 cm" },
+          { warranty: "1 năm" },
+          { material: "100% Polyester"},
+      ]
+  },
   },
   {
     id: 38,
@@ -1065,6 +1175,22 @@ const products = [
       {id: 'color2', name: ['pink'], code: '#ffe2de', image: '/images/tuixach_081_02.webp'},
       {id: 'coler3', name: ['black'], code: '#000000', image: '/images/tuixach_081_03.webp'},
     ],
+    details: {
+      features: [
+          "Bộ sưu tập Ferley mang đến nét nữ tính thanh lịch, kết hợp hài hòa giữa thiết kế tối giản và chất liệu nhẹ nhàng, tạo nên những chiếc túi phù hợp cho mọi hoạt động thường ngày.",
+          "Màu sắc đa dạng: Đen, Xám nhạt, Hồng đáng yêu, Denim thời thượng, phù hợp với nhiều phong cách.",
+          "Túi đeo chéo nắp gập mang phong cách nữ tính, thanh lịch.",
+          "Túi nhỏ đính kèm giúp bạn cất giữ các phụ kiện như tai nghe, sạc điện thoại,...",
+          "Dây đeo vai có thể điều chỉnh, mang lại sự thoải mái khi sử dụng.",
+      ],
+      paramters: [
+          { capacity: "3L" },
+          { volume: "0,42 kg" },
+          { dimension: "31 x 8,5 x 18 cm" },
+          { warranty: "2 năm" },
+          { material: "63% NYLON + 37% POLYESTER TRICO"},
+      ]
+  },
   },
   {
     id: 39,
@@ -1077,6 +1203,290 @@ const products = [
       {id: 'color1', name: ['black'], code: '#000000', image: '/images/tuixach_082_01.webp',},
       {id: 'color2', name: ['gray'], code: '#3e444e', image: '/images/tuixach_082_02.webp'},
     ],
+    details: {
+      features: [
+          "Chiếc túi công sở Architecture Urban2 2-Way Carry Tote là người bạn đồng hành linh hoạt, dễ dàng chuyển đổi từ túi xách sang balo. Với thiết kế sáng tạo, lớp lót kháng khuẩn và chất liệu co giãn bảo vệ thiết bị 360 độ, chiếc túi này là một lựa chọn hoàn hảo cho những chuyến công tác.",
+          "Bao gồm khóa kéo chống nước và phủ lớp chống thấm ở ngăn chính để giữ đồ dùng khô ráo",
+          "Đáy túi được trang bị chân đế để hạn chế tiếp xúc với bề mặt bẩn",
+      ],
+      paramters: [
+          { capacity: "20L" },
+          { volume: "1,3 kg" },
+          { dimension: "40 x 15 x 40 cm" },
+          { warranty: "10 năm" },
+          { material: "Nylon / Leather"},
+      ]
+  },
+  },
+  {
+    id: 40,
+    brand: 'American Tourister - Mỹ',
+    name: 'Túi tote Alizee Aimee ASR',
+    category: 'handbag',
+    newPrice: '1,250,000đ',
+    oldPrice: '2,500,000đ',
+    colors: [
+      {id: 'color1', name: ['pink'], code: '#edcbc9', image: '/images/tuixach_083_01.webp'},
+      {id: 'color2', name: ['blue'], code: '#353f62', image: '/images/tuixach_083_02.webp'},
+      {id: 'color3', name: ['gray'], code: '#d0cedd', image: '/images/tuixach_083_03.webp'},
+    ],
+    details: {
+      features: [
+          "Bộ sưu tập Alizee đình đám nay chào đón thành viên mới tuyệt vời - Alizee Aimee. Ba màu sắc sang trọng: Indigo, Light Grey và Rose Beige, mang đến vẻ ngoài thanh lịch, tươi mới cho cuộc sống thường ngày của bạn.Bộ sưu tập Alizee đình đám nay chào đón thành viên mới tuyệt vời - Alizee Aimee. Ba màu sắc sang trọng: Indigo, Light Grey và Rose Beige, mang đến vẻ ngoài thanh lịch, tươi mới cho cuộc sống thường ngày của bạn.",
+          "Chất liệu vải và lớp lót được xử lý công nghệ kháng khuẩn, đảm bảo vệ sinh tối ưu cho đồ dùng cá nhân. Hơn thế nữa, thiết kế thông minh và đa năng của Alizee Aimee sẽ khiến mọi hành trình của bạn trở nên dễ dàng và thú vị hơn bao giờ hết.",
+          "Túi tote Alizee Aimee sở hữu ngăn chính rộng rãi, dễ dàng lấy đồ, kèm ngăn đựng máy tính bảng 8 inch. Ngăn khóa kéo phía trước tiện cất giữ vật dụng nhỏ, ngăn khóa kéo phía sau bảo vệ đồ dùng quan trọng.",
+      ],
+      paramters: [
+          { capacity: "14L" },
+          { volume: "0,5 kg" },
+          { dimension: "42 x 14 x 28 cm" },
+          { warranty: "1 năm" },
+          { material: "100% Polyester"},
+      ]
+    },
+  },
+  {
+    id: 41,
+    brand: 'ACE. - Nhật Bản',
+    name: 'Túi đeo chéo Bastique2',
+    category: 'handbag',
+    newPrice: '1,120,000đ',
+    oldPrice: '1,600,000đ',
+    colors: [
+      {id: 'color1', name: ['blue'], code: '#191972', image: '/images/tuixach_084_01.webp'},
+      {id: 'color2', name: ['black'], code: '#000000', image: '/images/tuixach_084_02.webp'},
+    ],
+    details: {
+      features: [
+          "Kích thước nhỏ gọn và nhẹ nhàng",
+          "Tổ chức nội thất thông minh, dễ dàng sắp xếp",
+          "Mặt lưng sử dụng chất liệu lưới thoáng khí",
+      ],
+      paramters: [
+          { capacity: "1L" },
+          { volume: "0,2 kg" },
+          { dimension: "24 x 6 x 14 cm" },
+          { warranty: "5 năm" },
+          { material: "Nylon 100 x 210dn Dobby PU finish"},
+      ]
+    },
+  },
+  {
+    id: 42,
+    brand: 'Kanana Project - Nhật Bản',
+    name: 'Túi đeo chéo Kanana Monogram 2ND Large',
+    category: 'handbag',
+    newPrice: '2,380,000₫',
+    oldPrice: '3,400,000₫',
+    colors: [
+      {id: 'color1', name: ['blue'], thumbnail: '/images/color-tuixach_085_01.webp', image: '/images/tuixach_085_01.webp'},
+    ],
+    details: {
+      features: [
+          "Bộ sưu tập Monogram được tái thiết kế với vẻ ngoài tinh tế và sang trọng nhờ ánh sáng rực rỡ.",
+          "Chất liệu chính là vải dệt Jacquard Monogram độc đáo",
+          "Ngăn trước có khóa kéo làm từ vải đã được xử lý kháng khuẩn và virut bởi công nghệ VIRTECT®",
+          "Khóa kéo chính có chốt an toàn để tránh mở nhầm",
+          "Ngăn khóa kéo ở mặt sau có độ bảo mật cao, thích hợp để đựng ví và các vật dụng có giá trị",
+      ],
+      paramters: [
+          { volume: "0,31 kg" },
+          { dimension: "32 x 10 x 24 cm" },
+          { warranty: "5 năm" },
+          { material: "Polyester 100dn Jacquard / PU"},
+      ]
+    },
+  },
+  {
+    id: 43,
+    brand: 'Samsonite - Mỹ',
+    name: 'Túi hobo Up-Line S',
+    category: 'handbag',
+    newPrice: '2,940,000₫',
+    oldPrice: '4,200,000₫',
+    colors: [
+      {id: 'color1', name: ['pink'], code: '#c5a79c', image: '/images/tuixach_086_01.webp'},
+      {id: 'color2', name: ['black'], code: '#000000', image: '/images/tuixach_086_02.webp'},
+      {id: 'color3', name: ['gray'], code: '#bbb6ba', image: '/images/tuixach_086_03.webp'},
+
+    ],
+    details: {
+      features: [
+          "Nội thất rộng rãi: Gồm ngăn chính rộng rãi có khóa kéo và 1 ngăn khóa kéo bên trong giúp bạn sắp xếp đồ đạc khoa học, dễ dàng tìm kiếm",
+          "Ngăn trước có khóa kéo làm từ vải đã được xử lý kháng khuẩn và virut bởi công nghệ VIRTECT®",
+          "Khóa kéo chính có chốt an toàn để tránh mở nhầm",
+          "Ngăn khóa kéo ở mặt sau có độ bảo mật cao, thích hợp để đựng ví và các vật dụng có giá trị",
+      ],
+      paramters: [
+          { volume: "0,31 kg" },
+          { dimension: "32 x 10 x 24 cm" },
+          { warranty: "5 năm" },
+          { material: "Polyester 100dn Jacquard / PU"},
+      ]
+    },
+  },
+  {
+    id: 44,
+    brand: 'Victorinox - Thụy Sĩ',
+    name: 'Túi duffel Touring 2.0 Sports',
+    category: 'handbag',
+    newPrice: '5,180,000₫',
+    oldPrice: '7,400,000₫',
+    colors: [
+      {id: 'color1', name: ['black'], code: '#000000', image: '/images/tuixach_087_01.webp'},
+      {id: 'color2', name: ['gray'], code: '#bbb6ba', image: '/images/tuixach_087_02.webp'},
+
+    ],
+    details: {
+      features: [
+          "Túi chống thấm có thể tháo rời và điều chỉnh độ dài dây đeo, giúp bạn mang theo đồ đạc cá nhân an toàn trong mọi điều kiện thời tiết.",
+          "Dây đeo vai có thể tháo rời và điều chỉnh độ dài với lớp đệm mang nhãn hiệu Victorinox.",
+          "Ngăn chính rộng rãi với túi lưới có khóa kéo, dễ dàng sắp xếp đồ đạc khoa học và an toàn.",
+      ],
+      paramters: [
+          { capacity: "1L" },
+          { volume: "0,7 kg" },
+          { dimension: "50 x 29 x 28 cm" },
+          { warranty: "10 năm" },
+          { material: "Polyester"},
+      ]
+    },
+  },
+  {
+    id: 45,
+    brand: 'Samsonite Red - Mỹ',
+    name: 'Túi boston Vickson',
+    category: 'handbag',
+    newPrice: '3,640,000₫',
+    oldPrice: '5,200,000₫',
+    colors: [
+      {id: 'color1', name: ['blue'], thumbnail: '/images/color-tuixach_088_01.webp', image: '/images/tuixach_088_01.webp'},
+      {id: 'color2', name: ['black'], code: '#000000', image: '/images/tuixach_088_02.webp'},
+
+    ],
+    details: {
+      features: [
+          "Túi boston sở hữu khoang chính lớn cùng nhiều ngăn phụ, giúp sắp xếp đồ đạc một cách khoa học và tiện lợi",
+          "Dây đeo vai được trang bị đệm mút êm ái, mang lại cảm giác thoải mái khi sử dụng trong thời gian dài và có thể tháo rời",
+          "Chất liệu nhẹ, giúp bạn di chuyển dễ dàng",
+          "Sử dụng vải CORDURA® siêu bền (trừ màu hoa văn xanh da trời)",
+      ],
+      paramters: [
+          { capacity: "28L" },
+          { volume: " 0,98 kg" },
+          { dimension: "46 x 18 x 33 cm" },
+          { warranty: "2 năm" },
+          { material: "100% Polyester"},
+      ]
+    },
+  },
+  {
+    id: 46,
+    brand: 'Samsonite Red - Mỹ',
+    name: 'Túi đeo chéo mini Haaper',
+    category: 'handbag',
+    newPrice: '1,650,000₫',
+    oldPrice: '3,300,000₫',
+    colors: [
+      {id: 'color1', name: ['gray'], thumbnail: '/images/color-tuixach_089_01.webp', image: '/images/tuixach_089_01.webp'},
+      {id: 'color2', name: ['black'], thumbnail: '/images/color-tuixach_089_02.webp', image: '/images/tuixach_089_02.webp'},
+
+    ],
+    details: {
+      features: [
+          "Bộ sưu tập Haaper từ Samsonite Red được thiết kế dành cho những người năng động và được làm từ chất liệu Rip Nylon tăng cường độ bền và sự dẻo dai. ",
+          "Các sản phẩm Haaper có kiểu dáng mạnh mẽ lấy cảm hứng từ vẻ đẹp của thiên nhiên, có màu xám hoặc bạc với các điểm nhấn màu xanh dương rực rỡ.",
+          "Giữ các vật dụng thiết yếu của bạn ngăn nắp, dễ lấy và vẫn an toàn với Túi đeo chéo mini HAAPER. ",
+          "Chiếc túi siêu nhỏ gọn này hoàn hảo cho các vật dụng nhỏ như ví, điện thoại và thẻ ngân hàng. Bên cạnh đó, nó còn được tích hợp một chiếc túi để chai nước để tăng sự tiện dụng (Sản phẩm không bao gồm chai nước)",
+      ],
+      paramters: [
+          { capacity: "2L" },
+          { volume: "0.14 kg" },
+          { dimension: " 21 x 6 x 14 cm" },
+          { warranty: "2 năm" },
+          { material: "100% Nylon"},
+      ]
+    },
+  },
+  {
+    id: 47,
+    brand: 'Samsonite - Mỹ',
+    name: 'Túi đeo chéo Sefton',
+    category: 'handbag',
+    newPrice: '2,170,000₫',
+    oldPrice: '3,100,000₫',
+    colors: [
+      {id: 'color1', name: ['black'], code: '#000000', image: '/images/tuixach_090_01.webp'},
+
+    ],
+    details: {
+      features: [
+          "Từ những chiếc balo gọn nhẹ thanh lịch đến vali kéo đa năng tiện dụng, Sefton mang đến giải pháp di chuyển đầy phong cách cho những chuyên gia kinh doanh thành thị. ",
+          "Bên cạnh nội thất thông minh giúp bạn dễ dàng sắp xếp đồ đạc, các sản phẩm trong bộ sưu tập Sefton còn được chế tác từ nylon mật độ cao và  các chi tiết trang trí PU cap cấp, đảm bảo phong cách du lịch của bạn luôn hoàn hảo.",
+          "Túi đeo chéo Sefton, được chế tác từ chất liệu nylon bền bỉ, logo và đầu khóa kéo kim loại sang trọng, mang đến vẻ ngoài lịch lãm và gọn gàng cho các chuyên gia bận rộn, dù đang di chuyển ở bất cứ đâu.",
+      ],
+      paramters: [
+          { volume: "0.5 kg" },
+          { dimension: "25 x 9 x 25,5 cm" },
+          { warranty: "2 năm" },
+          { material: "80% Nylon + 20% PU"},
+      ]
+    },
+  },
+  {
+    id: 48,
+    brand: 'Samsonite Red - Mỹ',
+    name: 'Túi tote Nobert Patterned',
+    category: 'handbag',
+    newPrice: '3,570,000₫',
+    oldPrice: '5,100,000₫',
+    colors: [
+      {id: 'color1', name: ['blue'], thumbnail: '/images/color-tuixach_091_01.webp', image: '/images/tuixach_091_01.webp'},
+
+    ],
+    details: {
+      features: [
+          "Túi tote gấp gọn với chất liệu nylon bền bỉ, linh hoạt cùng lớp phủ PU mờ tinh tế, mang phong cách unisex trẻ trung, năng động.",
+          "Không gian lưu trữ rộng rãi bên trong cùng ngăn khóa kéo giúp bạn bảo quản đồ đạc an toàn",
+          "Ngăn khóa kéo trước và sau tiện lợi, đáp ứng nhu cầu sử dụng hàng ngày",
+          "Dây đeo vai có thể điều chỉnh độ dài, tạo sự thoải mái khi đeo",
+      ],
+      paramters: [
+          { capacity: "19.5L" },
+          { volume: "0,62 kg" },
+          { dimension: " 37,5 x 9,5 x 40 cm" },
+          { warranty: "2 năm" },
+          { material: "80% Nylon + 20% PU"},
+      ]
+    },
+  },
+  {
+    id: 49,
+    brand: 'Samsonite Red - Mỹ',
+    name: 'Túi đeo chéo mini Nobert',
+    category: 'handbag',
+    newPrice: '2,380,000₫',
+    oldPrice: '3,400,000₫',
+    colors: [
+      {id: 'color1', name: ['yellow'], code: '#e5dcce', image: '/images/tuixach_092_01.webp'},
+      {id: 'color2', name: ['blue'], code: '#4a495e', image: '/images/tuixach_092_02.webp'},
+      {id: 'color3', name: ['black'], code: '#000000', image: '/images/tuixach_092_03.webp'},
+    ],
+    details: {
+      features: [
+          "Túi tote gấp gọn với chất liệu nylon bền bỉ, linh hoạt cùng lớp phủ PU mờ tinh tế, mang phong cách unisex trẻ trung, năng động.",
+          "Không gian lưu trữ rộng rãi bên trong cùng ngăn khóa kéo giúp bạn bảo quản đồ đạc an toàn",
+          "Ngăn khóa kéo trước và sau tiện lợi, đáp ứng nhu cầu sử dụng hàng ngày",
+          "Dây đeo vai có thể điều chỉnh độ dài, tạo sự thoải mái khi đeo",
+      ],
+      paramters: [
+          { capacity: "19.5L" },
+          { volume: "0,62 kg" },
+          { dimension: " 37,5 x 9,5 x 40 cm" },
+          { warranty: "2 năm" },
+          { material: "80% Nylon + 20% PU"},
+      ]
+    },
   },
   {  id: 50,
     brand: 'High Sierra - Mỹ',
