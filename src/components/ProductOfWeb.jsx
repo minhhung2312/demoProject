@@ -20,7 +20,7 @@ function ProductOfWeb() {
                     </Link>
                 </div>
                 <div className="item-product">
-                    <Link to='/Bag'>
+                    <Link to='/Handbag'>
                         <img src="/images/item-of-web3.webp" alt="bag" />
                         <span className="name">Bag</span>
                     </Link>
