@@ -3,6 +3,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import "../assets/css/Header.css";
 import Brand from "../pages/Brand";
 import '../assets/css/Header.css'
+import '../assets/css/Login.css'
 import Home from '../pages/Home';
 import Balo from '../pages/Balo';
 import Vali from '../pages/Vali';
@@ -20,7 +21,16 @@ function Header() {
         const savedCart = localStorage.getItem("cart");
         return savedCart ? JSON.parse(savedCart) : [];
     });
-
+    function hanldeSignOut(){
+        const getLoggedIn = document.querySelector(".logged-in")
+        const lis = document.querySelectorAll(".li");
+        lis.forEach((li)=>{
+            li.classList.add('visibly')
+            li.classList.remove('hide')
+        })
+        getLoggedIn.classList.remove('visibly')
+        getLoggedIn.classList.add('hide')
+    }
     const [cartCount, setCartCount] = useState(0);
     const menuRef = useRef(null);
     let isNavbarFixed = false;
@@ -101,16 +111,23 @@ function Header() {
                     <li>
                         <Link to="/About">ABOUT US</Link>
                     </li>
-                    <li>
+                    <li className='li'>
                         <Link to="/Login">LOGIN</Link>
                     </li>
-                    <li>
+                    <li className='li'>
                         <Link to="/SignUp">SIGN UP</Link>
                     </li>
                 </ul>
                 </div>
                 <div className="nav-icon">
                 <ul>
+                    <li className='logged-in'>
+                        <ul className='logged-in_info'>
+                            <li className='logged-in_info_item'>Account Information</li>
+                            <li className='logged-in_info_item' onClick={hanldeSignOut}>Sign Out</li>
+                        </ul>
+                        <div className='user_logged-in_info'></div>
+                    </li>
                     <li>
                         <Link to="/Search" className='header-search'>
                             <i className="fa-solid fa-magnifying-glass"></i>

@@ -19,9 +19,9 @@ function SignUp() {
     };
 
     const handleSignUp = (e) => {
-        e.preventDefault(); // Prevent page reload on form submit
-
-        // Validation checks
+        e.preventDefault(); // Ngăn trang reload khi submit form
+    
+        // Kiểm tra lỗi
         if (!firstName) {
             setError("Please enter your first name!");
             return;
@@ -50,12 +50,32 @@ function SignUp() {
             setError("Passwords do not match!");
             return;
         }
-
-        // If no errors, perform sign-up
-        setError(""); // Clear error messages
-        alert("Registration successful!!!, you will be redirected to the login page");
-        console.log("Sign-up details:", { firstName, lastName, gender, email, password });
-        navigate("/Login"); // Redirect to login page
+    
+        // Lấy danh sách người dùng hiện có từ Local Storage
+        const users = JSON.parse(localStorage.getItem("users")) || [];
+    
+        // Kiểm tra xem email đã được sử dụng chưa
+        if (users.some((user) => user.email === email)) {
+            setError("Email already exists!");
+            return;
+        }
+    
+        // Tạo người dùng mới
+        const newUser = {
+            firstName,
+            lastName,
+            gender,
+            email,
+            password,
+        };
+    
+        // Thêm người dùng mới vào danh sách và lưu lại trong Local Storage
+        users.push(newUser);
+        localStorage.setItem("users", JSON.stringify(users));
+    
+        // Chuyển hướng sang trang Login
+        alert("Registration successful! Redirecting to Login page.");
+        navigate("/Login");
     };
 
     return (

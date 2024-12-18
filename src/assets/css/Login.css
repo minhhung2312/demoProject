@@ -105,7 +105,12 @@ body {
 .error-message {
   color: red;
 }
-
+.visibly{
+  display: block;
+}
+.hide{
+  display: none;
+}
 
 @media (max-width: 1356px) {
   .login-container{
