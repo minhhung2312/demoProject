@@ -1,5 +1,5 @@
 import "../assets/css/Brand.css";
-import { Link } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import { brands } from "../api/brand-list";
 
 
@@ -36,7 +36,7 @@ function Brand() {
           </div>
         ))}
       </div>
-
+       
     </div>
   );
 }

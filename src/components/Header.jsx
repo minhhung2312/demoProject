@@ -14,6 +14,7 @@ import Cart from "../components/Cart";
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Search from './Search';
+import AmericanTourister from '../pages/AmericanTourister';
 
 function Header() {
     const [cart, setCart] = useState(() => {
@@ -146,6 +147,7 @@ function Header() {
                 <Route path="/SignUp" element={<SignUp />} />
                 <Route path='/Search' element={<Search />} />
                 <Route path='/Cart' element={<Cart cart={cart} setCart={setCart} />} />
+                <Route path="/pages/American-Tourister" element={<AmericanTourister/>}></Route>
             </Routes>
         </div>
     );
