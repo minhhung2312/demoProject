@@ -46,10 +46,12 @@ function Search() {
             </div>
             <div className="container">
                 {filterProduct.length > 0 ? (
+                    // Nếu có sản phẩm
                     filterProduct.map((product) => (
                         <ProductCard key={product.id} product={product} />
                     ))
                 ) : (
+                    // Nếu không có sản phẩm
                     <p className="not-search">Không có sản phẩm nào phù hợp.</p>
                 )}
             </div>

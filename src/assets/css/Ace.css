@@ -1,0 +1,232 @@
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* Hoặc tùy theo nhu cầu: contain, fill */
+    object-position: center;
+}
+
+.content {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.ace {
+    width: 1330px;
+    margin: 20px auto 60px;
+    font-size: 1.7rem;
+    line-height: 1.6;
+}
+
+.ace .intro {
+    display: flex;
+    padding: 25px;
+    gap: 25px;
+    background: #dfdee3;
+}
+
+.ace .intro-item .video iframe {
+    width: 100%;
+}
+
+.ace .intro-item {
+    flex: 1;
+}
+
+.ace .intro-item .title {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.ace .intro-item .row {
+    display: flex;
+    gap: 25px;
+}
+
+.ace .intro-item .row img {
+    max-width: calc(90% / 3);
+    height: auto;
+    margin-top: 15px;
+}
+
+.content .paragraph {
+    width: 83%;
+    margin: 25px auto 0;
+}
+
+.info-1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.info-1 .content {
+    width: 81.128%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-1 .info-1-item:first-child {
+    width: 50%;
+}
+
+.info-1 .info-1-item .title {
+    width: 290px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.info-1 .info-1-item p {
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+.info-1 img {
+    width: 403px;
+}
+
+.info-2 .content {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.info-2 .content img {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.info-3 {
+    margin-top: 40px;
+}
+
+.info-3 .content {
+    width: 81.128%;
+    display: flex;
+    gap: 25px;
+}
+
+.info-3 .info-3-item {
+    flex: 1;
+}
+
+.info-3 .info-3-item .title {
+    margin-bottom: 20px;
+}
+
+.info-3 .info-3-item .body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-3 .info-3-item img {
+    width: 100%;
+}
+
+.info-4 .content {
+    width: 81.128%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media (max-width: 1380px) {
+    .content {
+        width: 80%;
+    }
+
+    .ace {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .ace .intro-item iframe {
+        width: 80%;
+    }
+
+    .info-2 .content {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .info-2 .content img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content {
+        width: 90%;
+    }
+
+    .ace .intro {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .ace .intro-item .video {
+        width: 100%;
+    }
+
+    .ace .intro-item .row img {
+        width: calc(33.33% - 10px);
+    }
+
+    .content .paragraph {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .info-1 .content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info-1 img {
+        width: 100%;
+    }
+
+    .info-2 .content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .info-2 .content img {
+        width: 100%;
+    }
+
+    .info-3 .content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info-3 .info-3-item img {
+        width: 100%;
+    }
+
+    .info-4 .content {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 768px) {
+    .ace .intro-item .row img {
+        width: calc(50% - 10px);
+    }
+
+    .info-1 .info-1-item:first-child {
+        width: 100%;
+    }
+
+    .info-1 .info-1-item .title {
+        width: 100%;
+    }
+}
