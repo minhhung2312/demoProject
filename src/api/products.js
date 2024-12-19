@@ -965,7 +965,7 @@ const products = [
   },
   {
     id: 31,
-    brand: 'American Tourister - Mỹ',
+    brand: 'AMERICAN TOURISTER',
     name: 'Vali kéo Maxivo OS',
     category: 'vali',
     newPrice: '2,450,000₫',
@@ -996,7 +996,7 @@ const products = [
   },
   {
     id: 32,
-    brand: 'American Tourister - Mỹ',
+    brand: 'AMERICAN TOURISTER',
     name: 'Vali kéo LOCKation',
     category: 'vali',
     newPrice: '3,350,000₫',
@@ -1111,7 +1111,7 @@ const products = [
   {
 
     id: 36,
-    brand: 'American Tourister - Mỹ',
+    brand: 'AMERICAN TOURISTER',
     name: 'Túi đeo chéo Paisley Joy size S',
     category: 'handbag',
     newPrice: '750,000đ',
@@ -1138,7 +1138,7 @@ const products = [
   },
   {
     id: 37,
-    brand: 'American Tourister - Mỹ',
+    brand: 'AMERICAN TOURISTER',
     name: 'Túi duffle Corey 01 ASR',
     category: 'handbag',
     newPrice: '950,000đ',
@@ -1220,7 +1220,7 @@ const products = [
   },
   {
     id: 40,
-    brand: 'American Tourister - Mỹ',
+    brand: 'AMERICAN TOURISTER',
     name: 'Túi tote Alizee Aimee ASR',
     category: 'handbag',
     newPrice: '1,250,000đ',
@@ -1523,7 +1523,7 @@ const products = [
   },
   {
     id: 51,
-    brand: 'American Tourister - Mỹ',
+    brand: 'AMERICAN TOURISTER',
     name: 'Balo Mate 2 02',
     category: 'balo',
     newPrice: '800,000₫',
@@ -1552,7 +1552,7 @@ const products = [
   },
   {
     id: 52,
-    brand: 'American Tourister - Mỹ',
+    brand: 'AMERICAN TOURISTER',
     name: 'Balo trẻ em Diddle 2.0 R',
     category: 'balo',
     newPrice: '700,000₫',
@@ -1606,7 +1606,7 @@ const products = [
   },
   {
     id: 54,
-    brand: 'American Tourister - Mỹ',
+    brand: 'AMERICAN TOURISTER',
     name: 'Balo Colton',
     category: 'balo',
     newPrice: '900,000₫',
@@ -1666,7 +1666,7 @@ const products = [
   },
   {
     id: 56,
-    brand: 'American Tourister - Mỹ',
+    brand: 'AMERICAN TOURISTER',
     name: 'Balo Barton',
     category: 'balo',
     newPrice: '1,000,000₫',
@@ -1896,7 +1896,7 @@ const products = [
   },
   {
     id: 64,
-    brand: 'American Tourister - Mỹ',
+    brand: 'AMERICAN TOURISTER',
     name: 'Balo Work:Out 03',
     category: 'balo',
     newPrice: '1,110,000₫',
@@ -1993,7 +1993,7 @@ const products = [
   },
   {
     id: 67,
-    brand: 'American Tourister - Mỹ',
+    brand: 'AMERICAN TOURISTER',
     name: 'Balo Trent',
     category: 'balo',
     newPrice: '950,000₫',
@@ -2116,7 +2116,7 @@ const products = [
   },
   {
     id: 71,
-    brand: 'American Tourister - Mỹ',
+    brand: 'AMERICAN TOURISTER',
     name: 'BaBalo Vibe NXT 2A',
     category: 'balo',
     newPrice: '800,000₫',
