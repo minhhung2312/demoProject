@@ -12,12 +12,13 @@ import Product from "./Product";
 import Login from "../pages/Login";
 import SignUp from "../pages/SignUp";
 import Cart from "../components/Cart";
-import About from "../pages/About";
-import Contact from "../pages/Contact";
-import Search from "./Search";
-import AmericanTourister from "../pages/AmericanTourister";
-import Samsonite from "../pages/Samsonite";
-import Victorinox from "../pages/Victorinox";
+import About from '../pages/About';
+import Contact from '../pages/Contact';
+import Search from './Search';
+import AmericanTourister from '../pages/AmericanTourister';
+import Samsonite from '../pages/Samsonite';
+import Victorinox from '../pages/Victorinox';
+import Ace from '../pages/Ace';
 
 function Header() {
     const [cart, setCart] = useState(() => {
@@ -185,20 +186,12 @@ function Header() {
                 />
                 <Route path="/Login" element={<Login />} />
                 <Route path="/SignUp" element={<SignUp />} />
-                <Route path="/Search" element={<Search />} />
-                <Route
-                    path="/Cart"
-                    element={<Cart cart={cart} setCart={setCart} />}
-                />
-                <Route
-                    path="/pages/American-Tourister"
-                    element={<AmericanTourister />}
-                ></Route>
-                <Route path="/pages/Samsonite" element={<Samsonite />}></Route>
-                <Route
-                    path="/pages/Victorinox"
-                    element={<Victorinox />}
-                ></Route>
+                <Route path='/Search' element={<Search />} />
+                <Route path='/Cart' element={<Cart cart={cart} setCart={setCart} />} />
+                <Route path="/pages/American-Tourister" element={<AmericanTourister/>}></Route>
+                <Route path="/pages/Samsonite" element={<Samsonite/>}></Route>
+                <Route path="/pages/Victorinox" element={<Victorinox/>}></Route>
+                <Route path="/pages/Ace" element={<Ace/>}></Route>
             </Routes>
         </div>
     );
