@@ -1,0 +1,74 @@
+/* Reset mặc định */
+
+.victorinox {
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+/* Tiêu đề chính */
+.victorinox h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+/* Thanh ngang dưới tiêu đề */
+.title_hr {
+    width: 50px;
+    height: 4px;
+    background-color: #000;
+    margin: 0 auto 20px;
+}
+
+/* Dòng miêu tả */
+.location {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Ảnh slider */
+.img_slider {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.img_slider img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Nội dung văn bản */
+.victorinox p {
+    font-size: 1.4rem;
+    color: #272727;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Phần lịch sử hình thành */
+.hdevelopment_history h2 {
+    font-size: 1.8rem;
+    color: #000;
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.hdevelopment_history p {
+    margin-bottom: 20px;
+    text-indent: 40px;
+}
+
+/* Hình ảnh trong phần lịch sử */
+.hdevelopment_history .img_slider img {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+}
