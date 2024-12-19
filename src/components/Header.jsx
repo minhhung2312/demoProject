@@ -16,7 +16,6 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Search from "./Search";
 import AmericanTourister from "../pages/AmericanTourister";
-import Ace from "../pages/Ace";
 import Samsonite from "../pages/Samsonite";
 import Victorinox from "../pages/Victorinox";
 
@@ -195,7 +194,6 @@ function Header() {
                     path="/pages/American-Tourister"
                     element={<AmericanTourister />}
                 ></Route>
-                <Route path="/pages/Ace" element={<Ace />} />
                 <Route path="/pages/Samsonite" element={<Samsonite />}></Route>
                 <Route
                     path="/pages/Victorinox"
