@@ -13,15 +13,15 @@ export const brands = [
     },
     {
       id: 3,
-      name: "/images/brand/Carlton-name.png",
-      background: "/images/brand/Carlton.png",
-      about: "",
+      name: "/images/brand/Samsonite-name.png",
+      background: "/images/brand/Samsonite.png",
+      about: "/pages/Samsonite",
     },
     {
       id: 4,
-      name: "/images/brand/Delsey-name.png",  
-      background: "/images/brand/Delsey.png",
-      about: "",
+      name: "/images/brand/Victorinox-name.png",  
+      background: "/images/brand/Victorinox.png",
+      about: "/pages/Victorinox",
     },
     {
       id: 5,
