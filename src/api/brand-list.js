@@ -33,6 +33,6 @@ export const brands = [
         id: 6,
         name: "/images/brand/Kamiliant-name.png",
         background: "/images/brand/Kamiliant.png",
-        about: "",
+        about: "/pages/Kamiliant",
     },
 ];

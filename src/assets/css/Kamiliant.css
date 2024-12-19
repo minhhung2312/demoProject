@@ -1,0 +1,140 @@
+/* AmericanTourister.css */
+:root {
+    --hover-corlor: #f15a29;
+}
+.Kamiliant {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .slider img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 20px;
+        border-radius: 4px;
+    }
+    
+    .title {
+        font-size: 3rem;
+        color: #111;
+        text-align: center;
+        
+    }
+    .line-title {
+        width: 50px;
+        border: 1px solid #333;
+        margin: 20px auto;
+    }
+    .brand-info {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+        color: #9b9696;
+    }
+
+    .content {
+        margin-bottom: 40px;
+    }
+
+    .content__row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: flex-start; 
+    }
+    .row__text {
+        flex: 1;
+        min-width: 300px;
+    }
+    .row__img {
+        flex: 1;
+        min-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+
+    .row__img img {
+        flex: 1 1 calc(50% - 10px); 
+        max-width: calc(50% - 10px);
+        height: auto;
+        border-radius: 4px;
+    }
+    h4 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        color: #222;
+    }
+    p {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 15px;
+        text-align: justify;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    a {
+        color: #000000;
+        text-decoration: none;
+    }
+    a:hover {
+        color: var(--hover-corlor);
+    }
+    .youtube {
+        flex: 1;
+        min-width: 300px;
+    }
+    iframe {
+        width: 100%;
+        height: 315px;
+        border-radius: 8px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .title {
+            font-size: 2rem;
+        }
+        .brand-info {
+            font-size: 1rem;
+        }
+        h4 {
+            font-size: 1.5rem;
+        }
+        iframe {
+            height: 200px;
+        }
+        .row__img img {
+            flex: 1 1 100%; /* Stack images vertically for smaller screens */
+            max-width: 100%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .title {
+            font-size: 1.8rem;
+        }
+
+        .brand-info {
+            font-size: 0.9rem;
+        }
+
+        iframe {
+            height: 180px;
+        }
+    }
+}
