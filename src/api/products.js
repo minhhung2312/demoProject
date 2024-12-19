@@ -1634,7 +1634,7 @@ const products = [
       },
   },
   {
-    id: 70,
+    id: 55,
     brand: 'Kanana Project - Nhật Bản',
     name: 'Balo Kanana Monogram 2ND Small',
     category: 'balo',
@@ -1665,7 +1665,7 @@ const products = [
     }
   },
   {
-    id: 71,
+    id: 56,
     brand: 'American Tourister - Mỹ',
     name: 'Balo Barton',
     category: 'balo',
@@ -1696,7 +1696,7 @@ const products = [
     }
   },
   {
-    id: 72,
+    id: 57,
     brand: 'LEVEL8 - Mỹ',
     name: 'Balo laptop 15.6in LEVEL8 Mr. Outstanding',
     category: 'balo',
@@ -1724,7 +1724,7 @@ const products = [
     }
   },
   {
-    id: 73,
+    id: 58,
     brand: 'Samsonite Red - Mỹ',
     name: 'Balo flap Cambie',
     category: 'balo',
@@ -1753,7 +1753,7 @@ const products = [
     }
   },
   {
-    id: 74,
+    id: 59,
     brand: 'Victorinox - Thụy Sĩ',
     name: 'Balo VX Sport EVO Daypack',
     category: 'balo',
@@ -1781,7 +1781,7 @@ const products = [
     }
   },
   {
-    id: 75,
+    id: 60,
     brand: 'ACE. - Nhật Bản',
     name: 'Balo Corty',
     category: 'balo',
@@ -1811,7 +1811,7 @@ const products = [
     }
   },
   {
-    id: 76,
+    id: 61,
     brand: 'Victorinox - Thụy Sĩ',
     name: 'Balo laptop 17" Altmont Original Deluxe',
     category: 'balo',
@@ -1839,7 +1839,7 @@ const products = [
     }
   },
   {
-    id: 77,
+    id: 62,
     brand: 'Victorinox - Thụy Sĩ',
     name: 'Balo laptop 17" Altmont Original Vertical-Zip',
     category: 'balo',
@@ -1867,7 +1867,7 @@ const products = [
     }
   },
   {
-    id: 78,
+    id: 63,
     brand: 'Victorinox - Thụy Sĩ',
     name: 'Balo Altmont Active Rolltop',
     category: 'balo',
@@ -1895,7 +1895,7 @@ const products = [
     }
   },
   {
-    id: 79,
+    id: 64,
     brand: 'American Tourister - Mỹ',
     name: 'Balo Work:Out 03',
     category: 'balo',
@@ -1925,7 +1925,7 @@ const products = [
     }
   },
   {
-    id: 80,
+    id: 65,
     brand: 'Delsey - Pháp',
     name: 'Balo laptop 15" Securflap',
     category: 'balo',
@@ -1963,7 +1963,7 @@ const products = [
     }
   },
   {
-    id: 81,
+    id: 66,
     brand: 'Victorinox - Thụy Sĩ',
     name: 'Balo VX Sport EVO Compact',
     category: 'balo',
@@ -1992,7 +1992,7 @@ const products = [
     }
   },
   {
-    id: 82,
+    id: 67,
     brand: 'American Tourister - Mỹ',
     name: 'Balo Trent',
     category: 'balo',
@@ -2023,7 +2023,7 @@ const products = [
     }
   },
   {
-    id: 83,
+    id: 68,
     brand: 'Victorinox - Thụy Sĩ',
     name: 'Balo laptop 15.6" Altmont Original',
     category: 'balo',
@@ -2051,7 +2051,7 @@ const products = [
     }
   },
   {
-    id: 84,
+    id: 69,
     brand: 'LEVEL8 - Mỹ',
     name: 'Balo laptop 15.6in LEVEL8 Moment',
     category: 'balo',
@@ -2081,7 +2081,7 @@ const products = [
     }
   },
   {
-    id: 85,
+    id: 70,
     brand: 'Samsonite Red - Mỹ',
     name: 'Balo 3ways Vickson',
     category: 'balo',
@@ -2115,7 +2115,7 @@ const products = [
     }
   },
   {
-    id: 86,
+    id: 71,
     brand: 'American Tourister - Mỹ',
     name: 'BaBalo Vibe NXT 2A',
     category: 'balo',
@@ -2144,41 +2144,7 @@ const products = [
         ]
     }
   },
-  {
-    id: 56,
-    brand: 'American Tourister - Mỹ',
-    name: 'Balo Herd 2.0',
-    category: 'balo',
-    newPrice: '900,000₫',
-    oldPrice: '1,800,000₫',
-    colors: [
-      { id: 'color1', name: ['green'], thumbnail: '/images/color-balo_056_01.jpg', image: '/images/balo_056_01.jpg' },
-      { id: 'color2', name: ['blue'], thumbnail: '/images/color-balo_056_02.jpg', image: '/images/balo_056_02.jpg' },
-    ],
-  },
-  {
-    id: 57,
-    brand: 'American Tourister - Mỹ',
-    name: 'Balo trẻ em Yoodle 2.0 - Ava Green',
-    category: 'balo',
-    newPrice: '550,000₫',
-    oldPrice: '1,100,000₫',
-    colors: [
-      { id: 'color1', name: ['green'], thumbnail: '/images/color-balo_057_01.jpg', image: '/images/balo_057_01.jpg' },
-    ],
-  },
-  {
-    id: 58,
-    brand: 'American Tourister - Mỹ',
-    name: 'Balo trẻ em Zoodle 2.0 R',
-    category: 'balo',
-    newPrice: '550,000₫',
-    oldPrice: '1,100,000₫',
-    colors: [
-      { id: 'color1', name: ['pink'], thumbnail: '/images/color-balo_058_01.jpg', image: '/images/balo_058_01.jpg' },
-      { id: 'color2', name: ['blue'], thumbnail: '/images/color-balo_058_02.jpg', image: '/images/balo_058_02.jpg' },
-    ],
-  },
+  
 ];
 
 export default products;
