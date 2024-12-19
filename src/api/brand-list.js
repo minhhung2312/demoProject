@@ -27,7 +27,7 @@ export const brands = [
         id: 5,
         name: "/images/brand/HighSierra-name.png",
         background: "/images/brand/HighSierra.png",
-        about: "",
+        about: "/pages/High-Sierra",
     },
     {
         id: 6,
