@@ -19,6 +19,8 @@ import AmericanTourister from "../pages/AmericanTourister";
 import Samsonite from "../pages/Samsonite";
 import Victorinox from "../pages/Victorinox";
 import Ace from "../pages/Ace";
+import HighSirerra from "../pages/HighSirerra";
+import Kamiliant from "../pages/Kamiliant";
 
 function Header() {
     const [cart, setCart] = useState(() => {
@@ -201,6 +203,11 @@ function Header() {
                     element={<Victorinox />}
                 ></Route>
                 <Route path="/pages/Ace" element={<Ace />}></Route>
+                <Route
+                    path="/pages/High-Sierra"
+                    element={<HighSirerra />}
+                ></Route>
+                <Route path="/pages/Kamiliant" element={<Kamiliant />}></Route>
             </Routes>
         </div>
     );
