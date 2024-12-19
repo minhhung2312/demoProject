@@ -9,7 +9,7 @@ export const brands = [
       id: 2,
       name: "/images/brand/American-name.png",
       background: "/images/brand/American.png",
-      about: "",
+      about: "/pages/American-Tourister",
     },
     {
       id: 3,
