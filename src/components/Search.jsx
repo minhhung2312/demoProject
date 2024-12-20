@@ -42,7 +42,7 @@ function Search() {
                 </div>
             </div>
             <div className="alert">
-                <p>Có <span>{filterProduct.length}</span> sản phẩm cho kết quả tìm kiếm.</p>
+                <p>Have <span>{filterProduct.length}</span> products for search results</p>
             </div>
             <div className="container">
                 {filterProduct.length > 0 ? (
@@ -52,7 +52,7 @@ function Search() {
                     ))
                 ) : (
                     // Nếu không có sản phẩm
-                    <p className="not-search">Không có sản phẩm nào phù hợp.</p>
+                    <p className="not-search">No products match.</p>
                 )}
             </div>
         </div>

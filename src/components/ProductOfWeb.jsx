@@ -10,19 +10,19 @@ function ProductOfWeb() {
                 <div className="item-product">
                     <Link to='/Vali'>
                         <img src="/images/item-of-web1.webp" alt="vali" />
-                        <span className="name">Vali</span>
+                        <span className="name">Suitcase</span>
                     </Link>
                 </div>
                 <div className="item-product">
                     <Link to='/Balo'>
                         <img src="/images/item-of-web2.webp" alt="balo" />
-                        <span className="name">Balo</span>
+                        <span className="name">Backpack</span>
                     </Link>
                 </div>
                 <div className="item-product">
                     <Link to='/Handbag'>
                         <img src="/images/item-of-web3.webp" alt="bag" />
-                        <span className="name">Bag</span>
+                        <span className="name">Handbag</span>
                     </Link>
                 </div>
             </div>
