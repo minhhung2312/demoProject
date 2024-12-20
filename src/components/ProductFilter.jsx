@@ -116,7 +116,7 @@ const ProductFilter = ({ name }) => {
                 <div className="option">
                     {/* Bộ lọc thương hiệu */}
                     <div>
-                        <h3>Thương hiệu -</h3>
+                        <h3>Brands -</h3>
                         <div className="brands">
                             {uniqueBrands.map((brand) => (
                                 <label className="label-brand" key={brand}>
@@ -135,7 +135,7 @@ const ProductFilter = ({ name }) => {
                     </div>
                     {/* Bộ lọc giá */}
                     <div>
-                        <h3>Giá -</h3>
+                        <h3>Price -</h3>
                         <div className="price">
                             <label>
                                 <input
@@ -185,7 +185,7 @@ const ProductFilter = ({ name }) => {
                     </div>
                     {/* Bộ lọc màu sắc */}
                     <div>
-                        <h3>Màu sắc -</h3>
+                        <h3>Colors -</h3>
                         <div className="colors" style={{ display: "flex" }}>
                             {uniqueColors.map((color, index) => (
                                 <div

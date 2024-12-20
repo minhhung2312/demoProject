@@ -1,7 +1,7 @@
 function News() {
     return (
         <div className="news">
-            <h2 className="header">HOẠT ĐỘNG CỦA HOL TRÊN BÁO CHÍ</h2>
+            <h2 className="header">Activities of HOL in the Press</h2>
             <div className="container">
                 <div className="img">
                     <img src="/images/logo-dantri.webp" alt="dantri" />

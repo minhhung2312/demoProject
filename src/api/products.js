@@ -1,2150 +1,3055 @@
 const products = [
-  {
-    id: 1,
-    brand: 'AZPAC',
-    name: 'Vali kéo AZPAC New Basic',
-    category: 'vali',
-    newPrice: '2,000,000₫',
-    oldPrice: '6,900,000₫',
-    isBestSeller: true,
-    colors: [
-      { id: 'color1', name: ['gray'], code: '#D9D9D9', image: '/images/item-product-trend1.1.webp' },
-      { id: 'color2', name: ['black'], code: '#000', image: '/images/item-product-trend1.2.webp' },
-    ],
-    details:
     {
-      features: [
-        "Vỏ vali được chế tạo từ 100% nhựa polycarbonate Makrolon® nguyên chất, đảm bảo khả năng chống va đập tối đa, bảo vệ hành lý của bạn một cách toàn diện",
-        "Hệ thống bánh xe đôi Hinomoto Nhật Bản cho phép xoay 360°, linh hoạt trên mọi địa hình, tăng cường độ bám và ổn định.",
-        "Tay kéo ba tầng được làm từ nhôm cao cấp kết hợp với đế ABS cao cấp, mang đến độ bền và khả năng chống va đập vượt trội. Sau 500 lần thử rút và kéo liên tục vẫn hoạt động bình thường, không bị hư hại.",
-        "Chất liệu AZTPU® được sử dụng cho tay cầm, có khả năng chống mài mòn, va đập và độ bền vượt trội. Sau 3000 lần kéo thử nghiệm liên tục, tay cầm vẫn đảm bảo chất lượng như ban đầu.",
-        "Khóa kéo đôi YKK® chống rạch trộm và chống cháy nổ, hoạt động trơn tru, bền bỉ."
-      ],
-      paramters: [
-        { capacity: "90L" },
-        { volume: "5.1kg" },
-        { dimension: "42 x 35 x 67 cm" },
-        { tankage: "20-25kg" },
-        { material: "100% Pure Polycarbonate" }
-      ]
-    }
-  },
-  {
-    id: 2,
-    brand: 'DELSEY - PHÁP',
-    name: 'Vali kéo Eclipse SE',
-    category: 'vali',
-    newPrice: '2,000,000₫',
-    oldPrice: '7,000,000₫',
-    isBestSeller: true,
-    colors: [
-      { id: 'color1', name: ['blue'], code: '#2E545C', image: '/images/item-product-trend2.1.webp' },
-      { id: 'color2', name: ['blue'], code: '#3121f1', image: '/images/item-product-trend2.2.webp' },
-      { id: 'color3', name: ['black'], code: '#000', image: '/images/item-product-trend2.3.webp' },
-    ],
-    details:
-    {
-      features: [
-        "Vali kéo Eclipse SE thiết kế nắp mở phía trước độc đáo",
-        "Ngăn chứa bảo vệ laptop lên tới 17.3' (chỉ có trên size cabin 55cm)",
-        "Vỏ vali làm từ chất liệu ABS+PC bền chắc, hoàn thiện nhám mờ giúp hạn chế trầy xước ",
-        "Khả năng mở rộng tăng sức chứa giúp linh hoạt trong việc sắp xếp hành lý",
-        "Cần đẩy ống đôi làm bằng hợp kim chắc chắn, dễ dàng thay đổi độ cao để phù hợp với người sử dụng.",
-        "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
-        "Hệ thống 4 bánh xe đôi xoay 360 vận hành êm nhẹ, ổn định"
-      ],
-      paramters: [
-        { capacity: "77/84L" },
-        { volume: "4.43kg" },
-        { dimension: "44.5 x 27.5/ 30 x 65 cm" },
-        { tankage: "20-25kg" },
-        { warranty: "3 năm" }
-      ]
-    }
-  },
-  {
-    id: 3,
-    brand: 'KAMILIANT BY AMERICAN',
-    name: 'Combo 2 vali Rock-Lite',
-    category: 'vali',
-    newPrice: '1,200,000₫',
-    oldPrice: '5,800,000₫',
-    isBestSeller: true,
-    colors: [
-      { id: 'color1', name: ['blue'], code: '#3121f1', image: '/images/item-product-trend3.1.webp' },
-      { id: 'color2', name: ['black'], code: '#000', image: '/images/item-product-trend3.2.webp' },
-      { id: 'color3', name: ['red'], code: '#fe0100', image: '/images/item-product-trend3.3.webp' },
-    ],
-    details:
-    {
-      features: [
-        "Combo 2 vali kéo Kamiliant Rock-Lite size cabin",
-        "Vali kéo nhựa siêu nhẹ, chỉ từ 2 kg (size cabin)",
-        "Được làm từ nhựa PP đa năng cho độ bền cao và chống va đập",
-        "Họa tiết zigzag được lấy cảm hứng từ thiết kế hình học thương mại",
-        "Tấm logo kim loại sang trọng, tinh tế",
-        "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
-        "Cần đẩy chắc chắn, có thể thay đổi độ cao"
-      ],
-      desc: ["Kamiliant Rock-Lite là bộ sưu tập vali kéo với lớp vỏ làm bằng nhựa PP giá trị cao. Rock-Lite được coi là thế hệ thứ 2 của Zakk về cảm hứng thiết kế, được đặc trưng bởi các họa tiết zigzag hình học mang tính biểu tượng, kết hợp với các tính năng du lịch thiết thực: siêu nhẹ (chỉ từ 2 kg), độ bền cao, khả năng chống trầy xước trên thiết kế kết cấu kép."],
-      paramters: [
-        { volume: "2kg" },
-        { dimension: "37 x 25 x 55 cm" },
-        { tankage: "7-10kg" },
-        { material: "100% Pure Polycarbonate" },
-        { warranty: "1 năm" }
-      ]
-    }
-  },
-  {
-    id: 4,
-    brand: 'AMIRICAN TOURISTER',
-    name: 'Vali kéo Litevlo',
-    category: 'vali',
-    newPrice: '1,550,000₫',
-    oldPrice: '3,100,000₫',
-    isBestSeller: true,
-    colors: [
-      { id: 'color1', name: ['pink'], code: '#f9aa8c', image: '/images/item-product-trend4.1.webp' },
-      { id: 'color2', name: ['gray'], code: '#777777', image: '/images/item-product-trend4.2.webp' },
-      { id: 'color3', name: ['black'], code: '#000', image: '/images/item-product-trend4.3.webp' },
-    ],
-    details:
-    {
-      features: [
-        "Bánh xe đôi 360° vận hành êm nhẹ",
-        "Khoang hành lý rộng rãi, nhiều túi",
-        "Khóa số lõm tích hợp TSA",
-        "Chất liệu nhựa PP siêu nhẹ và bền bỉ",
-        "Khả năng mở rộng (size trung và đại)",
-      ],
-      desc: ["Vali kéo Litevlo nằm trong bộ sưu tập Litevlo là dòng vali làm từ nhựa Polypropylene (PP) nhẹ nhất từ trước đến nay của thương hiệu American Tourister – Mỹ."],
-      paramters: [
-        { volume: "3.1kg" },
-        { dimension: "47 x 30/31 x 69 cm" },
-        { tankage: "20-25kg" },
-        { material: "100% Polycarbonate" },
-        { warranty: "3 năm" }
-      ]
-    }
-  },
-  {
-    id: 5,
-    brand: 'SAMSONITE - MỸ',
-    name: 'Vali kéo Enwrap',
-    category: 'vali',
-    newPrice: '4,300,000₫',
-    oldPrice: '8,600,000₫',
-    isBestSeller: true,
-    colors: [
-      { id: 'color1', name: ['gray'], code: '#d9d9d9', image: '/images/item-product-trend5.1.webp' },
-      { id: 'color2', name: ['black'], code: '#000', image: '/images/item-product-trend5.2.webp' },
-      { id: 'color3', name: ['green'], code: '#1d2e2b', image: '/images/item-product-trend5.3.webp' },
-    ],
-    details:
-    {
-      features: [
-        "Khóa kéo đôi chống trộm",
-        "Nội thất phong phú, tinh tế",
-        "Hệ thống bánh xe đôi 360° vận hành êm nhẹ",
-        "Khóa số tích hợp khóa TSA",
-        "Khả năng mở rộng tăng sức chứa",
-      ],
-      desc: ["Lấy cảm hừng từ việc gấp gọn và đóng gói 'wrapping', đặc điểm nổi bật của Enwrap là thiết kế nội thất phong phú tạo khả năng phân chia hành lý tuyệt vời cho dù bạn không phải là người có năng khiếu đóng gói hành lý siêu việt. Những ngăn, túi hỗ trợ sắp xếp kết hợp cùng tăng đơ khóa kéo nới rộng là giải pháp hành lý hoàn hảo cho các tín đồ shopping cho các chuyến du lịch. Dây kéo khóa dày dặn đảm bảo độ bảo mật hơn so với các loại dây kéo khóa thông thường. Enwrap có nhiều phiên bản màu sắc để bạn lựa chọn trên lớp vỏ polycarbonate siêu bền chắc. Còn hơn cả một chiếc vali kéo, Enwrap là người bạn đồng hành đáng tin cậy cho hành trình du lịch của cá nhân lẫn gia đình."],
-      paramters: [
-        { volume: "3.1kg" },
-        { dimension: "47 x 30/31 x 69 cm" },
-        { tankage: "20-25kg" },
-        { material: "100% Polycarbonate" },
-        { warranty: "3 năm" }
-      ]
-    }
-  },
-
-
-  {
-    id: 6,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Combo vali kéo Squasem',
-    category: 'vali',
-    newPrice: '5,050,000₫',
-    oldPrice: '10,500,000₫',
-    isTopFavoriteVali: true,
-    colors: [
-      { id: 'color1', name: ['green'], thumbnail: '/images/color-item-love1.1.webp', image: '/images/item-love1.1.webp' },
-      { id: 'color2', name: ['pink'], thumbnail: '/images/color-item-love1.2.webp', image: '/images/item-love1.2.webp' },
-    ],
-    details:
-    {
-      features: [
-        "Combo 2 vali kéo Squasem size cabin 55cm + trung 66cm",
-        "Có khả năng mở rộng tăng sức chứa",
-        "Hệ thống 4 bánh đôi OPTIMOV™ êm nhẹ, chắc chắn",
-        "Khóa kéo đôi an toàn DUOSAF™",
-        "Khả năng mở rộng tăng sức chứa",
-        "Tích hợp cổng sạc USB (size cabin)",
-        "Tổ chức nội thất phong phú, tinh tế",
-      ],
-      desc: ["Vali kéo Squasem mang trong mình một thiết kế nội thất sáng tạo với các túi phụ để sắp xếp hành lý tốt hơn. Bên cạnh đó lớp lót được làm từ vật liệu tái chế rPET và được xử lý kháng khuẩn bằng công nghệ được cung cấp bởi Microban®."],
-      paramters: [
-        { capacity: "69/78L" },
-        { volume: "3.8kg" },
-        { dimension: "46 x 28/31 x 66 cm" },
-        { tankage: "20-25kg" },
-        { material: "100% Polycarbonate" },
-        { warranty: "3 năm" }
-      ]
-    }
-  },
-  {
-    id: 7,
-    brand: 'WENGER - THUỴ SĨ',
-    name: 'Combo vali kéo In-Flight 3',
-    category: 'vali',
-    newPrice: '4,399,000₫',
-    oldPrice: '9,400,000₫',
-    isTopFavoriteVali: true,
-    colors: [
-      { id: 'color1', name: ['red'], thumbnail: '/images/color-item-love2.1.webp', image: '/images/item-love2.1.webp' },
-      { id: 'color2', name: ['gray'], thumbnail: '/images/color-item-love2.2.jpg', image: '/images/item-love2.2.webp' },
-      { id: 'color3', name: ['black'], thumbnail: '/images/color-item-love2.3.webp', image: '/images/item-love2.3.webp' },
-    ],
-    details:
-    {
-      features: [
-        "Combo 3 size vali kéo: cabin 55cm + trung 66cm + đại 76cm",
-        "Vali thương hiệu Thụy Sĩ có lịch sử lâu đời",
-        "Thiết kế họa tiết sóng tinh tế, thanh lịch",
-        "Nhựa ABS bền bỉ, bề mặt kết cấu chống trầy xước",
-        "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
-        "Bánh xe 360 độ vận hành êm nhẹ, trơn tru",
-        "Cần đẩy bằng nhôm bền chắc, dễ dàng thay đổi độ cao",
-        "Nội thất tổ chức phong phú, thông minh",
-        "Khả năng mở rộng tăng sức chứa (chỉ có trên size trung và đại)"
-      ],
-      desc: ["Chất lượng và tính năng vượt trội, Combo Vali Kéo In-Flight 3 Size được bán với mức giá cạnh tranh, giúp người tiêu dùng dễ dàng sở hữu một bộ vali hoàn hảo cho các chuyến du lịch. Combo Vali Kéo In-Flight 3 Size là lựa chọn lý tưởng cho những ai yêu thích du lịch và cần một bộ vali đa năng, bền bỉ. Hãy nhanh tay sở hữu ngay bộ sản phẩm này để chuẩn bị cho những chuyến đi sắp tới!"],
-      paramters: [
-        { capacity: "64L" },
-        { volume: "3.8kg" },
-        { dimension: "45 x 28/33 x 66.5 cm" },
-        { tankage: "20-25kg" },
-        { material: "ABS" },
-        { warranty: "5 năm" }
-      ]
-    }
-  },
-  {
-    id: 8,
-    brand: 'WENGER - THUỴ SĨ',
-    name: 'Combo vali kéo Protector',
-    category: 'vali',
-    newPrice: '2,990,000₫',
-    oldPrice: '8,700,000₫',
-    isTopFavoriteVali: true,
-    colors: [
-      { id: 'color1', name: ['black'], code: '#000', image: '/images/item-love3.1.webp' },
-    ],
-    details:
-    {
-      features: [
-        "Combo 2 size vali kéo Wenger Protector: cabin 55cm + trung 67cm",
-        "Vali kéo Thụy Sĩ với thiết kế sang trọng, tinh tế",
-        "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
-        "Khóa kéo đôi chống rạch trộm gia tăng khả năng bảo mật",
-        "Tính năng mở rộng tăng sức chứa, giúp sắp xếp hành lý linh hoạt",
-        "Dây đai chữ X ổn định hành lý gọn gàng",
-        "Nội thất phong phú với vách ngăn và ngăn có khóa kéo",
-        "Hệ thống 4 bánh xe đôi 360° vận hành êm nhẹ, ổn định"
-      ],
-      desc: ["Chất lượng và tính năng vượt trội, Combo Vali Kéo In-Flight 3 Size được bán với mức giá cạnh tranh, giúp người tiêu dùng dễ dàng sở hữu một bộ vali hoàn hảo cho các chuyến du lịch. Combo Vali Kéo In-Flight 3 Size là lựa chọn lý tưởng cho những ai yêu thích du lịch và cần một bộ vali đa năng, bền bỉ. Hãy nhanh tay sở hữu ngay bộ sản phẩm này để chuẩn bị cho những chuyến đi sắp tới!"],
-      paramters: [
-        { capacity: "64L" },
-        { volume: "3.8kg" },
-        { dimension: "45 x 28/33 x 66.5 cm" },
-        { tankage: "20-25kg" },
-        { material: "ABS" },
-        { warranty: "5 năm" }
-      ]
-    }
-  },
-  {
-    id: 9,
-    brand: "TRAVELER'S CHOICE - MỸ",
-    name: 'Combo vali kéo Harbor',
-    category: 'vali',
-    newPrice: '2,999,000₫',
-    oldPrice: '7,500,000₫',
-    isTopFavoriteVali: true,
-    colors: [
-      { id: 'color1', name: ['pink'], code: '#e6969d', image: '/images/item-love4.1.webp' },
-      { id: 'color2', name: ['gray'], code: '#777777', image: '/images/item-love4.2.webp' },
-      { id: 'color3', name: ['black'], code: '#000', image: '/images/item-love4.3.webp' },
-    ],
-    details:
-    {
-      features: [
-        "Combo 2 size: Cabin 56cm + Trung 66cm",
-        "Vỏ nhựa ABS cứng bền chắc, chống va đập giúp bảo vệ tối đa",
-        "Cần đẩy chắc chắn, có thể thay đổi độ cao phù hợp với người sử dụng",
-        "Tay cầm ở cả phía trên và bên hông, thuận tiện khi di chuyển",
-        "Hệ thống bánh xe đôi 360° vận hành êm nhẹ, ổn định",
-        "Khả năng mở rộng tăng sức chứa thêm 5cm ở tất cả các size",
-        "Nội thất thiết kế tổ chức phong phú, đa năng",
-        "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
-        "Tích hợp cổng sạc USB iTRAVEL™ và ngăn chứa sạc dự phòng (chỉ có ở size cabin), giữ cho các thiết bị điện tử của bạn luôn sẵn sàng khi đang di chuyển"
-      ],
-      paramters: [
-        { volume: "3.9kg" },
-        { dimension: "43 x 28/33 x 66 cm" },
-        { tankage: "20-25kg" },
-        { material: "ABS" },
-        { warranty: "2 năm" }
-      ]
-    }
-  },
-  {
-    id: 10,
-    brand: 'KAMILIANT BY AMERICAN',
-    name: 'Combo 2 vali kéo Falcon',
-    category: 'vali',
-    newPrice: '2,000,000₫',
-    oldPrice: '7,800,000₫',
-    isTopFavoriteVali: true,
-    colors: [
-      { id: 'color1', name: ['purple'], code: '#886296', image: '/images/item-love5.1.webp' },
-      { id: 'color2', name: ['blue'], code: '#375675', image: '/images/item-love5.2.webp' },
-      { id: 'color3', name: ['black'], code: '#000', image: '/images/item-love5.3.webp' },
-    ],
-    details:
-    {
-      features: [
-        "Combo 2 vali Falcon size cabin Combo 2 vali kéo Kamiliant Falcon size cabin",
-        "Logo hoàn thiện tinh tế, sang trong",
-        "Tổ chức nội thất thông minh, tiện dụng",
-        "Kết cấu vỏ vali hạn chế trầy xước",
-        "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
-        "Tay cầm chắc chắn, có thể thay đổi độ cao để phù hợp với người dùng",
-        "Hệ thống bánh xe đôi 360° vận hành êm nhẹ"
-      ],
-      paramters: [
-        { capacity: "35L" },
-        { volume: "2.3kg" },
-        { dimension: "36 x 24 x 55 cm" },
-        { tankage: "7-10kg" },
-        { material: "Polyproppylene" },
-        { warranty: "1 năm" }
-      ]
-    }
-  },
-
-
-  {
-    id: 11,
-    brand: 'SAMSONITE - MỸ',
-    name: 'Vali kéo Cube-048 Front Pkt',
-    category: 'vali',
-    newPrice: '4,850,000₫',
-    oldPrice: '9,700,000₫',
-    isTopFavoriteProduct: true,
-    colors: [
-      { id: 'color1', name: ['blue'], thumbnail: '/images/color-product-love-trend1.1.webp', image: '/images/product-love-trend1.1.webp' },
-      { id: 'color2', name: ['black'], thumbnail: '/images/color-product-love-trend1.2.webp', image: '/images/product-love-trend1.2.webp' },
-    ],
-    details:
-    {
-      features: [
-        "Thiết kế hình khối hiện đại, thời trang với các chi tiết tích hợp",
-        "Hoàn thiện kết cấu hạn chế trầy xước, kết hợp với các đường rãnh bóng để làm nổi bật sự cao cấp",
-        "Tích hợp ngăn trước tiện dụng",
-        "Ngăn chứa laptop 14.1'",
-        "Công nghệ kháng khuẩn Microban® bảo vệ sản phẩm 24/7 chống lại sự phát triển của vi khuẩn",
-        "Hệ thống bánh xe 360 tích hợp công nghệ Aero-Trac™ giảm xóc",
-        "Khóa kéo đôi chống trộm kết hợp khóa số TSA an toàn",
-        "Công nghệ vải Recyclex™, vật liệu vải lót PET tái chế",
-        "Nội thất phong phú với vách ngăn cả 2 bên và có thể tháo rời, các phụ kiện đi kèm như túi giặt và bao trùm vali"
-      ],
-      paramters: [
-        { capacity: "33L" },
-        { volume: "3.9kg" },
-        { dimension: "37 x 23 x 55 cm" },
-        { material: "Polyproppylene" },
-        { warranty: "10 năm" }
-      ]
-    }
-  },
-  {
-    id: 12,
-    brand: 'SAMSONITE - MỸ',
-    name: 'Vali kéo Minter',
-    category: 'vali',
-    newPrice: '6,860,000₫',
-    oldPrice: '9,000,000₫',
-    isTopFavoriteProduct: true,
-    colors: [
-      { id: 'color1', name: ['red'], thumbnail: '/images/color-product-love-trend2.1.webp', image: '/images/product-love-trend2.1.webp' },
-      { id: 'color2', name: ['blue'], thumbnail: '/images/color-product-love-trend2.2.webp', image: '/images/product-love-trend2.2.webp' },
-      { id: 'color3', name: ['black'], thumbnail: '/images/color-product-love-trend2.3.webp', image: '/images/product-love-trend2.3.webp' },
-    ],
-    details: {
-      features: [
-        "Bánh xe đôi với công nghệ Aero-Trac",
-        "Có khả năng mở rộng (size trung và đại)",
-        "Khóa kéo chống trộm",
-        "Khóa số lõm tích hợp TSA",
-        "Hệ thống treo đa năng với nút ẩn",
-        "Lớp lót làm từ vải RECYCLEX™ - chất liệu làm từ 100% chai nhựa PET tái chế",
-        "Móc treo tiện dụng"
-      ],
-      desc: ["Vali kéo Samsonite Minter là bộ sưu tập mang thiết kế tinh tế và sang trọng, tích hợp nhiều tính năng đáp ứng mọi nhu cầu cần thiết"],
-      paramters: [
-        { capacity: "75/92L" },
-        { volume: "4.6kg" },
-        { dimension: "49 x 29/33 x 69 cm" },
-        { tankage: "20-25kg" },
-        { material: "Polyproppylene" },
-        { warranty: "10 năm" }
-      ]
-    }
-  },
-  {
-    id: 13,
-    brand: 'WENGER - THUỴ SĨ',
-    name: 'Balo laptop 15.6" Pilot Pro',
-    category: 'balo',
-    newPrice: '1,200,000₫',
-    oldPrice: '2,400,000₫',
-    isTopFavoriteProduct: true,
-    colors: [
-      { id: 'color1', name: ['black'], code: '#000', image: '/images/product-love-trend3.1.jpg' },
-    ],
-    details: {
-      features: [
-        "Ngăn chứa bảo vệ laptop 15.6'",
-        "Nội thất tổ chức phong phú, tinh tế, tiện dụng",
-        "Đệm lưng AirFlow êm ái, thoáng khí, tạo sự thoải mái tối đa khi sử dụng",
-        "Túi lưới bên hông để vừa chai nước hoặc ô dù",
-        "Balo có dây đai nén giúp giữ balo được gọn gàng"
-      ],
-      paramters: [
-        { capacity: "30L" },
-        { volume: "0.77kg" },
-        { dimension: "35 x 19 x 47 cm" },
-        { warranty: "5 năm" }
-      ]
-    }
-  },
-  {
-    id: 14,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Balo mini Mia Love',
-    category: 'balo',
-    newPrice: '750,000₫',
-    oldPrice: '1,500,000₫',
-    isTopFavoriteProduct: true,
-    colors: [
-      { id: 'color1', name: ['blue'], code: '#b9cbcb', image: '/images/product-love-trend4.1.webp' },
-      { id: 'color2', name: ['pink'], code: '#d79aa5', image: '/images/product-love-trend4.2.webp' },
-    ],
-    details: {
-      paramters: [
-        { capacity: "8L" },
-        { volume: "0.3kg" },
-        { dimension: "22 x 13 x 28 cm" },
-        { warranty: "1 năm" }
-      ]
-    }
-  },
-  {
-    id: 15,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Balo laptop Carter 1 AS',
-    category: 'balo',
-    newPrice: '750,000₫',
-    oldPrice: '1,500,000₫',
-    isTopFavoriteProduct: true,
-    colors: [
-      { id: 'color1', name: ['red', 'yellow'], thumbnail: '/images/color-product-love-trend5.1.webp', image: '/images/product-love-trend5.1.webp' },
-      { id: 'color2', name: ['blue'], thumbnail: '/images/color-product-love-trend5.2.webp', image: '/images/product-love-trend5.2.jpg' },
-      { id: 'color3', name: ['blue', 'green'], thumbnail: '/images/color-product-love-trend5.3.webp', image: '/images/product-love-trend5.3.jpg' },
-    ],
-    details: {
-      features: [
-        "Ngăn trước truy cập nhanh",
-        "Ngăn chính rộng rãi, có ngăn chứa laptop 14'",
-        "Dây đeo vai có thể điều chỉnh",
-        "Túi ẩn ở mặt sau balo",
-        "Ngăn bên hông tiện dụng"
-      ],
-      paramters: [
-        { capacity: "20L" },
-        { volume: "0.5kg" },
-        { dimension: "29 x 18 x 42 cm" },
-        { warranty: "1 năm" },
-        { material: "100% Polyester" },
-      ]
-    }
-  },
-  {
-    id: 16,
-    brand: 'KAMILIANT BY MERICAN',
-    name: 'Vali kéo Kiza',
-    category: 'vali',
-    newPrice: '1,088,000₫',
-    oldPrice: '2,900,000₫',
-    isTopVali: true,
-    colors: [
-      { id: 'color1', name: ['blue'], thumbnail: '/images/color-vali-top1.1.webp', image: '/images/vali-top1.1.webp' },
-      { id: 'color2', name: ['black'], thumbnail: '/images/color-vali-top1.2.webp', image: '/images/vali-top1.2.jpg' },
-      { id: 'color3', name: ['green'], thumbnail: '/images/color-vali-top1.3.webp', image: '/images/vali-top1.3.webp' },
-    ],
-    details: {
-      features: [
-        "Logo hoàn thiện tinh tế, độc đáo",
-        "Tổ chức nội thất thông minh, tiện dụng",
-        "Kết cấu vỏ vali hạn chế trầy xước",
-        "Khóa số TSA an toàn, tiêu chuẩn Hoa Kỳ",
-        "Tay cầm chắc chắn, có thể thay đổi độ cao để phù hợp với người dùng",
-        "Hệ thống bánh xe 360° vận hành êm nhẹ"
-      ],
-      desc: ["Bộ sưu tập vali kéo nhựa Kiza được đặc trưng bởi hình dạng biểu tượng của logo Kamiliant và được thể hiện một cách vui nhộn và độc đáo. Vali Kiza có thiết kế dạng hình hộp với sức chứa được gia tăng tối đa. Với các tính năng thiết thực như siêu nhẹ, dung tích lớn, độ bền cao, bề mặt vali hạn chế trầy xước,... giúp bạn thỏa sức tận hưởng chuyến hành trình một cách thoải mái."],
-      paramters: [
-        { capacity: "71L" },
-        { volume: "3.2kg" },
-        { dimension: "47 x 28 x 68 cm" },
-        { tankage: "20-25kg" },
-        { warranty: "1 năm" },
-        { material: "Polypropylen (PP)" },
-      ]
-    }
-  },
-  {
-    id: 17,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Vali kéo Squasem',
-    category: 'vali',
-    newPrice: '2,450,000₫',
-    oldPrice: '9,000,000₫',
-    isTopVali: true,
-    colors: [
-      { id: 'color1', name: ['pink'], thumbnail: '/images/color-vali-top2.1.webp', image: '/images/vali-top2.1.webp' },
-      { id: 'color2', name: ['green'], thumbnail: '/images/color-vali-top2.2.webp', image: '/images/vali-top2.2.webp' },
-      { id: 'color3', name: ['black'], thumbnail: '/images/color-vali-top2.3.webp', image: '/images/vali-top2.3.webp' },
-    ],
-    details: {
-      features: [
-        "Có khả năng mở rộng tăng sức chứa",
-        "Hệ thống 4 bánh đôi OPTIMOV™ êm nhẹ, chắc chắn",
-        "Khóa kéo đôi an toàn DUOSAF™",
-        "Khóa số TSA bảo mật tiêu chuẩn Hoa Kỳ",
-        "Tích hợp cổng sạc USB (size cabin)",
-        "Tổ chức nội thất phong phú, tinh tế"
-      ],
-      desc: ["Bộ sưu tập vali kéo nhựa Squasem với thiết kế vỏ 3 chiều đặc trưng, được tạo thành bởi các hoa văn hình thoi, kết hợp với các tính năng du lịch thiết yếu được trang bị đầy đủ. Được làm bằng vật liệu PP đa năng và chắc chắn, mang lại cho Squasem một cấu trúc mạnh mẽ, bền bỉ. Khả năng mở rộng trên tất cả các size giúp tăng khả năng lưu trữ hàng lý. Được trang bị bánh xe giảm sốc OPTIMOV™ giảm tiếng ồn, vận hành trơn tru trên mọi bề mặt gồ ghề, chắc chắn sẽ mang đến cho mọi du khách trải nghiệm di chuyển tuyệt vời. Khóa kéo đôi bảo mật DUOSAF™ cũng cung cấp thêm sự an toàn cho hành lý của bạn."],
-      paramters: [
-        { capacity: "69/78L" },
-        { volume: "3.8kg" },
-        { dimension: "46 x 28/31 x 66 cm" },
-        { tankage: "20-25kg" },
-        { warranty: "3 năm" },
-        { material: "Polypropylene" },
-      ]
-    }
-  },
-  {
-    id: 18,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Vali kéo Maxivo',
-    category: 'vali',
-    newPrice: '2,250,000₫',
-    oldPrice: '4,500,000₫',
-    isTopVali: true,
-    colors: [
-      { id: 'color1', name: ['black'], thumbnail: '/images/color-vali-top3.1.webp', image: '/images/vali-top3.1.webp' },
-      { id: 'color2', name: ['yellow'], thumbnail: '/images/color-vali-top3.2.webp', image: '/images/vali-top3.2.webp' },
-      { id: 'color3', name: ['blue'], thumbnail: '/images/color-vali-top3.3.webp', image: '/images/vali-top3.3.webp' },
-    ],
-    details: {
-      features: [
-        "Lớp lót vali được xử lý kháng khuẩn",
-        "Đi kèm túi đựng giày kháng khuẩn và túi tiện ích",
-        "Tay nắm và tay cầm cần đẩy được xử lý kháng khuẩn",
-        "Hệ thống đóng gói PlentiVol™ tỉ lệ 20:80",
-        "Bánh xe xoay 360° tích hợp công nghệ StePause™ giúp vali đứng yên",
-        "Khóa kéo đôi bảo mật Duosaf™",
-
-      ],
-      desc: ["Bộ sưu tập vali kéo nhựa Squasem với thiết kế vỏ 3 chiều đặc trưng, được tạo thành bởi các hoa văn hình thoi, kết hợp với các tính năng du lịch thiết yếu được trang bị đầy đủ. Được làm bằng vật liệu PP đa năng và chắc chắn, mang lại cho Squasem một cấu trúc mạnh mẽ, bền bỉ. Khả năng mở rộng trên tất cả các size giúp tăng khả năng lưu trữ hàng lý. Được trang bị bánh xe giảm sốc OPTIMOV™ giảm tiếng ồn, vận hành trơn tru trên mọi bề mặt gồ ghề, chắc chắn sẽ mang đến cho mọi du khách trải nghiệm di chuyển tuyệt vời. Khóa kéo đôi bảo mật DUOSAF™ cũng cung cấp thêm sự an toàn cho hành lý của bạn."],
-      paramters: [
-        { capacity: "69/78L" },
-        { volume: "3.8kg" },
-        { dimension: "46 x 28/31 x 66 cm" },
-        { tankage: "20-25kg" },
-        { warranty: "3 năm" },
-        { material: "Polypropylene" },
-      ]
-    }
-  },
-  {
-    id: 19,
-    brand: 'KAMILIANT BY MERICAN',
-    name: 'Vali kéo Falcon',
-    category: 'vali',
-    newPrice: '1,488,000₫',
-    oldPrice: '3,900,000₫',
-    isTopVali: true,
-    colors: [
-      { id: 'color1', name: ['blue'], thumbnail: '/images/color-vali-top4.1.webp', image: '/images/vali-top4.1.webp' },
-      { id: 'color2', name: ['black'], thumbnail: '/images/color-vali-top4.2.webp', image: '/images/vali-top4.2.webp' },
-      { id: 'color3', name: ['purple'], thumbnail: '/images/color-vali-top4.3.webp', image: '/images/vali-top4.3.webp' },
-    ],
-    details: {
-        features: [
-            "Logo hoàn thiện tinh tế, sang trong",
-            "Tổ chức nội thất thông minh, tiện dụng",
-            "Kết cấu vỏ vali hạn chế trầy xước",
-            "Khóa số TSA an toàn tiêu chuẩn Hoa Kỳ",
-            "Tay cầm chắc chắn, có thể thay đổi độ cao để phù hợp với người dùng",
-            "Hệ thống bánh xe đôi 360° vận hành êm nhẹ"
+        id: 1,
+        brand: "AZPAC",
+        name: "AZPAC New Basic suitcase",
+        category: "vali",
+        newPrice: "2,000,000₫",
+        oldPrice: "6,900,000₫",
+        isBestSeller: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["gray"],
+                code: "#D9D9D9",
+                image: "/images/item-product-trend1.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/item-product-trend1.2.webp",
+            },
         ],
-        desc: ["Bộ sưu tập vali kéo nhựa Kiza được đặc trưng bởi hình dạng biểu tượng của logo Kamiliant và được thể hiện một cách vui nhộn và độc đáo. Vali Kiza có thiết kế dạng hình hộp với sức chứa được gia tăng tối đa. Với các tính năng thiết thực như siêu nhẹ, dung tích lớn, độ bền cao, bề mặt vali hạn chế trầy xước,... giúp bạn thỏa sức tận hưởng chuyến hành trình một cách thoải mái."],
-        paramters: [
-            { capacity: "71L" },
-            { volume: "3.2kg" },
-            { dimension: "47 x 28 x 68 cm" },
-            { tankage: "20-25kg" },
-            { warranty: "1 năm" },
-            { material: "Polypropylene" },
-        ]
-    }
-  },
-  {
-    id: 20,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Vali kéo Frontec AM',
-    category: 'vali',
-    newPrice: '3,050,000₫',
-    oldPrice: '6,100,000₫',
-    isTopVali: true,
-    colors: [
-      { id: 'color1', name: ['pink'], code: '#d8b2a5', image: '/images/vali-top5.1.webp' },
-      { id: 'color2', name: ['yellow'], code: '#e8d2a1', image: '/images/vali-top5.2.webp' },
-      { id: 'color3', name: ['black'], code: '#000', image: '/images/vali-top5.3.webp' },
-    ],
-    details: {
-        features: [
-           "Hệ thống 4 bánh xe đôi giảm xóc Optimov™",
-           "Khóa kéo đôi bảo mật Duosaf™",
-           "Tính năng tối đa hóa sức chứa PlentiVol™",
-           "Nắp mở phía trước độc đáo",
-           "Hệ thống móc treo đồ ở bên hông vali tiện dụng",
-           "Tích hợp túi đựng đồ đã sử dụng",
-           "Khả năng mở rộng tăng sức chứa",
-           "Cổng sạc USB tích hợp trên size cabin",
-           "Ngăn chứa laptop 14' ở size cabin"
-        ],
-        desc: ["Bộ sưu tập này là sự kết hợp hoàn hảo giữa vẻ đẹp và trí tuệ, với ngoại thất tuyệt vời được bổ sung các tính năng thông minh và nội thất tinh tế. Khả năng phân chia không gian PlentiVol™ cho phép sắp xếp hành lý linh hoạt và tối đa hóa sức chứa thêm 15%. Khả năng mở phía trước cho phép truy cập mà không cần mở hoàn toàn vali. Hệ thống bánh xe hấp thụ sốc Optimov™ tăng cường khả năng di chuyển êm ái trên mọi bề mặt. Nội thất tổ chức phong phú với túi đựng đồ đi kèm để dễ dàng đóng gói và sắp xếp. Khóa kéo đôi Duosaf™ giúp bảo vệ hành lý của bạn luôn được an toàn. Mặt trước mở theo chiều dọc với vali size cabin có ngăn chứa laptop và cổng sạc USB cực kỳ hữu ích."],
-        paramters: [
-            { capacity: "77L" },
-            { volume: "4.2kg" },
-            { dimension: "46 x 31/35 x 68 cm" },
-            { tankage: "20-25kg" },
-            { warranty: "3 năm" },
-            { material: "Polycarbonate" },
-        ]
-    }
-  },
-  {
-    id: 21,
-    brand: 'WEBGER - THUỴ SĨ',
-    name: 'Balo laptop 17" XE Extent',
-    category: 'balo',
-    newPrice: '2,250,000₫',
-    oldPrice: '4,500,000₫',
-    isTopBalo: true,
-    colors: [
-      { id: 'color1', name: ['black'], code: '#000', image: '/images/balo-trend1.1.jpg' },
-    ],
-    details: {
-        features: [
-            "Balo laptop 17' XE Extent sử dụng chất liệu vải chính bên ngoài làm từ chai PET tái chế",
-            "Ngăn laptop Triple Protect cho laptop lên đến 17'",
-            "Ngăn máy tính bảng 10' chuyên dụng",
-            "Ngăn chính có thể mở rộng tăng thêm sức chứa",
-            "Hệ thống tổ chức thông minh, dễ dàng sắp xếp đồ dạc",
-            "Ngăn chứa bàn phím chuyên dụng",
-            "Ngăn đựng chuột máy tính",
-            "Ngăn bảo mật ẩn ở mặt sau balo cho các vật có giá trị",
-            "Túi bên hông đựng bình nước hoặc ô dù",
-            "Đai gài cần đẩy vali giúp rảnh tay khi di chuyển",
-            "Đệm lưng thông thoáng tạo sự thoải mái tối đa",
-            "Dây đeo vai giảm xóc và có đệm êm ái, có thể điều chỉnh để phù hợp với hình dáng cơ thể",
-            "Tay cầm có đệm mềm mại và bền chắc, dễ cầm nắm"
-        ],
-        desc: ["Balo laptop 17' XE Extent là một trong những lựa chọn tối ưu dành cho những người dùng yêu cầu cao về độ bền, tính năng tiện dụng và thiết kế thời trang. Với kích thước phù hợp cho các dòng laptop lên tới 17 inch, chiếc balo này không chỉ là một sản phẩm bảo vệ thiết bị mà còn là phụ kiện lý tưởng giúp bạn di chuyển thuận tiện hơn trong công việc và cuộc sống hàng ngày."],
-        paramters: [
-            { capacity: "37L" },
-            { volume: "1.08kg" },
-            { dimension: "35 x 24 x 50 cm" },
-            { warranty: "5 năm" },
-            { material: "75% recycled Polyester + 19% Polyester + 6% PVC" },
-        ]
-    }
-  },
-  {
-    id: 22,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Balo Rudy 02 ASR',
-    category: 'balo',
-    newPrice: '550,000₫',
-    oldPrice: '1,100,000₫',
-    isTopBalo: true,
-    colors: [
-      { id: 'color1', name: ['blue'], code: '#09a9c1', image: '/images/balo-trend2.1.webp' },
-    ],
-    details: {
-        features: [
-            "Ngăn ẩn ở mặt sau balo dành cho các vật có giá trị",
-            "Lớp vải lót bên trong được làm từ vật liệu tái chế, bền vững với môi trường",
-            "Vải lót được xử lý kháng khuẩn hiện đại",
-        ],
-        desc: ["Balo Rudy 02 ASR là sự kết hợp hoàn hảo giữa thiết kế thông minh, chất liệu bền bỉ và tính năng tiện dụng. Đây chắc chắn là lựa chọn lý tưởng cho những ai đang tìm kiếm một chiếc balo đa năng, phục vụ tốt cho công việc, học tập và các hoạt động ngoài trời. Với Rudy 02 ASR, bạn không chỉ sỡ hữu một chiếc balo tiện lợi mà còn thể hiện phong cách và sự tinh tế trong từng chi tiết."],
-        paramters: [
-            { capacity: "21L" },
-            { volume: "0.4kg" },
-            { dimension: "30 x 14 x 42 cm" },
-            { warranty: "1 năm" },
-            { material: "100% Polyester" },
-        ]
-    }
-  },
-  {
-    id: 23,
-    brand: 'SAMSONITE - MỸ',
-    name: 'Balo laptop 17.3in',
-    category: 'balo',
-    newPrice: '5,460,000₫',
-    oldPrice: '7,800,000₫',
-    isTopBalo: true,
-    colors: [
-      { id: 'color1', name: ['black'], code: '#000', image: '/images/balo-trend3.1.webp' },
-    ],
-    details: {
-        features: [
-            "Chi tiết phản quang được bố trí trên balo",
-            "Móc treo có thể tháo rời, dễ dàng gắn các vật dụng nhỏ",
-            "Ngăn riêng cho cổng USB và sạc dự phòng",
-            "Hai ngăn có khóa kéo ở phía trước",
-            "Ngăn chính rộng rãi có thể chứa quần áo",
-            "Ngăn riêng cho laptop",
-            "Tương thích với laptop 17.3' và tablet 10.5'",
-            "2 túi bên hông có khóa kéo",
-            "Mặt lưng thiết kế công thái học với hệ thống lưu thông không khí, mang lại cảm giác thoải mái tối đa",
-            "Dây đeo ngực có thể tháo rời, tăng cường sự ổn định khi di chuyển",
-            "Dây đeo vai giảm xóc giúp giảm áp lực lên vai",
-            "Tích hợp đai gài cần đẩy vali"
-        ],
-        desc: ["Balo laptop 17.3in Biz2Go EXP Overnight với thiết kế nổi bật, tính năng vượt trội, không chỉ là một phụ kiện thời trang mà còn là người bạn đồng hành lý tưởng cho những chuyến đi hằng ngày. Với thiết kế đẹp mắt, chất liệu bền bỉ, có ngăn riêng để chứa laptop, thiết kế không gian chứa đồ thông minh và sự thoải mái tối đa balo laptop sẽ là lựa chọn tuyệt vời cho những ai đang tìm kiếm một chiếc balo vừa tiện dụng lại vừa phong cách."],
-        paramters: [
-            { capacity: "30/35L" },
-            { volume: "1.3kg" },
-            { dimension: "35 x 22/26 x 47 cm" },
-            { warranty: "2 năm" },
-            { material: "100% Polyester" },
-        ]
-    }
-  },
-  {
-    id: 24,
-    brand: 'SAMSONITE - MỸ',
-    name: 'Balo laptop 14.1in',
-    category: 'balo',
-    newPrice: '4,760,000₫',
-    oldPrice: '6,800,000₫',
-    isTopBalo: true,
-    colors: [
-      { id: 'color1', name: ['black'], code: '#000', image: '/images/balo-trend4.1.webp' },
-    ],
-    details: {
-        features: [
-            "Chi tiết phản quang được bố trí trên balo",
-            "Móc treo có thể tháo rời, dễ dàng gắn các vật dụng nhỏ",
-            "Ngăn riêng cho cổng USB và sạc dự phòng",
-            "Hai ngăn có khóa kéo ở phía trước",
-            "Ngăn chính rộng rãi có thể chứa quần áo",
-            "Ngăn riêng cho laptop",
-            "Tương thích với laptop 14.1' và tablet 10.5'",
-            "2 túi bên hông có khóa kéo",
-            "Mặt lưng thiết kế công thái học với hệ thống lưu thông không khí, mang lại cảm giác thoải mái tối đa",
-            "Dây đeo ngực có thể tháo rời, tăng cường sự ổn định khi di chuyển",
-            "Dây đeo vai giảm xóc giúp giảm áp lực lên vai",
-            "Tích hợp đai gài cần đẩy vali"
-        ],
-        desc: ["Balo Laptop 14.1' Biz2Go là một lựa chọn lý tưởng cho những người cần sự kết hợp giữa tính năng bảo vệ laptop, sự tiện dụng và phong cách hiện đại. Với chất liệu bền bỉ, ngăn đựng laptop chống sốc, thiết kế gọn gàng và khả năng bảo vệ đồ đạc tốt, chiếc balo này là người bạn đồng hành hoàn hảo cho những chuyến công tác, học tập hay đi làm hàng ngày."],
-        paramters: [
-            { capacity: "20.5L" },
-            { volume: "1kg" },
-            { dimension: "32 x 18 x 42.5 cm" },
-            { warranty: "2 năm" },
-            { material: "100% Polyester" },
-        ]
-    }
-  },
-  {
-    id: 25,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Balo Little Carter',
-    category: 'balo',
-    newPrice: '550,000₫',
-    oldPrice: '1,100,000₫',
-    isTopBalo: true,
-    colors: [
-      { id: 'color1', name: ['yellow'], code: '#e1b43d', image: '/images/balo-trend5.1.webp' },
-      { id: 'color2', name: ['blue'], code: '#0285e6', image: '/images/balo-trend5.2.webp' },
-      { id: 'color3', name: ['black'], code: '#000', image: '/images/balo-trend5.3.webp' },
-    ],
-    details: {
-        desc: ["Balo little Carter có kích thước nhỏ gọn, dây đeo được thiết kế riêng phù hợp với lưng của trẻ em, thiết kế đơn giản nhưng đầy đủ tính năng. Kiểu dáng hiện đại, chất liệu bền bỉ little Carter là sự lựa chọn lý tưởng cho trẻ mang đi học, đi chơi, đi du lịch. Balo Little Carter là sự lựa chọn tuyệt vời cho những ai tìm kiếm một chiếc balo trẻ em nhỏ gọn, tiện dụng và phong cách đáng yêu dành cho trẻ. Với thiết kế đơn giản nhưng hiện đại, chất liệu bền bỉ và tính năng tối ưu, chiếc balo này sẽ là người bạn đồng hành lý tưởng trong cuộc sống hằng ngày, từ đi học, đi chơi, du lịch."],
-        paramters: [
-            { capacity: "7L" },
-            { volume: "0.2kg" },
-            { dimension: "20 x 12 x 28 cm" },
-            { warranty: "1 năm" },
-            { material: "100% Polyester" },
-        ]
-    }
-  },
-
-
-  {
-    id: 26,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Túi đeo vai Segno 2.0 AR',
-    category: 'handbag',
-    newPrice: '600,000₫',
-    oldPrice: '1,200,000₫',
-    isTopBag: true,
-    colors: [
-      { id: 'color1', name: ['black'], code: '#000', image: '/images/bag-top1.1.webp' },
-    ],
-    details: {
-        features: [
-            "Túi đeo vai Segno 2.0 ASR với nội thất tổ chức phong phú, tinh tế",
-            "Lớp lót nội thất được xử lý kháng khuẩn hiện đại",
-            "Ngăn có khóa kéo ở mặt trước tiện dụng",
-            "Ngăn ẩn ở mặt sau túi dành cho các vật có giá trị"
-        ],
-        desc: ["Túi đeo vai Segno 2.0 ASR không chỉ là một chiếc túi thông thường. Được thiết kế để đáp ứng nhu cầu của những người luôn di chuyển và có phong cách sống năng động. Sự kết hợp giữa tính năng bảo mật và linh hoạt đã giúp chiếc túi trở thành sự lựa chọn tuyệt vời cho những người yêu thích du lịch, công tác hoặc đơn giản là di chuyển trong môi trường đô thị. Với tất cả những tính năng nổi bật như tính năng bảo mật cao, thiết kế hiện đại và chất liệu bền bỉ, túi đeo vai Segno 2.0 ASR chắc chắn sẽ là sự lựa chọn lý tưởng cho những ai cần một chiếc túi đeo vai vừa tiện lợi, an toàn vừa hiện đại. Đừng bỏ lỡ cơ hội sở hữu sản phẩm này và trải nghiệm sự khác biệt mà sản phẩm mang lại."],
-        paramters: [
-            { capacity: "5L" },
-            { volume: "0.28kg" },
-            { dimension: "21 x 8 x 26.5 cm" },
-            { warranty: "1 năm" },
-            { material: "100% Polyester" },
-        ]
-    }
-  },
-  {
-    id: 27,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Túi đeo chéo Orbit 02 ASR',
-    category: 'handbag',
-    newPrice: '650,000₫',
-    oldPrice: '1,300,000₫',
-    isTopBag: true,
-    colors: [
-      { id: 'color1', name: ['yellow'], code: '#ddab71', image: '/images/bag-top2.1.webp' },
-      { id: 'color2', name: ['blue'], code: '#4d859b', image: '/images/bag-top2.2.webp' },
-      { id: 'color3', name: ['black'], code: '#000', image: '/images/bag-top2.3.webp' },
-    ],
-    details: {
-        features: [
-            "Bộ sưu tập American Tourister Orbit là sự kết hợp hoàn hảo giữa phong cách và tính năng, mang đến sự tiện lợi và thoải mái cho những người luôn bận rộn. Đây là dòng túi đeo sát cơ thể lý tưởng cho những ai không ngừng di chuyển. Bộ sưu tập bao gồm 3 mẫu: Rigel, Eris và Vega.",
-            "Lớp lót RPET được xử lý kháng khuẩn bằng công nghệ Microban™, giúp tiêu diệt đến 99% vi khuẩn và nấm mốc, mang đến sự yên tâm trong suốt hành trình.",
-            "Dây đeo vai có thể tháo rời",
-            "Ngăn ẩn ở bên trong",
-            "Túi phụ có thể tháo rời"
-        ],
-        paramters: [
-            { capacity: "4L" },
-            { volume: "0.2kg" },
-            { dimension: "17 x 6 x 23 cm" },
-            { warranty: "1 năm" },
-            { material: "100% Polyester" },
-        ]
-    }
-  },
-  {
-    id: 28,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Túi đeo hông Orbit ASR',
-    category: 'handbag',
-    newPrice: '550,000₫',
-    oldPrice: '1,100,000₫',
-    isTopBag: true,
-    colors: [
-      { id: 'color1', name: ['gray'], code: '#a49fa0', image: '/images/bag-top3.1.webp' },
-      { id: 'color2', name: ['blue'], code: '#4c6ea5', image: '/images/bag-top3.2.webp' },
-      { id: 'color3', name: ['black'], code: '#000', image: '/images/bag-top3.3.webp' },
-    ],
-    details: {
-        features: [
-            "Bộ sưu tập American Tourister Orbit là sự kết hợp hoàn hảo giữa phong cách và tính năng, mang đến sự tiện lợi và thoải mái cho những người luôn bận rộn. Đây là dòng túi đeo sát cơ thể lý tưởng cho những ai không ngừng di chuyển. Bộ sưu tập bao gồm 3 mẫu: Rigel, Eris và Vega.",
-            "Lớp lót RPET được xử lý kháng khuẩn bằng công nghệ Microban™, giúp tiêu diệt đến 99% vi khuẩn và nấm mốc, mang đến sự yên tâm trong suốt hành trình.",
-            "Cách đeo linh hoạt: có thể đeo chéo hoặc đeo hông",
-            "Ngăn khóa kéo ở phía sau giữ an toàn cho các vật có giá trị",
-            "Lớp lót làm từ vật liệu tái chế và được xử lý kháng khuẩn"
-        ],
-        paramters: [
-            { capacity: "4L" },
-            { volume: "0.23kg" },
-            { dimension: "38 x 7 x 16 cm" },
-            { warranty: "1 năm" },
-            { material: "100% Nylon" },
-        ]
-    }
-  },
-  {
-    id: 29,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Túi đeo chéo Orbit 03 ASR',
-    category: 'handbag',
-    newPrice: '650,000₫',
-    oldPrice: '1,300,000₫',
-    isTopBag: true,
-    colors: [
-      { id: 'color1', name: ['blue'], code: '#22477a', image: '/images/bag-top4.1.webp' },
-      { id: 'color2', name: ['black'], code: '#000', image: '/images/bag-top4.2.webp' },
-      { id: 'color3', name: ['gray'], code: '#807775', image: '/images/bag-top4.3.webp' },
-    ],
-    details: {
-        features: [
-            "Bộ sưu tập American Tourister Orbit là sự kết hợp hoàn hảo giữa phong cách và tính năng, mang đến sự tiện lợi và thoải mái cho những người luôn bận rộn. Đây là dòng túi đeo sát cơ thể lý tưởng cho những ai không ngừng di chuyển. Bộ sưu tập bao gồm 3 mẫu: Rigel, Eris và Vega.",
-            "Lớp lót RPET được xử lý kháng khuẩn bằng công nghệ Microban™, giúp tiêu diệt đến 99% vi khuẩn và nấm mốc, mang đến sự yên tâm trong suốt hành trình.",
-            "Cách đeo linh hoạt: có thể đeo chéo hoặc đeo hông",
-            "Ngăn khóa kéo ở phía sau giữ an toàn cho các vật có giá trị",
-            "Lớp lót làm từ vật liệu tái chế và được xử lý kháng khuẩn"
-        ],
-        paramters: [
-            { capacity: "2L" },
-            { volume: "0.26kg" },
-            { dimension: "16 x 3 x 22 cm" },
-            { warranty: "1 năm" },
-            { material: "100% Nylon" },
-        ]
-    }
-  },
-  {
-    id: 30,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Túi đeo hông Orbit ASR',
-    category: 'handbag',
-    newPrice: '650,000₫',
-    oldPrice: '1,300,000₫',
-    isTopBag: true,
-    colors: [
-      { id: 'color1', name: ['gray'], code: '#adb7cb', image: '/images/bag-top5.1.webp' },
-      { id: 'color2', name: ['yellow'], code: '#c99657', image: '/images/bag-top5.2.webp' },
-      { id: 'color3', name: ['black'], code: '#000', image: '/images/bag-top5.3.webp' },
-    ],
-    details: {
-        features: [
-            "Bộ sưu tập American Tourister Orbit là sự kết hợp hoàn hảo giữa phong cách và tính năng, mang đến sự tiện lợi và thoải mái cho những người luôn bận rộn. Đây là dòng túi đeo sát cơ thể lý tưởng cho những ai không ngừng di chuyển. Bộ sưu tập bao gồm 3 mẫu: Rigel, Eris và Vega.",
-            "Lớp lót RPET được xử lý kháng khuẩn bằng công nghệ Microban™, giúp tiêu diệt đến 99% vi khuẩn và nấm mốc, mang đến sự yên tâm trong suốt hành trình.",
-            "Cách đeo linh hoạt: có thể đeo chéo hoặc đeo hông",
-            "Ngăn khóa kéo ở phía sau giữ an toàn cho các vật có giá trị",
-            "Lớp lót làm từ vật liệu tái chế và được xử lý kháng khuẩn"
-        ],
-        paramters: [
-            { capacity: "3L" },
-            { volume: "0.25kg" },
-            { dimension: "26 x 6 x 16 cm" },
-            { warranty: "1 năm" },
-            { material: "100% Nylon" },
-        ]
-    }
-  },
-  {
-    id: 31,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Vali kéo Maxivo OS',
-    category: 'vali',
-    newPrice: '2,450,000₫',
-    oldPrice: '4,900,000₫',
-    isBestSeller: false,
-    colors: [
-      { id: 'color1', name: ['purple'], code: '#9e8db2', image: '/images/vali_item001_01.webp' },
-      { id: 'color2', name: ['gray'], code: '#bebdc0', image: '/images/vali_item001_02.webp' },
-      { id: 'color3', name: ['gray'], code: '#4e5e62', image: '/images/vali_item001_03.webp' },
-    ],
-    details: {
-      features: [
-          "Thiết kế ngăn chứa thông minh Plentivol™ theo tỉ lệ 2/8, dễ dàng sắp xếp những món đồ lớn",
-          "Khả năng mở rộng tăng sức chứa (chỉ có trên size trung và đại)",
-          "Khóa kéo đôi Duosaf™ tăng cường bảo mật",
-          "Trang bị móc treo đa năng ở bên hông vali giúp treo thêm túi xách hoặc các vật dụng khác",
-          "Lớp lót được kháng khuẩn bằng công nghệ hiện đại, kèm với các túi phụ kiện tiện dụng"
-      ],
-      paramters: [
-          { capacity: "65/75L" },
-          { volume: "4kg" },
-          { dimension: "44 x 30/33 x 67 cm" },
-          { tankage: "20-25kg" },
-          { warranty: "3 năm" },
-          { material: "100% Polycarbonate"},
-      ]
-  }
-  },
-  {
-    id: 32,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Vali kéo LOCKation',
-    category: 'vali',
-    newPrice: '3,350,000₫',
-    oldPrice: '6,700,000₫',
-    isBestSeller: false,
-    colors: [
-      { id: 'color1', name: ['blue'], code: '#818fac', image: '/images/vali_item002_01.webp' },
-      { id: 'color2', name: ['gray'], code: '#333333', image: '/images/vali_item002_02.webp' },
-      { id: 'color3', name: ['gray'], code: '#6b6869', image: '/images/vali_item002_03.webp' },
-    ],
-    details: {
-      features: [
-          "Kích thước size cabin chuẩn (115cm)",
-          "Bánh xe giảm xóc OPTIMOV™",
-          "Hệ thống khóa khung đa điểm một chạm XTRASECU™",
-          "Nội thất tổ chức phong phú, đa năng",
-          "Lớp lót làm từ vật liệu tái chế rPET và được xử lý kháng khuẩn"
-      ],
-      paramters: [
-          { capacity: "56L" },
-          { volume: "4,1kg" },
-          { dimension: "45 x 27 x 65" },
-          { tankage: "20-25kg" },
-          { warranty: "3 năm" },
-          { material: "Polycarbonate"},
-      ]
-  }
-  },
-  {
-    id: 33,
-    brand: 'Samsonite - Mỹ',
-    name: 'Vali kéo Base Boost',
-    category: 'vali',
-    newPrice: '4,340,000₫',
-    oldPrice: '6,200,000₫',
-    isBestSeller: false,
-    colors: [
-      { id: 'color1', name: ['blue'], code: '#0033ff', image: '/images/vali_item003_01.webp' },
-      { id: 'color2', name: ['black'], code: '#000000', image: '/images/vali_item003_02.webp' },
-    ],
-    details: {
-      features: [
-          "Tích hợp khóa 3 số TSA kết hợp với dây cáp gia tăng tính bảo mật",
-          "Ngăn phía trước tiện dụng, tối ưu sức chứa",
-          "Sử dụng chất liệu polyester nhẹ nhưng vẫn bền chắc",
-          "Hệ thống 4 bánh xe 360° vận hành êm nhẹ và trơn tru",
-          "Khả năng mở rộng tăng không gian đóng gói ở tất cả các size"
-      ],
-      paramters: [
-          { capacity: "70L" },
-          { volume: "2.7kg" },
-          { dimension: "42 x 27/30 x 71cm" },
-          { tankage: "20-25kg" },
-          { warranty: "3 năm" },
-          { material: "100% Polyester"},
-      ]
-  }
-  },
-  {
-    id: 34,
-    brand: 'High Sierra - Mỹ',
-    name: 'Balo Colts 30',
-    category: 'balo',
-    newPrice: '1,450,000₫',
-    oldPrice: '2,900,000₫',
-    colors: [
-      { id: 'color1', name: ['blue'], code: '#0242fd', image: '/images/balo_047_01.jpg' },
-      { id: 'color2', name: ['black'], code: '#000000', image: '/images/balo_047_02.jpg' },
-    ],
-    details: {
-      features: [
-          "Ngăn chính dung tích lớn rộng rãi 30l",
-          "Tích hợp bao trùm không thấm nước",
-          "Thiết kế ngăn nắp túi phụ kiện và khả năng nới rộng sức chứa",
-          "Ngăn túi chứa nước bên hông kèm ống hút",
-          "Lớp lóp đệm lưng giữ lưng luôn khô và thoáng mát",
-          "Dây đai balo cấu tạo nâng tải trọng tối ưu",
-      ],
-      paramters: [
-          { capacity: "30L" },
-          { volume: "1.3kg" },
-          { dimension: "35 x 35 x 65cm" },
-          { warranty: "1 năm" },
-      ]
-  }
-  },
-  {
-    id: 35,
-    brand: 'Samsonite - Mỹ',
-    name: 'Balo laptop 17.3in PRO-DLX 6 3vol Exp',
-    category: 'balo',
-    newPrice: '7,600,000₫',
-    oldPrice: '10,900,000₫',
-    colors: [
-      { id: 'color1', name: ['blue'], code: '#0242fd', image: '/images/balo_048_01.jpg' },
-      { id: 'color2', name: ['black'], code: '#000000', image: '/images/balo_048_02.jpg' },
-    ],
-    details: {
-      features: [
-          "PRO-DLX 6 là bước nhảy vọt tiếp theo cho bộ sưu tập cao cấp dành cho doanh nhân của Samsonite. Bộ sưu tập này có kiểu dáng mới mẻ và cực kỳ hiện đại, được làm bằng vật liệu mềm và nhẹ hơn. Bên trong, PRO-DLX 6 cung cấp một loạt các tùy chọn tổ chức được thiết kế để đơn giản hóa việc sắp xếp. Kết hợp tất cả những điều này lại với nhau và bạn có một bộ sưu tập hoàn hảo cho nhu cầu của những doanh nhân thường xuyên phải đi công tác. Khi bạn cần di chuyển nhanh chóng và làm việc hiệu quả, không có lựa chọn nào tốt hơn PRO-DLX 6",
-          "Balo laptop 17.3 PRO-DLX 6 có ngăn chính rộng rãi, trong đó có ngăn chứa bảo vệ laptop 17.3 chuyên dụng cùng với ngăn đựng tài liệu và khe cắm sạc dự phòng. Các ngăn phía trước có khóa kéo với nhiều khe cắm cho nhiều thiết bị khác nhau, trong khi 2 túi bên hông có khóa kéo cung cấp thêm chức năng và khả năng lưu trữ thiết bị. Cổng sạc USB ở bên hông giúp dễ dàng sạc pin khi di đang di chuyển và bộ mở rộng cho phép bạn sắp xếp được nhiều hơn khi cần thiết.",
-      ],
-      paramters: [
-          { capacity: "24.5 L" },
-          { volume: "1.5kg" },
-          { dimension: "32 x 18/24 x 46 cm" },
-          { warranty: "2 năm" },
-          { material: " 97% Nylon + 2% PU + 1% da"},
-      ]
-  }
-  },
-  {
-
-    id: 36,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Túi đeo chéo Paisley Joy size S',
-    category: 'handbag',
-    newPrice: '750,000đ',
-    oldPrice: '1,500,000đ',
-    colors: [
-      { id: 'color1', name: ['black'], code: '#000000', image: '/images/tuideocheoPaisleyJoy_01.webp' },
-      { id: 'color2', name: ['gray'], code: '#c8c1ba', image: '/images/tuideocheoPaisleyJoy_02.webp' },
-    ],
-    details: {
-      features: [
-          "Nội thất rộng rãi, có ngăn khóa kéo bên trong",
-          "Ngăn có khóa kéo ở cả mặt trước và sau",
-          "Dây đeo vai bền chắc, có thể điều chỉnh độ dài",
-          "Lớp lót được xử lý kháng khuẩn hiện đại",
-      ],
-      paramters: [
-          { capacity: "3 L" },
-          { volume: "0,22kg" },
-          { dimension: " 22,5 x 7 x 15 cm" },
-          { warranty: "1   năm" },
-          { material: "95% Polyester + 5% Microfiber"},
-      ]
-  },
-  },
-  {
-    id: 37,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Túi duffle Corey 01 ASR',
-    category: 'handbag',
-    newPrice: '950,000đ',
-    oldPrice: '1,900,000đ',
-    colors: [
-      { id: 'color1', name: ['red'], code: '#FF0000', image: '/images/tuixach_080_01.webp', },
-      { id: 'color2', name: ['gray'], code: '#67665b', image: '/images/tuixach_080_02.webp' },
-    ],
-    details: {
-      features: [
-          "Túi duffle Corey chính là chiếc túi lý tưởng cho những ai yêu thích thể thao và các hoạt động ngoài trời. Với ngăn chính rộng rãi, bạn có thể thoải mái đựng đồ thể thao, quần áo, đồ vệ sinh cá nhân và các vật dụng khác.",
-          "Túi đựng giày giúp bạn dễ dàng mang theo giày thể thao hoặc giày đi bộ.",
-          "Hai ngăn lưới bên hông để đựng các vật dụng nhỏ như khăn, bình nước.",
-          "Dây đeo vai có thể tháo rời, giúp bạn dễ dàng xách tay hoặc đeo trên vai.",
-      ],
-      paramters: [
-          { capacity: "33,5L" },
-          { volume: "0,48 kg" },
-          { dimension: "47 x 25 x 24 cm" },
-          { warranty: "1 năm" },
-          { material: "100% Polyester"},
-      ]
-  },
-  },
-  {
-    id: 38,
-    brand: 'Samsonite Red - Mỹ',
-    name: 'Túi đeo chéo Ferley',
-    category: 'handbag',
-    newPrice: '4,200,000đ',
-    oldPrice: '6,000,000đ',
-    colors: [
-      { id: 'color1', name: ['gray'], code: '#f2eee6', image: '/images/tuixach_081_01.webp', },
-      { id: 'color2', name: ['pink'], code: '#ffe2de', image: '/images/tuixach_081_02.webp' },
-      { id: 'coler3', name: ['black'], code: '#000000', image: '/images/tuixach_081_03.webp' },
-    ],
-    details: {
-      features: [
-          "Bộ sưu tập Ferley mang đến nét nữ tính thanh lịch, kết hợp hài hòa giữa thiết kế tối giản và chất liệu nhẹ nhàng, tạo nên những chiếc túi phù hợp cho mọi hoạt động thường ngày.",
-          "Màu sắc đa dạng: Đen, Xám nhạt, Hồng đáng yêu, Denim thời thượng, phù hợp với nhiều phong cách.",
-          "Túi đeo chéo nắp gập mang phong cách nữ tính, thanh lịch.",
-          "Túi nhỏ đính kèm giúp bạn cất giữ các phụ kiện như tai nghe, sạc điện thoại,...",
-          "Dây đeo vai có thể điều chỉnh, mang lại sự thoải mái khi sử dụng.",
-      ],
-      paramters: [
-          { capacity: "3L" },
-          { volume: "0,42 kg" },
-          { dimension: "31 x 8,5 x 18 cm" },
-          { warranty: "2 năm" },
-          { material: "63% NYLON + 37% POLYESTER TRICO"},
-      ]
-  },
-  },
-  {
-    id: 39,
-    brand: 'Victorinox - Thụy Sĩ',
-    name: 'Túi tote 2-way Architecture Urban2',
-    category: 'handbag',
-    newPrice: '7,210,000đ',
-    oldPrice: '10,300,000đ',
-    colors: [
-      { id: 'color1', name: ['black'], code: '#000000', image: '/images/tuixach_082_01.webp', },
-      { id: 'color2', name: ['gray'], code: '#3e444e', image: '/images/tuixach_082_02.webp' },
-    ],
-    details: {
-      features: [
-          "Chiếc túi công sở Architecture Urban2 2-Way Carry Tote là người bạn đồng hành linh hoạt, dễ dàng chuyển đổi từ túi xách sang balo. Với thiết kế sáng tạo, lớp lót kháng khuẩn và chất liệu co giãn bảo vệ thiết bị 360 độ, chiếc túi này là một lựa chọn hoàn hảo cho những chuyến công tác.",
-          "Bao gồm khóa kéo chống nước và phủ lớp chống thấm ở ngăn chính để giữ đồ dùng khô ráo",
-          "Đáy túi được trang bị chân đế để hạn chế tiếp xúc với bề mặt bẩn",
-      ],
-      paramters: [
-          { capacity: "20L" },
-          { volume: "1,3 kg" },
-          { dimension: "40 x 15 x 40 cm" },
-          { warranty: "10 năm" },
-          { material: "Nylon / Leather"},
-      ]
-  },
-  },
-  {
-    id: 40,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Túi tote Alizee Aimee ASR',
-    category: 'handbag',
-    newPrice: '1,250,000đ',
-    oldPrice: '2,500,000đ',
-    colors: [
-      {id: 'color1', name: ['pink'], code: '#edcbc9', image: '/images/tuixach_083_01.webp'},
-      {id: 'color2', name: ['blue'], code: '#353f62', image: '/images/tuixach_083_02.webp'},
-      {id: 'color3', name: ['gray'], code: '#d0cedd', image: '/images/tuixach_083_03.webp'},
-    ],
-    details: {
-      features: [
-          "Bộ sưu tập Alizee đình đám nay chào đón thành viên mới tuyệt vời - Alizee Aimee. Ba màu sắc sang trọng: Indigo, Light Grey và Rose Beige, mang đến vẻ ngoài thanh lịch, tươi mới cho cuộc sống thường ngày của bạn.Bộ sưu tập Alizee đình đám nay chào đón thành viên mới tuyệt vời - Alizee Aimee. Ba màu sắc sang trọng: Indigo, Light Grey và Rose Beige, mang đến vẻ ngoài thanh lịch, tươi mới cho cuộc sống thường ngày của bạn.",
-          "Chất liệu vải và lớp lót được xử lý công nghệ kháng khuẩn, đảm bảo vệ sinh tối ưu cho đồ dùng cá nhân. Hơn thế nữa, thiết kế thông minh và đa năng của Alizee Aimee sẽ khiến mọi hành trình của bạn trở nên dễ dàng và thú vị hơn bao giờ hết.",
-          "Túi tote Alizee Aimee sở hữu ngăn chính rộng rãi, dễ dàng lấy đồ, kèm ngăn đựng máy tính bảng 8 inch. Ngăn khóa kéo phía trước tiện cất giữ vật dụng nhỏ, ngăn khóa kéo phía sau bảo vệ đồ dùng quan trọng.",
-      ],
-      paramters: [
-          { capacity: "14L" },
-          { volume: "0,5 kg" },
-          { dimension: "42 x 14 x 28 cm" },
-          { warranty: "1 năm" },
-          { material: "100% Polyester"},
-      ]
+        details: {
+            features: [
+                "The suitcase shell is made from 100% pure Makrolon® polycarbonate, ensuring maximum impact resistance and providing comprehensive protection for your luggage.",
+                "The Hinomoto dual-wheel system from Japan allows for 360° rotation, flexibility on all terrains, and enhanced grip and stability.",
+                "The three-tier pull handle is made from high-quality aluminum combined with a high-quality ABS base, providing superior durability and impact resistance. After 500 continuous pull and push tests, it still operates normally without any damage.",
+                "The AZTPU® material used for the handle has excellent abrasion resistance, impact resistance, and superior durability. After 3000 continuous pull tests, the handle still maintains its original quality.",
+                "Double YKK® zippers are anti-slice and anti-explosion, operating smoothly and durably.",
+            ],
+            paramters: [
+                { capacity: "90L" },
+                { volume: "5.1kg" },
+                { dimension: "42 x 35 x 67 cm" },
+                { tankage: "20-25kg" },
+                { material: "100% Pure Polycarbonate" },
+            ],
+        },
     },
-  },
-  {
-    id: 41,
-    brand: 'ACE. - Nhật Bản',
-    name: 'Túi đeo chéo Bastique2',
-    category: 'handbag',
-    newPrice: '1,120,000đ',
-    oldPrice: '1,600,000đ',
-    colors: [
-      {id: 'color1', name: ['blue'], code: '#191972', image: '/images/tuixach_084_01.webp'},
-      {id: 'color2', name: ['black'], code: '#000000', image: '/images/tuixach_084_02.webp'},
-    ],
-    details: {
-      features: [
-          "Kích thước nhỏ gọn và nhẹ nhàng",
-          "Tổ chức nội thất thông minh, dễ dàng sắp xếp",
-          "Mặt lưng sử dụng chất liệu lưới thoáng khí",
-      ],
-      paramters: [
-          { capacity: "1L" },
-          { volume: "0,2 kg" },
-          { dimension: "24 x 6 x 14 cm" },
-          { warranty: "5 năm" },
-          { material: "Nylon 100 x 210dn Dobby PU finish"},
-      ]
+    {
+        id: 2,
+        brand: "DELSEY - FRANCE",
+        name: "Eclipse SE rolling suitcase",
+        category: "vali",
+        newPrice: "2,000,000₫",
+        oldPrice: "7,000,000₫",
+        isBestSeller: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#2E545C",
+                image: "/images/item-product-trend2.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["blue"],
+                code: "#3121f1",
+                image: "/images/item-product-trend2.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000",
+                image: "/images/item-product-trend2.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Eclipse SE suitcase has a unique front opening design",
+                "Compartment protects laptops up to 17.3' (only available on cabin size 55cm)",
+                "The suitcase cover is made from durable ABS+PC material, with a matte finish to help limit scratches",
+                "The ability to expand capacity increases flexibility in luggage arrangement",
+                "Double pipe push lever made of sturdy alloy, easy to change height to suit the user.",
+                "US standard safe TSA number lock",
+                "The 4-wheel system rotates 360 degrees for smooth, stable operation",
+            ],
+            paramters: [
+                { capacity: "77/84L" },
+                { volume: "4.43kg" },
+                { dimension: "44.5 x 27.5/ 30 x 65 cm" },
+                { tankage: "20-25kg" },
+                { warranty: "3 year" },
+            ],
+        },
     },
-  },
-  {
-    id: 42,
-    brand: 'Kanana Project - Nhật Bản',
-    name: 'Túi đeo chéo Kanana Monogram 2ND Large',
-    category: 'handbag',
-    newPrice: '2,380,000₫',
-    oldPrice: '3,400,000₫',
-    colors: [
-      {id: 'color1', name: ['blue'], thumbnail: '/images/color-tuixach_085_01.webp', image: '/images/tuixach_085_01.webp'},
-    ],
-    details: {
-      features: [
-          "Bộ sưu tập Monogram được tái thiết kế với vẻ ngoài tinh tế và sang trọng nhờ ánh sáng rực rỡ.",
-          "Chất liệu chính là vải dệt Jacquard Monogram độc đáo",
-          "Ngăn trước có khóa kéo làm từ vải đã được xử lý kháng khuẩn và virut bởi công nghệ VIRTECT®",
-          "Khóa kéo chính có chốt an toàn để tránh mở nhầm",
-          "Ngăn khóa kéo ở mặt sau có độ bảo mật cao, thích hợp để đựng ví và các vật dụng có giá trị",
-      ],
-      paramters: [
-          { volume: "0,31 kg" },
-          { dimension: "32 x 10 x 24 cm" },
-          { warranty: "5 năm" },
-          { material: "Polyester 100dn Jacquard / PU"},
-      ]
+    {
+        id: 3,
+        brand: "KAMILIANT BY AMERICAN",
+        name: "Combo 2 vali Rock-Lite",
+        category: "vali",
+        newPrice: "1,200,000₫",
+        oldPrice: "5,800,000₫",
+        isBestSeller: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#3121f1",
+                image: "/images/item-product-trend3.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/item-product-trend3.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["red"],
+                code: "#fe0100",
+                image: "/images/item-product-trend3.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Combo of 2 Kamiliant Rock-Lite cabin size rolling suitcases",
+                "Ultra light plastic suitcase, only from 2 kg (cabin size)",
+                "Made from versatile PP plastic for high durability and impact resistance",
+                "The zigzag pattern is inspired by commercial geometric design",
+                "Luxury, sophisticated metal logo plate",
+                "US standard safe TSA number lock",
+                "Sturdy push lever, can change height",
+            ],
+            desc: [
+                "Kamiliant Rock-Lite is a collection of rolling suitcases with a shell made of high-value PP plastic. Rock-Lite is considered the 2nd generation of Zakk in terms of design inspiration, characterized by geometric zigzag patterns iconic, combined with practical travel features: ultra-lightweight (from just 2 kg), highly durable, scratch-resistant on a dual-texture design.",
+            ],
+            paramters: [
+                { volume: "2kg" },
+                { dimension: "37 x 25 x 55 cm" },
+                { tankage: "7-10kg" },
+                { material: "100% Pure Polycarbonate" },
+                { warranty: "1 year" },
+            ],
+        },
     },
-  },
-  {
-    id: 43,
-    brand: 'Samsonite - Mỹ',
-    name: 'Túi hobo Up-Line S',
-    category: 'handbag',
-    newPrice: '2,940,000₫',
-    oldPrice: '4,200,000₫',
-    colors: [
-      {id: 'color1', name: ['pink'], code: '#c5a79c', image: '/images/tuixach_086_01.webp'},
-      {id: 'color2', name: ['black'], code: '#000000', image: '/images/tuixach_086_02.webp'},
-      {id: 'color3', name: ['gray'], code: '#bbb6ba', image: '/images/tuixach_086_03.webp'},
+    {
+        id: 4,
+        brand: "AMIRICAN TOURISTER",
+        name: "Litevlo suitcase",
+        category: "vali",
+        newPrice: "1,550,000₫",
+        oldPrice: "3,100,000₫",
+        isBestSeller: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["pink"],
+                code: "#f9aa8c",
+                image: "/images/item-product-trend4.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["gray"],
+                code: "#777777",
+                image: "/images/item-product-trend4.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000",
+                image: "/images/item-product-trend4.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "360° double wheels operate smoothly",
+                "Spacious luggage compartment, many pockets",
+                "TSA Integrated Concave Digital Lock",
+                "Ultra light and durable PP plastic material",
+                "Scalability (medium and large sizes)",
+            ],
+            desc: [
+                "The Litevlo suitcase in the Litevlo collection is the lightest suitcase made from Polypropylene (PP) plastic ever from the American Tourister brand - USA.",
+            ],
+            paramters: [
+                { volume: "3.1kg" },
+                { dimension: "47 x 30/31 x 69 cm" },
+                { tankage: "20-25kg" },
+                { material: "100% Polycarbonate" },
+                { warranty: "3 year" },
+            ],
+        },
+    },
+    {
+        id: 5,
+        brand: "SAMSONITE - USA",
+        name: "Enwrap valid extension",
+        category: "vali",
+        newPrice: "4,300,000₫",
+        oldPrice: "8,600,000₫",
+        isBestSeller: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["gray"],
+                code: "#d9d9d9",
+                image: "/images/item-product-trend5.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/item-product-trend5.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["green"],
+                code: "#1d2e2b",
+                image: "/images/item-product-trend5.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Anti-theft double zipper",
+                "Rich, sophisticated interior",
+                "360° double wheel system operates smoothly",
+                "Digital lock with integrated TSA lock",
+                "Scalability increases capacity",
+            ],
+            desc: [
+                "Inspired by folding and 'wrapping' packaging, Enwrap's outstanding feature is its rich interior design that creates excellent luggage separation capabilities even if you are not a talented packer. Super luggage compartments and pockets for organization combined with expandable zippers are the perfect luggage solution for shopping lovers. Thick zippers ensure more security compared to conventional zippers. Enwrap has many color versions to choose from on a super durable polycarbonate shell. More than just a suitcase, Enwrap is a reliable companion for personal and family travel.",
+            ],
+            paramters: [
+                { volume: "3.1kg" },
+                { dimension: "47 x 30/31 x 69 cm" },
+                { tankage: "20-25kg" },
+                { material: "100% Polycarbonate" },
+                { warranty: "3 year" },
+            ],
+        },
+    },
 
-    ],
-    details: {
-      features: [
-          "Nội thất rộng rãi: Gồm ngăn chính rộng rãi có khóa kéo và 1 ngăn khóa kéo bên trong giúp bạn sắp xếp đồ đạc khoa học, dễ dàng tìm kiếm",
-          "Ngăn trước có khóa kéo làm từ vải đã được xử lý kháng khuẩn và virut bởi công nghệ VIRTECT®",
-          "Khóa kéo chính có chốt an toàn để tránh mở nhầm",
-          "Ngăn khóa kéo ở mặt sau có độ bảo mật cao, thích hợp để đựng ví và các vật dụng có giá trị",
-      ],
-      paramters: [
-          { volume: "0,31 kg" },
-          { dimension: "32 x 10 x 24 cm" },
-          { warranty: "5 năm" },
-          { material: "Polyester 100dn Jacquard / PU"},
-      ]
+    {
+        id: 6,
+        brand: "AMERICAN TOURISTER",
+        name: "Squasem suitcase combo",
+        category: "vali",
+        newPrice: "5,050,000₫",
+        oldPrice: "10,500,000₫",
+        isTopFavoriteVali: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["green"],
+                thumbnail: "/images/color-item-love1.1.webp",
+                image: "/images/item-love1.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["pink"],
+                thumbnail: "/images/color-item-love1.2.webp",
+                image: "/images/item-love1.2.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Combo of 2 Squasem suitcases, cabin size 55cm + middle 66cm",
+                "Able to expand capacity",
+                "OPTIMOV™ double 4-wheel system is smooth, light and sturdy",
+                "DUOSAF™ double safety zipper",
+                "Scalability increases capacity",
+                "Integrated USB charging port (cabin size)",
+                "Rich, sophisticated interior organization",
+            ],
+            desc: [
+                "Squasem rolling suitcase has an innovative interior design with extra pockets for better luggage organization. Besides, the lining is made from rPET recycled material and is treated with antibacterial using the technology provided. Powered by Microban®.",
+            ],
+            paramters: [
+                { capacity: "69/78L" },
+                { volume: "3.8kg" },
+                { dimension: "46 x 28/31 x 66 cm" },
+                { tankage: "20-25kg" },
+                { material: "100% Polycarbonate" },
+                { warranty: "3 year" },
+            ],
+        },
     },
-  },
-  {
-    id: 44,
-    brand: 'Victorinox - Thụy Sĩ',
-    name: 'Túi duffel Touring 2.0 Sports',
-    category: 'handbag',
-    newPrice: '5,180,000₫',
-    oldPrice: '7,400,000₫',
-    colors: [
-      {id: 'color1', name: ['black'], code: '#000000', image: '/images/tuixach_087_01.webp'},
-      {id: 'color2', name: ['gray'], code: '#bbb6ba', image: '/images/tuixach_087_02.webp'},
+    {
+        id: 7,
+        brand: "WENGER - SWITCH",
+        name: "In-Flight suitcase combo 3",
+        category: "vali",
+        newPrice: "4,399,000₫",
+        oldPrice: "9,400,000₫",
+        isTopFavoriteVali: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["red"],
+                thumbnail: "/images/color-item-love2.1.webp",
+                image: "/images/item-love2.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["gray"],
+                thumbnail: "/images/color-item-love2.2.jpg",
+                image: "/images/item-love2.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                thumbnail: "/images/color-item-love2.3.webp",
+                image: "/images/item-love2.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Combo of 3 suitcase sizes: cabin 55cm + medium 66cm + large 76cm",
+                "Swiss brand suitcases have a long history",
+                "Delicate and elegant wave pattern design",
+                "Durable ABS plastic, scratch-resistant textured surface",
+                "US standard safe TSA number lock",
+                "360 degree wheels operate quietly and smoothly",
+                "Durable aluminum push lever, easy to change height",
+                "Rich, intelligent organizational interior",
+                "Expandable capacity increases capacity (only available on medium and large sizes)",
+            ],
+            desc: [
+                "Outstanding quality and features, 3 Size In-Flight Rolling Luggage Combo is sold at a competitive price, helping consumers easily own a perfect set of suitcases for travel. In-Flight Rolling Luggage Combo 3 Sizes is the ideal choice for those who love to travel and need a versatile, durable suitcase. Hurry and get this product set now to prepare for upcoming trips!",
+            ],
+            paramters: [
+                { capacity: "64L" },
+                { volume: "3.8kg" },
+                { dimension: "45 x 28/33 x 66.5 cm" },
+                { tankage: "20-25kg" },
+                { material: "ABS" },
+                { warranty: "5 year" },
+            ],
+        },
+    },
+    {
+        id: 8,
+        brand: "WENGER - SWITCH",
+        name: "Protector suitcase combo",
+        category: "vali",
+        newPrice: "2,990,000₫",
+        oldPrice: "8,700,000₫",
+        isTopFavoriteVali: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000",
+                image: "/images/item-love3.1.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Combo of 2 sizes of Wenger Protector rolling suitcase: cabin 55cm + middle 67cm",
+                "Swiss suitcase with luxurious and sophisticated design",
+                "US standard safe TSA number lock",
+                "Double anti-theft zippers increase security",
+                "The expansion feature increases capacity, helping to arrange luggage flexibly",
+                "X-shaped straps stabilize luggage neatly",
+                "Rich interior with partitions and zippered compartments",
+                "The 360° double 4-wheel system operates smoothly and stably",
+            ],
+            desc: [
+                "Outstanding quality and features, 3 Size In-Flight Rolling Luggage Combo is sold at a competitive price, helping consumers easily own a perfect set of suitcases for travel. In-Flight Rolling Luggage Combo 3 Sizes is the ideal choice for those who love to travel and need a versatile, durable suitcase. Hurry and get this product set now to prepare for upcoming trips!",
+            ],
+            paramters: [
+                { capacity: "64L" },
+                { volume: "3.8kg" },
+                { dimension: "45 x 28/33 x 66.5 cm" },
+                { tankage: "20-25kg" },
+                { material: "ABS" },
+                { warranty: "5 year" },
+            ],
+        },
+    },
+    {
+        id: 9,
+        brand: "TRAVELER'S CHOICE - USA",
+        name: "Harbor suitcase combo",
+        category: "vali",
+        newPrice: "2,999,000₫",
+        oldPrice: "7,500,000₫",
+        isTopFavoriteVali: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["pink"],
+                code: "#e6969d",
+                image: "/images/item-love4.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["gray"],
+                code: "#777777",
+                image: "/images/item-love4.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000",
+                image: "/images/item-love4.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Combo 2 sizes: Cabin 56cm + Middle 66cm",
+                "Durable, impact-resistant hard ABS plastic shell for maximum protection",
+                "Sturdy push lever, can change height to suit the user",
+                "Handle on both top and side, convenient to move",
+                "360° double wheel system operates smoothly and stably",
+                "Expandability increases capacity by 5cm in all sizes",
+                "Rich and versatile organizational design interior",
+                "US standard safe TSA number lock",
+                "Integrated iTRAVEL™ USB charging port and power bank compartment (cabin size only), keeping your electronic devices ready on the go,",
+            ],
+            paramters: [
+                { volume: "3.9kg" },
+                { dimension: "43 x 28/33 x 66 cm" },
+                { tankage: "20-25kg" },
+                { material: "ABS" },
+                { warranty: "2 year" },
+            ],
+        },
+    },
+    {
+        id: 10,
+        brand: "KAMILIANT BY AMERICAN",
+        name: "Combo of 2 Falcon rolling suitcases",
+        category: "vali",
+        newPrice: "2,000,000₫",
+        oldPrice: "7,800,000₫",
+        isTopFavoriteVali: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["purple"],
+                code: "#886296",
+                image: "/images/item-love5.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["blue"],
+                code: "#375675",
+                image: "/images/item-love5.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000",
+                image: "/images/item-love5.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Combo of 2 cabin size Falcon suitcases Combo of 2 cabin size Kamiliant Falcon suitcases",
+                "Exquisite, luxurious finished logo",
+                "Smart and convenient interior organization",
+                "Suitcase shell texture limits scratches",
+                "US standard safe TSA number lock",
+                "Sturdy handle, height can be changed to suit the user",
+                "360° double wheel system operates smoothly",
+            ],
+            paramters: [
+                { capacity: "35L" },
+                { volume: "2.3kg" },
+                { dimension: "36 x 24 x 55 cm" },
+                { tankage: "7-10kg" },
+                { material: "Polyproppylene" },
+                { warranty: "1 year" },
+            ],
+        },
+    },
 
-    ],
-    details: {
-      features: [
-          "Túi chống thấm có thể tháo rời và điều chỉnh độ dài dây đeo, giúp bạn mang theo đồ đạc cá nhân an toàn trong mọi điều kiện thời tiết.",
-          "Dây đeo vai có thể tháo rời và điều chỉnh độ dài với lớp đệm mang nhãn hiệu Victorinox.",
-          "Ngăn chính rộng rãi với túi lưới có khóa kéo, dễ dàng sắp xếp đồ đạc khoa học và an toàn.",
-      ],
-      paramters: [
-          { capacity: "1L" },
-          { volume: "0,7 kg" },
-          { dimension: "50 x 29 x 28 cm" },
-          { warranty: "10 năm" },
-          { material: "Polyester"},
-      ]
+    {
+        id: 11,
+        brand: "SAMSONITE - USA",
+        name: "Cube-048 Front Pkt suitcase",
+        category: "vali",
+        newPrice: "4,850,000₫",
+        oldPrice: "9,700,000₫",
+        isTopFavoriteProduct: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                thumbnail: "/images/color-product-love-trend1.1.webp",
+                image: "/images/product-love-trend1.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                thumbnail: "/images/color-product-love-trend1.2.webp",
+                image: "/images/product-love-trend1.2.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Modern, stylish cubic design with integrated details",
+                "Textured finish reduces scratches, combined with glossy grooves to accentuate the premium",
+                "Integrated convenient front compartment",
+                "14.1' laptop compartment",
+                "Microban® antibacterial technology protects the product 24/7 against bacterial growth",
+                "360 wheel system with integrated Aero-Trac™ shock absorber technology",
+                "Anti-theft double zipper combined with safe TSA digital lock",
+                "Recyclex™ fabric technology, recycled PET lining material",
+                "Rich interior with removable partitions on both sides, accompanying accessories such as laundry bags and suitcase covers,",
+            ],
+            paramters: [
+                { capacity: "33L" },
+                { volume: "3.9kg" },
+                { dimension: "37 x 23 x 55 cm" },
+                { material: "Polyproppylene" },
+                { warranty: "10 year" },
+            ],
+        },
     },
-  },
-  {
-    id: 45,
-    brand: 'Samsonite Red - Mỹ',
-    name: 'Túi boston Vickson',
-    category: 'handbag',
-    newPrice: '3,640,000₫',
-    oldPrice: '5,200,000₫',
-    colors: [
-      {id: 'color1', name: ['blue'], thumbnail: '/images/color-tuixach_088_01.webp', image: '/images/tuixach_088_01.webp'},
-      {id: 'color2', name: ['black'], code: '#000000', image: '/images/tuixach_088_02.webp'},
+    {
+        id: 12,
+        brand: "SAMSONITE - USA",
+        name: "Minter suitcase",
+        category: "vali",
+        newPrice: "6,860,000₫",
+        oldPrice: "9,000,000₫",
+        isTopFavoriteProduct: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["red"],
+                thumbnail: "/images/color-product-love-trend2.1.webp",
+                image: "/images/product-love-trend2.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["blue"],
+                thumbnail: "/images/color-product-love-trend2.2.webp",
+                image: "/images/product-love-trend2.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                thumbnail: "/images/color-product-love-trend2.3.webp",
+                image: "/images/product-love-trend2.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Twin wheels with Aero-Trac technology",
+                "Scalable (medium and large sizes)",
+                "Anti-theft zipper",
+                "TSA Integrated Concave Digital Lock",
+                "Multifunctional suspension system with hidden button",
+                "Liner made from RECYCLEX™ fabric - material made from 100% recycled PET plastic bottles",
+                "Convenient hanger",
+            ],
+            desc: [
+                "Samsonite Minter suitcase is a collection with a sophisticated and luxurious design, integrating many features to meet all necessary needs,",
+            ],
+            paramters: [
+                { capacity: "75/92L" },
+                { volume: "4.6kg" },
+                { dimension: "49 x 29/33 x 69 cm" },
+                { tankage: "20-25kg" },
+                { material: "Polyproppylene" },
+                { warranty: "10 year" },
+            ],
+        },
+    },
+    {
+        id: 13,
+        brand: "WENGER - SWITCH",
+        name: 'Pilot Pro 15.6" laptop backpack',
+        category: "balo",
+        newPrice: "1,200,000₫",
+        oldPrice: "2,400,000₫",
+        isTopFavoriteProduct: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000",
+                image: "/images/product-love-trend3.1.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Protective compartment for 15.6' laptop",
+                "The interior is richly organized, sophisticated, and convenient",
+                "AirFlow back cushion is soft, breathable, creating maximum comfort when used",
+                "Side mesh pocket to fit water bottle or umbrella",
+                "The backpack has compression straps to help keep the backpack neat,",
+            ],
+            paramters: [
+                { capacity: "30L" },
+                { volume: "0.77kg" },
+                { dimension: "35 x 19 x 47 cm" },
+                { warranty: "5 year" },
+            ],
+        },
+    },
+    {
+        id: 14,
+        brand: "AMERICAN TOURISTER",
+        name: "Mia Love mini backpack",
+        category: "balo",
+        newPrice: "750,000₫",
+        oldPrice: "1,500,000₫",
+        isTopFavoriteProduct: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#b9cbcb",
+                image: "/images/product-love-trend4.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["pink"],
+                code: "#d79aa5",
+                image: "/images/product-love-trend4.2.webp",
+            },
+        ],
+        details: {
+            paramters: [
+                { capacity: "8L" },
+                { volume: "0.3kg" },
+                { dimension: "22 x 13 x 28 cm" },
+                { warranty: "1 year" },
+            ],
+        },
+    },
+    {
+        id: 15,
+        brand: "AMERICAN TOURISTER",
+        name: "Carter 1 AS laptop backpack",
+        category: "balo",
+        newPrice: "750,000₫",
+        oldPrice: "1,500,000₫",
+        isTopFavoriteProduct: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["red", "yellow"],
+                thumbnail: "/images/color-product-love-trend5.1.webp",
+                image: "/images/product-love-trend5.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["blue"],
+                thumbnail: "/images/color-product-love-trend5.2.webp",
+                image: "/images/product-love-trend5.2.jpg",
+            },
+            {
+                id: "color3",
+                name: ["blue", "green"],
+                thumbnail: "/images/color-product-love-trend5.3.webp",
+                image: "/images/product-love-trend5.3.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Quick access front compartment",
+                "Spacious main compartment, with 14' laptop compartment",
+                "Adjustable shoulder strap",
+                "Hidden pocket on the back of the backpack",
+                "Convenient side compartment",
+            ],
+            paramters: [
+                { capacity: "20L" },
+                { volume: "0.5kg" },
+                { dimension: "29 x 18 x 42 cm" },
+                { warranty: "1 year" },
+                { material: "100% Polyester" },
+            ],
+        },
+    },
+    {
+        id: 16,
+        brand: "KAMILIANT BY MERICAN",
+        name: "Suitcase pulls Kiza",
+        category: "vali",
+        newPrice: "1,088,000₫",
+        oldPrice: "2,900,000₫",
+        isTopVali: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                thumbnail: "/images/color-vali-top1.1.webp",
+                image: "/images/vali-top1.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                thumbnail: "/images/color-vali-top1.2.webp",
+                image: "/images/vali-top1.2.jpg",
+            },
+            {
+                id: "color3",
+                name: ["green"],
+                thumbnail: "/images/color-vali-top1.3.webp",
+                image: "/images/vali-top1.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Exquisite and unique finished logo",
+                "Smart and convenient interior organization",
+                "Suitcase shell texture limits scratches",
+                "Safe TSA digital lock, US standards",
+                "Sturdy handle, height can be changed to suit the user",
+                "360° wheel system operates smoothly",
+            ],
+            desc: [
+                "The Kiza plastic suitcase collection is characterized by the iconic shape of the Kamiliant logo and is expressed in a fun and unique way. Kiza suitcases have a boxy design with maximum capacity. With Practical features such as super light, large capacity, high durability, scratch-resistant suitcase surface,... help you enjoy your journey comfortably.",
+            ],
+            paramters: [
+                { capacity: "71L" },
+                { volume: "3.2kg" },
+                { dimension: "47 x 28 x 68 cm" },
+                { tankage: "20-25kg" },
+                { warranty: "1 year" },
+                { material: "Polypropylen (PP)" },
+            ],
+        },
+    },
+    {
+        id: 17,
+        brand: "AMERICAN TOURISTER",
+        name: "Squasem rolling suitcase",
+        category: "vali",
+        newPrice: "2,450,000₫",
+        oldPrice: "9,000,000₫",
+        isTopVali: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["pink"],
+                thumbnail: "/images/color-vali-top2.1.webp",
+                image: "/images/vali-top2.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["green"],
+                thumbnail: "/images/color-vali-top2.2.webp",
+                image: "/images/vali-top2.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                thumbnail: "/images/color-vali-top2.3.webp",
+                image: "/images/vali-top2.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Able to expand capacity",
+                "OPTIMOV™ double 4-wheel system is smooth, light and sturdy",
+                "DUOSAF™ double safety zipper",
+                "US standard security TSA number lock",
+                "Integrated USB charging port (cabin size)",
+                "Rich, sophisticated interior organization",
+            ],
+            desc: [
+                "Bộ sưu tập Suitcase nhựa Squasem với thiết kế vỏ 3 chiều đặc trưng, được tạo thành bởi các hoa văn hình thoi, kết hợp với các tính năng du lịch thiết yếu được trang bị đầy đủ. Được làm bằng vật liệu PP đa năng và chắc chắn, mang lại cho Squasem một cấu trúc mạnh mẽ, bền bỉ. Khả năng mở rộng trên tất cả các size giúp tăng khả năng lưu trữ hàng lý. Được trang bị bánh xe giảm sốc OPTIMOV™ giảm tiếng ồn, vận hành trơn tru trên mọi bề mặt gồ ghề, chắc chắn sẽ mang đến cho mọi du khách trải nghiệm di chuyển tuyệt vời. Khóa kéo đôi bảo mật DUOSAF™ cũng cung cấp thêm sự an toàn cho hành lý của bạn.",
+            ],
+            paramters: [
+                { capacity: "69/78L" },
+                { volume: "3.8kg" },
+                { dimension: "46 x 28/31 x 66 cm" },
+                { tankage: "20-25kg" },
+                { warranty: "3 year" },
+                { material: "Polypropylene" },
+            ],
+        },
+    },
+    {
+        id: 18,
+        brand: "AMERICAN TOURISTER",
+        name: "Maxivo rolling suitcase",
+        category: "vali",
+        newPrice: "2,250,000₫",
+        oldPrice: "4,500,000₫",
+        isTopVali: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                thumbnail: "/images/color-vali-top3.1.webp",
+                image: "/images/vali-top3.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["yellow"],
+                thumbnail: "/images/color-vali-top3.2.webp",
+                image: "/images/vali-top3.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["blue"],
+                thumbnail: "/images/color-vali-top3.3.webp",
+                image: "/images/vali-top3.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "The suitcase lining is treated with antibacterial",
+                "Comes with an antibacterial shoe bag and utility bag",
+                "The handle and lever handle are treated with antibacterial properties",
+                "PlentiVol™ 20:80 packaging system",
+                "360° rotating wheels with StePause™ technology help keep the suitcase stationary",
+                "Duosaf™ Double Security Zipper",
+            ],
+            desc: [
+                "Squasem plastic suitcase collection with a characteristic 3-dimensional shell design, formed by diamond-shaped patterns, combined with fully equipped essential travel features. Made of multi-layer PP material Functional and sturdy, giving Squasem a strong, durable structure. Expandability on all sizes helps increase luggage storage capacity. Equipped with OPTIMOV™ shock-absorbing wheels to reduce noise and transport Operates smoothly on all rough surfaces Rugged, sure to give every traveler a great travel experience. DUOSAF™ double security zippers also provide extra security for your luggage.",
+            ],
+            paramters: [
+                { capacity: "69/78L" },
+                { volume: "3.8kg" },
+                { dimension: "46 x 28/31 x 66 cm" },
+                { tankage: "20-25kg" },
+                { warranty: "3 year" },
+                { material: "Polypropylene" },
+            ],
+        },
+    },
+    {
+        id: 19,
+        brand: "KAMILIANT BY MERICAN",
+        name: "Falcon suitcase",
+        category: "vali",
+        newPrice: "1,488,000₫",
+        oldPrice: "3,900,000₫",
+        isTopVali: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                thumbnail: "/images/color-vali-top4.1.webp",
+                image: "/images/vali-top4.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                thumbnail: "/images/color-vali-top4.2.webp",
+                image: "/images/vali-top4.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["purple"],
+                thumbnail: "/images/color-vali-top4.3.webp",
+                image: "/images/vali-top4.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Exquisite, luxurious finished logo",
+                "Smart and convenient interior organization",
+                "Suitcase shell texture limits scratches",
+                "US standard safe TSA number lock",
+                "Sturdy handle, height can be changed to suit the user",
+                "360° double wheel system operates smoothly",
+            ],
+            desc: [
+                "The Kiza plastic suitcase collection is characterized by the iconic shape of the Kamiliant logo and is expressed in a fun and unique way. Kiza suitcases have a boxy design with maximum capacity. With Practical features such as super light, large capacity, high durability, scratch-resistant suitcase surface,... help you enjoy your journey comfortably.",
+            ],
+            paramters: [
+                { capacity: "71L" },
+                { volume: "3.2kg" },
+                { dimension: "47 x 28 x 68 cm" },
+                { tankage: "20-25kg" },
+                { warranty: "1 year" },
+                { material: "Polypropylene" },
+            ],
+        },
+    },
+    {
+        id: 20,
+        brand: "AMERICAN TOURISTER",
+        name: "Frontec AM suitcase",
+        category: "vali",
+        newPrice: "3,050,000₫",
+        oldPrice: "6,100,000₫",
+        isTopVali: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["pink"],
+                code: "#d8b2a5",
+                image: "/images/vali-top5.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["yellow"],
+                code: "#e8d2a1",
+                image: "/images/vali-top5.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000",
+                image: "/images/vali-top5.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Optimov™ double shock absorber 4-wheel system",
+                "Duosaf™ Double Security Zipper",
+                "PlentiVol™ Capacity Maximization Feature",
+                "Unique front opening lid",
+                "Convenient hanger system on the side of the suitcase",
+                "Integrated bag for storing used items",
+                "Scalability increases capacity",
+                "Integrated USB charging port on cabin size",
+                "14' laptop compartment in cabin size",
+            ],
+            desc: [
+                "This collection is the perfect combination of beauty and intelligence, with stunning exteriors complemented by smart features and sophisticated interiors. PlentiVol™ space division allows for easy-to-carry luggage arrangements.' Flexible handle and maximizes 15% more capacity Front opening allows access without fully opening the suitcase Optimov™ shock-absorbing wheel system enhances smooth mobility on all surfaces Richly organized interior with Included storage bag for easy packing and organization. Double Duosaf™ zippers keep your luggage safe. Vertically open front with laptop compartment and USB charging port extremely useful.",
+            ],
+            paramters: [
+                { capacity: "77L" },
+                { volume: "4.2kg" },
+                { dimension: "46 x 31/35 x 68 cm" },
+                { tankage: "20-25kg" },
+                { warranty: "3 year" },
+                { material: "Polycarbonate" },
+            ],
+        },
+    },
+    {
+        id: 21,
+        brand: "WEBGER - SOLDIER",
+        name: 'XE Extent 17" laptop backpack',
+        category: "balo",
+        newPrice: "2,250,000₫",
+        oldPrice: "4,500,000₫",
+        isTopBalo: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo-trend1.1.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "The XE Extent 17' laptop backpack uses the main outer fabric made from recycled PET bottles",
+                "Triple Protect laptop compartment for laptops up to 17'",
+                "Dedicated 10' tablet compartment",
+                "Expandable main compartment for extra capacity",
+                "Smart organization system, easy to arrange belongings",
+                "Dedicated keyboard compartment",
+                "Computer mouse compartment",
+                "Hidden security compartment on the back of the backpack for valuables",
+                "Side pocket for water bottle or umbrella",
+                "Hands-free luggage strap when moving",
+                "Ventilating back cushion for maximum comfort",
+                "Shock-absorbing and padded shoulder straps, adjustable to fit body shape",
+                "Soft and durable padded handles, easy to grip",
+            ],
+            desc: [
+                "The 17' XE Extent laptop backpack is one of the optimal choices for users who demand high durability, convenient features and fashionable design. With a size suitable for laptops up to 17 inches, this backpack is not only a product to protect the device but also an ideal accessory to help you move more conveniently in work and daily life.",
+            ],
+            paramters: [
+                { capacity: "37L" },
+                { volume: "1.08kg" },
+                { dimension: "35 x 24 x 50 cm" },
+                { warranty: "5 year" },
+                { material: "75% recycled Polyester + 19% Polyester + 6% PVC" },
+            ],
+        },
+    },
+    {
+        id: 22,
+        brand: "AMERICAN TOURISTER",
+        name: "Rudy Ball 02 ASR",
+        category: "balo",
+        newPrice: "550,000₫",
+        oldPrice: "1,100,000₫",
+        isTopBalo: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#09a9c1",
+                image: "/images/balo-trend2.1.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Hidden compartment on the back of the backpack for valuables",
+                "Inner lining made from recycled, environmentally sustainable materials",
+                "Liner with modern antibacterial treatment",
+            ],
+            desc: [
+                "The Rudy 02 ASR backpack is the perfect combination of smart design, durable materials and convenient features. This is definitely the ideal choice for those who are looking for a versatile backpack that serves well for work, study and outdoor activities. With the Rudy 02 ASR, you not only own a convenient backpack but also show style and sophistication in every detail.",
+            ],
+            paramters: [
+                { capacity: "21L" },
+                { volume: "0.4kg" },
+                { dimension: "30 x 14 x 42 cm" },
+                { warranty: "1 year" },
+                { material: "100% Polyester" },
+            ],
+        },
+    },
+    {
+        id: 23,
+        brand: "SAMSONITE - USA",
+        name: "But a 17 inch laptop",
+        category: "balo",
+        newPrice: "5,460,000₫",
+        oldPrice: "7,800,000₫",
+        isTopBalo: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo-trend3.1.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Reflective details are arranged on the backpack",
+                "Removable hook, easy to attach small items",
+                "Separate compartment for USB port and power bank",
+                "Two zippered compartments on the front",
+                "Spacious main compartment can hold clothes",
+                "Separate compartment for laptop",
+                "Compatible with 17.3' laptop and 10.5' tablet",
+                "2 zippered side pockets",
+                "Ergonomically designed back with air circulation system, providing maximum comfort",
+                "Removable chest strap, enhancing stability when moving",
+                "Shock-absorbing shoulder strap helps reduce pressure on the shoulder",
+                "Integrated suitcase push-pull strap",
+            ],
+            desc: [
+                "The Biz2Go EXP Overnight 17.3in laptop backpack with outstanding design and outstanding features is not only a fashion accessory but also an ideal companion for daily trips. With a beautiful design, durable material, a separate compartment for laptops, smart storage space design and maximum comfort, the laptop backpack will be a great choice for those who are looking for a backpack that is both convenient and stylish.",
+            ],
+            paramters: [
+                { capacity: "30/35L" },
+                { volume: "1.3kg" },
+                { dimension: "35 x 22/26 x 47 cm" },
+                { warranty: "2 year" },
+                { material: "100% Polyester" },
+            ],
+        },
+    },
+    {
+        id: 24,
+        brand: "SAMSONITE - USA",
+        name: "14.1in laptop backpack",
+        category: "balo",
+        newPrice: "4,760,000₫",
+        oldPrice: "6,800,000₫",
+        isTopBalo: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo-trend4.1.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Reflective details are arranged on the backpack",
+                "Removable hook, easy to attach small items",
+                "Separate compartment for USB port and power bank",
+                "Two zippered compartments on the front",
+                "Spacious main compartment can hold clothes",
+                "Separate compartment for laptop",
+                "Compatible with 14.1' laptop and 10.5' tablet",
+                "2 zippered side pockets",
+                "Ergonomically designed back with air circulation system, providing maximum comfort",
+                "Removable chest strap, enhancing stability when moving",
+                "Shock-absorbing shoulder strap helps reduce pressure on the shoulder",
+                "Integrated luggage push-pull strap",
+            ],
+            desc: [
+                "The Biz2Go 14.1' Laptop Backpack is an ideal choice for those who need a combination of laptop protection, convenience and modern style. With durable materials, shockproof laptop compartment, neat design and good protection, this backpack is the perfect companion for business trips, study or daily work.",
+            ],
+            paramters: [
+                { capacity: "20.5L" },
+                { volume: "1kg" },
+                { dimension: "32 x 18 x 42.5 cm" },
+                { warranty: "2 year" },
+                { material: "100% Polyester" },
+            ],
+        },
+    },
+    {
+        id: 25,
+        brand: "AMERICAN TOURISTER",
+        name: "Balo Little Carter",
+        category: "balo",
+        newPrice: "550,000₫",
+        oldPrice: "1,100,000₫",
+        isTopBalo: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["yellow"],
+                code: "#e1b43d",
+                image: "/images/balo-trend5.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["blue"],
+                code: "#0285e6",
+                image: "/images/balo-trend5.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo-trend5.3.webp",
+            },
+        ],
+        details: {
+            desc: [
+                "Little Carter backpack has a compact size, the strap is specially designed to fit the child's back, simple design but full of features. Modern design, durable material, little Carter is the ideal choice for children to take to school, go out, travel. Little Carter backpack is a great choice for those looking for a compact, convenient and lovely children's backpack for children. With a simple but modern design, durable material and optimal features, this backpack will be the ideal companion in daily life, from going to school, going out, traveling.",
+            ],
+            paramters: [
+                { capacity: "7L" },
+                { volume: "0.2kg" },
+                { dimension: "20 x 12 x 28 cm" },
+                { warranty: "1 year" },
+                { material: "100% Polyester" },
+            ],
+        },
+    },
 
-    ],
-    details: {
-      features: [
-          "Túi boston sở hữu khoang chính lớn cùng nhiều ngăn phụ, giúp sắp xếp đồ đạc một cách khoa học và tiện lợi",
-          "Dây đeo vai được trang bị đệm mút êm ái, mang lại cảm giác thoải mái khi sử dụng trong thời gian dài và có thể tháo rời",
-          "Chất liệu nhẹ, giúp bạn di chuyển dễ dàng",
-          "Sử dụng vải CORDURA® siêu bền (trừ màu hoa văn xanh da trời)",
-      ],
-      paramters: [
-          { capacity: "28L" },
-          { volume: " 0,98 kg" },
-          { dimension: "46 x 18 x 33 cm" },
-          { warranty: "2 năm" },
-          { material: "100% Polyester"},
-      ]
+    {
+        id: 26,
+        brand: "AMERICAN TOURISTER",
+        name: "Segno 2.0 AR Shoulder Bag",
+        category: "handbag",
+        newPrice: "600,000₫",
+        oldPrice: "1,200,000₫",
+        isTopBag: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000",
+                image: "/images/bag-top1.1.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Segno 2.0 ASR shoulder bag with rich, sophisticated organization",
+                "Modern antibacterial interior lining",
+                "Handy front zippered compartment",
+                "Hidden compartment at the back of the bag for valuables",
+            ],
+            desc: [
+                "The Segno 2.0 ASR shoulder bag is more than just an ordinary bag. Designed to meet the needs of people who are always on the go and have an active lifestyle. The combination of security and versatility makes the bag a great choice for those who love to travel, work or simply move around in urban environments. With all the outstanding features such as high security, modern design and durable materials, the Segno 2.0 ASR shoulder bag will definitely be the ideal choice for those who need a shoulder bag that is convenient, safe and modern. Don't miss the opportunity to own this product and experience the difference it brings.",
+            ],
+            paramters: [
+                { capacity: "5L" },
+                { volume: "0.28kg" },
+                { dimension: "21 x 8 x 26.5 cm" },
+                { warranty: "1 year" },
+                { material: "100% Polyester" },
+            ],
+        },
     },
-  },
-  {
-    id: 46,
-    brand: 'Samsonite Red - Mỹ',
-    name: 'Túi đeo chéo mini Haaper',
-    category: 'handbag',
-    newPrice: '1,650,000₫',
-    oldPrice: '3,300,000₫',
-    colors: [
-      {id: 'color1', name: ['gray'], thumbnail: '/images/color-tuixach_089_01.webp', image: '/images/tuixach_089_01.webp'},
-      {id: 'color2', name: ['black'], thumbnail: '/images/color-tuixach_089_02.webp', image: '/images/tuixach_089_02.webp'},
-
-    ],
-    details: {
-      features: [
-          "Bộ sưu tập Haaper từ Samsonite Red được thiết kế dành cho những người năng động và được làm từ chất liệu Rip Nylon tăng cường độ bền và sự dẻo dai. ",
-          "Các sản phẩm Haaper có kiểu dáng mạnh mẽ lấy cảm hứng từ vẻ đẹp của thiên nhiên, có màu xám hoặc bạc với các điểm nhấn màu xanh dương rực rỡ.",
-          "Giữ các vật dụng thiết yếu của bạn ngăn nắp, dễ lấy và vẫn an toàn với Túi đeo chéo mini HAAPER. ",
-          "Chiếc túi siêu nhỏ gọn này hoàn hảo cho các vật dụng nhỏ như ví, điện thoại và thẻ ngân hàng. Bên cạnh đó, nó còn được tích hợp một chiếc túi để chai nước để tăng sự tiện dụng (Sản phẩm không bao gồm chai nước)",
-      ],
-      paramters: [
-          { capacity: "2L" },
-          { volume: "0.14 kg" },
-          { dimension: " 21 x 6 x 14 cm" },
-          { warranty: "2 năm" },
-          { material: "100% Nylon"},
-      ]
+    {
+        id: 27,
+        brand: "AMERICAN TOURISTER",
+        name: "Orbit 02 AS Crossbody BagR",
+        category: "handbag",
+        newPrice: "650,000₫",
+        oldPrice: "1,300,000₫",
+        isTopBag: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["yellow"],
+                code: "#ddab71",
+                image: "/images/bag-top2.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["blue"],
+                code: "#4d859b",
+                image: "/images/bag-top2.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000",
+                image: "/images/bag-top2.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "The American Tourister Orbit collection is the perfect blend of style and function, offering convenience and comfort for those on the go. This is the ideal body bag for those constantly on the go. The collection includes three models: Rigel, Eris and Vega.",
+                "The RPET lining is treated with Microban™ antimicrobial technology, which kills up to 99% of bacteria and mold, providing peace of mind throughout the journey.",
+                "Removable shoulder strap",
+                "Hidden interior compartment",
+                "Removable side pocket",
+            ],
+            paramters: [
+                { capacity: "4L" },
+                { volume: "0.2kg" },
+                { dimension: "17 x 6 x 23 cm" },
+                { warranty: "1 year" },
+                { material: "100% Polyester" },
+            ],
+        },
     },
-  },
-  {
-    id: 47,
-    brand: 'Samsonite - Mỹ',
-    name: 'Túi đeo chéo Sefton',
-    category: 'handbag',
-    newPrice: '2,170,000₫',
-    oldPrice: '3,100,000₫',
-    colors: [
-      {id: 'color1', name: ['black'], code: '#000000', image: '/images/tuixach_090_01.webp'},
-
-    ],
-    details: {
-      features: [
-          "Từ những chiếc balo gọn nhẹ thanh lịch đến vali kéo đa năng tiện dụng, Sefton mang đến giải pháp di chuyển đầy phong cách cho những chuyên gia kinh doanh thành thị. ",
-          "Bên cạnh nội thất thông minh giúp bạn dễ dàng sắp xếp đồ đạc, các sản phẩm trong bộ sưu tập Sefton còn được chế tác từ nylon mật độ cao và  các chi tiết trang trí PU cap cấp, đảm bảo phong cách du lịch của bạn luôn hoàn hảo.",
-          "Túi đeo chéo Sefton, được chế tác từ chất liệu nylon bền bỉ, logo và đầu khóa kéo kim loại sang trọng, mang đến vẻ ngoài lịch lãm và gọn gàng cho các chuyên gia bận rộn, dù đang di chuyển ở bất cứ đâu.",
-      ],
-      paramters: [
-          { volume: "0.5 kg" },
-          { dimension: "25 x 9 x 25,5 cm" },
-          { warranty: "2 năm" },
-          { material: "80% Nylon + 20% PU"},
-      ]
+    {
+        id: 28,
+        brand: "AMERICAN TOURISTER",
+        name: "Orbit ASR Waist Bag",
+        category: "handbag",
+        newPrice: "550,000₫",
+        oldPrice: "1,100,000₫",
+        isTopBag: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["gray"],
+                code: "#a49fa0",
+                image: "/images/bag-top3.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["blue"],
+                code: "#4c6ea5",
+                image: "/images/bag-top3.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000",
+                image: "/images/bag-top3.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "The American Tourister Orbit collection is the perfect combination of style and function, providing convenience and comfort for those who are always on the go. This is the ideal body bag for those who are constantly on the go. The collection includes 3 models: Rigel, Eris and Vega.",
+                "The RPET lining is treated with Microban™ antimicrobial technology, which kills up to 99% of bacteria and mold, providing peace of mind throughout the journey.",
+                "Versatile wearing: can be worn crossbody or on the hip",
+                "The zippered compartment at the back keeps valuables safe",
+                "The lining is made from recycled materials and is treated with antimicrobial technology",
+            ],
+            paramters: [
+                { capacity: "4L" },
+                { volume: "0.23kg" },
+                { dimension: "38 x 7 x 16 cm" },
+                { warranty: "1 year" },
+                { material: "100% Nylon" },
+            ],
+        },
     },
-  },
-  {
-    id: 48,
-    brand: 'Samsonite Red - Mỹ',
-    name: 'Túi tote Nobert Patterned',
-    category: 'handbag',
-    newPrice: '3,570,000₫',
-    oldPrice: '5,100,000₫',
-    colors: [
-      {id: 'color1', name: ['blue'], thumbnail: '/images/color-tuixach_091_01.webp', image: '/images/tuixach_091_01.webp'},
-
-    ],
-    details: {
-      features: [
-          "Túi tote gấp gọn với chất liệu nylon bền bỉ, linh hoạt cùng lớp phủ PU mờ tinh tế, mang phong cách unisex trẻ trung, năng động.",
-          "Không gian lưu trữ rộng rãi bên trong cùng ngăn khóa kéo giúp bạn bảo quản đồ đạc an toàn",
-          "Ngăn khóa kéo trước và sau tiện lợi, đáp ứng nhu cầu sử dụng hàng ngày",
-          "Dây đeo vai có thể điều chỉnh độ dài, tạo sự thoải mái khi đeo",
-      ],
-      paramters: [
-          { capacity: "19.5L" },
-          { volume: "0,62 kg" },
-          { dimension: " 37,5 x 9,5 x 40 cm" },
-          { warranty: "2 năm" },
-          { material: "80% Nylon + 20% PU"},
-      ]
+    {
+        id: 29,
+        brand: "AMERICAN TOURISTER",
+        name: "Crossbody bag Orbit 03 ASR",
+        category: "handbag",
+        newPrice: "650,000₫",
+        oldPrice: "1,300,000₫",
+        isTopBag: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#22477a",
+                image: "/images/bag-top4.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/bag-top4.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["gray"],
+                code: "#807775",
+                image: "/images/bag-top4.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "The American Tourister Orbit collection is the perfect combination of style and function, providing convenience and comfort for those who are always on the go. This is the ideal body bag for those who are constantly on the go. The collection includes 3 models: Rigel, Eris and Vega.",
+                "The RPET lining is treated with Microban™ antimicrobial technology, which kills up to 99% of bacteria and mold, providing peace of mind throughout the journey.",
+                "Versatile wearing: can be worn crossbody or on the hip",
+                "The zippered compartment at the back keeps valuables safe",
+                "The lining is made from recycled materials and is treated with antimicrobial technology",
+            ],
+            paramters: [
+                { capacity: "2L" },
+                { volume: "0.26kg" },
+                { dimension: "16 x 3 x 22 cm" },
+                { warranty: "1 year" },
+                { material: "100% Nylon" },
+            ],
+        },
     },
-  },
-  {
-    id: 49,
-    brand: 'Samsonite Red - Mỹ',
-    name: 'Túi đeo chéo mini Nobert',
-    category: 'handbag',
-    newPrice: '2,380,000₫',
-    oldPrice: '3,400,000₫',
-    colors: [
-      {id: 'color1', name: ['yellow'], code: '#e5dcce', image: '/images/tuixach_092_01.webp'},
-      {id: 'color2', name: ['blue'], code: '#4a495e', image: '/images/tuixach_092_02.webp'},
-      {id: 'color3', name: ['black'], code: '#000000', image: '/images/tuixach_092_03.webp'},
-    ],
-    details: {
-      features: [
-          "Túi tote gấp gọn với chất liệu nylon bền bỉ, linh hoạt cùng lớp phủ PU mờ tinh tế, mang phong cách unisex trẻ trung, năng động.",
-          "Không gian lưu trữ rộng rãi bên trong cùng ngăn khóa kéo giúp bạn bảo quản đồ đạc an toàn",
-          "Ngăn khóa kéo trước và sau tiện lợi, đáp ứng nhu cầu sử dụng hàng ngày",
-          "Dây đeo vai có thể điều chỉnh độ dài, tạo sự thoải mái khi đeo",
-      ],
-      paramters: [
-          { capacity: "19.5L" },
-          { volume: "0,62 kg" },
-          { dimension: " 37,5 x 9,5 x 40 cm" },
-          { warranty: "2 năm" },
-          { material: "80% Nylon + 20% PU"},
-      ]
+    {
+        id: 30,
+        brand: "AMERICAN TOURISTER",
+        name: "Fanny pack Orbit ASR",
+        category: "handbag",
+        newPrice: "650,000₫",
+        oldPrice: "1,300,000₫",
+        isTopBag: true,
+        colors: [
+            {
+                id: "color1",
+                name: ["gray"],
+                code: "#adb7cb",
+                image: "/images/bag-top5.1.webp",
+            },
+            {
+                id: "color2",
+                name: ["yellow"],
+                code: "#c99657",
+                image: "/images/bag-top5.2.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000",
+                image: "/images/bag-top5.3.webp",
+            },
+        ],
+        details: {
+            features: [
+                "The American Tourister Orbit collection is the perfect combination of style and function, providing convenience and comfort for those who are always on the go. This is the ideal body bag for those who are constantly on the go. The collection includes 3 models: Rigel, Eris and Vega.",
+                "The RPET lining is treated with Microban™ antimicrobial technology, which kills up to 99% of bacteria and mold, providing peace of mind throughout the journey.",
+                "Versatile wearing: can be worn crossbody or on the hip",
+                "The zippered compartment at the back keeps valuables safe",
+                "The lining is made from recycled materials and is treated with antimicrobial technology",
+            ],
+            paramters: [
+                { capacity: "3L" },
+                { volume: "0.25kg" },
+                { dimension: "26 x 6 x 16 cm" },
+                { warranty: "1 year" },
+                { material: "100% Nylon" },
+            ],
+        },
     },
-  },
-  {
-    id: 50,
-    brand: 'High Sierra - Mỹ',
-    name: 'Balo laptop 17in Swoop SG',
-    category: 'balo',
-    newPrice: '800,000₫',
-    oldPrice: '1,600,000₫',
-    colors: [
-      { id: 'color1', name: ['black'], code: '#2a2829', image: '/images/balo_050_01.jpg' },
-      { id: 'color2', name: ['gray'], code: '#676248', image: '/images/balo_050_02.jpg' },
-      { id: 'color3', name: ['gray'], thumbnail: '/images/color-balo_050_03.jpg', image: '/images/balo_050_03.jpg' },
-      { id: 'color4', name: ['gray'], thumbnail: '/images/color-balo_050_04.jpg', image: '/images/balo_050_04.jpg' },
-    ],
-    details: {
-        features: [
-            "Chi tiết phản quang nổi bật",
-            "Ngăn chứa bảo vệ laptop lên tới 17'",
-            "Ngăn chính lớn, tổ chức phong phú",
-            "Công nghệ chống rớt laptop Hammock™",
-            "Ngăn trước tiện dụng, phù hợp cho các vật dụng nhỏ",
-            "Túi lót lông cừu dành riêng cho điện thoại hoặc mắt kinh",
-            "Túi đàn hồi bên hông để vừa chai nước",
-            "Dây đeo vai và mặt lưng có đệm thoáng khí, tạo sự thoải mái tối đa khi sử dụng"
+    {
+        id: 31,
+        brand: "AMERICAN TOURISTER",
+        name: "Suitcase Maxivo OS",
+        category: "vali",
+        newPrice: "2,450,000₫",
+        oldPrice: "4,900,000₫",
+        isBestSeller: false,
+        colors: [
+            {
+                id: "color1",
+                name: ["purple"],
+                code: "#9e8db2",
+                image: "/images/vali_item001_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["gray"],
+                code: "#bebdc0",
+                image: "/images/vali_item001_02.webp",
+            },
+            {
+                id: "color3",
+                name: ["gray"],
+                code: "#4e5e62",
+                image: "/images/vali_item001_03.webp",
+            },
         ],
-        paramters: [
-            { capacity: "19.5L" },
-            { volume: "0,7 kg" },
-            { dimension: " 28 x 15 x 48 cm" },
-            { warranty: "2 năm" },
-            { material: "Polyester"},
-        ]
-      },
-  },
-  {
-    id: 51,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Balo Mate 2 02',
-    category: 'balo',
-    newPrice: '800,000₫',
-    oldPrice: '1,600,000₫',
-    colors: [
-      { id: 'color1', name: ['blue'], code: '#57a2af', image: '/images/balo_051_01.webp' },
-      { id: 'color2', name: ['orange'], code: '#ff9900', image: '/images/balo_051_02.jpg' },
-    ],
-    details: {
-        features: [
-            "Tích hợp bao trùm chống thấm nước",
-            "Hai ngăn chứa rộng rãi, tổ chức thông minh, tinh tế",
-            "Ngăn trước tiện dụng, dễ truy cập",
-            "Hai ngăn bên hông co giãn",
-            "Lớp vải lót được làm từ chất liệu PET tái chế bền vững với môi trường",
-            "Dây đeo vai và mặt lưng có đệm êm ái và thoáng khí, tạo sự thoải mái tối đa khi sử dụng"
+        details: {
+            features: [
+                "The Plentivol™ smart compartment design in a 2/8 ratio, easily organizes large items",
+                "Expandable capacity increases (only available on medium and large sizes)",
+                "Duosaf™ double zipper for added security",
+                "Equipped with a multi-purpose hook on the side of the suitcase to hang additional bags or other items",
+                "The lining is antibacterial with modern technology, along with convenient accessory pockets",
+            ],
+            paramters: [
+                { capacity: "65/75L" },
+                { volume: "4kg" },
+                { dimension: "44 x 30/33 x 67 cm" },
+                { tankage: "20-25kg" },
+                { warranty: "3 year" },
+                { material: "100% Polycarbonate" },
+            ],
+        },
+    },
+    {
+        id: 32,
+        brand: "AMERICAN TOURISTER",
+        name: "Suitcase LOCKation",
+        category: "vali",
+        newPrice: "3,350,000₫",
+        oldPrice: "6,700,000₫",
+        isBestSeller: false,
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#818fac",
+                image: "/images/vali_item002_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["gray"],
+                code: "#333333",
+                image: "/images/vali_item002_02.webp",
+            },
+            {
+                id: "color3",
+                name: ["gray"],
+                code: "#6b6869",
+                image: "/images/vali_item002_03.webp",
+            },
         ],
-        paramters: [
-            { capacity: "32L" },
-            { volume: "0,55 kg" },
-            { dimension: " 30 x 21 x 48 cm" },
-            { warranty: "2 năm" },
-            { material: "Polyester"},
-        ]
-      },
-  },
-  {
-    id: 52,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Balo trẻ em Diddle 2.0 R',
-    category: 'balo',
-    newPrice: '700,000₫',
-    oldPrice: '1,400,000₫',
-    colors: [
-      { id: 'color1', name: ['orange'], thumbnail: '/images/color-balo_052_01.jpg', image: '/images/balo_052_01.webp' },
-      { id: 'color2', name: ['pink'], thumbnail: '/images/color-balo_052_02.jpg', image: '/images/balo_052_02.jpg' },
-    ],
-    details: {
-        features: [
-            "Dây đeo vai công thái học êm ái",
-            "Ngăn trước tiện dụng, dễ truy cập",
-            "Hai ngăn chính rộng rãi",
-            "Trọng lượng nhẹ, thoải mái khi sử dụng"
+        details: {
+            features: [
+                "Standard cabin size (115cm)",
+                "OPTIMOV™ shock-absorbing wheels",
+                "XTRASECU™ one-touch multi-point frame locking system",
+                "Rich, multi-functional interior",
+                "Liner made from recycled rPET material and treated with anti-bacterial treatment",
+            ],
+            paramters: [
+                { capacity: "56L" },
+                { volume: "4,1kg" },
+                { dimension: "45 x 27 x 65" },
+                { tankage: "20-25kg" },
+                { warranty: "3 year" },
+                { material: "Polycarbonate" },
+            ],
+        },
+    },
+    {
+        id: 33,
+        brand: "SAMSONITE - USA",
+        name: "Suitcase Base Boost",
+        category: "vali",
+        newPrice: "4,340,000₫",
+        oldPrice: "6,200,000₫",
+        isBestSeller: false,
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#0033ff",
+                image: "/images/vali_item003_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/vali_item003_02.webp",
+            },
         ],
-        paramters: [
-            { capacity: "21L" },
-            { volume: "0,3 kg" },
-            { dimension: " 28 x 18 x 39 cm" },
-            { warranty: "1 năm" },
-            { material: "Polyester"},
-        ]
-      },
-  },
-  {
-    id: 53,
-    brand: 'Samsonite - Mỹ',
-    name: 'Balo trẻ em Sammies Dreams - Giraffe',
-    category: 'balo',
-    newPrice: '800,000₫',
-    oldPrice: '1,600,000₫',
-    colors: [
-      { id: 'color1', name: ['yellow'], code: '#fce151', image: '/images/balo_053_01.webp' },
-    ],
-    details: {
-        features: [
-           "Thẻ bảng tên",
-           "Trọng lượng nhẹ",
-           "Nội thất tổ chức nhiều ngăn tiện dụng",
-           "Sử dụng công nghệ vật liệu tái chế Recyclex™ và được xử lý kháng khuẩn hiện đại"
+        details: {
+            features: [
+                "Integrated 3-digit TSA lock combined with cable for added security",
+                "Convenient front compartment, optimized capacity",
+                "Using lightweight yet durable polyester material",
+                "The 360° 4-wheel system operates smoothly and quietly",
+                "Expandability increases packing space in all sizes",
+            ],
+            paramters: [
+                { capacity: "70L" },
+                { volume: "2.7kg" },
+                { dimension: "42 x 27/30 x 71cm" },
+                { tankage: "20-25kg" },
+                { warranty: "3 year" },
+                { material: "100% Polyester" },
+            ],
+        },
+    },
+    {
+        id: 34,
+        brand: "High Sierra - USA",
+        name: "Balo Colts 30",
+        category: "balo",
+        newPrice: "1,450,000₫",
+        oldPrice: "2,900,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#0242fd",
+                image: "/images/balo_047_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/balo_047_02.jpg",
+            },
         ],
-        desc: ["Bộ sưu tập Samsonite Sammies Dreams đã thành công trên thị trường với việc biến những con vật đáng yêu và dễ thương thành những chiếc túi và vali tiện dụng. Toàn bộ ý tưởng về một đứa trẻ có thể ôm chặt chiếc túi của mình là rất đáng yêu, và những nhân vật động vật sẽ đóng vai trò là bạn đồng hành thân thiết trong tất cả các chuyến đi của trẻ."],
-        paramters: [
-            { capacity: "8L" },
-            { volume: "0,25 kg" },
-            { dimension: " 25 x 16.5 x 36.5 cm" },
-            { warranty: "2 năm" },
-            { material: "Polyester"},
-        ]
-      },
-  },
-  {
-    id: 54,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Balo Colton',
-    category: 'balo',
-    newPrice: '900,000₫',
-    oldPrice: '1,800,000₫',
-    colors: [
-      { id: 'color1', name: ['blue'], thumbnail: '/images/color-balo_054_01.jpg', image: '/images/balo_054_01.jpg' },
-      { id: 'color2', name: ['brown'], code: '#996633', image: '/images/balo_054_02.jpg' },
-      { id: 'color3', name: ['black'], code: '#000000', image: '/images/balo_054_03.jpg' },
-    ],
-    details: {
-        features: [
-           "Ngăn đựng laptop",
-           "Ngăn bảo mật ở mặt sau balo",
-           "Túi trước 2 trong 1 có thể tháo rời",
-           "Dây đeo vai bền chắc, êm ái"
+        details: {
+            features: [
+                "Large capacity main compartment 30l",
+                "Integrated waterproof cover",
+                "Compact design of accessory pockets and expandable capacity",
+                "Side water bottle pocket with straw",
+                "Back padding keeps back dry and cool",
+                "Backpack straps are designed to support optimal load capacity",
+            ],
+            paramters: [
+                { capacity: "30L" },
+                { volume: "1.3kg" },
+                { dimension: "35 x 35 x 65cm" },
+                { warranty: "1 year" },
+            ],
+        },
+    },
+    {
+        id: 35,
+        brand: "SAMSONITE - USA",
+        name: "Laptop backpack 17.3in PRO-DLX 6 3vol Exp",
+        category: "balo",
+        newPrice: "7,600,000₫",
+        oldPrice: "10,900,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#0242fd",
+                image: "/images/balo_048_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/balo_048_02.jpg",
+            },
         ],
-        desc: ["Bộ sưu tập Colton là chiếc balo hiện đại sử dụng hàng ngày có thể dùng cho mọi dịp. Chiếc balo này có thiết kế 2 trong 1: túi trước có thể được tháo rời khi bạn chỉ cần mang theo những vật dụng nhỏ. Bên ngoài balo được xử lý chống nước với công nghệ thân thiện với môi trường và không chứa flo. Sắp xếp tất cả thiết bị điện tử của bạn vào balo và không sợ bị ướt trong những ngày mưa. BST Colton có nhiều màu sắc thời trang tuyệt vời."],
-        paramters: [
-            { capacity: "23L" },
-            { volume: "0,6 kg" },
-            { dimension: " 29 x 18 x 45 cm" },
-            { warranty: "1 năm" },
-            { material: "Polyester"},
-        ]
-      },
-  },
-  {
-    id: 55,
-    brand: 'Kanana Project - Nhật Bản',
-    name: 'Balo Kanana Monogram 2ND Small',
-    category: 'balo',
-    newPrice: '3,220,000₫',
-    oldPrice: '4,600,000₫',
-    colors: [
-      { id: 'color1', name: ['green'], thumbnail: '/images/color_balo_078_01.jpg', image: '/images/balo_078_01.jpg' },
-      { id: 'color2', name: ['gray'], thumbnail: '/images/color_balo_078_02.webp', image: '/images/balo_078_02.jpg' },
-    ],
-    details: {
-        features: [
-            "Chất liệu chính là vải dệt Jacquard Monogram độc đáo",
-            "Ngăn trước có khóa kéo làm từ vải đã được xử lý kháng khuẩn và virut bởi công nghệ VIRTECT®",
-            "Ngăn đựng thẻ tiện lợi ở mặt trước giúp truy cập nhanh",
-            "Khóa kéo chính có chốt an toàn để tránh mở nhầm",
-            "Ngăn khóa kéo ở mặt sau có độ bảo mật cao, thích hợp để đựng ví và các vật dụng có giá trị",
-            "Bên trong ngăn chính có ngăn đựng đồ nhỏ được tổ chức thông minh",
-            "Tích hợp đai gài cần đẩy vali, thuận tiện khi di chuyển",
-            "Có thể đeo như balo hoặc cầm tay như một chiếc túi xách"
+        details: {
+            features: [
+                "The PRO-DLX 6 is the next big step for Samsonite's premium business collection. It features a fresh, ultra-modern look, made with softer, lighter materials. Inside, the PRO-DLX 6 offers a range of organisational options designed to simplify organisation. Put it all together and you have a collection that's perfect for the needs of the business traveller. When you need to move quickly and work efficiently, look no further than the PRO-DLX 6",
+                "The PRO-DLX 6 17.3 Laptop Backpack features a spacious main compartment, which includes a dedicated 17.3 laptop sleeve, along with a document sleeve and a power bank slot. The front zippered compartments feature multiple slots for various devices, while the two zippered side pockets provide additional functionality and device storage. The USB charging port on the side makes it easy to Charge on the go and the expander lets you pack more when needed.",
+            ],
+            paramters: [
+                { capacity: "24.5 L" },
+                { volume: "1.5kg" },
+                { dimension: "32 x 18/24 x 46 cm" },
+                { warranty: "2 year" },
+                { material: " 97% Nylon + 2% PU + 1% da" },
+            ],
+        },
+    },
+    {
+        id: 36,
+        brand: "AMERICAN TOURISTER",
+        name: "Crossbody bag Paisley Joy size S",
+        category: "handbag",
+        newPrice: "750,000đ",
+        oldPrice: "1,500,000đ",
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/tuideocheoPaisleyJoy_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["gray"],
+                code: "#c8c1ba",
+                image: "/images/tuideocheoPaisleyJoy_02.webp",
+            },
         ],
-        paramters: [
-            { capacity: "10L" },
-            { volume: "0.46kg" },
-            { dimension: "39 x 12 x 31 cm" },
-            { warranty: "5 năm" },
-            { material: "Polyester 100dn Jacquard / PU" },
-        ]
-    }
-  },
-  {
-    id: 56,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Balo Barton',
-    category: 'balo',
-    newPrice: '1,000,000₫',
-    oldPrice: '1,000,000₫',
-    colors: [
-      { id: 'color1', name: ['green'], thumbnail: '/images/color_balo_076_01.webp', image: '/images/balo_076_01.jpg' },
-      { id: 'color2', name: ['yellow'], thumbnail: '/images/color_balo_076_02.jpg', image: '/images/balo_076_02.jpg' },
-      { id: 'color3', name: ['black'], thumbnail: '/images/color_balo_076_03.jpg', image: '/images/balo_076_03.jpg' },
-      { id: 'color4', name: ['red'], thumbnail: '/images/color_balo_076_04.jpg', image: '/images/balo_076_04.jpg' },
-    ],
-    details: {
-        features: [
-            "2 ngăn trước truy cập nhanh",
-            "Túi lót PVC chống nước",
-            "Khóa kéo chống thấm nước",
-            "Miệng túi mở rộng",
-            "Ngăn bảo vệ laptop 15.6'",
-            "Đệm lưng êm ái, thoáng mát"
+        details: {
+            features: [
+                "Spacious interior with internal zippered compartment",
+                "Zippered compartments on both front and back",
+                "Durable, adjustable shoulder straps",
+                "Modern antibacterial treated lining",
+            ],
+            paramters: [
+                { capacity: "3 L" },
+                { volume: "0,22kg" },
+                { dimension: " 22,5 x 7 x 15 cm" },
+                { warranty: "1   year" },
+                { material: "95% Polyester + 5% Microfiber" },
+            ],
+        },
+    },
+    {
+        id: 37,
+        brand: "AMERICAN TOURISTER",
+        name: "Corey 01 ASR duffle bag",
+        category: "handbag",
+        newPrice: "950,000đ",
+        oldPrice: "1,900,000đ",
+        colors: [
+            {
+                id: "color1",
+                name: ["red"],
+                code: "#FF0000",
+                image: "/images/tuixach_080_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["gray"],
+                code: "#67665b",
+                image: "/images/tuixach_080_02.webp",
+            },
         ],
-        desc: ["Một cái balo không chỉ là một cái túi. Đó là một nơi lưu trữ di động. Và đó còn là phản ánh của sự quan tâm tới những vật dụng bạn đã lựa chọn để cất giữ trong balo. Bộ sưu tập balo Barton sử dụng hàng ngày với thiết kế hiện đại, sử dụng chất liệu thân thiện môi trường nhưng vẫn bảo đảm chống thấm nước. Tất cả các thiết bị điện tử thông minh của bạn sẽ không sợ bị ướt trong những ngày mưa. Balo Barton lấy cảm hứng ngoài trời với nhiều màu sắc đẹp mắt, thể hiện cá tính của bạn."],
-        paramters: [
-            { capacity: "25L" },
-            { volume: "0.7kg" },
-            { dimension: "31 x 20 x 50 cm" },
-            { warranty: "1 năm" },
-        ]
-    }
-  },
-  {
-    id: 57,
-    brand: 'LEVEL8 - Mỹ',
-    name: 'Balo laptop 15.6in LEVEL8 Mr. Outstanding',
-    category: 'balo',
-    newPrice: '1,850,000₫',
-    oldPrice: '3,700,000₫',
-    colors: [
-      { id: 'color1', name: ['black'], code: '#000', image: '/images/balo_075_01.jpg' },
-    ],
-    details: {
-        features: [
-           "Balo với chất liệu vải cao cấp bền chắc, có khả năng chống thấm nước bảo vệ hành lý bên trong",
-           "Ngăn chính có sức chứa lớn, có ngăn chứa bảo vệ laptop 15.6'",
-           "Thiết kế khóa nam châm sáng tạo, an toàn nhưng vẫn dễ dàng truy cập",
-           "Ngăn phía trên chứa mắt kinh có lớp lót bằng da lộn mềm mại",
-           "Có ngăn phía trước và ngăn bên hông tiện dụng",
-           "Nội thất làm từ chất liệu rPET bền vững với môi trường",
+        details: {
+            features: [
+                "The Corey Duffle Bag is the ideal bag for those who love sports and outdoor activities. With a spacious main compartment, you can comfortably store sports equipment, clothes, toiletries and other items.",
+                "The shoe pocket makes it easy to carry sneakers or walking shoes.",
+                "Two mesh side compartments for storing small items such as towels and water bottles.",
+                "The detachable shoulder strap makes it easy to carry by hand or wear on your shoulder.",
+            ],
+            paramters: [
+                { capacity: "33,5L" },
+                { volume: "0,48 kg" },
+                { dimension: "47 x 25 x 24 cm" },
+                { warranty: "1 year" },
+                { material: "100% Polyester" },
+            ],
+        },
+    },
+    {
+        id: 38,
+        brand: "Samsonite Red - USA",
+        name: "Crossbody bag Ferley",
+        category: "handbag",
+        newPrice: "4,200,000đ",
+        oldPrice: "6,000,000đ",
+        colors: [
+            {
+                id: "color1",
+                name: ["gray"],
+                code: "#f2eee6",
+                image: "/images/tuixach_081_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["pink"],
+                code: "#ffe2de",
+                image: "/images/tuixach_081_02.webp",
+            },
+            {
+                id: "coler3",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/tuixach_081_03.webp",
+            },
         ],
-        paramters: [
-            { capacity: "18L" },
-            { volume: "1.01kg" },
-            { dimension: "30 x 13 x 47 cm" },
-            { warranty: "1 năm" },
-            { material: "Polyester + PU" },
-        ]
-    }
-  },
-  {
-    id: 58,
-    brand: 'Samsonite Red - Mỹ',
-    name: 'Balo flap Cambie',
-    category: 'balo',
-    newPrice: '4,690,000₫',
-    oldPrice: '6,700,000₫',
-    colors: [
-      { id: 'color1', name: ['gray'], code: '#e6e2e2', image: '/images/balo_072_01.jpg' },
-      { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_072_03.jpg' },
-    ],
-    details: {
-        features: [
-           "Thiết kế nắp gập có thể tháo rời, linh hoạt thay đổi phong cách.",
-           "Ngăn khóa kéo rộng rãi với chi tiết xếp li tinh tế, dễ dàng sắp xếp đồ đạc.",
-           "Đầu khóa kéo và đường chỉ may phối màu sắc tinh tế.",
-           "Logo chính và nhãn sử dụng chất liệu trong suốt, tạo sự hiện đại.",
-           "Dây đeo vai và đai ngực có thể điều chỉnh, thoải mái tối đa khi sử dụng."
+        details: {
+            features: [
+                "The Ferley collection brings elegant femininity, harmoniously combining minimalist design and light materials, creating bags suitable for all daily activities.",
+                "Diverse colors: Black, Light Gray, Lovely Pink, Trendy Denim, suitable for many styles.",
+                "Crossbody bag with flap has a feminine, elegant style.",
+                "The attached small bag helps you store accessories such as headphones, phone charger,...",
+                "Adjustable shoulder strap, bringing comfort when using.",
+            ],
+            paramters: [
+                { capacity: "3L" },
+                { volume: "0,42 kg" },
+                { dimension: "31 x 8,5 x 18 cm" },
+                { warranty: "2 year" },
+                { material: "63% NYLON + 37% POLYESTER TRICO" },
+            ],
+        },
+    },
+    {
+        id: 39,
+        brand: "Victorinox - Switzerland",
+        name: "Architecture Urban2 2-way tote bag",
+        category: "handbag",
+        newPrice: "7,210,000đ",
+        oldPrice: "10,300,000đ",
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/tuixach_082_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["gray"],
+                code: "#3e444e",
+                image: "/images/tuixach_082_02.webp",
+            },
         ],
-        desc: ["Bộ sưu tập Samsonite Red Cambie được làm từ chất liệu nhẹ nhàng, thoáng mát, phù hợp với mùa hè, mang hơi thở của hoạt động ngoài trời và đáp ứng nhiều nhu cầu sử dụng khác nhau. Từ balo thông dụng, balo nắp gập thời trang đến túi tote nhẹ nhàng và túi đeo chéo, bộ sưu tập Cambie mang đến cho bạn những lựa chọn phong cách đa dạng, không chỉ phù hợp cho sử dụng hàng ngày mà còn cả cho những chuyến du lịch."],
-        paramters: [
-            { capacity: "22L" },
-            { volume: "0.62kg" },
-            { dimension: "31 x 16.5 x 47.5 cm" },
-            { warranty: "2 năm" },
-            { material: "75% Nylon + 25% Polyester" },
-        ]
-    }
-  },
-  {
-    id: 59,
-    brand: 'Victorinox - Thụy Sĩ',
-    name: 'Balo VX Sport EVO Daypack',
-    category: 'balo',
-    newPrice: '3,640,000₫',
-    oldPrice: '5,200,000₫',
-    colors: [
-      { id: 'color1', name: ['red'], code: '#912222', image: '/images/balo_071_01.jpg' },
-      { id: 'color2', name: ['blue'], code: '#52546c', image: '/images/balo_071_02.jpg' },
-    ],
-    details: {
-        features: [
-            "Cung cấp tính năng tuyệt vời và khả năng tổ chức đa năng với các ngăn chuyên biệt cho thiết bị công nghệ.",
-            "Điểm nhấn với logo hình chữ thập và khiên của Victorinox, biểu tượng cho chất lượng.",
-            "Dây đeo vai có đệm, có thể điều chỉnh và đệm lưng có các rãnh khí giúp đảm bảo sự thoải mái tối ưu khi sử dụng.",
-            "Tích hợp đai gài cần đẩy vali tiện dụng."
+        details: {
+            features: [
+                "The Architecture Urban2 2-Way Carry Tote is a versatile travel companion that easily converts from a handbag to a backpack. With an innovative design, antimicrobial lining, and stretchy material that provides 360-degree protection, this bag is perfect for business trips.",
+                "Includes water-resistant zippers and a water-repellent coating on the main compartment to keep your belongings dry",
+                "The bottom of the bag is equipped with a kickstand to limit contact with dirty surfaces",
+            ],
+            paramters: [
+                { capacity: "20L" },
+                { volume: "1,3 kg" },
+                { dimension: "40 x 15 x 40 cm" },
+                { warranty: "10 year" },
+                { material: "Nylon / Leather" },
+            ],
+        },
+    },
+    {
+        id: 40,
+        brand: "AMERICAN TOURISTER",
+        name: "All Alizee Aimee ASR",
+        category: "handbag",
+        newPrice: "1,250,000đ",
+        oldPrice: "2,500,000đ",
+        colors: [
+            {
+                id: "color1",
+                name: ["pink"],
+                code: "#edcbc9",
+                image: "/images/tuixach_083_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["blue"],
+                code: "#353f62",
+                image: "/images/tuixach_083_02.webp",
+            },
+            {
+                id: "color3",
+                name: ["gray"],
+                code: "#d0cedd",
+                image: "/images/tuixach_083_03.webp",
+            },
         ],
-        desc: ["Balo VX Sport EVO Daypack chính hãng Victorinox Thụy Sĩ giúp bạn bảo vệ các thiết bị công nghệ cá nhân một cách an toàn, đồng thời đảm bảo sự thoải mái tối đa. Được chế tác từ chất liệu polyester bền bỉ, tích hợp hệ thống luồng khí giúp bạn luôn cảm thấy thoải, mát mẻ. Mặt lưng và dây đeo vai lót đệm êm ái, mang đến trải nghiệm thoải mái khi đeo balo di chuyển đường dài. VX Sport EVO Daypack Với chiếc balo này, bạn có thể dễ dàng di chuyển, mang theo đồ đạc cần thiết cho các chuyến đi ngắn hoặc các hoạt động thể thao mà không lo lắng về sự bất tiện hay thiếu không gian lưu trữ. Bạn có thể dễ dàng sắp xếp đồ đạc khoa học, tiện dụng nhờ các ngăn chuyên dụng. Sự kết hợp hoàn hảo giữa thiết kế tinh tế và tính năng vượt trội, mang lại sự tiện lợi, thoải mái và bảo vệ cho người dùng trong mọi hoạt động."],
-        paramters: [
-            { capacity: "32L" },
-            { volume: "1kg" },
-            { dimension: "36 x 27 x 49 cm" },
-            { warranty: "10 năm" },
-            { material: "Polyester" },
-        ]
-    }
-  },
-  {
-    id: 60,
-    brand: 'ACE. - Nhật Bản',
-    name: 'Balo Corty',
-    category: 'balo',
-    newPrice: '1,680,000₫',
-    oldPrice: '2,400,000₫',
-    colors: [
-      { id: 'color1', name: ['blue'], code: '#0133ff', image: '/images/balo_070_01.jpg' },
-      { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_070_02.jpg' },
-      { id: 'color3', name: ['brown'], code: '#d4b895', image: '/images/balo_070_03.jpg' },
-    ],
-    details: {
-        features: [
-            "Kích thước nhỏ gọn lý tưởng để cất giữ đồ đạc cá nhân",
-            "Ngăn chính rộng rãi, có ngăn riêng để tài liệu",
-            "Ngăn phía trước tiện dụng",
-            "Hai ngăn lưới bên hông để chai nước hoặc dù xếp",
-            "Mặt lưng sử dụng chất liệu lưới thoáng khí"
+        details: {
+            features: [
+                "The popular Alizee collection now welcomes a wonderful new member - Alizee Aimee. Three luxurious colors: Indigo, Light Grey and Rose Beige, bringing an elegant, fresh look to your daily life.The popular Alizee collection now welcomes a wonderful new member - Alizee Aimee. Three luxurious colors: Indigo, Light Grey and Rose Beige, bringing an elegant, fresh look to your daily life.",
+                "The fabric and lining are treated with antibacterial technology, ensuring optimal hygiene for personal belongings. Moreover, the smart and versatile design of Alizee Aimee will make every journey easier and more enjoyable than ever.",
+                "The Alizee Aimee tote bag has a spacious main compartment, easy to access items, with an 8-inch tablet compartment. The front zipper compartment is convenient for storing small items, the back zipper compartment protects important items.",
+            ],
+            paramters: [
+                { capacity: "14L" },
+                { volume: "0,5 kg" },
+                { dimension: "42 x 14 x 28 cm" },
+                { warranty: "1 year" },
+                { material: "100% Polyester" },
+            ],
+        },
+    },
+    {
+        id: 41,
+        brand: "ACE. - Japan",
+        name: "Crossbody bag Bastique2",
+        category: "handbag",
+        newPrice: "1,120,000đ",
+        oldPrice: "1,600,000đ",
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#191972",
+                image: "/images/tuixach_084_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/tuixach_084_02.webp",
+            },
         ],
-        desc: ["Một chiếc balo kết hợp giữa kiểu dáng đơn giản với các chi tiết thể thao năng động, phù hợp để sử dụng hàng ngày hoặc đi du lịch."],
-        paramters: [
-            { capacity: "32L" },
-            { volume: "1kg" },
-            { dimension: "29 x 15 x 42 cm" },
-            { warranty: "5 năm" },
-            { material: "Polyester" },
-        ]
-    }
-  },
-  {
-    id: 61,
-    brand: 'Victorinox - Thụy Sĩ',
-    name: 'Balo laptop 17" Altmont Original Deluxe',
-    category: 'balo',
-    newPrice: '4,200,000₫',
-    oldPrice: '6,000,000₫',
-    colors: [
-      { id: 'color1', name: ['red'], code: '#c12c32', image: '/images/balo_069_01.jpg' },
-      { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_069_02.jpg' },
-      { id: 'color3', name: ['blue'], code: '#52546c', image: '/images/balo_069_03.jpg' },
-    ],
-    details: {
-        features: [
-            "Ngăn đựng dao đa năng Victorinox bằng neoprene trên dây đeo vai, giúp bạn dễ dàng lấy ra khi cần",
-            "Ngăn lưới có khóa kéo, móc chìa khóa, vòng giữ bút, bảng tên, hai ngăn phụ và dây đai giữ USB",
-            "Dây đeo vai và đệm lưng được cải tiến cho sự thoải mái tối đa, với hệ thống lưu thông khí thông minh, đai gài cần đẩy vali và ngăn ẩn phía sau"
+        details: {
+            features: [
+                "Compact and lightweight",
+                "Smart interior organization, easy to arrange",
+                "The back uses breathable mesh material",
+            ],
+            paramters: [
+                { capacity: "1L" },
+                { volume: "0,2 kg" },
+                { dimension: "24 x 6 x 14 cm" },
+                { warranty: "5 year" },
+                { material: "Nylon 100 x 210dn Dobby PU finish" },
+            ],
+        },
+    },
+    {
+        id: 42,
+        brand: "Kanana Project - Japan",
+        name: "Crossbody bag Kanana Monogram 2ND Large",
+        category: "handbag",
+        newPrice: "2,380,000₫",
+        oldPrice: "3,400,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                thumbnail: "/images/color-tuixach_085_01.webp",
+                image: "/images/tuixach_085_01.webp",
+            },
         ],
-        desc: ["Thiết kế thông minh và chất liệu tiên tiến đưa chiếc balo Thụy Sĩ Victorinox Altmont Original Deluxe lên một tầm cao mới. Được chế tác để bảo vệ laptop và các vật dụng cần thiết khác của bạn khi đi tàu, đạp xe quanh thành phố hoặc đi bộ đường dài, balo này kết hợp hoàn hảo giữa chức năng và sự thoải mái. Ngăn đôi tiện lợi cho phép bạn sắp xếp các thiết bị điện tử trong ba ngăn riêng biệt, lý tưởng cho những ngày bận rộn."],
-        paramters: [
-            { capacity: "28L" },
-            { volume: "1kg" },
-            { dimension: "34 x 24 x 48 cm" },
-            { warranty: "5 năm" },
-            { material: "Polyester" },
-        ]
-    }
-  },
-  {
-    id: 62,
-    brand: 'Victorinox - Thụy Sĩ',
-    name: 'Balo laptop 17" Altmont Original Vertical-Zip',
-    category: 'balo',
-    newPrice: '4,550,000₫',
-    oldPrice: '6,500,000₫',
-    colors: [
-      { id: 'color1', name: ['black'], code: '#000', image: '/images/balo_068_01.jpg' },
-      { id: 'color2', name: ['red'], code: '#c12c32', image: '/images/balo_068_02.jpg' },
-      { id: 'color3', name: ['blue'], code: '#52546c', image: '/images/balo_068_03.jpg' },
-    ],
-    details: {
-        features: [
-            "Ngăn đựng dao đa năng Victorinox bằng neoprene trên dây đeo vai, giúp bạn dễ dàng lấy ra khi cần",
-            "Ngăn lưới có khóa kéo, móc chìa khóa, vòng giữ bút, bảng tên, hai ngăn phụ và dây đai giữ USB",
-            "Dây đeo vai và đệm lưng được cải tiến cho sự thoải mái tối đa, với hệ thống lưu thông khí thông minh, đai gài cần đẩy vali và ngăn ẩn phía sau"
+        details: {
+            features: [
+                "The Monogram collection is reimagined with a refined and luxurious look thanks to the brilliant light.",
+                "The main material is the unique Jacquard Monogram woven fabric",
+                "The front zipper compartment is made of fabric treated with VIRTECT® anti-bacterial and anti-viral technology",
+                "The main zipper has a safety latch to avoid accidental opening",
+                "The zipper compartment at the back has a high level of security, suitable for storing wallets and valuables",
+            ],
+            paramters: [
+                { volume: "0,31 kg" },
+                { dimension: "32 x 10 x 24 cm" },
+                { warranty: "5 year" },
+                { material: "Polyester 100dn Jacquard / PU" },
+            ],
+        },
+    },
+    {
+        id: 43,
+        brand: "SAMSONITE - USA",
+        name: "Up-Line S hobo bag",
+        category: "handbag",
+        newPrice: "2,940,000₫",
+        oldPrice: "4,200,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["pink"],
+                code: "#c5a79c",
+                image: "/images/tuixach_086_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/tuixach_086_02.webp",
+            },
+            {
+                id: "color3",
+                name: ["gray"],
+                code: "#bbb6ba",
+                image: "/images/tuixach_086_03.webp",
+            },
         ],
-        desc: ["Thiết kế thông minh và chất liệu tiên tiến đưa chiếc balo Thụy Sĩ Victorinox Altmont Original Vertical-Zip lên một tầm cao mới. Được thiết kế để bảo vệ laptop và các vật dụng cần thiết khác của bạn khi đi tàu, đạp xe quanh thành phố hoặc đi bộ đường dài, balo này kết hợp hoàn hảo giữa chức năng và sự thoải mái. Ngăn chính rộng rãi chứa một ngăn đựng laptop có đệm và các ngăn tổ chức giúp bạn tách riêng các thiết bị, bút viết và chìa khóa."],
-        paramters: [
-            { capacity: "24L" },
-            { volume: "1kg" },
-            { dimension: "33 x 23 x 47 cm" },
-            { warranty: "5 năm" },
-            { material: "Polyester" },
-        ]
-    }
-  },
-  {
-    id: 63,
-    brand: 'Victorinox - Thụy Sĩ',
-    name: 'Balo Altmont Active Rolltop',
-    category: 'balo',
-    newPrice: '2,050,000₫',
-    oldPrice: '2,900,000₫',
-    colors: [
-        { id: 'color1', name: ['red'], code: '#c12c32', image: '/images/balo_067_01.jpg' },
-        { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_067_02.jpg' },
-    ],
-    details: {
-        features: [
-            "Balo laptop thương hiệu Thụy Sĩ",
-            "Tích hợp nhiều tính năng tiện ích",
-            "Dây đeo vai và mặt lưng có đệm thoáng mát",
-            "Dụng cụ mở nắp chai trên dây đeo vai"
+        details: {
+            features: [
+                "Spacious interior: Includes a spacious main zippered compartment and 1 inner zippered compartment to help you organize your belongings scientifically and easily find them",
+                "The front zippered compartment is made of fabric treated with antibacterial and antiviral VIRTECT® technology",
+                "The main zipper has a safety latch to avoid accidental opening",
+                "The zippered compartment on the back has high security, suitable for storing wallets and valuables",
+            ],
+            paramters: [
+                { volume: "0,31 kg" },
+                { dimension: "32 x 10 x 24 cm" },
+                { warranty: "5 year" },
+                { material: "Polyester 100dn Jacquard / PU" },
+            ],
+        },
+    },
+    {
+        id: 44,
+        brand: "Victorinox - Switzerland",
+        name: "Touring 2.0 Sports duffel bag",
+        category: "handbag",
+        newPrice: "5,180,000₫",
+        oldPrice: "7,400,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/tuixach_087_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["gray"],
+                code: "#bbb6ba",
+                image: "/images/tuixach_087_02.webp",
+            },
         ],
-        desc: ["Phong cách và chất lượng kết hợp trong dòng balo Victorinox Altmont Active, được thiết kế thông minh để mang lại các chức năng cần thiết cho những cuộc phiêu lưu hàng ngày của cuộc sống. Balo laptop Altmont Active Rolltop được tích hợp phong cách trailwalker như các vòng treo đồ (gear loops) và chuỗi vòng (daisy chains), dụng cụ mở nắp chai, cùng với mặt sau có đệm thoáng mát giúp thoải mái khi sử dụng. Ngăn chứa laptop an toàn có khóa kéo ẩn ở phía sau của balo, có thể truy cập nhanh khi đang di chuyển."],
-        paramters: [
-            { capacity: "18L" },
-            { volume: "0.7kg" },
-            { dimension: "29 x 17 x 28 cm" },
-            { warranty: "1 năm" },
-            { material: "Polyester" },
-        ]
-    }
-  },
-  {
-    id: 64,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Balo Work:Out 03',
-    category: 'balo',
-    newPrice: '1,110,000₫',
-    oldPrice: '2,200,000₫',
-    colors: [
-        { id: 'color1', name: ['black'], code: '#000', image: '/images/balo_065_01.jpg' },
-        { id: 'color2', name: ['gray'], thumbnail: '/images/color_balo_065_02.webp', image: '/images/balo_065_02.jpg' },
-    ],
-    details: {
-        features: [
-            "Ngăn bí mật an toàn ở mặt sau balo",
-            "Quai đeo vai Tractum tạo sự thoải mái",
-            "Tổ chức nội thất phong phú",
-            "Ngăn bảo vệ laptop và tablet",
-            "2 túi ở bên hông",
-            "đai gài cần đẩy vali"
+        details: {
+            features: [
+                "Removable waterproof pocket and adjustable strap length, help you carry your personal belongings safely in all weather conditions.",
+                "Removable and adjustable shoulder strap with Victorinox branded padding.",
+                "Spacious main compartment with zippered mesh pocket, easy to arrange belongings scientifically and safely.",
+            ],
+            paramters: [
+                { capacity: "1L" },
+                { volume: "0,7 kg" },
+                { dimension: "50 x 29 x 28 cm" },
+                { warranty: "10 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 45,
+        brand: "Samsonite Red - USA",
+        name: "Vickson boston bag",
+        category: "handbag",
+        newPrice: "3,640,000₫",
+        oldPrice: "5,200,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                thumbnail: "/images/color-tuixach_088_01.webp",
+                image: "/images/tuixach_088_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/tuixach_088_02.webp",
+            },
         ],
-        desc: ["Bộ sưu tập balo Work:Out từ thương hiệu American Tourister là một chiếc balo đa năng, giải pháp hoàn hảo cho những người có lối sống năng động. Dòng balo Work:Out với 3 thiết kế khác nhau, được tích hợp quai đeo vai Tractum chắc chắn, ngăn chứa laptop có thể khóa và các tính năng đặc biệt đáp ứng cho mọi nhu cầu tích cực của người sử dụng."],
-        paramters: [
-            { capacity: "30L" },
-            { volume: "0.9kg" },
-            { dimension: "31 x 21 x 48 cm" },
-            { warranty: "1 năm" },
-            { material: "Polyester" },
-        ]
-    }
-  },
-  {
-    id: 65,
-    brand: 'Delsey - Pháp',
-    name: 'Balo laptop 15" Securflap',
-    category: 'balo',
-    newPrice: '2,050,000₫',
-    oldPrice: '4,100,000₫',
-    colors: [
-        { id: 'color1', name: ['red'], code: '#990001', image: '/images/balo_064_01.jpg' },
-        { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_064_02.jpg' },
-        { id: 'color3', name: ['gray'], code: '#cbcbcb', image: '/images/balo_064_03.jpg' },
-        { id: 'color4', name: ['orange'], code: '#ff9900', image: '/images/balo_064_04.jpg' },
-        { id: 'color5', name: ['darkgray'], code: '#888888', image: '/images/balo_064_05.jpg' },
-        { id: 'color6', name: ['blue'], code: '#0133ff', image: '/images/balo_064_06.jpg' },
-        { id: 'color7', name: ['green'], code: '#00cc00', image: '/images/balo_064_07.jpg' },
-        { id: 'color8', name: ['yellow'], code: '#ffff00', image: '/images/balo_064_08.jpg' },
-    ],
-    details: {
-        features: [
-            "Giải thưởng Red Dot Design Award Winner - Best of the best",
-            "Hệ thống đóng mở miệng túi sáng tạo và cực kỳ an toàn",
-            "Thiết kế hiện đại, thanh lịch",
-            "Tối ưu sức chứa, có ngăn chứa laptop 15'",
-            "Nội thất tổ chức phong phú, thông minh",
-            "Mặt lưng và dây đeo vai có đệm êm ái, thoáng mát",
-            "Ngăn bảo mật chống quét trộm RFID",
-            "Tích hợp đai gài cần đẩy vali"
+        details: {
+            features: [
+                "The boston bag has a large main compartment and many sub-compartments, helping to arrange belongings scientifically and conveniently",
+                "The shoulder strap is equipped with soft foam padding, providing a comfortable feeling when used for a long time and can be removed",
+                "Lightweight material, helping you move easily",
+                "Using super durable CORDURA® fabric (except for the blue pattern color)",
+            ],
+            paramters: [
+                { capacity: "28L" },
+                { volume: " 0,98 kg" },
+                { dimension: "46 x 18 x 33 cm" },
+                { warranty: "2 year" },
+                { material: "100% Polyester" },
+            ],
+        },
+    },
+    {
+        id: 46,
+        brand: "Samsonite Red - USA",
+        name: "Crossbody bag mini Haaper",
+        category: "handbag",
+        newPrice: "1,650,000₫",
+        oldPrice: "3,300,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["gray"],
+                thumbnail: "/images/color-tuixach_089_01.webp",
+                image: "/images/tuixach_089_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                thumbnail: "/images/color-tuixach_089_02.webp",
+                image: "/images/tuixach_089_02.webp",
+            },
         ],
-        desc: ["Securflap từ thương hiệu Delsey là chiếc balo cho những hành trình hàng ngày và những chuyến phiêu lưu của bạn. Ngoài hệ thống chống trộm độc đáo, balo Securflap còn có nhiều túi và ngăn an toàn được thiết kế để mang lại sự an tâm khi di chuyển. Balo Securflap được cung cấp cho bạn tất cả sự thoải mái và tính năng cần thiết, cho phép bạn dễ dàng mang theo các hành lý thiết yếu của mình mọi lúc mọi nơi!"],
-        paramters: [
-            { capacity: "20.78L" },
-            { volume: "1kg" },
-            { dimension: "31.5 x 14.5 x 45.5 cm" },
-            { warranty: "2 năm" },
-            { material: "Polyester" },
-        ]
-    }
-  },
-  {
-    id: 66,
-    brand: 'Victorinox - Thụy Sĩ',
-    name: 'Balo VX Sport EVO Compact',
-    category: 'balo',
-    newPrice: '2,660,000₫',
-    oldPrice: '3,800,000₫',
-    colors: [
-        { id: 'color1', name: ['blue'], code: '#2a374b', image: '/images/balo_063_01.jpg' },
-        { id: 'color2', name: ['red'], code: '#761a25', image: '/images/balo_063_02.jpg' },
-        { id: 'color3', name: ['black'], code: '#000', image: '/images/balo_063_03.jpg' },
-    ],
-    details: {
-        features: [
-            "Cung cấp tính năng tuyệt vời và khả năng tổ chức đa năng với các ngăn chuyên biệt cho thiết bị công nghệ.",
-            "Điểm nhấn với logo hình chữ thập và khiên của Victorinox, biểu tượng cho chất lượng.",
-            "Dây đeo vai có đệm, có thể điều chỉnh và đệm lưng có các rãnh khí giúp đảm bảo sự thoải mái tối ưu khi sử dụng.",
-            "Tích hợp đai gài cần đẩy vali tiện dụng."
+        details: {
+            features: [
+                "The Haaper collection from Samsonite Red is designed for active people and is made from Rip Nylon for added durability and toughness.",
+                "Haaper products feature bold styling inspired by the beauty of nature, available in grey or silver with vibrant blue accents.",
+                "Keep your essentials organized, accessible and safe with the HAAPER mini Crossbody bag.",
+                "This ultra-compact bag is perfect for small items like your wallet, phone and bank cards. It also features a built-in water bottle pocket for added convenience (water bottle not included)",
+            ],
+            paramters: [
+                { capacity: "2L" },
+                { volume: "0.14 kg" },
+                { dimension: " 21 x 6 x 14 cm" },
+                { warranty: "2 year" },
+                { material: "100% Nylon" },
+            ],
+        },
+    },
+    {
+        id: 47,
+        brand: "SAMSONITE - USA",
+        name: "Crossbody bag Sefton",
+        category: "handbag",
+        newPrice: "2,170,000₫",
+        oldPrice: "3,100,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/tuixach_090_01.webp",
+            },
         ],
-        desc: ["Balo Victorinox VX Sport EVO Compact giúp bạn bảo vệ các thiết bị công nghệ cá nhân một cách an toàn, đồng thời đảm bảo sự thoải mái tối đa. Chiếc balo này được chế tác từ chất liệu polyester bền bỉ, tích hợp hệ thống luồng khí giúp bạn luôn mát mẻ. Mặt lưng và dây đeo vai được đệm êm ái, mang đến trải nghiệm đeo thoải mái dù di chuyển đường dài. VX Sport EVO Compact sở hữu hệ thống ngăn chứa đa năng, đáp ứng mọi nhu cầu sử dụng. Bạn có thể dễ dàng sắp xếp đồ đạc khoa học, tiện lợi nhờ các ngăn chuyên dụng. Chiếc balo này là sự kết hợp hoàn hảo giữa tính năng và thiết kế, là người bạn đồng hành đáng tin cậy trên mọi hành trình của bạn."],
-        paramters: [
-            { capacity: "20L" },
-            { volume: "0.7kg" },
-            { dimension: "31 x 18 x 45 cm" },
-            { warranty: "10 năm" },
-            { material: "Polyester" },
-        ]
-    }
-  },
-  {
-    id: 67,
-    brand: 'AMERICAN TOURISTER',
-    name: 'Balo Trent',
-    category: 'balo',
-    newPrice: '950,000₫',
-    oldPrice: '1,900,000₫',
-    colors: [
-        { id: 'color1', name: ['red'], thumbnail: '/images/color_balo_062_01.jpg', image: '/images/balo_062_01.jpg' },
-        { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_062_02.jpg' },
-        { id: 'color3', name: ['green'], thumbnail: '/images/color_balo_062_03.jpg', image: '/images/balo_062_03.jpg' },
-    ],
-    details: {
-        features: [
-            "Tổ chức nội thất tinh tế",
-            "Có khả năng chống nước",
-            "Hai ngăn bên hông tiện dụng",
-            "Ngăn trước truy cập nhanh",
-            "Chứa vừa laptop 15.6'",
-            "Miệng túi mở rộng"
+        details: {
+            features: [
+                "From sleek lightweight backpacks to versatile, functional Suitcases, Sefton offers stylish travel solutions for urban business professionals.",
+                "In addition to smart interiors that make it easy to organize your belongings, the Sefton collection is crafted from high-density nylon and premium PU trims, ensuring your travel style is always perfect.",
+                "The Sefton crossbody bag, crafted from durable nylon, with a luxurious metal logo and zipper, offers a sleek and streamlined look for busy professionals, wherever they are on the go.",
+            ],
+            paramters: [
+                { volume: "0.5 kg" },
+                { dimension: "25 x 9 x 25,5 cm" },
+                { warranty: "2 year" },
+                { material: "80% Nylon + 20% PU" },
+            ],
+        },
+    },
+    {
+        id: 48,
+        brand: "Samsonite Red - USA",
+        name: "Norbert Patterned Tote Bag",
+        category: "handbag",
+        newPrice: "3,570,000₫",
+        oldPrice: "5,100,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                thumbnail: "/images/color-tuixach_091_01.webp",
+                image: "/images/tuixach_091_01.webp",
+            },
         ],
-        desc: ["Balo không chỉ là một cái túi. Đó là một nơi lưu trữ di động. Và đó còn là phản ánh của sự quan tâm tới những vật dụng bạn đã lựa chọn để cất giữ trong balo. Bộ sưu tập balo Trent sử dụng hàng ngày với thiết kế hiện đại, sử dụng chất liệu thân thiện môi trường nhưng vẫn bảo đảm chống thấm nước. Tất cả các thiết bị điện tử thông minh của bạn sẽ không sợ bị ướt trong những ngày mưa. Balo Trent lấy cảm hứng ngoài trời với nhiều màu sắc đẹp mắt, thể hiện cá tính của bạn."],
-        paramters: [
-            { capacity: "25L" },
-            { volume: "0.7kg" },
-            { dimension: "30 x 18 x 49 cm" },
-            { warranty: "1 năm" },
-            { material: "Polyester" },
-        ]
-    }
-  },
-  {
-    id: 68,
-    brand: 'Victorinox - Thụy Sĩ',
-    name: 'Balo laptop 15.6" Altmont Original',
-    category: 'balo',
-    newPrice: '2,970,000₫',
-    oldPrice: '4,100,000₫',
-    colors: [
-        { id: 'color1', name: ['red'], code: '#761a25', image: '/images/balo_061_01.jpg' },
-        { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_061_02.jpg' },
-    ],
-    details: {
-        features: [
-            "Nội thất đa năng được tối ưu hóa để giữ cho tất cả vật dụng của bạn được sắp xếp hoàn hảo và dễ dàng truy cập",
-            "Dây đeo vai chắc chắn và cực kỳ thoải mái",
-            "Đệm lưng êm ái và thoáng khí, tạo sự thoải mái khi sử dụng",
-            "Ngăn chứa laptop 15.6'"
+        details: {
+            features: [
+                "A foldable tote bag made of durable, flexible nylon with a sophisticated matte PU coating, with a youthful, dynamic unisex style.",
+                "Ample storage space inside with a zipper compartment helps you keep your belongings safe",
+                "Convenient front and back zipper compartments, meeting daily use needs",
+                "Adjustable shoulder strap length, creating comfort when wearing",
+            ],
+            paramters: [
+                { capacity: "19.5L" },
+                { volume: "0,62 kg" },
+                { dimension: " 37,5 x 9,5 x 40 cm" },
+                { warranty: "2 year" },
+                { material: "80% Nylon + 20% PU" },
+            ],
+        },
+    },
+    {
+        id: 49,
+        brand: "Samsonite Red - USA",
+        name: "Crossbody bag mini Nobert",
+        category: "handbag",
+        newPrice: "2,380,000₫",
+        oldPrice: "3,400,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["yellow"],
+                code: "#e5dcce",
+                image: "/images/tuixach_092_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["blue"],
+                code: "#4a495e",
+                image: "/images/tuixach_092_02.webp",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/tuixach_092_03.webp",
+            },
         ],
-        desc: ["Một chiếc balo gọn nhẹ có khả năng chứa được tất cả thiết bị của bạn, cho dù bạn đang trên đường đến cuộc họp hay đang trong một chuyến phiêu lưu. Balo laptop 15.6' Altmont Original có một ngăn phía trước dễ dàng truy cập, trong khi một ngăn có đệm bảo vệ laptop của bạn an toàn. Bền bỉ, gọn nhẹ và là một chiếc balo đáp ứng mọi nhu cầu hàng ngày."],
-        paramters: [
-            { capacity: "22L" },
-            { volume: "0.8kg" },
-            { dimension: "32 x 21 x 48 cm" },
-            { warranty: "10 năm" },
-            { material: "Polyester" },
-        ]
-    }
-  },
-  {
-    id: 69,
-    brand: 'LEVEL8 - Mỹ',
-    name: 'Balo laptop 15.6in LEVEL8 Moment',
-    category: 'balo',
-    newPrice: '2,200,000₫',
-    oldPrice: '4,400,000₫',
-    colors: [
-        { id: 'color1', name: ['gray'], code: '#888', image: '/images/balo_060_01.jpg' },
-        { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_060_02.jpg' },
-    ],
-    details: {
-        features: [
-            "Balo với chất liệu vải cao cấp bền chắc, có khả năng chống thấm nước bảo vệ hành lý bên trong",
-            "Ngăn chính có sức chứa lớn, miệng túi mở rộng dễ dàng truy cập",
-            "Có ngăn chứa bảo vệ laptop 15.6'",
-            "Thiết kế khóa nam châm sáng tạo, an toàn nhưng vẫn dễ dàng truy cập",
-            "Có ngăn phía trước và ngăn bên hông tiện dụng",
-            "Đệm lưng êm ái, thoáng mát, tích hợp đai gài cần đẩy vali",
-            "Nội thất làm từ chất liệu rPET bền vững với môi trường"
+        details: {
+            features: [
+                "A foldable tote bag made of durable, flexible nylon with a sophisticated matte PU coating, with a youthful, dynamic unisex style.",
+                "Ample storage space inside with a zipper compartment helps you keep your belongings safe",
+                "Convenient front and back zipper compartments, meeting daily use needs",
+                "Adjustable shoulder strap length, creating comfort when wearing",
+            ],
+            paramters: [
+                { capacity: "19.5L" },
+                { volume: "0,62 kg" },
+                { dimension: " 37,5 x 9,5 x 40 cm" },
+                { warranty: "2 year" },
+                { material: "80% Nylon + 20% PU" },
+            ],
+        },
+    },
+    {
+        id: 50,
+        brand: "High Sierra - USA",
+        name: "Laptop backpack 17in Swoop SG",
+        category: "balo",
+        newPrice: "800,000₫",
+        oldPrice: "1,600,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#2a2829",
+                image: "/images/balo_050_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["gray"],
+                code: "#676248",
+                image: "/images/balo_050_02.jpg",
+            },
+            {
+                id: "color3",
+                name: ["gray"],
+                thumbnail: "/images/color-balo_050_03.jpg",
+                image: "/images/balo_050_03.jpg",
+            },
+            {
+                id: "color4",
+                name: ["gray"],
+                thumbnail: "/images/color-balo_050_04.jpg",
+                image: "/images/balo_050_04.jpg",
+            },
         ],
-        paramters: [
-            { capacity: "20L" },
-            { volume: "1.32kg" },
-            { dimension: "30 x 14 x 46.5 cm" },
-            { warranty: "1 năm" },
-            { material: "Polyester + PU" },
-        ]
-    }
-  },
-  {
-    id: 70,
-    brand: 'Samsonite Red - Mỹ',
-    name: 'Balo 3ways Vickson',
-    category: 'balo',
-    newPrice: '4,410,000₫',
-    oldPrice: '6,300,000₫',
-    colors: [
-        { id: 'color1', name: ['gray'], code: '#9fa190', image: '/images/balo_059_01.jpg' },
-        { id: 'color2', name: ['blue'], thumbnail: '/images/color_balo_059_02.webp', image: '/images/balo_059_02.jpg' },
-        { id: 'color3', name: ['black'], code: '#000', image: '/images/balo_059_03.jpg' },
-    ],
-    details: {
-        features: [
-            "Sử dụng như balo, túi tote hoặc túi đeo chéo",
-            "Tối ưu hóa cho việc lưu trữ với không gian có thể mở rộng và nhiều ngăn phụ đa năng bên ngoài",
-            "Ngăn bên trong có thể tháo rời, tối ưu cho việc di chuyển",
-            "Ngăn đựng laptop 17' có đệm và đai cài thông minh",
-            "Tích hợp đai gài cần đẩy vali tiện lợi",
-            "Dây đeo vai bằng đệm lưới êm ái và đai ngực có thể điều chỉnh độ dài",
-            "Bao gồm dây đeo vai có thể tháo rời",
-            "Ngăn phụ bên hông để đựng chai nước hoặc ô dù",
-            "Sử dụng vải CORDURA® siêu bền (trừ màu hoa văn xanh da trời)"
+        details: {
+            features: [
+                "Highlighted reflective details",
+                "Compartment protects laptops up to 17'",
+                "Large main compartment, rich organization",
+                "Hammock™ laptop drop protection technology",
+                "Convenient front compartment, suitable for small items",
+                "Fleece-lined pocket for phone or glasses",
+                "Elastic side pocket for water bottle",
+                "Breathable padded shoulder straps and back for maximum comfort when using",
+            ],
+            paramters: [
+                { capacity: "19.5L" },
+                { volume: "0,7 kg" },
+                { dimension: " 28 x 15 x 48 cm" },
+                { warranty: "2 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 51,
+        brand: "AMERICAN TOURISTER",
+        name: "Balo Mate 2 02",
+        category: "balo",
+        newPrice: "800,000₫",
+        oldPrice: "1,600,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#57a2af",
+                image: "/images/balo_051_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["orange"],
+                code: "#ff9900",
+                image: "/images/balo_051_02.jpg",
+            },
         ],
-        desc: ["Dành cho những chuyến công tác, du lịch ngắn ngày hay đơn giản là sử dụng hàng ngày, Samsonite Red Vickson được làm từ chất liệu CORDURA® bền bỉ mang đến cho bạn nhiều lựa chọn phong cách với các kiểu dáng đa dạng từ balo 3way đến túi đeo chéo. Bảng màu đa dạng với đen, kaki thanh lích, xanh da trời tươi mới, màu hoa văn xanh da trời và be nhạt giúp bạn dễ dàng phối hợp với mọi trang phục."],
-        paramters: [
-            { capacity: "29L" },
-            { volume: "1.23kg" },
-            { dimension: "32 x 17 x 50 cm" },
-            { warranty: "2 năm" },
-            { material: "Polyester" },
-        ]
-    }
-  },
-  {
-    id: 71,
-    brand: 'AMERICAN TOURISTER',
-    name: 'BaBalo Vibe NXT 2A',
-    category: 'balo',
-    newPrice: '800,000₫',
-    oldPrice: '1,600,000₫',
-    colors: [
-        { id: 'color1', name: ['blue'], code: '#2a59c0', image: '/images/balo_056_01.jpg' },
-        { id: 'color2', name: ['black'], code: '#000', image: '/images/balo_056_02.jpg' },
-    ],
-    details: {
-        features: [
-            "Ngăn trước dễ dàng truy cập",
-            "Nội thất nhiều ngăn tiện ích",
-            "Ngăn bảo vệ laptop",
-            "Tích hợp bao trùm che mưa",
-            "Dây đeo vai có thể điều chỉnh",
-            "Đệm lưng êm ái, thoáng mát"
+        details: {
+            features: [
+                "Integrated waterproof cover",
+                "Two spacious compartments, smart and sophisticated organization",
+                "Convenient front compartment, easy to access",
+                "Two elastic side compartments",
+                "The lining is made of environmentally sustainable recycled PET material",
+                "The shoulder straps and back are padded and breathable, providing maximum comfort when using",
+            ],
+            paramters: [
+                { capacity: "32L" },
+                { volume: "0,55 kg" },
+                { dimension: " 30 x 21 x 48 cm" },
+                { warranty: "2 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 52,
+        brand: "AMERICAN TOURISTER",
+        name: "Diddle 2.0 R Children's Backpack",
+        category: "balo",
+        newPrice: "700,000₫",
+        oldPrice: "1,400,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["orange"],
+                thumbnail: "/images/color-balo_052_01.jpg",
+                image: "/images/balo_052_01.webp",
+            },
+            {
+                id: "color2",
+                name: ["pink"],
+                thumbnail: "/images/color-balo_052_02.jpg",
+                image: "/images/balo_052_02.jpg",
+            },
         ],
-        desc: ["Bộ sưu tập balo Vibe Nxt từ thương hiệu American Tourister cung cấp thêm sự thoải mái và thuận tiện cho người sử dụng với những tính năng hữu ích: dây đeo vai chắc chắn và có thể điều chỉnh, ngăn trước dễ dàng truy cập, ngăn bảo vệ laptop, bao trùm che mưa, đệm lưng êm ái và thoáng mát..."],
-        paramters: [
-            { capacity: "28L" },
-            { volume: "0.7kg" },
-            { dimension: "32 x 19 x 46 cm" },
-            { warranty: "1 năm" },
-            { material: "Polyester" },
-        ]
-    }
-  },
-  
+        details: {
+            features: [
+                "Comfortable ergonomic shoulder strap",
+                "Handy front compartment, easy access",
+                "Two spacious main compartments",
+                "Lightweight, comfortable to use",
+            ],
+            paramters: [
+                { capacity: "21L" },
+                { volume: "0,3 kg" },
+                { dimension: " 28 x 18 x 39 cm" },
+                { warranty: "1 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 53,
+        brand: "SAMSONITE - USA",
+        name: "Sammies Dreams Children's Backpack - Giraffe",
+        category: "balo",
+        newPrice: "800,000₫",
+        oldPrice: "1,600,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["yellow"],
+                code: "#fce151",
+                image: "/images/balo_053_01.webp",
+            },
+        ],
+        details: {
+            features: [
+                "Name tag",
+                "Lightweight",
+                "Convenient multi-compartment organizer",
+                "Using Recyclex™ recycled material technology and modern antibacterial treatment",
+            ],
+            desc: [
+                "The Samsonite Sammies Dreams collection has been a hit in the market by turning adorable and cute animals into practical bags and suitcases. The whole idea of ​​a child being able to hold onto their bag is adorable, and the animal characters will act as close companions on all their travels.",
+            ],
+            paramters: [
+                { capacity: "8L" },
+                { volume: "0,25 kg" },
+                { dimension: " 25 x 16.5 x 36.5 cm" },
+                { warranty: "2 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 54,
+        brand: "AMERICAN TOURISTER",
+        name: "Balo Colton",
+        category: "balo",
+        newPrice: "900,000₫",
+        oldPrice: "1,800,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                thumbnail: "/images/color-balo_054_01.jpg",
+                image: "/images/balo_054_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["brown"],
+                code: "#996633",
+                image: "/images/balo_054_02.jpg",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000000",
+                image: "/images/balo_054_03.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Laptop compartment",
+                "Security compartment on the back of the backpack",
+                "Removable 2-in-1 front pocket",
+                "Sturdy, comfortable shoulder straps",
+            ],
+            desc: [
+                "The Colton collection is a modern everyday backpack that can be used for any occasion. It has a 2-in-1 design: the front pocket can be removed when you only need to carry small items. The exterior of the backpack is treated with water-repellent technology that is environmentally friendly and fluorine-free. Pack all your electronics in the backpack and don't worry about getting wet on rainy days. The Colton collection comes in a variety of great fashionable colors.",
+            ],
+            paramters: [
+                { capacity: "23L" },
+                { volume: "0,6 kg" },
+                { dimension: " 29 x 18 x 45 cm" },
+                { warranty: "1 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 55,
+        brand: "Kanana Project - Japan",
+        name: "Balo Kanana Monogram 2ND Small",
+        category: "balo",
+        newPrice: "3,220,000₫",
+        oldPrice: "4,600,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["green"],
+                thumbnail: "/images/color_balo_078_01.jpg",
+                image: "/images/balo_078_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["gray"],
+                thumbnail: "/images/color_balo_078_02.webp",
+                image: "/images/balo_078_02.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "The main material is unique Jacquard Monogram fabric",
+                "The front zipper compartment is made of fabric treated with VIRTECT® anti-bacterial and anti-viral technology",
+                "The convenient card pocket on the front provides quick access",
+                "The main zipper has a safety latch to avoid accidental opening",
+                "The zipper compartment on the back has a high level of security, suitable for storing wallets and valuables",
+                "Inside the main compartment there is a smartly organized small storage compartment",
+                "Integrated luggage strap, convenient for moving",
+                "Can be worn as a backpack or carried as a handbag",
+            ],
+            paramters: [
+                { capacity: "10L" },
+                { volume: "0.46kg" },
+                { dimension: "39 x 12 x 31 cm" },
+                { warranty: "5 year" },
+                { material: "Polyester 100dn Jacquard / PU" },
+            ],
+        },
+    },
+    {
+        id: 56,
+        brand: "AMERICAN TOURISTER",
+        name: "Balo Barton",
+        category: "balo",
+        newPrice: "1,000,000₫",
+        oldPrice: "1,000,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["green"],
+                thumbnail: "/images/color_balo_076_01.webp",
+                image: "/images/balo_076_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["yellow"],
+                thumbnail: "/images/color_balo_076_02.jpg",
+                image: "/images/balo_076_02.jpg",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                thumbnail: "/images/color_balo_076_03.jpg",
+                image: "/images/balo_076_03.jpg",
+            },
+            {
+                id: "color4",
+                name: ["red"],
+                thumbnail: "/images/color_balo_076_04.jpg",
+                image: "/images/balo_076_04.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "2 quick access front compartments",
+                "Waterproof PVC lining pocket",
+                "Waterproof zipper",
+                "Wide opening pocket",
+                "15.6' laptop protection compartment",
+                "Soft and cool back cushion",
+            ],
+            desc: [
+                "A backpack is more than just a bag. It's a portable storage unit. And it's a reflection of the care you put into the items you choose to store in it. The Barton everyday backpack collection features a modern design, eco-friendly materials, and is still waterproof. All your smart electronic devices will not be afraid of getting wet on rainy days. Barton backpacks are inspired by the outdoors and come in a variety of beautiful colors to express your personality.",
+            ],
+            paramters: [
+                { capacity: "25L" },
+                { volume: "0.7kg" },
+                { dimension: "31 x 20 x 50 cm" },
+                { warranty: "1 year" },
+            ],
+        },
+    },
+    {
+        id: 57,
+        brand: "LEVEL8 - USA",
+        name: "Laptop backpack 15.6in LEVEL8 Mr. Outstanding",
+        category: "balo",
+        newPrice: "1,850,000₫",
+        oldPrice: "3,700,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_075_01.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "The backpack is made of durable, water-resistant fabric to protect your belongings",
+                "The main compartment has a large capacity, with a protective compartment for a 15.6' laptop",
+                "The innovative magnetic lock design is secure but still easy to access",
+                "The upper compartment for glasses is lined with soft suede",
+                "It has a convenient front and side compartments",
+                "The interior is made of environmentally sustainable rPET material",
+            ],
+            paramters: [
+                { capacity: "18L" },
+                { volume: "1.01kg" },
+                { dimension: "30 x 13 x 47 cm" },
+                { warranty: "1 year" },
+                { material: "Polyester + PU" },
+            ],
+        },
+    },
+    {
+        id: 58,
+        brand: "Samsonite Red - USA",
+        name: "Balo flap Cambie",
+        category: "balo",
+        newPrice: "4,690,000₫",
+        oldPrice: "6,700,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["gray"],
+                code: "#e6e2e2",
+                image: "/images/balo_072_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_072_03.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Removable flap design, flexible to change style.",
+                "Spacious zipper compartment with delicate pleats, easy to organize things.",
+                "Zipper head and stitching with delicate color combination.",
+                "Main logo and label use transparent material, creating modernity.",
+                "Adjustable shoulder strap and chest strap, maximum comfort when used.",
+            ],
+            desc: [
+                "The Samsonite Red Cambie collection is made from lightweight, breathable materials, suitable for summer, bringing the breath of outdoor activities and meeting many different needs. From popular backpacks, fashionable flap backpacks to lightweight totes and Crossbody bags, the Cambie collection gives you diverse style options, not only suitable for everyday use but also for travel.",
+            ],
+            paramters: [
+                { capacity: "22L" },
+                { volume: "0.62kg" },
+                { dimension: "31 x 16.5 x 47.5 cm" },
+                { warranty: "2 year" },
+                { material: "75% Nylon + 25% Polyester" },
+            ],
+        },
+    },
+    {
+        id: 59,
+        brand: "Victorinox - Switzerland",
+        name: "Balo VX Sport EVO Daypack",
+        category: "balo",
+        newPrice: "3,640,000₫",
+        oldPrice: "5,200,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["red"],
+                code: "#912222",
+                image: "/images/balo_071_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["blue"],
+                code: "#52546c",
+                image: "/images/balo_071_02.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Offers great functionality and versatile organization with dedicated compartments for your tech gear.",
+                "Accentuated with the Victorinox cross and shield logo, a symbol of quality.",
+                "Adjustable, padded shoulder straps and a padded back with air channels ensure optimal comfort during use.",
+                "Integrated carry handle for convenient carry.",
+            ],
+            desc: [
+                "The genuine Victorinox Swiss VX Sport EVO Daypack helps you protect your personal technology devices safely, while ensuring maximum comfort. Crafted from durable polyester, integrated with an air flow system to keep you cool and comfortable. The back and shoulder straps are softly padded, providing a comfortable experience when wearing the backpack for long distances. VX Sport EVO Daypack With this backpack, you can easily move around, carrying the necessary items for short trips or sports activities without worrying about inconvenience or lack of storage space. You can easily arrange your belongings scientifically and conveniently thanks to the dedicated compartments. The perfect combination of sophisticated design and outstanding features, bringing convenience, comfort and protection to users in all activities.",
+            ],
+            paramters: [
+                { capacity: "32L" },
+                { volume: "1kg" },
+                { dimension: "36 x 27 x 49 cm" },
+                { warranty: "10 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 60,
+        brand: "ACE. - Japan",
+        name: "Balo Corty",
+        category: "balo",
+        newPrice: "1,680,000₫",
+        oldPrice: "2,400,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#0133ff",
+                image: "/images/balo_070_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_070_02.jpg",
+            },
+            {
+                id: "color3",
+                name: ["brown"],
+                code: "#d4b895",
+                image: "/images/balo_070_03.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Ideal compact size for storing personal belongings",
+                "Spacious main compartment, separate compartment for documents",
+                "Convenient front compartment",
+                "Two mesh side compartments for water bottles or folding umbrellas",
+                "Breathable mesh back panel",
+            ],
+            desc: [
+                "A backpack that combines a simple design with dynamic sporty details, suitable for everyday use or travel.",
+            ],
+            paramters: [
+                { capacity: "32L" },
+                { volume: "1kg" },
+                { dimension: "29 x 15 x 42 cm" },
+                { warranty: "5 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 61,
+        brand: "Victorinox - Switzerland",
+        name: 'Laptop backpack 17" Altmont Original Deluxe',
+        category: "balo",
+        newPrice: "4,200,000₫",
+        oldPrice: "6,000,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["red"],
+                code: "#c12c32",
+                image: "/images/balo_069_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_069_02.jpg",
+            },
+            {
+                id: "color3",
+                name: ["blue"],
+                code: "#52546c",
+                image: "/images/balo_069_03.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Victorinox neoprene multi-tool pocket on shoulder strap for easy access when needed",
+                "Zippered mesh pocket, key ring, pen loop, name tag, two side pockets and USB strap",
+                "Improved shoulder straps and back padding for maximum comfort, with intelligent ventilation system, trolley strap and hidden back pocket",
+            ],
+            desc: [
+                "Smart design and innovative materials take the Victorinox Altmont Original Deluxe Swiss Backpack to the next level. Crafted to protect your laptop and other essentials while you commute, cycle around town or hike, this backpack combines functionality and comfort. The convenient dual compartment allows you to organize your electronics in three separate compartments, ideal for busy days.",
+            ],
+            paramters: [
+                { capacity: "28L" },
+                { volume: "1kg" },
+                { dimension: "34 x 24 x 48 cm" },
+                { warranty: "5 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 62,
+        brand: "Victorinox - Switzerland",
+        name: 'Laptop backpack 17" Altmont Original Vertical-Zip',
+        category: "balo",
+        newPrice: "4,550,000₫",
+        oldPrice: "6,500,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_068_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["red"],
+                code: "#c12c32",
+                image: "/images/balo_068_02.jpg",
+            },
+            {
+                id: "color3",
+                name: ["blue"],
+                code: "#52546c",
+                image: "/images/balo_068_03.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Victorinox neoprene multi-tool pocket on shoulder strap for easy access when needed",
+                "Zippered mesh pocket, key ring, pen loop, name tag, two side pockets and USB strap",
+                "Improved shoulder straps and back padding for maximum comfort, with intelligent ventilation system, trolley strap and hidden back pocket",
+            ],
+            desc: [
+                "Smart design and innovative materials take the Victorinox Altmont Original Vertical-Zip Swiss Backpack to the next level. Designed to protect your laptop and other essentials while you commute, bike around town or hike, this backpack combines functionality and comfort. The spacious main compartment houses a padded laptop sleeve and organizational pockets keep your devices, pens and keys separate.",
+            ],
+            paramters: [
+                { capacity: "24L" },
+                { volume: "1kg" },
+                { dimension: "33 x 23 x 47 cm" },
+                { warranty: "5 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 63,
+        brand: "Victorinox - Switzerland",
+        name: "Balo Altmont Active Rolltop",
+        category: "balo",
+        newPrice: "2,050,000₫",
+        oldPrice: "2,900,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["red"],
+                code: "#c12c32",
+                image: "/images/balo_067_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_067_02.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Swiss brand laptop backpack",
+                "Multi-functional integrated",
+                "Breathable padded shoulder straps and back",
+                "Bottle opener on shoulder strap",
+            ],
+            desc: [
+                "Style and quality come together in the Victorinox Altmont Active backpack range, intelligently designed to provide essential functionality for life's everyday adventures. The Altmont Active Rolltop laptop backpack features trailwalker-style features such as gear loops and daisy chains, a bottle opener, and a breathable padded back panel for comfort. A secure laptop compartment with a hidden zipper at the back of the backpack provides quick access when on the go.",
+            ],
+            paramters: [
+                { capacity: "18L" },
+                { volume: "0.7kg" },
+                { dimension: "29 x 17 x 28 cm" },
+                { warranty: "1 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 64,
+        brand: "AMERICAN TOURISTER",
+        name: "Balo Work:Out 03",
+        category: "balo",
+        newPrice: "1,110,000₫",
+        oldPrice: "2,200,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_065_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["gray"],
+                thumbnail: "/images/color_balo_065_02.webp",
+                image: "/images/balo_065_02.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Secure secret compartment on the back of the backpack",
+                "Tactum shoulder straps for comfort",
+                "Ample interior organization",
+                "Compartment for laptop and tablet protection",
+                "2 side pockets",
+                "luggage strap",
+            ],
+            desc: [
+                "The Work:Out backpack collection from American Tourister is a versatile backpack, the perfect solution for those with an active lifestyle. The Work:Out backpack line comes in three different designs, with integrated Tractum shoulder straps, a lockable laptop compartment and special features to meet the active needs of all users.",
+            ],
+            paramters: [
+                { capacity: "30L" },
+                { volume: "0.9kg" },
+                { dimension: "31 x 21 x 48 cm" },
+                { warranty: "1 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 65,
+        brand: "Delsey - France",
+        name: 'Laptop backpack 15" Securflap',
+        category: "balo",
+        newPrice: "2,050,000₫",
+        oldPrice: "4,100,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["red"],
+                code: "#990001",
+                image: "/images/balo_064_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_064_02.jpg",
+            },
+            {
+                id: "color3",
+                name: ["gray"],
+                code: "#cbcbcb",
+                image: "/images/balo_064_03.jpg",
+            },
+            {
+                id: "color4",
+                name: ["orange"],
+                code: "#ff9900",
+                image: "/images/balo_064_04.jpg",
+            },
+            {
+                id: "color5",
+                name: ["darkgray"],
+                code: "#888888",
+                image: "/images/balo_064_05.jpg",
+            },
+            {
+                id: "color6",
+                name: ["blue"],
+                code: "#0133ff",
+                image: "/images/balo_064_06.jpg",
+            },
+            {
+                id: "color7",
+                name: ["green"],
+                code: "#00cc00",
+                image: "/images/balo_064_07.jpg",
+            },
+            {
+                id: "color8",
+                name: ["yellow"],
+                code: "#ffff00",
+                image: "/images/balo_064_08.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Red Dot Design Award Winner - Best of the best",
+                "Innovative and extremely secure opening and closing system",
+                "Modern, elegant design",
+                "Optimized capacity, with 15' laptop compartment",
+                "Rich, smart interior organization",
+                "Soft, airy padded back and shoulder straps",
+                "RFID anti-theft security compartment",
+                "Integrated strap for suitcase push",
+            ],
+            desc: [
+                "The Securflap from Delsey is the backpack for your everyday commutes and adventures. In addition to its unique anti-theft system, the Securflap backpack features multiple pockets and secure compartments designed to provide peace of mind while on the go. The Securflap backpack provides you with all the comfort and features you need, allowing you to easily carry your essentials wherever you go!",
+            ],
+            paramters: [
+                { capacity: "20.78L" },
+                { volume: "1kg" },
+                { dimension: "31.5 x 14.5 x 45.5 cm" },
+                { warranty: "2 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 66,
+        brand: "Victorinox - Switzerland",
+        name: "Balo VX Sport EVO Compact",
+        category: "balo",
+        newPrice: "2,660,000₫",
+        oldPrice: "3,800,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#2a374b",
+                image: "/images/balo_063_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["red"],
+                code: "#761a25",
+                image: "/images/balo_063_02.jpg",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_063_03.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Offers great functionality and versatile organization with dedicated compartments for your tech gear.",
+                "Accentuated with the Victorinox cross and shield logo, a symbol of quality.",
+                "Adjustable, padded shoulder straps and a padded back with air channels ensure optimal comfort during use.",
+                "Integrated carry handle for convenient carry.",
+            ],
+            desc: [
+                "The Victorinox VX Sport EVO Compact backpack keeps your personal tech gear safe while ensuring maximum comfort. Crafted from durable polyester, this backpack features an air flow system to keep you cool. The back and shoulder straps are padded for a comfortable wearing experience even on long trips. The VX Sport EVO Compact features a versatile storage system to suit all your needs. You can easily organize your belongings scientifically and conveniently thanks to the dedicated compartments. This backpack is the perfect combination of functionality and design, making it a reliable companion on all your journeys.",
+            ],
+            paramters: [
+                { capacity: "20L" },
+                { volume: "0.7kg" },
+                { dimension: "31 x 18 x 45 cm" },
+                { warranty: "10 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 67,
+        brand: "AMERICAN TOURISTER",
+        name: "Balo Trent",
+        category: "balo",
+        newPrice: "950,000₫",
+        oldPrice: "1,900,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["red"],
+                thumbnail: "/images/color_balo_062_01.jpg",
+                image: "/images/balo_062_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_062_02.jpg",
+            },
+            {
+                id: "color3",
+                name: ["green"],
+                thumbnail: "/images/color_balo_062_03.jpg",
+                image: "/images/balo_062_03.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Exquisite interior organization",
+                "Water resistant",
+                "Two convenient side pockets",
+                "Quick access front pocket",
+                "Fits 15.6' laptop",
+                "Wide opening mouth",
+            ],
+            desc: [
+                "A backpack is more than just a bag. It's a portable storage unit. And it's a reflection of the care you put into the items you choose to store in it. The Trent everyday backpack collection features a modern design, eco-friendly materials, and is still waterproof. All your smart electronic devices will not be afraid of getting wet on rainy days. Trent backpacks are inspired by the outdoors and come in a variety of beautiful colors to express your personality.",
+            ],
+            paramters: [
+                { capacity: "25L" },
+                { volume: "0.7kg" },
+                { dimension: "30 x 18 x 49 cm" },
+                { warranty: "1 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 68,
+        brand: "Victorinox - Switzerland",
+        name: 'Laptop backpack 15.6" Altmont Original',
+        category: "balo",
+        newPrice: "2,970,000₫",
+        oldPrice: "4,100,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["red"],
+                code: "#761a25",
+                image: "/images/balo_061_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_061_02.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Multi-functional interior optimized to keep all your items perfectly organized and easily accessible",
+                "Sturdy and extremely comfortable shoulder straps",
+                "Soft and breathable back cushion, comfortable to use",
+                "15.6' laptop compartment",
+            ],
+            desc: [
+                "A lightweight backpack that can hold all your gear, whether you're on the go to a meeting or on an adventure. The Altmont Original 15.6' laptop backpack features an easy-access front compartment, while a padded compartment keeps your laptop safe. Durable, lightweight, and a backpack that meets all your everyday needs.",
+            ],
+            paramters: [
+                { capacity: "22L" },
+                { volume: "0.8kg" },
+                { dimension: "32 x 21 x 48 cm" },
+                { warranty: "10 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 69,
+        brand: "LEVEL8 - USA",
+        name: "Laptop backpack 15.6in LEVEL8 Moment",
+        category: "balo",
+        newPrice: "2,200,000₫",
+        oldPrice: "4,400,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["gray"],
+                code: "#888",
+                image: "/images/balo_060_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_060_02.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "The backpack is made of durable, high-quality fabric that is water-resistant to protect your belongings inside",
+                "The main compartment has a large capacity, the bag opens wide for easy access",
+                "There is a compartment to protect a 15.6' laptop",
+                "The magnetic lock design is creative, safe but still easy to access",
+                "There are convenient front and side compartments",
+                "The back cushion is soft and airy, with an integrated strap to hold the suitcase handle",
+                "The interior is made of environmentally sustainable rPET material",
+            ],
+            paramters: [
+                { capacity: "20L" },
+                { volume: "1.32kg" },
+                { dimension: "30 x 14 x 46.5 cm" },
+                { warranty: "1 year" },
+                { material: "Polyester + PU" },
+            ],
+        },
+    },
+    {
+        id: 70,
+        brand: "Samsonite Red - USA",
+        name: "Balo 3ways Vickson",
+        category: "balo",
+        newPrice: "4,410,000₫",
+        oldPrice: "6,300,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["gray"],
+                code: "#9fa190",
+                image: "/images/balo_059_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["blue"],
+                thumbnail: "/images/color_balo_059_02.webp",
+                image: "/images/balo_059_02.jpg",
+            },
+            {
+                id: "color3",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_059_03.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Use as a backpack, tote bag or crossbody bag",
+                "Optimized for storage with expandable space and multiple multi-purpose external compartments",
+                "Removable interior compartment, optimized for mobility",
+                "17' laptop compartment with padded and smart belt",
+                "Integrated trolley strap for convenience",
+                "Soft mesh padded shoulder straps and adjustable chest strap",
+                "Includes removable shoulder strap",
+                "Side pocket for water bottle or umbrella",
+                "Ultra-durable CORDURA® fabric (except sky blue pattern)",
+            ],
+            desc: [
+                "For business trips, short trips or simply everyday use, the Samsonite Red Vickson is made from durable CORDURA® material, giving you a wide range of style options with a variety of designs from 3-way backpacks to Crossbody bags. The diverse color palette with black, light khaki, fresh blue, blue patterned colors and light beige makes it easy to coordinate with any outfit.",
+            ],
+            paramters: [
+                { capacity: "29L" },
+                { volume: "1.23kg" },
+                { dimension: "32 x 17 x 50 cm" },
+                { warranty: "2 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
+    {
+        id: 71,
+        brand: "AMERICAN TOURISTER",
+        name: "Balo Vibe NXT 2A",
+        category: "balo",
+        newPrice: "800,000₫",
+        oldPrice: "1,600,000₫",
+        colors: [
+            {
+                id: "color1",
+                name: ["blue"],
+                code: "#2a59c0",
+                image: "/images/balo_056_01.jpg",
+            },
+            {
+                id: "color2",
+                name: ["black"],
+                code: "#000",
+                image: "/images/balo_056_02.jpg",
+            },
+        ],
+        details: {
+            features: [
+                "Easy-access front compartment",
+                "Multi-compartment interior",
+                "Protective laptop compartment",
+                "Integrated rain cover",
+                "Adjustable shoulder straps",
+                "Soft, breathable back cushion",
+            ],
+            desc: [
+                "The Vibe Nxt backpack collection from the American Tourister brand provides added comfort and convenience to users with useful features: sturdy and adjustable shoulder straps, easy-access front compartment, laptop protection compartment, rain cover, soft and airy back padding...",
+            ],
+            paramters: [
+                { capacity: "28L" },
+                { volume: "0.7kg" },
+                { dimension: "32 x 19 x 46 cm" },
+                { warranty: "1 year" },
+                { material: "Polyester" },
+            ],
+        },
+    },
 ];
 
 export default products;

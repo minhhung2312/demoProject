@@ -13,8 +13,8 @@ function Outstanding() {
         <div className="outstanding">
             <div id="vali">
                 <div className="header">
-                    <h2 className="title">VALI NỔI BẬT</h2>
-                    <Link to="/Vali">Xem thêm</Link>
+                    <h2 className="title">OUTSTANDING SUITCASES</h2>
+                    <Link to="/Vali">View more</Link>
                 </div>
                 <div className="container">
                     {vali.map((product) => (
@@ -24,8 +24,8 @@ function Outstanding() {
             </div>
             <div id="balo">
                 <div className="header">
-                    <h2 className="title">BALO NỔI BẬT</h2>
-                    <Link to="/Balo">Xem thêm</Link>
+                    <h2 className="title">OUTSTANDING BACKPACKS</h2>
+                    <Link to="/Balo">View more</Link>
                 </div>
                 <div className="container">
                     {balo.map((product) => (
@@ -35,8 +35,8 @@ function Outstanding() {
             </div>
             <div id="bag">
                 <div className="header">
-                    <h2 className="title">TÚI XÁCH NỔI BẬT</h2>
-                    <Link to="/Handbag">Xem thêm</Link>
+                    <h2 className="title">OUTSTANDING HANDBAGS</h2>
+                    <Link to="/Handbag">View more</Link>
                 </div>
                 <div className="container">
                     {bag.map((product) => (

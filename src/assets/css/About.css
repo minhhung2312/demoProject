@@ -45,6 +45,8 @@
   }
   
   .list-item {
+    margin: 0 auto;
+    width: 83%;
     list-style-type: disc;
     padding-left: 40px;
     margin-bottom: 20px;
