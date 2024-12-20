@@ -4,46 +4,46 @@ import '../assets/css/SuitcaseInfo.css';
 const SuitcaseInfo = () => {
   return (
     <div className="suitcase-info-container">
-      <p><strong>Vali kéo</strong> không chỉ đơn thuần là để đựng đồ đạc cho mỗi chuyến đi xa, để du khách yên tâm có đầy đủ đồ dùng khám phá những địa điểm mới mẻ, mà còn là hành trình của sự tiện lợi. Với nhiều ưu điểm nổi bật, vali kéo du lịch không chỉ giúp bảo vệ đồ đạc mà còn mang lại sự tiện lợi và phong cách cho người sử dụng.</p>
-      <h2 className="title">Vali kéo dùng chất liệu gì?</h2>
+      <p><strong>Rolling suitcases</strong> are not just for storing items for a trip, allowing travelers to have all their necessary things to explore new destinations, but also a journey of convenience. With many outstanding advantages, rolling travel suitcases not only help protect belongings but also bring convenience and style to the user.</p>
+      <h2 className="title">What materials are used for rolling suitcases?</h2>
       <p className="description">
-        Túy chọn loại vali theo chất liệu như sau:
+        Here are the options for choosing a suitcase based on material:
       </p>
       <ul className="material-list">
         <li>
-          <strong>- Vali nhựa:</strong> Thường được làm từ chất liệu nhựa cao cấp như ABS, Polycarbonate, nhựa hạt có độ bền cao giúp bảo vệ vali luôn bền đẹp qua thời gian.
+          <strong>- Plastic suitcases:</strong> Usually made from premium materials like ABS, Polycarbonate, and high-durability granule plastics, which help protect the suitcase and keep it looking new over time.
         </li>
         <li>
-          <strong>- Vali vải:</strong> Thường được làm từ vải nylon, polyester chặt chẽ, chịu được lực nén và va đập. Những vật liệu này đảm bảo độ bền tốt trong quá trình sử dụng.
+          <strong>- Fabric suitcases:</strong> Typically made from tightly woven nylon or polyester, resistant to compression and impacts. These materials ensure durability during use.
         </li>
         <li>
-          <strong>- Vali khung nhôm:</strong> Vali khung nhôm có trọng lượng nhẹ nhưng rất bền và chắc chắn. Đây là loại vali được nhiều người ưa chuộng vì tính chắc chắn và tính thẩm mỹ cao.
+          <strong>- Aluminum frame suitcases:</strong> Aluminum frame suitcases are lightweight but very durable and sturdy. This type of suitcase is favored by many for its sturdiness and aesthetic appeal.
         </li>
       </ul>
 
-      <h2 className="title">Tiện ích và bảo mật</h2>
+      <h2 className="title">Convenience and Security</h2>
       <p className="description">
-        <strong>Vali kéo du lịch</strong> thường được thiết kế với nhiều tiện ích giúp bảo vệ đồ đạc và tăng cường độ an toàn trong suốt hành trình của bạn:
+        <strong>Rolling travel suitcases</strong> are often designed with many features to protect belongings and enhance safety throughout your journey:
       </p>
       <ul className="features-list">
-        <li>Vali kéo du lịch thường được tích hợp khóa số an toàn giúp bảo vệ đồ đạc bên trong vali của bạn.</li>
-        <li>Với các thiết kế thông minh như vali có thể xoay 360 độ, giúp bạn dễ dàng di chuyển với mọi hướng mà không tốn nhiều công sức.</li>
-        <li>Vali khổ lớn chống rạch giúp bảo vệ khóa số TSA, thuận tiện cho các sân bay kiểm tra hành lý khi cần.</li>
+        <li>Rolling travel suitcases are often equipped with a secure combination lock to protect the items inside your suitcase.</li>
+        <li>With smart designs like 360-degree spinning capability, making it easy to move in any direction without much effort.</li>
+        <li>Large-sized suitcases with anti-slash fabric help protect the TSA combination lock, making it convenient for airport security checks when needed.</li>
       </ul>
 
-      <h2 className="title">Cách chọn size vali</h2>
+      <h2 className="title">How to Choose a Suitcase Size</h2>
       <p className="description">
-        Cách chọn size vali sẽ phụ thuộc vào nhu cầu sử dụng của bạn. Các kích thước phổ biến của vali bao gồm:
+        The choice of suitcase size depends on your usage needs. Common suitcase sizes include:
       </p>
       <ul className="size-list">
         <li>
-          <strong>Size cabin (S):</strong> Đây là vali nhỏ gọn, có thể xách tay mang lên máy bay như một phần hành lý xách tay.
+          <strong>Cabin size (S):</strong> This is a compact suitcase, small enough to be carried as hand luggage onto an airplane.
         </li>
         <li>
-          <strong>Size trung (M):</strong> Đây là vali trung bình, thường có kích thước từ 20-25kg, sử dụng cho các chuyến du lịch ngắn ngày.
+          <strong>Medium size (M):</strong> This is a medium-sized suitcase, typically weighing between 20-25kg, suitable for short trips.
         </li>
         <li>
-          <strong>Size đại (L):</strong> Đây là loại vali lớn, thích hợp cho những chuyến công tác dài ngày.
+          <strong>Large size (L):</strong> This is a large suitcase, ideal for long business trips.
         </li>
       </ul>
     </div>

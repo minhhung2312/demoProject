@@ -9,32 +9,32 @@ function TopFavorite() {
     const displayedVali = products.filter((product) => product.isTopFavoriteVali);
     const displayedProduct = products.filter((product) => product.isTopFavoriteProduct);
 
-    return ( 
+    return (
         <div className="top-favorite">
             <ul className="container">
-                <li 
+                <li
                     className={activeTab === 'vali' ? 'active' : ''}
                     onClick={() => setActiveTab('vali')}
-                >Top Vali Yêu Thích</li>
-                <li 
+                >Top Favorite Suitcases</li>
+                <li
                     className={activeTab === 'product' ? 'active' : ''}
                     onClick={() => setActiveTab('product')}
-                >Top Sản Phẩm Yêu Thích</li>
+                >Top Favorite Products</li>
             </ul>
-            <div 
+            <div
                 className="vali"
-                style={{display: activeTab === 'vali' ? 'flex' : 'none'}}
+                style={{ display: activeTab === 'vali' ? 'flex' : 'none' }}
             >
                 {displayedVali.map((product) => (
-                    <ProductCard key={product.id} product={product}/>
+                    <ProductCard key={product.id} product={product} />
                 ))}
             </div>
-            <div 
+            <div
                 className="product"
-                style={{display: activeTab === 'product' ? 'flex' : 'none'}}
+                style={{ display: activeTab === 'product' ? 'flex' : 'none' }}
             >
                 {displayedProduct.map((product) => (
-                    <ProductCard key={product.id} product={product}/>
+                    <ProductCard key={product.id} product={product} />
                 ))}
             </div>
         </div>

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
 function ProductOfWeb() {
-    return ( 
+    return (
         <div className="product-of-web">
             <h2 className="header">
-                SẢN PHẨM CỦA HOUSE OF LUGGAGE
+                PRODUCTS OF HOUSE OF LUGGAGE
             </h2>
             <div className="container">
                 <div className="item-product">
