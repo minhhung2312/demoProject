@@ -88,7 +88,9 @@ function Header() {
     return (
         <div>
             <div className="line">
-                FREE SHIPPING FOR ORDERS OVER 1,500,000 VND
+
+            FREE SHIPPING FOR ORDERS FROM 1,500,000 VND
+    
             </div>
 
             <nav className="nav">
@@ -109,7 +111,7 @@ function Header() {
                             <Link to="/Vali">SUITCASE</Link>
                         </li>
                         <li>
-                            <Link to="/Balo">BALO</Link>
+                            <Link to="/Balo">BACKPACK</Link>
                         </li>
                         <li>
                             <Link to="/Handbag">HANDBAG</Link>
