@@ -14,7 +14,7 @@ function ProductCard({ product }) {
         return (
             <div className="not-selectedColor">
                 <h2 className="header">{product.name}</h2>
-                <p className="text">Sản phẩm này hiện không có màu khả dụng.</p>
+                <p className="text">This product is currently unavailable in any color.</p>
             </div>
         );
     }

@@ -2,7 +2,7 @@ function BrandIcon() {
     return ( 
         <div className="brand-icon">
             <h2 className="header">
-                Thương hiệu hàng đầu thế giới tại House of Luggage
+            World's Leading Brands at House of Luggage
             </h2>
             <div className="logo-brand">
                 <img src="/images/brand1.webp" alt="brand1" />

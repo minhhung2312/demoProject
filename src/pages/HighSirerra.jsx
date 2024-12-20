@@ -9,25 +9,16 @@ function HighSirerra() {
         </div>
         <h1 className="title">High Sierra</h1>
         <div className="line-title"></div>
-        <div className="brand-info">PHÁ BỎ NHỮNG GIỚI HẠN</div>
+        <div className="brand-info">BREAKING LIMITS</div>
         <div className="content">
-          <h4>Lịch sử hình thành và phát triển</h4>
+          <h4>History of Formation and Development</h4>
           <div className="content__row">
             <div className="row__text">
               <p>
-                Thành lập năm 1978 bởi người cha Herb và con trai Hank Bernbaum
-                tại Chicago, Mỹ. Lấy cảm hứng từ ngọn núi cao nhất, rặng cây cao
-                nhất và những thác nước lớn nhất làm khung tham chiếu và là mục
-                tiêu mà <strong>High Sierra</strong> hướng tới.
+                Founded in 1978 by Herb, the father, and Hank Bernbaum, the son, in Chicago, USA. Inspired by the highest mountains, tallest trees, and largest waterfalls, these served as the reference frame and goals that <strong>High Sierra</strong> strives for.
               </p>
               <p>
-                Trong bất kỳ cuộc hành trình nào, dù núi cao hay biển sâu, dù
-                trong công việc hay đời sống, đồng hành cùng bạn - đó chính là
-                <strong>High Sierra</strong>. Tạo ra những sản phẩm dành cho
-                người đam mê hoạt động ngoài trời với chất lượng tuyệt hảo, tiện
-                lợi, đa chức năng, giá cả hợp lí là những giá trị cốt lõi mà
-                thương hiệu <strong>High Sierra</strong> hướng tới và định hình
-                nên một High Sierra phá bỏ mọi giới hạn.
+                In any journey, whether in the mountains or deep in the sea, whether in work or life, <strong>High Sierra</strong> accompanies you. Creating products for outdoor enthusiasts with excellent quality, convenience, multi-functionality, and affordable prices is the core value that the <strong>High Sierra</strong> brand aims for, establishing a High Sierra that breaks all limits.
               </p>
             </div>
             <div className="row__img">
@@ -52,42 +43,28 @@ function HighSirerra() {
 
             </div>
             <div className="row__text sub">
-              <h4>BALO HIGH SIERRA - VẼ NÊN NHỮNG DẤU SON LỊCH SỬ TUYỆT VỜI</h4>
+              <h4>HIGH SIERRA BACKPACKS - CREATING HISTORIC LEGACIES</h4>
               <ul>
-                <li>Đầu tiên là những chiếc balo có gắn bánh xe</li>
+                <li>First came backpacks with wheels</li>
                 <li>
-                  Một ý tưởng đến từ đỉnh Sierra Nevada, ngọn núi cao nhất phía
-                  Tây Hoa Kỳ như một biểu tượng tuyệt vời trong việc phá bỏ giới
-                  hạn giữa khái niệm "đặt chân" lên thế giới thay vì "nhìn ngắm"
-                  thế giới.
+                  An idea from the top of Sierra Nevada, the highest mountain in the western United States, as a brilliant symbol in breaking the boundary between the concept of "stepping into" the world rather than "just observing" it.
                 </li>
                 <li>
-                  Tự hào trở thành thành viên của hiệp hội EOCA (Euro pean
-                  Outdoor Conservation Association) - Hiệp hội bảo tồn thắng
-                  cảnh Châu Âu.
+                  Proud to be a member of the EOCA (European Outdoor Conservation Association).
                 </li>
                 <li>
-                  Là nhà cung cấp chính thức túi xách cho đội trượt tuyết,
-                  Snowboarding, Freeskiing của Hoa Kỳ.
+                  Official supplier of bags for the US Ski, Snowboarding, and Freeskiing teams.
                 </li>
                 <li>
-                  Là đơn vị chủ động cam kết hỗ trợ sản phẩm cho những tài năng
-                  hoạt động thể chất ngoài trời. <strong>High Sierra</strong> đã
-                  không ngừng cải tiến và bổ sung hàng loạt tính năng thông dụng
-                  để đáp ứng tất cả nhu cầu khác nhau. Nhắc đến{" "}
-                  <strong>High Sierra</strong> có nghĩa là nhắc đến tất cả các
-                  hoạt động thực tế, khác biệt, và sống động.
+                  Committed to supporting products for outdoor physical talents. <strong>High Sierra</strong> has continuously improved and added many practical features to meet all different needs. Mentioning <strong>High Sierra</strong> means mentioning all practical, unique, and vibrant activities.
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <h4>CÙNG SAMSONITE CHINH PHỤC ĐỈNH CAO MỚI</h4>
+        <h4>TOGETHER WITH SAMSONITE, CONQUERING NEW HEIGHTS</h4>
         <p>
-          Năm 2012, <strong>High Sierra</strong> chính thức đồng hành cùng gia
-          đình Samsonite trong con đường chinh phục những đỉnh cao mới. Cùng
-          truyền cảm hứng cho người du lịch về những cuộc phiêu lưu đa dạng và
-          đầy đam mê về sự sống mãnh liệt.
+          In 2012, <strong>High Sierra</strong> officially partnered with the Samsonite family in their journey to conquer new heights. Together, they inspire travelers with diverse and passionate adventures about the intense experience of life.
         </p>
       </div>
     </div>
