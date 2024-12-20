@@ -109,7 +109,7 @@ function Header() {
                             <Link to="/Vali">SUITCASE</Link>
                         </li>
                         <li>
-                            <Link to="/Balo">BALO</Link>
+                            <Link to="/Balo">BACKPACK</Link>
                         </li>
                         <li>
                             <Link to="/Handbag">HANDBAG</Link>
