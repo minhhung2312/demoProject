@@ -31,7 +31,7 @@ function Cart({ cart, setCart }) {
         setCurrentCart([]);
         setCart([]); // Cập nhật giỏ hàng trong Header
         localStorage.removeItem("cart");
-        alert("Cảm ơn bạn đã mua hàng!");
+        alert("Thank you for your purchase!");
     };
 
     const handleUpdateQuantity = (itemId, newQuantity) => {
@@ -49,9 +49,9 @@ function Cart({ cart, setCart }) {
     return (
         <div className='cart-container'>
             <div className="body">
-                <h2 className='header'>Giỏ hàng</h2>
+                <h2 className='header'>Cart</h2>
                 {currentCart.length === 0 ? (
-                    <p className='not-card'>Hiện giỏ hàng của bạn đang trống.</p>
+                    <p className='not-card'>Your cart is currently empty.</p>
                 ) : (
                     <div className='cart-list'>
                         {currentCart.map((item, index) => (
@@ -64,7 +64,7 @@ function Cart({ cart, setCart }) {
                                 <div className='cart-info'>
                                     <p className='cart-item__name'>{item.name}</p>
                                     <div className="controls">
-                                        <label>Số lượng: </label>
+                                        <label>Quanlity </label>
                                         <button
                                             className="decrease"
                                             onClick={() =>
@@ -91,18 +91,18 @@ function Cart({ cart, setCart }) {
                                             +
                                         </button>
                                     </div>
-                                    <p>Giá: <span className='highlight'>{item.price}</span></p>
+                                    <p>Price: <span className='highlight'>{item.price}</span></p>
                                 </div>
                                 <button 
                                     onClick={() => handleRemoveItem(item.id)} 
                                     className='button-remove'
                                 >
-                                    Xóa
+                                    Delete
                                 </button>
                             </div>
                         ))}
-                        <h3 className='result'>Tổng tiền: {totalAmount.toLocaleString()}₫</h3>
-                        <button className="pay" onClick={handleCheckout}>THANH TOÁN</button>
+                        <h3 className='result'>Total amount: {totalAmount.toLocaleString()}₫</h3>
+                        <button className="pay" onClick={handleCheckout}>PAY</button>
                     </div>
                 )}
             </div>
