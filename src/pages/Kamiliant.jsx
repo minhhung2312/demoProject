@@ -50,11 +50,12 @@ function Kamiliant() {
                 height="315"
                 src="https://www.youtube.com/embed/c2HZOMhO_SY?si=p3MyyYKx0zXbsKr_"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
               ></iframe>
+
             </div>
             <div className="row__text">
               <p>

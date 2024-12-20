@@ -30,11 +30,12 @@ function AmericanTourister() {
                                 height="315"
                                 src="https://www.youtube.com/embed/rqaBjrh4R-U?si=FqpwkcqBKENdgO_6"
                                 title="YouTube video player"
-                                frameborder="0"
+                                frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen>
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen>
                             </iframe>
+
                         </div>
                         <div className="row__text">
                             <p>"Life is a journey" - Samsonite's journey of continuous development, spanning more than a century, continues to explain the close connection between Samsonite and the travel industry. Through creativity, exploring different aspects of travelers' lives, reflected in each product, Samsonite has strongly inspired travelers while bringing fresh ideas to the travel industry. Especially, it stimulates experiences and the desire to explore the world, as well as a return to history and the past. Today, Samsonite continues to affirm itself as a leading brand in the suitcase manufacturing industry by producing high-quality, elegant, lightweight products. The designs include many practical interior features that meet the essential needs of frequent travelers. In all its products, customer desires are always the top priority for Samsonite to research and make decisions to turn design ideas into reality. This motivation also helps Samsonite remain a pioneering brand in introducing suitcases with superior features, such as the world's first wheeled suitcase, the lightest, and the most durable suitcase, etc.</p>
