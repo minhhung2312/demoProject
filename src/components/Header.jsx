@@ -171,9 +171,9 @@ function Header() {
             </nav>
 
             <div className="discount">
-                Nhập mã <span className="discount-code">HOL10</span> giảm 10%
-                tất cả sản phẩm
+                Enter code <span className="discount-code">HOL10</span> to get 10% off all products
             </div>
+
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Brand" element={<Brand></Brand>} />
@@ -190,12 +190,12 @@ function Header() {
                 <Route path="/SignUp" element={<SignUp />} />
                 <Route path='/Search' element={<Search />} />
                 <Route path='/Cart' element={<Cart cart={cart} setCart={setCart} />} />
-                <Route path="/pages/American-Tourister" element={<AmericanTourister/>}></Route>
-                <Route path="/pages/Samsonite" element={<Samsonite/>}></Route>
-                <Route path="/pages/Victorinox" element={<Victorinox/>}></Route>
-                <Route path="/pages/Ace" element={<Ace/>}></Route>
-                <Route path="/pages/High-Sierra" element={<HighSirerra/>}></Route>
-                <Route path="/pages/Kamiliant" element={<Kamiliant/>}></Route>
+                <Route path="/pages/American-Tourister" element={<AmericanTourister />}></Route>
+                <Route path="/pages/Samsonite" element={<Samsonite />}></Route>
+                <Route path="/pages/Victorinox" element={<Victorinox />}></Route>
+                <Route path="/pages/Ace" element={<Ace />}></Route>
+                <Route path="/pages/High-Sierra" element={<HighSirerra />}></Route>
+                <Route path="/pages/Kamiliant" element={<Kamiliant />}></Route>
             </Routes>
         </div>
     );
