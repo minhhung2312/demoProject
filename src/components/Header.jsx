@@ -171,9 +171,10 @@ function Header() {
             </nav>
 
             <div className="discount">
-                Nhập mã <span className="discount-code">HOL10</span> giảm 10%
-                tất cả sản phẩm
+                Enter code <span className="discount-code">HOL10</span> to get
+                10% off all products
             </div>
+
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Brand" element={<Brand></Brand>} />
