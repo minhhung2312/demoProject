@@ -2,12 +2,11 @@ import React from "react";
 import "../assets/css/Footer.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
-                {/* Cột 1 */}
+                {/* Column 1 */}
                 <div className="footer-column column1">
                     <img
                         src="/icon/logo.png"
@@ -15,36 +14,36 @@ const Footer = () => {
                         className="footer-logo"
                     />
                     <p className="color_footer">
-                        Với tiêu chí mang đến các sản phẩm từ các thương hiệu hành lý quốc tế nổi tiếng,
-                        đẳng cấp và chất lượng, với mức giá hợp lý nhất đến cho người Việt Nam.
-                        Sản phẩm tại House Of Luggage đều là sản phẩm chính hãng, độc quyền phân phối và được bảo hành quốc tế
-                        (lên đến 10 năm - hoặc vĩnh viễn), phù hợp với nhiều phân khúc khách hàng, đa dạng kiểu dáng và màu sắc cho bạn dễ dàng lựa chọn.{" "}
+                        With the goal of providing products from internationally renowned luggage brands,
+                        offering high-class and quality products at the most reasonable prices for Vietnamese people.
+                        Products at House Of Luggage are all genuine, exclusively distributed, and internationally warranted
+                        (up to 10 years - or lifetime). They cater to various customer segments, offering diverse designs and colors for your selection.{" "}
                         <a href="https://hol.com.vn" target="_blank" rel="noopener noreferrer">
                             hol.com.vn
                         </a>.
                     </p>
                     <img
                         src="/icon/boCongThuong.jpg"
-                        alt="Đã thông báo Bộ Công Thương"
+                        alt="Certified by the Ministry of Industry and Trade"
                         className="footer-verified"
                     />
                 </div>
 
-                {/* Cột 2 */}
+                {/* Column 2 */}
                 <div className="footer-column column2">
-                    <h4>THÔNG TIN LIÊN HỆ</h4>
+                    <h4>CONTACT INFORMATION</h4>
                     <p>
-                        <span style={{ fontWeight: "700" }}>CÔNG TY TNHH TÚI XÁCH & HÀNH LÝ TOÀN CẦU</span>
+                        <span style={{ fontWeight: "700" }}>GLOBAL BAGS & LUGGAGE COMPANY LIMITED</span>
                     </p>
                     <ul className="formatted-list color_footer">
-                        <li className="formatted-list-item">Địa chỉ: L17-11, tầng 17, tòa nhà Vincom Center, 72 Lê Thánh Tôn, Q.1, TP.HCM</li>
-                        <li className="formatted-list-item">Điện thoại: 028.3934.5036 - 1800.6063</li>
-                        <li className="formatted-list-item">Giấy CNĐKKD: 0314741857</li>
-                        <li className="formatted-list-item">Cơ quan cấp: Phòng Đăng Ký Kinh Doanh - Sở Kế Hoạch Và Đầu Tư TP.HCM</li>
+                        <li className="formatted-list-item">Address: L17-11, 17th Floor, Vincom Center Building, 72 Le Thanh Ton, District 1, HCMC</li>
+                        <li className="formatted-list-item">Phone: 028.3934.5036 - 1800.6063</li>
+                        <li className="formatted-list-item">Business Registration Certificate: 0314741857</li>
+                        <li className="formatted-list-item">Issuing Authority: Business Registration Office - Department of Planning and Investment of HCMC</li>
                     </ul>
                 </div>
 
-                {/* Cột 3 */}
+                {/* Column 3 */}
                 <div className="footer-column column3">
                     <h4 className="caption_footer">FOLLOW US</h4>
                     <div className="footer-social">
@@ -60,16 +59,16 @@ const Footer = () => {
                         <p className="hotline_item margin-top-20 margin-bottom-20">
                             <i className="fa-solid fa-phone"></i> 1800 6063
                         </p>
-                        <strong className="caption_footer">BẢO HÀNH</strong>
+                        <strong className="caption_footer">WARRANTY</strong>
                         <p className="margin-top-20 margin-bottom-20 hotline_item">
-                            <i className="fa-solid fa-phone"></i> 1800 6063 (bấm số 3)
+                            <i className="fa-solid fa-phone"></i> 1800 6063 (press 3)
                         </p>
-                        <strong className="caption_footer">B2B (BÁN SỈ):</strong>
+                        <strong className="caption_footer">B2B (WHOLESALE):</strong>
                         <div className="margin-top-20 margin-bottom-20">
                             <p className="hotline_item"><i className="fa-solid fa-envelope"></i> b2b@global-luggage.com.vn</p>
-                            <p className="hotline_item"><i className="fa-solid fa-phone"></i> Miền Bắc: 0909 559 719</p>
-                            <p className="hotline_item"><i className="fa-solid fa-phone"></i> Miền Trung: 0909 880 710</p>
-                            <p className="hotline_item"><i className="fa-solid fa-phone"></i> Miền Nam: 0938 917 108</p>
+                            <p className="hotline_item"><i className="fa-solid fa-phone"></i> Northern Region: 0909 559 719</p>
+                            <p className="hotline_item"><i className="fa-solid fa-phone"></i> Central Region: 0909 880 710</p>
+                            <p className="hotline_item"><i className="fa-solid fa-phone"></i> Southern Region: 0938 917 108</p>
                         </div>
                     </div>
                 </div>
