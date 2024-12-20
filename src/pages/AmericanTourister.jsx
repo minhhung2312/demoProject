@@ -1,7 +1,7 @@
 import '../assets/css/AmericanTourister.css'
 
 function AmericanTourister() {
-    return (  
+    return (
         <div className="AmericanTourister">
             <div className="container">
                 <div className="slider"><img src="/images/Slider-american-tourister-01.jpg" alt="" /></div>
@@ -29,7 +29,17 @@ function AmericanTourister() {
                 <div className="content">
                     <div className="content__row">
                         <div className="youtube">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vdKS-XPY9XU?si=FqpwkcqBKENdgO_6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/vdKS-XPY9XU?si=FqpwkcqBKENdgO_6"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen>
+                            </iframe>
+
                         </div>
                         <div className="row__text">
                             <h4>GIÁ TRỊ THƯƠNG HIỆU AMERICAN TOURISTER</h4>
