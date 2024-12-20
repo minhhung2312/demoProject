@@ -14,13 +14,15 @@ function ProductCard({ product }) {
         return (
             <div className="not-selectedColor">
                 <h2 className="header">{product.name}</h2>
-                <p className="text">This product is currently unavailable in any color.</p>
+                <p className="text">
+                    This product is currently unavailable in any color.
+                </p>
             </div>
         );
     }
 
-    return ( 
-        <div 
+    return (
+        <div
             className="product-card"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
@@ -31,35 +33,42 @@ function ProductCard({ product }) {
                     alt={`${product.name} - ${selectedColor.name}`}
                     onClick={() => navigate(`/Product/${product.id}`)}
                 />
-                <div className={`sell ${isHovered ? '' : 'hidden'}`}>
-                    <button 
+                <div className={`sell ${isHovered ? "" : "hidden"}`}>
+                    <button
                         onClick={() => navigate(`/Product/${product.id}`)}
-                        className="buy__btn">MUA NGAY</button>
-                    <button 
+                        className="buy__btn"
+                    >
+                        BUY NOW
+                    </button>
+                    <button
                         onClick={() => navigate(`/Product/${product.id}`)}
-                        className="add-card__btn">THÊM VÀO GIỎ</button>
+                        className="add-card__btn"
+                    >
+                        ADD TO CART
+                    </button>
                 </div>
             </div>
             <div className="product-card__info">
                 <div className="product-card__colors">
                     {product.colors.map((color, index) => (
-                        <div 
-                            className={`color-item ${selectedColor.id === color.id ? 'active' : ''}`} 
+                        <div
+                            className={`color-item ${
+                                selectedColor.id === color.id ? "active" : ""
+                            }`}
                             key={color.id}
                             onClick={() => setSelectedColor(color)}
                         >
                             {color.thumbnail ? (
                                 <img
-                                    className='color-thumbnail'
+                                    className="color-thumbnail"
                                     src={color.thumbnail}
                                     alt={color.name[index]}
                                 />
                             ) : (
-                                <div 
+                                <div
                                     className="color-circle"
-                                    style={{backgroundColor: color.code}}
-                                >
-                                </div>
+                                    style={{ backgroundColor: color.code }}
+                                ></div>
                             )}
                         </div>
                     ))}
@@ -72,7 +81,7 @@ function ProductCard({ product }) {
                 </div>
             </div>
         </div>
-     );
+    );
 }
 
 export default ProductCard;
