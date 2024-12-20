@@ -88,7 +88,7 @@ function Header() {
     return (
         <div>
             <div className="line">
-                MIỄN PHÍ VẬN CHUYỂN CHO ĐƠN HÀNG TỪ 1.500.000Đ
+                FREE SHIPPING FOR ORDERS OVER 1,500,000 VND
             </div>
 
             <nav className="nav">
@@ -106,7 +106,7 @@ function Header() {
                             <Link to="/Brand">BRAND</Link>
                         </li>
                         <li>
-                            <Link to="/Vali">VALI</Link>
+                            <Link to="/Vali">SUITCASE</Link>
                         </li>
                         <li>
                             <Link to="/Balo">BALO</Link>
