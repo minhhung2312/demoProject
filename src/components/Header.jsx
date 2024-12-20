@@ -12,13 +12,13 @@ import Product from "./Product";
 import Login from "../pages/Login";
 import SignUp from "../pages/SignUp";
 import Cart from "../components/Cart";
-import About from '../pages/About';
-import Contact from '../pages/Contact';
-import Search from './Search';
-import AmericanTourister from '../pages/AmericanTourister';
-import Samsonite from '../pages/Samsonite';
-import Victorinox from '../pages/Victorinox';
-import Ace from '../pages/Ace';
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Search from "./Search";
+import AmericanTourister from "../pages/AmericanTourister";
+import Samsonite from "../pages/Samsonite";
+import Victorinox from "../pages/Victorinox";
+import Ace from "../pages/Ace";
 import HighSirerra from "../pages/HighSirerra";
 import Kamiliant from "../pages/Kamiliant";
 
@@ -88,9 +88,7 @@ function Header() {
     return (
         <div>
             <div className="line">
-
-            FREE SHIPPING FOR ORDERS FROM 1,500,000 VND
-    
+                FREE SHIPPING FOR ORDERS OVER 1,500,000 VND
             </div>
 
             <nav className="nav">
@@ -173,7 +171,8 @@ function Header() {
             </nav>
 
             <div className="discount">
-                Enter code <span className="discount-code">HOL10</span> to get 10% off all products
+                Enter code <span className="discount-code">HOL10</span> to get
+                10% off all products
             </div>
 
             <Routes>
@@ -190,13 +189,25 @@ function Header() {
                 />
                 <Route path="/Login" element={<Login />} />
                 <Route path="/SignUp" element={<SignUp />} />
-                <Route path='/Search' element={<Search />} />
-                <Route path='/Cart' element={<Cart cart={cart} setCart={setCart} />} />
-                <Route path="/pages/American-Tourister" element={<AmericanTourister />}></Route>
+                <Route path="/Search" element={<Search />} />
+                <Route
+                    path="/Cart"
+                    element={<Cart cart={cart} setCart={setCart} />}
+                />
+                <Route
+                    path="/pages/American-Tourister"
+                    element={<AmericanTourister />}
+                ></Route>
                 <Route path="/pages/Samsonite" element={<Samsonite />}></Route>
-                <Route path="/pages/Victorinox" element={<Victorinox />}></Route>
+                <Route
+                    path="/pages/Victorinox"
+                    element={<Victorinox />}
+                ></Route>
                 <Route path="/pages/Ace" element={<Ace />}></Route>
-                <Route path="/pages/High-Sierra" element={<HighSirerra />}></Route>
+                <Route
+                    path="/pages/High-Sierra"
+                    element={<HighSirerra />}
+                ></Route>
                 <Route path="/pages/Kamiliant" element={<Kamiliant />}></Route>
             </Routes>
         </div>
