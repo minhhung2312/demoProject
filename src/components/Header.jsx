@@ -94,7 +94,10 @@ function Header() {
             <nav className="nav">
                 <div className="nav__logo">
                     <Link to="/">
-                        <img src="/icon/logo.png" alt="" />
+                        <img
+                            src={`${process.env.PUBLIC_URL}/icon/logo.png`}
+                            alt=""
+                        />
                     </Link>
                 </div>
                 <div
