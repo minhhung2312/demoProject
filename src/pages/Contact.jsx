@@ -57,7 +57,7 @@ function Contact() {
       <div className="container">
         <div className="map-section">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4649.224090248562!2d106.69919687570335!3d10.778057109162265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4876c29a9b%3A0xd2c79768678d2142!2zVmluY29tIENlbnRlciDEkOG7k25nIEto4bufaQ!5e1!3m2!1svi!2s!4v1734258329958!5m2!1svi!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.433769294756!2d106.69924532589498!3d10.778051839370868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4876c29a9b%3A0xd2c79768678d2142!2sVincom%20Center!5e0!3m2!1sen!2s!4v1734669888268!5m2!1sen!2s"
             title="Google Map"
             className="map"
             allowFullScreen=""
