@@ -1,18 +1,21 @@
-import React from 'react';
-import products from '../api/products';
-import ProductCard from './ProductCard';
+import React from "react";
+import products from "../api/products";
+import ProductCard from "./ProductCard";
 
 function ProductBestSeller() {
     const displayedProduct = products.filter((product) => product.isBestSeller);
-    
-    return ( 
+
+    return (
         <div className="best-seller">
             <h2 className="title">
-                <img src="/images/top-prod-week.webp" alt="" />
+                <img
+                    src={`${process.env.PUBLIC_URL}/images/top-prod-week.webp`}
+                    alt=""
+                />
             </h2>
             <div className="container">
                 {displayedProduct.map((product) => (
-                    <ProductCard key={product.id} product={product}/>
+                    <ProductCard key={product.id} product={product} />
                 ))}
             </div>
         </div>
